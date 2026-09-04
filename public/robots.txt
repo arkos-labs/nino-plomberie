@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+# Pages sans valeur SEO — ne pas indexer
+Disallow: /live-tracking/
+Disallow: /api/
+
+Sitemap: https://ninoplomberie31.fr/api/sitemap

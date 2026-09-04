@@ -1,0 +1,407 @@
+// src/routes/index.tsx — Page Accueil
+import { createFileRoute, Link } from "@tanstack/react-router"
+import { Phone, Shield, Clock, Star, MapPin, Droplets, Flame, Wind, Wrench, ChevronRight, CheckCircle2 } from "lucide-react"
+
+export const Route = createFileRoute("/")({
+  head: () => ({
+    meta: [
+      { title: "Nino Plomberie 31 — Plombier Toulouse Urgence 24h/7j" },
+      {
+        name: "description",
+        content:
+          "Plombier à Toulouse et Haute-Garonne. Intervention urgence en moins d'1h : fuite d'eau, chauffe-eau, débouchage. Devis gratuit. ☎ 06 XX XX XX XX",
+      },
+    ],
+  }),
+  component: HomePage,
+})
+
+const avis = [
+  {
+    nom: "Marie-Claire D.",
+    ville: "Colomiers",
+    note: 5,
+    texte:
+      "Fuite sous évier réparée en moins de 45 min. Nino est arrivé super rapidement, très professionnel et propre. Prix honnête, je recommande sans hésiter !",
+    date: "Il y a 2 semaines",
+  },
+  {
+    nom: "Pierre-Antoine L.",
+    ville: "Blagnac",
+    note: 5,
+    texte:
+      "Chauffe-eau en panne le dimanche matin, appel à 8h, intervention à 10h. Travail impeccable, Nino a tout expliqué. L'application de suivi en temps réel c'est top.",
+    date: "Il y a 1 mois",
+  },
+  {
+    nom: "Sandrine R.",
+    ville: "Toulouse (Rangueil)",
+    note: 5,
+    texte:
+      "Diagnostic IA via photo vraiment pratique pour évaluer l'urgence avant le déplacement. Rénovation salle de bain terminée dans les délais annoncés. Parfait.",
+    date: "Il y a 3 semaines",
+  },
+  {
+    nom: "Jacques M.",
+    ville: "Muret",
+    note: 4,
+    texte:
+      "WC bouché un samedi soir. Nino présent en 1h, débouchage efficace. Le tarif week-end est un peu plus élevé, mais c'est normal pour une urgence.",
+    date: "Il y a 5 jours",
+  },
+]
+
+const services = [
+  { icon: Droplets, titre: "Fuite d'eau", desc: "Détection & réparation rapide — intervention <1h en urgence", href: "/services/fuite-d-eau", urgence: true },
+  { icon: Flame, titre: "Chauffe-eau & Ballon", desc: "Installation, remplacement et dépannage tous types", href: "/services/chauffe-eau", urgence: false },
+  { icon: Wind, titre: "Débouchage", desc: "WC, évier, douche, fosse septique — furet ou hydrocurage", href: "/services/debouchage", urgence: true },
+  { icon: Wrench, titre: "Robinetterie", desc: "Pose et remplacement robinets, WC, douche, baignoire", href: "/services/remplacement-robinetterie", urgence: false },
+]
+
+const garanties = [
+  { icon: Clock, titre: "Intervention <1h", desc: "En urgence à Toulouse et communes proches" },
+  { icon: Shield, titre: "Garantie 2 ans", desc: "Pièces et main-d'œuvre sur toutes les réparations" },
+  { icon: Star, titre: "Artisan RGE", desc: "Qualifié pour travaux éligibles aux aides de l'État" },
+  { icon: CheckCircle2, titre: "Devis gratuit", desc: "Pas de surprise, tarif annoncé avant intervention" },
+]
+
+function HomePage() {
+  return (
+    <div>
+      {/* ─── HERO ─────────────────────────────────────────────────────────── */}
+      <section
+        className="bg-hero"
+        style={{ padding: "80px 0 100px", position: "relative", overflow: "hidden" }}
+      >
+        {/* Decorative circles */}
+        <div
+          style={{
+            position: "absolute",
+            top: "-100px",
+            right: "-100px",
+            width: "500px",
+            height: "500px",
+            borderRadius: "50%",
+            background: "rgba(59,130,196,0.12)",
+            pointerEvents: "none",
+          }}
+        />
+        <div
+          style={{
+            position: "absolute",
+            bottom: "-80px",
+            left: "-60px",
+            width: "350px",
+            height: "350px",
+            borderRadius: "50%",
+            background: "rgba(249,115,22,0.08)",
+            pointerEvents: "none",
+          }}
+        />
+
+        <div className="section-container" style={{ position: "relative", zIndex: 1 }}>
+          <div style={{ maxWidth: "680px" }}>
+            <div className="badge-orange" style={{ marginBottom: "20px" }}>
+              <span>⚡</span>
+              Urgences 24h/7j — Toulouse &amp; 31
+            </div>
+
+            <h1
+              style={{
+                fontFamily: "Outfit, sans-serif",
+                fontWeight: 900,
+                fontSize: "clamp(2.2rem, 5vw, 3.5rem)",
+                color: "white",
+                lineHeight: 1.15,
+                marginBottom: "20px",
+              }}
+            >
+              Plombier Toulouse<br />
+              <span style={{ color: "#f97316" }}>Urgence en moins d'1h</span>
+            </h1>
+
+            <p style={{ color: "rgba(255,255,255,0.82)", fontSize: "1.15rem", lineHeight: 1.7, marginBottom: "36px" }}>
+              Nino, artisan plombier qualifié à Toulouse. Fuite d'eau, chauffe-eau, débouchage,
+              rénovation — je réponds présent <strong style={{ color: "white" }}>7j/7</strong>, avec un diagnostic IA photo et
+              un suivi GPS de votre intervention.
+            </p>
+
+            <div style={{ display: "flex", flexWrap: "wrap", gap: "16px", marginBottom: "48px" }}>
+              <a href="tel:06XXXXXXXX" className="btn-primary" style={{ fontSize: "1.05rem" }}>
+                <Phone size={20} />
+                Appeler maintenant
+              </a>
+              <Link to="/urgence" className="btn-secondary">
+                📸 Diagnostic IA photo →
+              </Link>
+            </div>
+
+            {/* Trust badges */}
+            <div style={{ display: "flex", flexWrap: "wrap", gap: "24px" }}>
+              {["✅ Artisan certifié RGE", "⭐ 4.9/5 (200+ avis Google)", "🚗 50 communes couvertes"].map((item) => (
+                <span key={item} style={{ color: "rgba(255,255,255,0.8)", fontSize: "0.9rem", fontWeight: 500 }}>
+                  {item}
+                </span>
+              ))}
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* ─── GARANTIES ────────────────────────────────────────────────────── */}
+      <section style={{ background: "white", padding: "64px 0" }}>
+        <div className="section-container">
+          <div
+            style={{
+              display: "grid",
+              gridTemplateColumns: "repeat(auto-fit, minmax(220px, 1fr))",
+              gap: "24px",
+            }}
+          >
+            {garanties.map(({ icon: Icon, titre, desc }) => (
+              <div
+                key={titre}
+                className="card"
+                style={{ padding: "28px 24px", display: "flex", flexDirection: "column", alignItems: "flex-start", gap: "12px" }}
+              >
+                <div
+                  style={{
+                    width: "48px",
+                    height: "48px",
+                    borderRadius: "12px",
+                    background: "linear-gradient(135deg, #dbeafe, #eff6ff)",
+                    display: "flex",
+                    alignItems: "center",
+                    justifyContent: "center",
+                  }}
+                >
+                  <Icon size={24} color="#1e3a5f" />
+                </div>
+                <div>
+                  <div style={{ fontWeight: 700, color: "#0f2040", marginBottom: "4px" }}>{titre}</div>
+                  <div style={{ fontSize: "0.875rem", color: "#6b7280" }}>{desc}</div>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* ─── SERVICES ─────────────────────────────────────────────────────── */}
+      <section style={{ background: "#f9fafb", padding: "80px 0" }}>
+        <div className="section-container">
+          <div style={{ textAlign: "center", marginBottom: "48px" }}>
+            <div className="badge-blue" style={{ marginBottom: "12px" }}>Nos prestations</div>
+            <h2 className="section-title">Services de plomberie</h2>
+            <p className="section-subtitle" style={{ margin: "12px auto 0" }}>
+              Interventions rapides, travail soigné, garantie 2 ans — dans toute l'agglomération toulousaine.
+            </p>
+          </div>
+
+          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(260px, 1fr))", gap: "24px", marginBottom: "40px" }}>
+            {services.map(({ icon: Icon, titre, desc, href, urgence }) => (
+              <Link key={href} to={href as "/services"} style={{ textDecoration: "none" }}>
+                <div
+                  className="card"
+                  style={{ padding: "32px 28px", height: "100%", position: "relative", overflow: "hidden" }}
+                >
+                  {urgence && (
+                    <div
+                      style={{
+                        position: "absolute",
+                        top: "16px",
+                        right: "16px",
+                        background: "#ffedd5",
+                        color: "#ea6f0b",
+                        fontSize: "0.7rem",
+                        fontWeight: 700,
+                        padding: "4px 10px",
+                        borderRadius: "999px",
+                        textTransform: "uppercase",
+                      }}
+                    >
+                      Urgence
+                    </div>
+                  )}
+                  <div
+                    style={{
+                      width: "56px",
+                      height: "56px",
+                      borderRadius: "16px",
+                      background: "linear-gradient(135deg, #1e3a5f, #3b82c4)",
+                      display: "flex",
+                      alignItems: "center",
+                      justifyContent: "center",
+                      marginBottom: "20px",
+                    }}
+                  >
+                    <Icon size={28} color="white" />
+                  </div>
+                  <h3 style={{ fontFamily: "Outfit, sans-serif", fontWeight: 700, fontSize: "1.15rem", color: "#0f2040", marginBottom: "8px" }}>
+                    {titre}
+                  </h3>
+                  <p style={{ color: "#6b7280", fontSize: "0.9rem", lineHeight: 1.6, marginBottom: "16px" }}>{desc}</p>
+                  <div style={{ display: "flex", alignItems: "center", gap: "4px", color: "#f97316", fontWeight: 600, fontSize: "0.875rem" }}>
+                    En savoir plus <ChevronRight size={16} />
+                  </div>
+                </div>
+              </Link>
+            ))}
+          </div>
+
+          <div style={{ textAlign: "center" }}>
+            <Link to="/services" className="btn-blue">
+              Voir tous les services →
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* ─── ZONE INTERVENTION ────────────────────────────────────────────── */}
+      <section style={{ background: "white", padding: "80px 0" }}>
+        <div className="section-container">
+          <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "60px", alignItems: "center" }}>
+            <div>
+              <div className="badge-orange" style={{ marginBottom: "12px" }}>Zone de déplacement</div>
+              <h2 className="section-title" style={{ marginBottom: "16px" }}>
+                Plombier à Toulouse et dans 50 communes
+              </h2>
+              <p style={{ color: "#6b7280", lineHeight: 1.8, marginBottom: "24px" }}>
+                Basé à Toulouse, j'interviens dans toute la <strong>Haute-Garonne (31)</strong> : Blagnac, Colomiers, Muret, Balma,
+                Saint-Orens, Tournefeuille, Castanet et bien d'autres communes à moins de 30 km.
+              </p>
+              <div style={{ display: "flex", flexDirection: "column", gap: "10px", marginBottom: "28px" }}>
+                {["Délai d'intervention : moins d'1h en urgence", "Pas de majoration kilométrique", "Disponible le week-end et jours fériés"].map((item) => (
+                  <div key={item} style={{ display: "flex", alignItems: "center", gap: "10px", color: "#374151" }}>
+                    <CheckCircle2 size={18} color="#f97316" />
+                    <span style={{ fontSize: "0.9rem" }}>{item}</span>
+                  </div>
+                ))}
+              </div>
+              <Link to="/contact" className="btn-primary">
+                <MapPin size={18} />
+                Vérifier ma commune
+              </Link>
+            </div>
+
+            {/* Map placeholder */}
+            <div
+              style={{
+                background: "linear-gradient(135deg, #dbeafe, #eff6ff)",
+                borderRadius: "20px",
+                padding: "32px",
+                minHeight: "320px",
+                display: "flex",
+                flexDirection: "column",
+                alignItems: "center",
+                justifyContent: "center",
+                gap: "16px",
+                border: "2px dashed #93c5fd",
+              }}
+            >
+              <MapPin size={48} color="#3b82c4" />
+              <div style={{ textAlign: "center" }}>
+                <div style={{ fontFamily: "Outfit, sans-serif", fontWeight: 700, color: "#1e3a5f", fontSize: "1.1rem", marginBottom: "6px" }}>
+                  Rayon d'intervention
+                </div>
+                <div style={{ color: "#6b7280", fontSize: "0.875rem" }}>Toulouse + 30 km — 50 communes</div>
+              </div>
+              <div style={{ display: "flex", flexWrap: "wrap", gap: "8px", justifyContent: "center", maxWidth: "280px" }}>
+                {["Toulouse", "Blagnac", "Colomiers", "Muret", "Balma", "Saint-Orens"].map((v) => (
+                  <span
+                    key={v}
+                    style={{
+                      background: "white",
+                      border: "1px solid #bfdbfe",
+                      padding: "4px 12px",
+                      borderRadius: "999px",
+                      fontSize: "0.8rem",
+                      color: "#1e3a5f",
+                      fontWeight: 500,
+                    }}
+                  >
+                    {v}
+                  </span>
+                ))}
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <style>{`
+          @media (max-width: 768px) {
+            section > div > div[style*="grid-template-columns: 1fr 1fr"] {
+              grid-template-columns: 1fr !important;
+            }
+          }
+        `}</style>
+      </section>
+
+      {/* ─── AVIS CLIENTS ─────────────────────────────────────────────────── */}
+      <section style={{ background: "#f9fafb", padding: "80px 0" }}>
+        <div className="section-container">
+          <div style={{ textAlign: "center", marginBottom: "48px" }}>
+            <div className="badge-blue" style={{ marginBottom: "12px" }}>Témoignages</div>
+            <h2 className="section-title">Ce que disent nos clients</h2>
+            <p style={{ color: "#6b7280", marginTop: "8px" }}>⭐⭐⭐⭐⭐ — Note moyenne 4.9/5 sur 200+ avis Google</p>
+          </div>
+
+          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))", gap: "24px" }}>
+            {avis.map((a) => (
+              <div key={a.nom} className="card" style={{ padding: "28px" }}>
+                <div className="star-rating" style={{ marginBottom: "12px" }}>
+                  {Array.from({ length: a.note }).map((_, i) => (
+                    <Star key={i} size={16} fill="#f59e0b" color="#f59e0b" />
+                  ))}
+                </div>
+                <p style={{ color: "#374151", fontSize: "0.95rem", lineHeight: 1.7, marginBottom: "16px" }}>"{a.texte}"</p>
+                <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
+                  <div>
+                    <div style={{ fontWeight: 700, color: "#0f2040", fontSize: "0.9rem" }}>{a.nom}</div>
+                    <div style={{ color: "#9ca3af", fontSize: "0.8rem" }}>{a.ville}</div>
+                  </div>
+                  <div style={{ color: "#9ca3af", fontSize: "0.75rem" }}>{a.date}</div>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* ─── CTA FINAL ────────────────────────────────────────────────────── */}
+      <section
+        style={{
+          background: "linear-gradient(135deg, #1e3a5f 0%, #2d5a8e 100%)",
+          padding: "80px 0",
+          textAlign: "center",
+        }}
+      >
+        <div className="section-container">
+          <h2
+            style={{
+              fontFamily: "Outfit, sans-serif",
+              fontWeight: 900,
+              fontSize: "clamp(1.8rem, 4vw, 2.8rem)",
+              color: "white",
+              marginBottom: "16px",
+            }}
+          >
+            Une urgence plomberie ?
+          </h2>
+          <p style={{ color: "rgba(255,255,255,0.78)", fontSize: "1.1rem", marginBottom: "36px", maxWidth: "480px", margin: "0 auto 36px" }}>
+            N'attendez pas — une fuite peut causer des milliers d'euros de dégâts en quelques heures.
+          </p>
+          <div style={{ display: "flex", flexWrap: "wrap", gap: "16px", justifyContent: "center" }}>
+            <a href="tel:06XXXXXXXX" className="btn-primary" style={{ fontSize: "1.1rem", padding: "18px 36px" }}>
+              <Phone size={22} />
+              06 XX XX XX XX — Appeler
+            </a>
+            <Link to="/urgence" className="btn-secondary">
+              Envoyer une photo →
+            </Link>
+          </div>
+        </div>
+      </section>
+    </div>
+  )
+}
