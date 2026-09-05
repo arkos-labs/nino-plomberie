@@ -384,13 +384,13 @@ function HomePage() {
                   style={{ 
                     position: "relative",
                     background: "#ffffff",
-                    padding: "clamp(24px, 5vw, 40px) clamp(20px, 4vw, 32px)", 
+                    padding: "clamp(16px, 3vw, 40px) clamp(16px, 3vw, 32px)", 
                     borderRadius: "16px",
                     display: "flex",
                     flexDirection: "column",
                     alignItems: "center",
                     textAlign: "center",
-                    gap: "clamp(16px, 4vw, 24px)",
+                    gap: "clamp(12px, 3vw, 24px)",
                     border: index === 2 ? "2px solid var(--fire-400)" : "2px solid transparent",
                     boxShadow: index === 2 ? "0 16px 40px rgba(234, 88, 12, 0.15)" : "0 12px 32px rgba(0,0,0,0.08)",
                     transition: "all 0.3s ease",
@@ -414,8 +414,8 @@ function HomePage() {
                 >
                   {imgUrl ? (
                     <div style={{ 
-                      width: "100%",
-                      height: "clamp(120px, 40vw, 180px)",
+                      width: "clamp(90px, 30vw, 180px)",
+                      height: "clamp(90px, 30vw, 180px)",
                       flexShrink: 0, 
                       position: "relative", 
                       zIndex: 2,
@@ -446,8 +446,8 @@ function HomePage() {
                     <div style={{ display: "inline-block", background: "var(--fire-500)", color: "white", fontSize: "0.7rem", fontWeight: 800, textTransform: "uppercase", letterSpacing: "0.05em", padding: "4px 12px", borderRadius: "100px", marginBottom: "clamp(12px, 3vw, 16px)" }}>
                       URGENCE 24/7
                     </div>
-                    <h3 style={{ fontFamily: "var(--font-display)", fontWeight: 800, fontSize: "clamp(1.3rem, 5vw, 1.6rem)", color: "var(--ink-950)", marginBottom: "12px", letterSpacing: "-0.02em" }}>{titre}</h3>
-                    <p style={{ color: "var(--gray-600)", fontSize: "clamp(0.95rem, 3.5vw, 1.05rem)", lineHeight: 1.6, margin: 0 }}>{desc}</p>
+                    <h3 style={{ fontFamily: "var(--font-display)", fontWeight: 800, fontSize: "clamp(1.1rem, 4vw, 1.6rem)", color: "var(--ink-950)", marginBottom: "12px", letterSpacing: "-0.02em" }}>{titre}</h3>
+                    <p style={{ color: "var(--gray-600)", fontSize: "clamp(0.85rem, 3.5vw, 1.05rem)", lineHeight: 1.6, margin: 0 }}>{desc}</p>
                   </div>
                 </div>
               </Link>
