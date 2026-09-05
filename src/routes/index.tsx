@@ -479,7 +479,7 @@ function HomePage() {
           >
             {/* Texte */}
             <div>
-              <span className="badge-brand" style={{ marginBottom: "16px" }}>
+              <span className="badge-dark" style={{ marginBottom: "16px" }}>
                 Zone de déplacement
               </span>
               <h2
