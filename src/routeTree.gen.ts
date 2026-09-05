@@ -14,6 +14,7 @@ import { Route as AProposRouteImport } from './routes/a-propos'
 import { Route as ContactRouteImport } from './routes/contact'
 import { Route as MentionsLegalesRouteImport } from './routes/mentions-legales'
 import { Route as PolitiqueConfidentialiteRouteImport } from './routes/politique-confidentialite'
+import { Route as RendezVousRouteImport } from './routes/rendez-vous'
 import { Route as ServicesRouteImport } from './routes/services'
 import { Route as ZonesRouteImport } from './routes/zones'
 import { Route as InterventionVilleRouteImport } from './routes/intervention.$ville'
@@ -47,6 +48,11 @@ const PolitiqueConfidentialiteRoute =
     path: '/politique-confidentialite',
     getParentRoute: () => rootRouteImport,
   } as any)
+const RendezVousRoute = RendezVousRouteImport.update({
+  id: '/rendez-vous',
+  path: '/rendez-vous',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const ServicesRoute = ServicesRouteImport.update({
   id: '/services',
   path: '/services',
@@ -84,6 +90,7 @@ export interface FileRoutesByFullPath {
   '/contact': typeof ContactRoute
   '/mentions-legales': typeof MentionsLegalesRoute
   '/politique-confidentialite': typeof PolitiqueConfidentialiteRoute
+  '/rendez-vous': typeof RendezVousRoute
   '/services': typeof ServicesRouteWithChildren
   '/zones': typeof ZonesRoute
   '/intervention/$ville': typeof InterventionVilleRoute
@@ -97,6 +104,7 @@ export interface FileRoutesByTo {
   '/contact': typeof ContactRoute
   '/mentions-legales': typeof MentionsLegalesRoute
   '/politique-confidentialite': typeof PolitiqueConfidentialiteRoute
+  '/rendez-vous': typeof RendezVousRoute
   '/zones': typeof ZonesRoute
   '/intervention/$ville': typeof InterventionVilleRoute
   '/live-tracking/$id': typeof LiveTrackingIdRoute
@@ -110,6 +118,7 @@ export interface FileRoutesById {
   '/contact': typeof ContactRoute
   '/mentions-legales': typeof MentionsLegalesRoute
   '/politique-confidentialite': typeof PolitiqueConfidentialiteRoute
+  '/rendez-vous': typeof RendezVousRoute
   '/services': typeof ServicesRouteWithChildren
   '/zones': typeof ZonesRoute
   '/intervention/$ville': typeof InterventionVilleRoute
@@ -125,6 +134,7 @@ export interface FileRouteTypes {
     | '/contact'
     | '/mentions-legales'
     | '/politique-confidentialite'
+    | '/rendez-vous'
     | '/services'
     | '/zones'
     | '/intervention/$ville'
@@ -138,6 +148,7 @@ export interface FileRouteTypes {
     | '/contact'
     | '/mentions-legales'
     | '/politique-confidentialite'
+    | '/rendez-vous'
     | '/zones'
     | '/intervention/$ville'
     | '/live-tracking/$id'
@@ -150,6 +161,7 @@ export interface FileRouteTypes {
     | '/contact'
     | '/mentions-legales'
     | '/politique-confidentialite'
+    | '/rendez-vous'
     | '/services'
     | '/zones'
     | '/intervention/$ville'
@@ -164,6 +176,7 @@ export interface RootRouteChildren {
   ContactRoute: typeof ContactRoute
   MentionsLegalesRoute: typeof MentionsLegalesRoute
   PolitiqueConfidentialiteRoute: typeof PolitiqueConfidentialiteRoute
+  RendezVousRoute: typeof RendezVousRoute
   ServicesRoute: typeof ServicesRouteWithChildren
   ZonesRoute: typeof ZonesRoute
   InterventionVilleRoute: typeof InterventionVilleRoute
@@ -205,6 +218,13 @@ declare module '@tanstack/react-router' {
       path: '/politique-confidentialite'
       fullPath: '/politique-confidentialite'
       preLoaderRoute: typeof PolitiqueConfidentialiteRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/rendez-vous': {
+      id: '/rendez-vous'
+      path: '/rendez-vous'
+      fullPath: '/rendez-vous'
+      preLoaderRoute: typeof RendezVousRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/services': {
@@ -272,6 +292,7 @@ const rootRouteChildren: RootRouteChildren = {
   ContactRoute: ContactRoute,
   MentionsLegalesRoute: MentionsLegalesRoute,
   PolitiqueConfidentialiteRoute: PolitiqueConfidentialiteRoute,
+  RendezVousRoute: RendezVousRoute,
   ServicesRoute: ServicesRouteWithChildren,
   ZonesRoute: ZonesRoute,
   InterventionVilleRoute: InterventionVilleRoute,

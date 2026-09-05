@@ -224,7 +224,7 @@ function HomePage() {
                 Intervention urgente
               </a>
               <Link
-                to="/contact"
+                to="/rendez-vous"
                 className="btn-ghost"
                 style={{ padding: "14px 28px", fontSize: "1rem" }}
               >
