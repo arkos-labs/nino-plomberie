@@ -62,7 +62,7 @@ function LiveTrackingPage() {
       const el = document.createElement("div")
       el.style.cssText = `
         width: 48px; height: 48px; border-radius: 50%;
-        background: linear-gradient(135deg, #f97316, #ea6f0b);
+        background: linear-gradient(135deg, var(--cta-500), var(--cta-600));
         border: 3px solid white;
         box-shadow: 0 4px 16px rgba(249,115,22,0.5);
         display: flex; align-items: center; justify-content: center;
@@ -196,8 +196,8 @@ function LiveTrackingPage() {
                   </>
                 ) : (
                   <>
-                    <Clock size={36} color="#f97316" style={{ margin: "0 auto 8px", display: "block" }} />
-                    <div style={{ fontFamily: "Outfit", fontWeight: 900, fontSize: "2.5rem", color: "#f97316", lineHeight: 1 }}>
+                    <Clock size={36} color="var(--cta-500)" style={{ margin: "0 auto 8px", display: "block" }} />
+                    <div style={{ fontFamily: "Outfit", fontWeight: 900, fontSize: "2.5rem", color: "var(--cta-500)", lineHeight: 1 }}>
                       {etaMinutes}
                     </div>
                     <div style={{ color: "#6b7280", fontWeight: 500 }}>minutes estimées</div>
@@ -249,7 +249,7 @@ function LiveTrackingPage() {
                   </div>
                   <div style={{ display: "flex", justifyContent: "space-between" }}>
                     <span style={{ color: "#6b7280" }}>Statut</span>
-                    <span style={{ fontWeight: 600, color: status === "arrive" ? "#15803d" : "#f97316" }}>
+                    <span style={{ fontWeight: 600, color: status === "arrive" ? "#15803d" : "var(--cta-500)" }}>
                       {status === "arrive" ? "Arrivé" : "En route"}
                     </span>
                   </div>
@@ -260,17 +260,9 @@ function LiveTrackingPage() {
               <a
                 href="tel:0650579620"
                 style={{
-                  display: "flex",
-                  alignItems: "center",
-                  justifyContent: "center",
-                  gap: "10px",
-                  padding: "16px",
-                  background: "linear-gradient(135deg, #ea6f0b, #f97316)",
-                  color: "white",
-                  borderRadius: "14px",
-                  textDecoration: "none",
-                  fontWeight: 700,
-                  fontSize: "1rem",
+                  display: "flex", alignItems: "center", justifyContent: "center", gap: "10px", width: "100%", padding: "16px",
+                  background: "var(--cta-500)",
+                  color: "white", fontWeight: 700, fontSize: "1.05rem", borderRadius: "12px", textDecoration: "none",
                   boxShadow: "0 4px 16px rgba(249,115,22,0.4)",
                 }}
               >

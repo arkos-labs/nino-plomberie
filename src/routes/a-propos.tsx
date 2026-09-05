@@ -1,6 +1,6 @@
 // src/routes/a-propos.tsx — v2
 import { createFileRoute, Link } from "@tanstack/react-router"
-import { Shield, Award, Users, Clock, CheckCircle2, Phone, MapPin, Wrench, Star } from "lucide-react"
+import { Shield, Award, Users, Clock, CheckCircle2, Phone, MapPin, Wrench, Star, ArrowRight } from "lucide-react"
 
 export const Route = createFileRoute("/a-propos")({
   head: () => ({
@@ -46,10 +46,10 @@ const CERTIFS = [
 
 function AProposPage() {
   return (
-    <div style={{ background: "#f8f7f5" }}>
+    <div style={{ background: "var(--sand-50)" }}>
 
       {/* ── Hero ── */}
-      <section style={{ background: "#0d1f1f", padding: "80px 0 72px" }}>
+      <section style={{ background: "var(--ink-900)", padding: "80px 0 72px" }}>
         <div className="section-container" style={{ maxWidth: "1100px" }}>
 
           {/* Breadcrumb */}
@@ -63,9 +63,9 @@ function AProposPage() {
 
             {/* Texte */}
             <div style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
-              <div style={{ display: "inline-flex", alignItems: "center", gap: "7px", background: "rgba(249,115,22,0.12)", border: "1px solid rgba(249,115,22,0.25)", borderRadius: "999px", padding: "4px 14px", fontSize: "0.72rem", fontWeight: 700, color: "#f97316", letterSpacing: "0.07em", textTransform: "uppercase", marginBottom: "20px" }}>
-                <Wrench size={11} />
-                Artisan indépendant depuis 2018
+              <div style={{ display: "inline-flex", alignItems: "center", gap: "7px", background: "rgba(40, 75, 122, 0.15)", border: "1px solid rgba(40, 75, 122, 0.25)", borderRadius: "999px", padding: "4px 14px", fontSize: "0.72rem", fontWeight: 700, color: "var(--brand-100)", letterSpacing: "0.07em", textTransform: "uppercase", marginBottom: "20px" }}>
+                <CheckCircle2 size={11} />
+                Artisan Indépendant
               </div>
 
               <h1 style={{ fontFamily: "var(--font-display, Outfit, sans-serif)", fontWeight: 800, fontSize: "clamp(2rem, 4.5vw, 3rem)", color: "white", lineHeight: 1.12, letterSpacing: "-0.03em", marginBottom: "20px" }}>
@@ -79,7 +79,7 @@ function AProposPage() {
 
               <div style={{ display: "flex", gap: "20px", flexWrap: "wrap", justifyContent: "center" }}>
                 <div style={{ display: "flex", alignItems: "center", gap: "8px", fontSize: "0.82rem", color: "rgba(255,255,255,0.45)" }}>
-                  <MapPin size={13} color="#f97316" />
+                  <MapPin size={13} color="var(--brand-100)" />
                   Toulouse, Haute-Garonne (31)
                 </div>
                 <div style={{ display: "flex", alignItems: "center", gap: "8px", fontSize: "0.82rem", color: "rgba(255,255,255,0.45)" }}>
@@ -116,7 +116,7 @@ function AProposPage() {
             {/* Timeline */}
             <div style={{ background: "white", borderRadius: "18px", padding: "36px" }}>
               <h2 style={{ fontFamily: "var(--font-display, Outfit, sans-serif)", fontWeight: 700, fontSize: "1rem", color: "#0f1923", marginBottom: "32px", display: "flex", alignItems: "center", gap: "10px" }}>
-                <span style={{ display: "inline-block", width: "3px", height: "18px", background: "#f97316", borderRadius: "2px" }} />
+                <span style={{ display: "inline-block", width: "3px", height: "18px", background: "var(--brand-400)", borderRadius: "2px" }} />
                 Parcours
               </h2>
 
@@ -128,7 +128,7 @@ function AProposPage() {
                   {TIMELINE.map(({ annee, titre, desc }, i) => (
                     <div key={annee} style={{ display: "flex", gap: "16px", alignItems: "flex-start" }}>
                       {/* Dot */}
-                      <div style={{ width: "38px", height: "38px", borderRadius: "10px", background: i === TIMELINE.length - 1 ? "#f97316" : "#f8fafc", border: `1px solid ${i === TIMELINE.length - 1 ? "#f97316" : "#e2e8f0"}`, display: "flex", alignItems: "center", justifyContent: "center", flexShrink: 0, zIndex: 1 }}>
+                      <div style={{ width: "38px", height: "38px", borderRadius: "10px", background: i === TIMELINE.length - 1 ? "var(--brand-500)" : "var(--white)", border: `1px solid ${i === TIMELINE.length - 1 ? "var(--brand-500)" : "var(--gray-200)"}`, display: "flex", alignItems: "center", justifyContent: "center", flexShrink: 0, zIndex: 1 }}>
                         <span style={{ fontSize: "0.65rem", fontWeight: 800, color: i === TIMELINE.length - 1 ? "white" : "#94a3b8", letterSpacing: "-0.02em" }}>{annee}</span>
                       </div>
                       <div style={{ paddingTop: "8px" }}>
@@ -152,7 +152,7 @@ function AProposPage() {
                 {VALEURS.map(({ icon: Icon, titre, desc }) => (
                   <div key={titre} style={{ display: "flex", gap: "14px", alignItems: "flex-start" }}>
                     <div style={{ width: "38px", height: "38px", borderRadius: "10px", background: "rgba(249,115,22,0.08)", display: "flex", alignItems: "center", justifyContent: "center", flexShrink: 0 }}>
-                      <Icon size={18} color="#f97316" strokeWidth={1.8} />
+                      <Icon size={18} color="var(--brand-400)" strokeWidth={1.8} />
                     </div>
                     <div>
                       <div style={{ fontSize: "0.88rem", fontWeight: 700, color: "#1e293b", marginBottom: "4px" }}>{titre}</div>
@@ -178,12 +178,11 @@ function AProposPage() {
             Devis gratuit, déplacement offert dans l'agglomération toulousaine.
           </p>
           <div style={{ display: "flex", gap: "12px", justifyContent: "center", flexWrap: "wrap" }}>
-            <a href="tel:0650579620"
-              style={{ display: "inline-flex", alignItems: "center", gap: "9px", background: "#f97316", color: "white", fontWeight: 700, fontSize: "0.92rem", padding: "13px 26px", borderRadius: "10px", textDecoration: "none" }}
-              onMouseEnter={(e) => { (e.currentTarget as HTMLAnchorElement).style.background = "#ea6f0b" }}
-              onMouseLeave={(e) => { (e.currentTarget as HTMLAnchorElement).style.background = "#f97316" }}>
-              <Phone size={16} /> 06 50 57 96 20
-            </a>
+            <Link to="/contact" className="btn-cta"
+              style={{ display: "inline-flex", alignItems: "center", gap: "9px", padding: "13px 26px", borderRadius: "10px", textDecoration: "none" }}
+            >
+              Échanger sur votre projet <ArrowRight size={16} />
+            </Link>
             <Link to="/contact"
               style={{ display: "inline-flex", alignItems: "center", gap: "9px", background: "#f8fafc", color: "#1e293b", fontWeight: 600, fontSize: "0.92rem", padding: "13px 26px", borderRadius: "10px", textDecoration: "none", border: "1px solid #e2e8f0" }}
               onMouseEnter={(e) => { e.currentTarget.style.background = "#f1f5f9" }}

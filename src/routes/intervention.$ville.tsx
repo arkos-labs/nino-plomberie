@@ -117,8 +117,8 @@ function VillePage() {
           </div>
 
           <div style={{ display: "flex", alignItems: "center", gap: "10px", marginBottom: "12px" }}>
-            <MapPin size={22} color="#f97316" />
-            <span style={{ color: "#f97316", fontWeight: 700, fontSize: "0.9rem" }}>{commune.codePostal} — Haute-Garonne</span>
+            <MapPin size={22} color="var(--brand-500)" />
+            <span style={{ color: "var(--brand-600)", fontWeight: 700, fontSize: "0.9rem" }}>{commune.codePostal} — Haute-Garonne</span>
           </div>
 
           <h1
@@ -132,7 +132,7 @@ function VillePage() {
             }}
           >
             Plombier {commune.nom}<br />
-            <span style={{ color: "#f97316" }}>Urgence &lt;1h — 7j/7</span>
+            <span style={{ color: "var(--brand-500)" }}>Urgence &lt;1h — 7j/7</span>
           </h1>
 
           <p style={{ color: "rgba(255,255,255,0.78)", fontSize: "1.05rem", maxWidth: "600px", lineHeight: 1.75, marginBottom: "32px" }}>
@@ -175,7 +175,7 @@ function VillePage() {
                   )}
                   <h3 style={{ fontFamily: "Outfit", fontWeight: 700, color: "#0f2040", marginBottom: "10px" }}>{titre}</h3>
                   <p style={{ color: "#6b7280", fontSize: "0.875rem", lineHeight: 1.6, marginBottom: "16px" }}>{desc}</p>
-                  <div style={{ display: "flex", alignItems: "center", gap: "4px", color: "#f97316", fontWeight: 600, fontSize: "0.85rem" }}>
+                  <div style={{ display: "flex", alignItems: "center", gap: "4px", color: "var(--brand-500)", fontWeight: 600, fontSize: "0.85rem" }}>
                     En savoir plus <ChevronRight size={14} />
                   </div>
                 </div>
@@ -212,7 +212,7 @@ function VillePage() {
             ].map(({ q, a }) => (
               <div key={q} style={{ background: "white", borderRadius: "12px", padding: "20px 24px", border: "1px solid #e5e7eb" }}>
                 <div style={{ display: "flex", gap: "12px", alignItems: "flex-start" }}>
-                  <CheckCircle2 size={20} color="#f97316" style={{ flexShrink: 0, marginTop: "2px" }} />
+                  <CheckCircle2 size={20} color="var(--brand-500)" style={{ flexShrink: 0, marginTop: "2px" }} />
                   <div>
                     <div style={{ fontWeight: 700, color: "#0f2040", marginBottom: "8px" }}>{q}</div>
                     <div style={{ color: "#6b7280", fontSize: "0.9rem", lineHeight: 1.7 }}>{a}</div>
@@ -263,7 +263,7 @@ function VillePage() {
           <p style={{ color: "rgba(255,255,255,0.85)", marginBottom: "28px" }}>
             Appelez Nino — il est disponible et prêt à intervenir.
           </p>
-          <a href="tel:0650579620" className="btn-secondary" style={{ fontSize: "1.1rem", padding: "18px 36px", borderColor: "white" }}>
+          <a href="tel:0650579620" className="btn-ghost" style={{ fontSize: "1.1rem", padding: "18px 36px", borderColor: "white" }}>
             <Phone size={22} />
             06 50 57 96 20 — Appeler maintenant
           </a>

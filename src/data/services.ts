@@ -11,6 +11,8 @@ export interface ServiceFiche {
   urgence: boolean
   icon: string
   faq: Array<{ question: string; reponse: string }>
+  seoContent?: string[]
+  realisations?: Array<{ titre: string; lieu: string; description: string; image: string }>
 }
 
 export const services: ServiceFiche[] = [
@@ -32,6 +34,14 @@ export const services: ServiceFiche[] = [
     prix: "Déplacement offert + devis gratuit sur place",
     urgence: true,
     icon: "Droplets",
+    seoContent: [
+      "Faire appel à un expert pour la recherche de fuite d'eau à Toulouse est indispensable pour éviter des dégâts des eaux coûteux. Avec les variations de température et le calcaire présent dans l'eau de la Garonne, les canalisations vieillissantes ont tendance à se fragiliser.",
+      "Nino Plomberie 31 utilise des méthodes de détection non destructives (caméra thermique, gaz traceur) pour localiser précisément l'origine du sinistre sans casser vos murs ou votre carrelage. Nous couvrons toute l'agglomération (Blagnac, Colomiers, Balma...) avec un délai d'intervention express."
+    ],
+    realisations: [
+      { titre: "Détection sous carrelage", lieu: "📍 Toulouse Centre", description: "Recherche de fuite non destructive dans une salle de bain ancienne.", image: "" },
+      { titre: "Remplacement PER percé", lieu: "📍 Colomiers", description: "Intervention d'urgence sur un tuyau d'alimentation percé dans un mur.", image: "" }
+    ],
     faq: [
       {
         question: "Combien de temps pour intervenir sur une fuite ?",
@@ -68,6 +78,14 @@ export const services: ServiceFiche[] = [
     prix: "Fourniture + pose à partir de 590 € (chauffe-eau 100L)",
     urgence: false,
     icon: "Flame",
+    seoContent: [
+      "Le remplacement d'un chauffe-eau à Toulouse nécessite une intervention professionnelle pour garantir la sécurité électrique et hydraulique de l'installation. L'eau dure de notre région favorise l'accumulation de tartre, ce qui réduit la durée de vie des ballons d'eau chaude traditionnels.",
+      "Nous proposons l'installation de cumulus électriques classiques mais aussi de chauffe-eaux thermodynamiques de marques reconnues (Thermor, Atlantic). Ces modèles modernes permettent de diviser par trois votre facture d'eau chaude sanitaire tout en bénéficiant des aides de l'État (MaPrimeRénov')."
+    ],
+    realisations: [
+      { titre: "Ballon Thermodynamique", lieu: "📍 Tournefeuille", description: "Remplacement d'un vieux cumulus par un système thermodynamique Atlantic.", image: "" },
+      { titre: "Dépannage d'urgence", lieu: "📍 Toulouse Minimes", description: "Changement de la résistance stéatite et détartrage complet du ballon.", image: "" }
+    ],
     faq: [
       {
         question: "Quelle taille de chauffe-eau choisir ?",
@@ -99,6 +117,14 @@ export const services: ServiceFiche[] = [
     prix: "À partir de 80 € TTC (furet simple) — devis sur place",
     urgence: true,
     icon: "Wind",
+    seoContent: [
+      "Un évier bouché ou des WC qui débordent peuvent rapidement transformer votre quotidien en cauchemar. Notre service de débouchage de canalisation à Toulouse intervient de jour comme de nuit pour résoudre ces problèmes sanitaires avec l'équipement adéquat.",
+      "Plutôt que d'utiliser des produits chimiques corrosifs qui abîment vos tuyaux en PVC, nous utilisons des techniques professionnelles comme le furet électrique ou le camion hydrocureur haute pression. Un passage caméra peut également être réalisé pour inspecter l'état structurel de votre réseau d'assainissement."
+    ],
+    realisations: [
+      { titre: "Débouchage Colonne", lieu: "📍 Toulouse Hyper-centre", description: "Passage caméra et hydrocurage d'une colonne d'immeuble bouchée par du calcaire.", image: "" },
+      { titre: "Dégorgement WC", lieu: "📍 Muret", description: "Intervention rapide pour des toilettes bouchées à cause d'objets inadaptés.", image: "" }
+    ],
     faq: [
       {
         question: "Mon WC déborde, que faire en urgence ?",
@@ -130,6 +156,14 @@ export const services: ServiceFiche[] = [
     prix: "Main d'œuvre à partir de 60 €/h — fourniture en sus",
     urgence: false,
     icon: "Wrench",
+    seoContent: [
+      "La rénovation de vos sanitaires ou le simple remplacement de robinetterie améliore considérablement le confort de votre habitat et permet de faire des économies d'eau significatives. Nous intervenons sur toute la métropole toulousaine pour installer des équipements de grande qualité (Grohe, Hansgrohe, Jacob Delafon).",
+      "Que vous souhaitiez remplacer un vieux robinet mélangeur par un mitigeur thermostatique moderne, ou installer un WC suspendu Geberit esthétique et facile d'entretien, notre expertise garantit une finition soignée et une étanchéité absolue."
+    ],
+    realisations: [
+      { titre: "Installation WC Suspendu", lieu: "📍 Blagnac", description: "Pose d'un bâti-support Geberit et habillage complet sur mesure.", image: "" },
+      { titre: "Remplacement Mitigeur", lieu: "📍 L'Union", description: "Fourniture et pose d'un mitigeur thermostatique Grohe pour douche.", image: "" }
+    ],
     faq: [
       {
         question: "Puis-je choisir mon modèle de robinetterie ?",
@@ -156,6 +190,14 @@ export const services: ServiceFiche[] = [
     prix: "Devis gratuit sur mesure — partir de 2 500 € main d'œuvre",
     urgence: false,
     icon: "Bath",
+    seoContent: [
+      "Refaire sa salle de bain à Toulouse exige un savoir-faire spécifique, en particulier lors de la création d'une douche à l'italienne qui nécessite des pentes d'évacuation parfaites et une étanchéité sous carrelage infaillible (système SPEC ou SEL).",
+      "De la dépose des anciens équipements jusqu'aux finitions, nous coordonnons votre projet de salle de bain clé en main. Meuble double vasque, sèche-serviettes électrique, baignoire îlot ou paroi de douche sur-mesure, nous donnons vie à vos idées d'aménagement tout en respectant les normes électriques (volumes de sécurité NF C 15-100)."
+    ],
+    realisations: [
+      { titre: "Douche à l'italienne", lieu: "📍 Balma", description: "Création d'une douche encastrée avec receveur extra-plat et paroi vitrée.", image: "" },
+      { titre: "Rénovation Complète", lieu: "📍 Toulouse Côte Pavée", description: "Transformation d'une petite salle d'eau avec meuble double vasque suspendu.", image: "" }
+    ],
     faq: [
       {
         question: "Combien de temps prend une rénovation salle de bain ?",
@@ -187,6 +229,14 @@ export const services: ServiceFiche[] = [
     prix: "Devis sur mesure selon plans — contact obligatoire",
     urgence: false,
     icon: "Building2",
+    seoContent: [
+      "Dans le cadre d'une construction neuve ou d'une extension de maison en Haute-Garonne, la conception du réseau de plomberie est une étape cruciale. Une distribution d'eau bien pensée (en pieuvre ou repiquage) utilisant du multicouche ou du cuivre assure un débit constant et limite les nuisances sonores.",
+      "Nous travaillons sur plans (architecte ou maître d'œuvre) pour réaliser vos attentes d'arrivées d'eau et vos réseaux d'évacuation gravitaire (PVC). Notre expertise en installation plomberie neuve vous garantit le respect de la réglementation en vigueur (RT2012 / RE2020) et une conformité absolue."
+    ],
+    realisations: [
+      { titre: "Réseau PER Multicouche", lieu: "📍 Saint-Orens", description: "Création d'un réseau en pieuvre depuis la nourrice principale pour une maison neuve.", image: "" },
+      { titre: "Attentes Cuisine & SDB", lieu: "📍 Pibrac", description: "Mise en place des évacuations et arrivées d'eau pour une extension de 40m².", image: "" }
+    ],
     faq: [
       {
         question: "Intervenez-vous en coordination avec d'autres corps de métier ?",

@@ -49,7 +49,7 @@ export const Route = createFileRoute("/services/$slug")({
   notFoundComponent: () => (
     <div style={{ padding: "80px 24px", textAlign: "center" }}>
       <h1 style={{ fontFamily: "Outfit, sans-serif", color: "#0f2040", marginBottom: "16px" }}>Service introuvable</h1>
-      <Link to="/services/" style={{ display: "inline-flex", alignItems: "center", gap: "8px", background: "#f97316", color: "white", padding: "12px 24px", borderRadius: "10px", textDecoration: "none", fontWeight: 600 }}>
+      <Link to="/services/" className="btn-secondary">
         ← Voir tous les services
       </Link>
     </div>
@@ -60,12 +60,12 @@ const iconMap: Record<string, React.ComponentType<{ size?: number; color?: strin
   Droplets, Flame, Wind, Wrench, Bath, Building2,
 }
 const accentMap: Record<string, string> = {
-  "fuite-d-eau":                  "#3b82f6",
-  "chauffe-eau":                  "#f97316",
-  "debouchage":                   "#8b5cf6",
-  "remplacement-robinetterie":    "#10b981",
-  "renovation-salle-de-bain":     "#ec4899",
-  "installation-plomberie-neuve": "#06b6d4",
+  "fuite-d-eau":                  "var(--brand-400)",
+  "chauffe-eau":                  "var(--brand-400)",
+  "debouchage":                   "var(--brand-400)",
+  "remplacement-robinetterie":    "var(--brand-400)",
+  "renovation-salle-de-bain":     "var(--brand-400)",
+  "installation-plomberie-neuve": "var(--brand-400)",
 }
 
 function ServiceDetailPage() {
@@ -74,13 +74,13 @@ function ServiceDetailPage() {
 
   const related = services.filter((s) => s.slug !== service.slug).slice(0, 3)
   const Icon    = iconMap[service.icon] ?? Wrench
-  const accent  = accentMap[service.slug] ?? "#f97316"
+  const accent  = accentMap[service.slug] ?? "var(--brand-400)"
 
   return (
-    <div style={{ background: "#f8f7f5" }}>
+    <div style={{ background: "var(--sand-50)" }}>
 
       {/* ── Hero ──────────────────────────────────────────────────────────── */}
-      <section style={{ background: "#0d1f1f", padding: "72px 0 64px" }}>
+      <section style={{ background: "var(--ink-900)", padding: "72px 0 64px" }}>
         <div className="section-container" style={{ maxWidth: "800px", margin: "0 auto", textAlign: "center" }}>
 
           <div style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
@@ -110,21 +110,11 @@ function ServiceDetailPage() {
             </p>
 
             <div style={{ display: "flex", justifyContent: "center", gap: "12px", flexWrap: "wrap" }}>
-              <a
-                href="tel:0650579620"
-                style={{ display: "inline-flex", alignItems: "center", gap: "10px", background: "#f97316", color: "white", fontWeight: 700, fontSize: "0.95rem", padding: "14px 28px", borderRadius: "10px", textDecoration: "none", border: "none" }}
-                onMouseEnter={(e) => { (e.currentTarget as HTMLAnchorElement).style.background = "#ea6f0b" }}
-                onMouseLeave={(e) => { (e.currentTarget as HTMLAnchorElement).style.background = "#f97316" }}
-              >
-                <Phone size={17} />
+              <a href="tel:0650579620" className="btn-cta" style={{ display: "inline-flex", alignItems: "center", gap: "10px", padding: "14px 28px", borderRadius: "10px", textDecoration: "none", border: "none" }}>
+                <Phone size={18} />
                 Appeler maintenant
               </a>
-              <Link
-                to="/contact"
-                style={{ display: "inline-flex", alignItems: "center", gap: "9px", background: "rgba(255,255,255,0.08)", color: "rgba(255,255,255,0.85)", fontWeight: 600, fontSize: "0.95rem", padding: "14px 24px", borderRadius: "10px", textDecoration: "none", border: "1px solid rgba(255,255,255,0.13)" }}
-                onMouseEnter={(e) => { e.currentTarget.style.background = "rgba(255,255,255,0.13)" }}
-                onMouseLeave={(e) => { e.currentTarget.style.background = "rgba(255,255,255,0.08)" }}
-              >
+              <Link to="/contact" className="btn-ghost" style={{ padding: "14px 28px" }}>
                 Devis gratuit <ArrowRight size={14} />
               </Link>
             </div>
@@ -155,6 +145,47 @@ function ServiceDetailPage() {
                   ))}
                 </div>
               </div>
+
+              {/* Contenu SEO */}
+              {service.seoContent && service.seoContent.length > 0 && (
+                <div style={{ background: "white", borderRadius: "16px", padding: "36px", marginBottom: "24px" }}>
+                  <h2 style={{ fontFamily: "var(--font-display, Outfit, sans-serif)", fontWeight: 700, fontSize: "1.2rem", color: "#0f1923", marginBottom: "16px" }}>
+                    Notre expertise : {service.titre} à Toulouse
+                  </h2>
+                  <div style={{ display: "flex", flexDirection: "column", gap: "14px" }}>
+                    {service.seoContent.map((paragraphe, idx) => (
+                      <p key={idx} style={{ color: "#475569", fontSize: "0.95rem", lineHeight: 1.7 }}>
+                        {paragraphe}
+                      </p>
+                    ))}
+                  </div>
+                </div>
+              )}
+
+              {/* Réalisations */}
+              {service.realisations && service.realisations.length > 0 && (
+                <div style={{ background: "white", borderRadius: "16px", padding: "36px", marginBottom: "24px" }}>
+                  <h3 style={{ fontFamily: "var(--font-display, Outfit, sans-serif)", fontWeight: 700, fontSize: "1.1rem", color: "#0f1923", marginBottom: "20px", display: "flex", alignItems: "center", gap: "10px" }}>
+                    <span style={{ display: "inline-block", width: "3px", height: "18px", background: accent, borderRadius: "2px" }} />
+                    Dernières interventions
+                  </h3>
+                  <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(250px, 1fr))", gap: "16px" }}>
+                    {service.realisations.map((rea, idx) => (
+                      <div key={idx} style={{ borderRadius: "12px", border: "1px solid #e2e8f0", overflow: "hidden", background: "#f8fafc" }}>
+                        <div style={{ height: "140px", background: "var(--sand-50)", display: "flex", alignItems: "center", justifyContent: "center", borderBottom: "1px solid #e2e8f0" }}>
+                          {/* Espace pour l'image */}
+                          <span style={{ color: "#94a3b8", fontSize: "0.8rem", fontWeight: 500, letterSpacing: "0.05em", textTransform: "uppercase" }}>Photo de chantier</span>
+                        </div>
+                        <div style={{ padding: "16px" }}>
+                          <div style={{ fontSize: "0.75rem", fontWeight: 700, color: accent, marginBottom: "4px" }}>{rea.lieu}</div>
+                          <h4 style={{ fontSize: "0.9rem", fontWeight: 700, color: "#1e293b", marginBottom: "6px" }}>{rea.titre}</h4>
+                          <p style={{ fontSize: "0.8rem", color: "#64748b", lineHeight: 1.5 }}>{rea.description}</p>
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              )}
 
               {/* FAQ */}
               {service.faq.length > 0 && (
@@ -198,13 +229,10 @@ function ServiceDetailPage() {
                 </div>
                 <p style={{ color: "#334155", fontSize: "0.88rem", lineHeight: 1.65, marginBottom: "22px" }}>{service.prix}</p>
 
-                <a
-                  href="tel:0650579620"
-                  style={{ display: "flex", alignItems: "center", justifyContent: "center", gap: "10px", width: "100%", background: "#f97316", color: "white", fontWeight: 700, fontSize: "0.92rem", padding: "13px", borderRadius: "10px", textDecoration: "none", marginBottom: "10px", boxSizing: "border-box" }}
-                  onMouseEnter={(e) => { (e.currentTarget as HTMLAnchorElement).style.background = "#ea6f0b" }}
-                  onMouseLeave={(e) => { (e.currentTarget as HTMLAnchorElement).style.background = "#f97316" }}
+                <a href="tel:0650579620" className="btn-cta"
+                  style={{ display: "flex", alignItems: "center", justifyContent: "center", gap: "10px", width: "100%", padding: "13px", borderRadius: "10px", textDecoration: "none", marginBottom: "10px", boxSizing: "border-box" }}
                 >
-                  <Phone size={16} /> Appeler Nino
+                  <Phone size={16} /> 06 50 57 96 20
                 </a>
                 <Link
                   to="/contact"
@@ -217,7 +245,7 @@ function ServiceDetailPage() {
               </div>
 
               {/* Garanties */}
-              <div style={{ background: "#0d1f1f", borderRadius: "16px", padding: "24px" }}>
+              <div style={{ background: "var(--ink-900)", borderRadius: "16px", padding: "24px" }}>
                 <div style={{ fontSize: "0.68rem", fontWeight: 700, color: "rgba(255,255,255,0.45)", textTransform: "uppercase", letterSpacing: "0.1em", marginBottom: "16px" }}>
                   Nos engagements
                 </div>
@@ -258,7 +286,7 @@ function ServiceDetailPage() {
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(200px, 1fr))", gap: "12px" }}>
             {related.map((s) => {
               const RI = iconMap[s.icon] ?? Wrench
-              const ra = accentMap[s.slug] ?? "#f97316"
+              const ra = accentMap[s.slug] ?? "var(--brand-400)"
               return (
                 <Link
                   key={s.slug}

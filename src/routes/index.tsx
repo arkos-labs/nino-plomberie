@@ -225,8 +225,8 @@ function HomePage() {
               </a>
               <Link
                 to="/contact"
-                className="btn-secondary"
-                style={{ padding: "14px 28px", fontSize: "1rem", color: "white", borderColor: "rgba(255,255,255,0.2)" }}
+                className="btn-ghost"
+                style={{ padding: "14px 28px", fontSize: "1rem" }}
               >
                 Demander un devis
                 <ArrowRight size={18} />
@@ -244,12 +244,7 @@ function HomePage() {
         }}>
           <div style={{ width: "100%", maxWidth: "1200px", margin: "0 auto" }}>
             {/* Top row with 4 columns */}
-            <div 
-              style={{ 
-                display: "grid", 
-                gridTemplateColumns: "repeat(auto-fit, minmax(220px, 1fr))",
-              }}
-            >
+            <div className="stats-grid">
               {/* Stat 1 */}
               <div style={{ padding: "16px", textAlign: "center", position: "relative" }}>
                 <div style={{ width: "32px", height: "32px", borderRadius: "50%", background: "rgba(255,255,255,0.05)", border: "1px solid rgba(255,255,255,0.1)", display: "flex", alignItems: "center", justifyContent: "center", margin: "0 auto 12px" }}>
@@ -323,7 +318,15 @@ function HomePage() {
           </div>
         </div>
         <style>{`
+          .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+          }
           @media (max-width: 900px) {
+            .stats-grid {
+              grid-template-columns: repeat(2, 1fr);
+              gap: 16px 8px;
+            }
             .stat-divider { display: none; }
           }
         `}</style>
@@ -461,7 +464,7 @@ function HomePage() {
       ═══════════════════════════════════════════════════════════════════ */}
       <section
         style={{
-          background: "var(--ink-800)",
+          background: "var(--white)",
           padding: "clamp(48px, 8vw, 88px) 0",
           position: "relative",
           overflow: "hidden",
@@ -479,7 +482,7 @@ function HomePage() {
           >
             {/* Texte */}
             <div>
-              <span className="badge-dark" style={{ marginBottom: "16px" }}>
+              <span className="badge-dark" style={{ marginBottom: "16px", background: "var(--gray-100)", color: "var(--ink-700)", border: "none" }}>
                 Zone de déplacement
               </span>
               <h2
@@ -487,26 +490,26 @@ function HomePage() {
                   fontFamily: "var(--font-display)",
                   fontWeight: 800,
                   fontSize: "clamp(1.6rem, 3vw, 2.3rem)",
-                  color: "var(--white)",
+                  color: "var(--ink-950)",
                   letterSpacing: "-0.02em",
                   marginBottom: "20px",
                   lineHeight: 1.2,
                 }}
               >
                 Toulouse &<br />
-                <span style={{ color: "var(--brand-100)" }}>Haute-Garonne</span>
+                <span style={{ color: "var(--brand-500)" }}>Haute-Garonne</span>
               </h2>
 
               <p
                 style={{
-                  color: "rgba(255,255,255,0.6)",
+                  color: "var(--gray-600)",
                   lineHeight: 1.8,
                   marginBottom: "28px",
                   fontSize: "0.95rem",
                 }}
               >
                 Basé à Toulouse, j'interviens dans toute la{" "}
-                <strong style={{ color: "rgba(255,255,255,0.9)" }}>Haute-Garonne (31)</strong> —
+                <strong style={{ color: "var(--ink-900)" }}>Haute-Garonne (31)</strong> —
                 Blagnac, Colomiers, Muret, Balma, Tournefeuille… à moins de 30 km.
               </p>
 
@@ -529,13 +532,14 @@ function HomePage() {
                       display: "flex",
                       alignItems: "flex-start",
                       gap: "10px",
-                      color: "rgba(255,255,255,0.75)",
+                      color: "var(--ink-800)",
                       fontSize: "0.9rem",
+                      fontWeight: 500,
                     }}
                   >
                     <CheckCircle
                       size={18}
-                      color="var(--brand-100)"
+                      color="var(--brand-500)"
                       style={{ flexShrink: 0, marginTop: "2px" }}
                     />
                     {item}
@@ -547,14 +551,15 @@ function HomePage() {
             {/* Carte visuelle */}
             <div
               style={{
-                background: "var(--ink-700)",
-                border: "1px solid rgba(255,255,255,0.07)",
+                background: "var(--sand-50)",
+                border: "1px solid var(--gray-200)",
                 borderRadius: "20px",
                 padding: "32px",
                 minHeight: "340px",
                 display: "flex",
                 flexDirection: "column",
                 justifyContent: "space-between",
+                boxShadow: "var(--shadow-sm)",
               }}
             >
               <div style={{ display: "flex", alignItems: "center", gap: "12px", marginBottom: "24px" }}>
@@ -563,20 +568,20 @@ function HomePage() {
                     width: "42px",
                     height: "42px",
                     borderRadius: "10px",
-                    background: "rgba(40, 75, 122, 0.12)",
-                    border: "1px solid rgba(40, 75, 122, 0.2)",
+                    background: "var(--brand-50)",
+                    border: "1px solid var(--brand-100)",
                     display: "flex",
                     alignItems: "center",
                     justifyContent: "center",
                   }}
                 >
-                  <MapPin size={20} color="var(--brand-100)" />
+                  <MapPin size={20} color="var(--brand-500)" />
                 </div>
                 <div>
-                  <div style={{ fontFamily: "var(--font-display)", fontWeight: 700, color: "var(--white)", fontSize: "1rem" }}>
+                  <div style={{ fontFamily: "var(--font-display)", fontWeight: 800, color: "var(--ink-950)", fontSize: "1rem" }}>
                     Rayon d'intervention
                   </div>
-                  <div style={{ color: "rgba(255,255,255,0.5)", fontSize: "0.8rem" }}>
+                  <div style={{ color: "var(--gray-500)", fontSize: "0.85rem", fontWeight: 500 }}>
                     Agglomération Toulousaine
                   </div>
                 </div>
@@ -596,11 +601,11 @@ function HomePage() {
                       borderRadius: "var(--radius-pill)",
                       fontSize: "0.8rem",
                       fontWeight: i === 11 ? 700 : 500,
-                      background: i === 11 ? "rgba(255, 255, 255, 0.15)" : "rgba(255,255,255,0.06)",
-                      color: i === 11 ? "var(--white)" : "rgba(255,255,255,0.7)",
+                      background: i === 11 ? "var(--brand-50)" : "var(--white)",
+                      color: i === 11 ? "var(--brand-600)" : "var(--gray-600)",
                       border: i === 11
-                        ? "1px solid rgba(255, 255, 255, 0.3)"
-                        : "1px solid rgba(255,255,255,0.08)",
+                        ? "1px solid var(--brand-200)"
+                        : "1px solid var(--gray-200)",
                     }}
                   >
                     {i !== 11 && <span style={{ marginRight: "4px", opacity: 0.5 }}>📍</span>}
@@ -614,18 +619,19 @@ function HomePage() {
                 style={{
                   marginTop: "24px",
                   padding: "16px 20px",
-                  background: "rgba(249, 115, 22, 0.08)",
-                  border: "1px solid rgba(249, 115, 22, 0.18)",
+                  background: "var(--white)",
+                  border: "1px solid var(--gray-200)",
                   borderRadius: "12px",
                   display: "flex",
                   alignItems: "center",
                   gap: "12px",
+                  boxShadow: "var(--shadow-sm)",
                 }}
               >
-                <Zap size={20} color="var(--cta-400)" />
-                <span style={{ color: "rgba(255,255,255,0.8)", fontSize: "0.875rem" }}>
+                <Zap size={20} color="var(--cta-500)" />
+                <span style={{ color: "var(--gray-600)", fontSize: "0.875rem", fontWeight: 500 }}>
                   Délai moyen d'arrivée :{" "}
-                  <strong style={{ color: "var(--cta-400)" }}>38 minutes</strong>
+                  <strong style={{ color: "var(--cta-600)" }}>38 minutes</strong>
                 </span>
               </div>
             </div>
@@ -773,20 +779,7 @@ function HomePage() {
           overflow: "hidden",
         }}
       >
-        {/* Texture */}
-        <div
-          style={{
-            position: "absolute",
-            inset: 0,
-            backgroundImage: `repeating-linear-gradient(
-              -45deg,
-              transparent,
-              transparent 20px,
-              rgba(0,0,0,0.04) 20px,
-              rgba(0,0,0,0.04) 21px
-            )`,
-          }}
-        />
+
 
 
         <div

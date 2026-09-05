@@ -6,30 +6,30 @@ const NAV = [
   {
     heading: "Prestations",
     links: [
-      { label: "Fuite d'eau",           href: "/services/fuite-d-eau" },
-      { label: "Chauffe-eau & Ballon",  href: "/services/chauffe-eau" },
-      { label: "Débouchage",            href: "/services/debouchage" },
-      { label: "Robinetterie",          href: "/services/remplacement-robinetterie" },
-      { label: "Rénovation salle de bain", href: "/services/renovation-salle-de-bain" },
+      { label: "Fuite d'eau",           to: "/services/$slug", params: { slug: "fuite-d-eau" } },
+      { label: "Chauffe-eau & Ballon",  to: "/services/$slug", params: { slug: "chauffe-eau" } },
+      { label: "Débouchage",            to: "/services/$slug", params: { slug: "debouchage" } },
+      { label: "Robinetterie",          to: "/services/$slug", params: { slug: "remplacement-robinetterie" } },
+      { label: "Rénovation salle de bain", to: "/services/$slug", params: { slug: "renovation-salle-de-bain" } },
     ],
   },
   {
     heading: "Zones",
     links: [
-      { label: "Toulouse",       href: "/intervention/toulouse" },
-      { label: "Colomiers",      href: "/intervention/colomiers" },
-      { label: "Blagnac",        href: "/intervention/blagnac" },
-      { label: "Tournefeuille",  href: "/intervention/tournefeuille" },
-      { label: "Muret",          href: "/intervention/muret" },
+      { label: "Toulouse",       to: "/intervention/$ville", params: { ville: "toulouse" } },
+      { label: "Colomiers",      to: "/intervention/$ville", params: { ville: "colomiers" } },
+      { label: "Blagnac",        to: "/intervention/$ville", params: { ville: "blagnac" } },
+      { label: "Tournefeuille",  to: "/intervention/$ville", params: { ville: "tournefeuille" } },
+      { label: "Muret",          to: "/intervention/$ville", params: { ville: "muret" } },
     ],
   },
   {
     heading: "Informations",
     links: [
-      { label: "À propos",      href: "/a-propos" },
-      { label: "Urgence 24h/7j", href: "/contact" },
-      { label: "Devis gratuit", href: "/contact" },
-      { label: "Nos tarifs",    href: "/contact" },
+      { label: "À propos",      to: "/a-propos" },
+      { label: "Urgence 24h/7j", to: "/contact" },
+      { label: "Devis gratuit", to: "/contact" },
+      { label: "Nos tarifs",    to: "/contact" },
     ],
   },
 ]
@@ -44,7 +44,7 @@ const SOCIALS = [
 export function Footer() {
   return (
     <footer style={{
-      background: "#0d1f1f",
+      background: "var(--ink-900)",
       color: "rgba(255,255,255,0.55)",
       fontFamily: "var(--font-body, system-ui, sans-serif)",
     }}>
@@ -63,7 +63,7 @@ export function Footer() {
             <div style={{ display: "flex", alignItems: "center", gap: "10px", marginBottom: "18px" }}>
               <div style={{
                 width: "34px", height: "34px", borderRadius: "9px",
-                background: "linear-gradient(135deg, #f97316, #06b6d4)",
+                background: "var(--brand-500)",
                 display: "flex", alignItems: "center", justifyContent: "center",
               }}>
                 <Droplet size={17} color="white" fill="white" />
@@ -130,10 +130,11 @@ export function Footer() {
                   {heading}
                 </div>
                 <ul style={{ listStyle: "none", padding: 0, margin: 0, display: "flex", flexDirection: "column", gap: "13px" }}>
-                  {links.map(({ label, href }) => (
-                    <li key={href + label}>
+                  {links.map((link) => (
+                    <li key={link.label}>
                       <Link
-                        to={href as "/"}
+                        to={(link as any).to}
+                        params={(link as any).params}
                         style={{
                           fontSize: "0.875rem",
                           color: "rgba(255,255,255,0.5)",
@@ -143,7 +144,7 @@ export function Footer() {
                         onMouseEnter={(e) => e.currentTarget.style.color = "white"}
                         onMouseLeave={(e) => e.currentTarget.style.color = "rgba(255,255,255,0.5)"}
                       >
-                        {label}
+                        {link.label}
                       </Link>
                     </li>
                   ))}

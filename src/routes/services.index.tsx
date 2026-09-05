@@ -21,20 +21,20 @@ const iconMap: Record<string, React.ComponentType<{ size?: number; color?: strin
 }
 
 const accentMap: Record<string, string> = {
-  "fuite-d-eau":                  "#3b82f6",
-  "chauffe-eau":                  "#f97316",
-  "debouchage":                   "#8b5cf6",
-  "remplacement-robinetterie":    "#10b981",
-  "renovation-salle-de-bain":     "#ec4899",
-  "installation-plomberie-neuve": "#06b6d4",
+  "fuite-d-eau":                  "var(--brand-400)",
+  "chauffe-eau":                  "var(--brand-400)",
+  "debouchage":                   "var(--brand-400)",
+  "remplacement-robinetterie":    "var(--brand-400)",
+  "renovation-salle-de-bain":     "var(--brand-400)",
+  "installation-plomberie-neuve": "var(--brand-400)",
 }
 
 function ServicesIndex() {
   return (
-    <div style={{ background: "#f8f7f5", minHeight: "100vh" }}>
+    <div style={{ background: "var(--sand-50)", minHeight: "100vh" }}>
 
       {/* ── Hero ── */}
-      <section style={{ background: "#0d1f1f", padding: "80px 0 72px" }}>
+      <section style={{ background: "var(--ink-900)", padding: "80px 0 72px" }}>
         <div className="section-container" style={{ maxWidth: "1100px" }}>
           <div style={{ display: "flex", alignItems: "center", gap: "8px", fontSize: "0.78rem", color: "rgba(255,255,255,0.4)", marginBottom: "32px" }}>
             <Link to="/" style={{ color: "inherit", textDecoration: "none" }}>Accueil</Link>
@@ -43,7 +43,7 @@ function ServicesIndex() {
           </div>
 
           <div style={{ maxWidth: "600px" }}>
-            <div style={{ display: "inline-flex", alignItems: "center", gap: "7px", background: "rgba(249,115,22,0.12)", border: "1px solid rgba(249,115,22,0.25)", borderRadius: "999px", padding: "4px 14px", fontSize: "0.72rem", fontWeight: 700, color: "#f97316", letterSpacing: "0.07em", textTransform: "uppercase", marginBottom: "20px" }}>
+            <div style={{ display: "inline-flex", alignItems: "center", gap: "7px", background: "rgba(40, 75, 122, 0.15)", border: "1px solid rgba(40, 75, 122, 0.25)", borderRadius: "999px", padding: "4px 14px", fontSize: "0.72rem", fontWeight: 700, color: "var(--brand-100)", letterSpacing: "0.07em", textTransform: "uppercase", marginBottom: "20px" }}>
               <Zap size={11} />
               Plombier Toulouse &amp; Métropole
             </div>
@@ -94,7 +94,7 @@ function ServicesIndex() {
           >
             {services.map((s) => {
               const Icon   = iconMap[s.icon] ?? Wrench
-              const accent = accentMap[s.slug] ?? "#f97316"
+              const accent = accentMap[s.slug] ?? "var(--brand-400)"
               return (
                 <Link
                   key={s.slug}
@@ -145,7 +145,7 @@ function ServicesIndex() {
       </section>
 
       {/* ── CTA ── */}
-      <section style={{ background: "#0d1f1f", padding: "64px 0" }}>
+      <section style={{ background: "var(--ink-900)", padding: "64px 0" }}>
         <div className="section-container" style={{ maxWidth: "640px", textAlign: "center" }}>
           <h2 style={{ fontFamily: "var(--font-display, Outfit, sans-serif)", fontWeight: 800, fontSize: "clamp(1.5rem, 3vw, 2rem)", color: "white", letterSpacing: "-0.03em", marginBottom: "12px" }}>
             Besoin d'un devis gratuit ?
@@ -154,10 +154,9 @@ function ServicesIndex() {
             Déplacement offert dans l'agglomération toulousaine.<br />Réponse sous 2h en semaine.
           </p>
           <div style={{ display: "flex", gap: "12px", justifyContent: "center", flexWrap: "wrap" }}>
-            <a href="tel:0650579620" style={{ display: "inline-flex", alignItems: "center", gap: "9px", background: "#f97316", color: "white", fontWeight: 700, fontSize: "0.92rem", padding: "13px 26px", borderRadius: "10px", textDecoration: "none" }}
-              onMouseEnter={(e) => { (e.currentTarget as HTMLAnchorElement).style.background = "#ea6f0b" }}
-              onMouseLeave={(e) => { (e.currentTarget as HTMLAnchorElement).style.background = "#f97316" }}>
-              <Phone size={16} /> 06 50 57 96 20
+            <a href="tel:0650579620" className="btn-cta" style={{ display: "inline-flex", alignItems: "center", gap: "9px", padding: "13px 26px", borderRadius: "10px", textDecoration: "none" }}>
+              <Phone size={16} />
+              Appeler maintenant
             </a>
             <Link to="/contact" style={{ display: "inline-flex", alignItems: "center", gap: "9px", background: "rgba(255,255,255,0.08)", color: "white", fontWeight: 600, fontSize: "0.92rem", padding: "13px 26px", borderRadius: "10px", textDecoration: "none", border: "1px solid rgba(255,255,255,0.12)" }}
               onMouseEnter={(e) => { e.currentTarget.style.background = "rgba(255,255,255,0.13)" }}
