@@ -29,70 +29,55 @@ function ZonesComponent() {
 
   return (
     <div style={{ background: "var(--sand-50)", minHeight: "100vh" }}>
-      {/* ── En-tête de page (Hero) ── */}
-      <section
-        style={{
-          position: "relative",
-          padding: "140px 0 100px",
-          overflow: "hidden",
-        }}
-      >
-        <div style={{
-          position: "absolute",
-          top: 0, left: 0, right: 0, bottom: 0,
-          backgroundImage: "url('/hero-plombier.jpg')",
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-          zIndex: 0,
-        }} />
-        <div style={{
-          position: "absolute",
-          top: 0, left: 0, right: 0, bottom: 0,
-          background: "linear-gradient(to right, rgba(15, 23, 42, 0.98) 0%, rgba(15, 23, 42, 0.8) 100%)",
-          zIndex: 1,
-        }} />
-        <div className="texture-grain" style={{ zIndex: 2 }} />
+      {/* ── Hero ── */}
+      <section style={{
+        background: "linear-gradient(135deg, var(--brand-600) 0%, var(--brand-500) 60%, var(--brand-400) 100%)",
+        paddingTop: "64px",
+        paddingBottom: "80px",
+      }}>
+        <div className="section-container" style={{ display: "flex", flexDirection: "column", alignItems: "center", textAlign: "center", width: "100%" }}>
 
-        <div className="section-container" style={{ position: "relative", zIndex: 10 }}>
-          <div style={{ 
-            display: "inline-flex", 
-            alignItems: "center", 
-            gap: "8px", 
-            background: "rgba(249, 115, 22, 0.15)", 
-            border: "1px solid rgba(249, 115, 22, 0.3)",
-            borderRadius: "100px", 
-            padding: "8px 20px", 
-            color: "var(--cta-400)", 
-            fontSize: "0.85rem", 
-            fontWeight: 700, 
-            letterSpacing: "0.05em", 
-            textTransform: "uppercase", 
-            marginBottom: "24px" 
+          {/* Badge */}
+          <div style={{
+            display: "inline-flex", alignItems: "center", gap: "8px",
+            background: "var(--cta-500)", color: "#fff",
+            borderRadius: "999px", padding: "5px 18px",
+            fontSize: "0.82rem", fontWeight: 700,
+            letterSpacing: "0.05em", textTransform: "uppercase",
+            marginBottom: "24px",
           }}>
-            <MapPin size={16} />
+            <MapPin size={13} />
             Haute-Garonne (31)
           </div>
-          <h1
-            style={{
-              fontFamily: "var(--font-display)",
-              fontWeight: 800,
-              fontSize: "clamp(2.5rem, 6vw, 4rem)",
-              color: "white",
-              lineHeight: 1.1,
-              letterSpacing: "-0.02em",
-              marginBottom: "24px",
-            }}
-          >
-            Nos zones <span style={{ color: "var(--cta-400)" }}>d'intervention</span>
+
+          <h1 style={{
+            fontFamily: "var(--font-display)",
+            fontWeight: 800,
+            fontSize: "clamp(2rem, 5vw, 3.25rem)",
+            color: "#fff",
+            lineHeight: 1.15,
+            letterSpacing: "-0.03em",
+            marginBottom: "16px",
+          }}>
+            Nos zones{" "}
+            <span style={{
+              display: "inline-block",
+              background: "linear-gradient(90deg, #FDE68A, #FB923C)",
+              WebkitBackgroundClip: "text",
+              WebkitTextFillColor: "transparent",
+              backgroundClip: "text",
+            }}>
+              d'intervention
+            </span>
           </h1>
-          <p
-            style={{
-              color: "rgba(255,255,255,0.8)",
-              fontSize: "1.15rem",
-              lineHeight: 1.6,
-              maxWidth: "650px",
-            }}
-          >
+
+          <p style={{
+            color: "rgba(255,255,255,0.82)",
+            fontSize: "1.125rem",
+            lineHeight: 1.7,
+            maxWidth: "560px",
+            margin: "0 auto",
+          }}>
             Nino Plomberie 31 se déplace sur l'ensemble du département de la Haute-Garonne. Trouvez votre commune ci-dessous pour découvrir nos services dédiés à votre secteur.
           </p>
         </div>
@@ -234,7 +219,7 @@ function ZonesComponent() {
           {/* CTA Final */}
           <div style={{
             marginTop: "100px",
-            background: "var(--ink-900)",
+            background: "linear-gradient(135deg, var(--brand-600) 0%, var(--brand-500) 60%, var(--brand-400) 100%)",
             borderRadius: "24px",
             padding: "60px 40px",
             textAlign: "center",

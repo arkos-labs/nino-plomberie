@@ -131,243 +131,180 @@ function HomePage() {
     <div style={{ background: "var(--sand-50)" }}>
 
       {/* ═══════════════════════════════════════════════════════════════════
-          HERO — Premium Editorial
+          HERO
       ═══════════════════════════════════════════════════════════════════ */}
-      <section
-        style={{
-          background: "var(--ink-950)",
-          position: "relative",
-          overflow: "hidden",
-          display: "flex",
-          flexDirection: "column",
-          paddingTop: "60px",
-        }}
-      >
-        {/* Abstract shapes / lighting */}
-        <div style={{ position: "absolute", top: "0%", right: "10%", width: "60vw", height: "60vw", background: "radial-gradient(circle, rgba(194,97,49,0.08) 0%, transparent 60%)", borderRadius: "50%", pointerEvents: "none" }} />
-        <div style={{ position: "absolute", bottom: "-20%", left: "-10%", width: "50vw", height: "50vw", background: "radial-gradient(circle, rgba(58,75,102,0.15) 0%, transparent 60%)", borderRadius: "50%", pointerEvents: "none" }} />
-        
-        {/* Background Image Element - Asymmetrical */}
-        <div style={{
+      <section style={{
+        background: "linear-gradient(135deg, var(--brand-600) 0%, var(--brand-500) 60%, var(--brand-400) 100%)",
+        paddingTop: "64px",
+        paddingBottom: "80px",
+        position: "relative",
+        overflow: "hidden",
+      }}>
+        {/* Photo plein fond */}
+        <div className="hero-bg-image" style={{
           position: "absolute",
-          top: 0,
-          right: 0,
-          bottom: 0,
-          width: "68%",
-          backgroundImage: "url('/hero-plombier.jpg')",
+          inset: 0,
+          backgroundImage: "url('/hero-nino-v2.jpg')",
           backgroundSize: "cover",
-          backgroundPosition: "center",
-          clipPath: "polygon(12% 0, 100% 0, 100% 100%, 0% 100%)",
-          opacity: 0.9,
-          zIndex: 1
+          zIndex: 0,
         }}>
-          {/* Overlay gradient on image */}
-          <div style={{
+          {/* Overlay dégradé gauche (sombre) vers droite (transparent) pour lisibilité */}
+          <div className="hero-overlay" style={{
             position: "absolute",
             inset: 0,
-            background: "linear-gradient(90deg, var(--ink-950) 0%, rgba(10,15,24,0.4) 50%, rgba(10,15,24,0.1) 100%)"
-          }}/>
+          }} />
         </div>
 
-        <div style={{ position: "relative", zIndex: 2, width: "100%", paddingLeft: "clamp(24px, 8vw, 120px)", flex: 1, display: "flex", flexDirection: "column", justifyContent: "center" }}>
-          <div style={{ maxWidth: "600px" }}>
-            <div className="animate-fade-up" style={{ display: "flex", alignItems: "center", gap: "12px", marginBottom: "20px" }}>
-              <div className="deco-line" style={{ width: "24px" }} />
-              <span style={{ color: "var(--brand-400)", textTransform: "uppercase", letterSpacing: "0.15em", fontSize: "0.8rem", fontWeight: 700 }}>
-                Artisan Indépendant • Toulouse
-              </span>
-            </div>
-
-            <h1
-              className="animate-fade-up animate-fade-up-d1"
-              style={{
-                fontFamily: "var(--font-display)",
-                fontWeight: 300,
-                fontSize: "clamp(3rem, 7vw, 4.8rem)",
-                color: "var(--white)",
-                lineHeight: 1.05,
-                letterSpacing: "-0.04em",
-                marginBottom: "20px",
-              }}
-            >
-              Plombier Toulouse —<br />
-              <span style={{ fontWeight: 800, color: "transparent", WebkitTextStroke: "1px rgba(255,255,255,0.9)", backgroundImage: "linear-gradient(135deg, var(--white), rgba(255,255,255,0.7))", WebkitBackgroundClip: "text" }}>l'artisanat d'excellence.</span>
-              <br/>
-              <span className="text-brand-gradient" style={{ fontWeight: 800, fontSize: "clamp(2rem, 5vw, 3.5rem)" }}>En urgence.</span>
-            </h1>
-
-            <p
-              className="animate-fade-up animate-fade-up-d2"
-              style={{
-                color: "var(--gray-400)",
-                fontSize: "1.1rem",
-                lineHeight: 1.6,
-                marginBottom: "32px",
-                maxWidth: "480px",
-                fontWeight: 300,
-              }}
-            >
-              Plus qu'un simple dépannage : une véritable expertise technique 
-              pour vos installations, avec un service d'urgence <strong>disponible sous 1h</strong> en région toulousaine.
-            </p>
-
-            <div
-              className="animate-fade-up animate-fade-up-d3"
-              style={{ display: "flex", flexWrap: "wrap", gap: "16px", marginBottom: "32px" }}
-            >
-              <a
-                href="tel:0650579620"
-                className="btn-cta"
-                style={{ padding: "14px 28px", fontSize: "1rem" }}
-              >
-                <Phone size={18} />
-                Intervention urgente
-              </a>
-              <Link
-                to="/rendez-vous"
-                className="btn-ghost"
-                style={{ padding: "14px 28px", fontSize: "1rem" }}
-              >
-                <Calendar size={18} />
-                Prendre Rendez-vous
-              </Link>
-            </div>
-          </div>
-        </div>
-
-        {/* ── Widget Avis Google (Flottant à droite) ── */}
+        {/* Widget Avis Google — flottant complètement au bord droit de l'écran */}
         <div className="hidden-mobile animate-fade-up animate-fade-up-d3" style={{
           position: "absolute",
-          right: "clamp(100px, 22vw, 350px)",
-          bottom: "35%",
+          right: "clamp(200px, 25vw, 450px)",
+          top: "40%",
+          transform: "translateY(-50%) scale(1.5)",
+          transformOrigin: "center right",
           zIndex: 10,
-          display: "inline-flex",
-          alignItems: "center",
-          gap: "16px",
-          background: "rgba(255,255,255,0.05)",
+          display: "inline-flex", alignItems: "center", gap: "14px",
+          background: "rgba(255,255,255,0.07)",
           border: "1px solid rgba(255,255,255,0.15)",
           boxShadow: "0 12px 40px rgba(0,0,0,0.3)",
           backdropFilter: "blur(12px)",
           WebkitBackdropFilter: "blur(12px)",
-          padding: "14px 24px",
-          borderRadius: "20px",
-          transform: "translateY(50%)"
+          padding: "14px 22px",
+          borderRadius: "18px",
+          whiteSpace: "nowrap",
         }}>
-          {/* Icône Google G */}
-          <div style={{ background: "white", borderRadius: "50%", padding: "4px", width: "40px", height: "40px", display: "flex", alignItems: "center", justifyContent: "center", flexShrink: 0, boxShadow: "0 4px 12px rgba(0,0,0,0.1)" }}>
-            <svg viewBox="0 0 24 24" width="24" height="24" xmlns="http://www.w3.org/2000/svg">
+          <div style={{ background: "white", borderRadius: "50%", padding: "4px", width: "36px", height: "36px", display: "flex", alignItems: "center", justifyContent: "center", flexShrink: 0, boxShadow: "0 2px 8px rgba(0,0,0,0.12)" }}>
+            <svg viewBox="0 0 24 24" width="20" height="20" xmlns="http://www.w3.org/2000/svg">
               <path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/>
               <path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/>
               <path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z" fill="#FBBC05"/>
               <path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"/>
             </svg>
           </div>
-          <div style={{ display: "flex", flexDirection: "column" }}>
-            <div style={{ display: "flex", alignItems: "center", gap: "6px" }}>
-              <span style={{ color: "white", fontFamily: "var(--font-display)", fontWeight: 800, fontSize: "1.1rem" }}>Excellent</span>
+          <div>
+            <div style={{ display: "flex", alignItems: "center", gap: "6px", marginBottom: "2px" }}>
+              <span style={{ color: "white", fontWeight: 800, fontSize: "0.95rem" }}>Excellent</span>
               <div style={{ display: "flex", gap: "2px" }}>
-                {[1,2,3,4,5].map(i => <Star key={i} size={14} fill="#f59e0b" color="#f59e0b" />)}
+                {[1,2,3,4,5].map(i => <Star key={i} size={13} fill="#f59e0b" color="#f59e0b" />)}
               </div>
             </div>
-            <span style={{ color: "rgba(255,255,255,0.7)", fontSize: "0.85rem" }}>
-              <strong style={{ color: "rgba(255,255,255,0.9)", fontWeight: 600 }}>4.9/5</strong> sur plus de 200 avis
+            <span style={{ color: "rgba(255,255,255,0.7)", fontSize: "0.8rem" }}>
+              <strong style={{ color: "rgba(255,255,255,0.9)" }}>4,5/5</strong> · 75 avis Google
             </span>
           </div>
         </div>
-        
-        {/* Stats Integrated Directly in Hero */}
-        <div style={{ 
-          position: "relative", 
-          zIndex: 10, 
-          width: "100%", 
-          padding: "0 24px 24px"
-        }}>
-          <div style={{ width: "100%", maxWidth: "1200px", margin: "0 auto" }}>
-            {/* Top row with 4 columns */}
-            <div className="stats-grid">
-              {/* Stat 1 */}
-              <div style={{ padding: "16px", textAlign: "center", position: "relative" }}>
-                <div style={{ width: "32px", height: "32px", borderRadius: "50%", background: "rgba(255,255,255,0.05)", border: "1px solid rgba(255,255,255,0.1)", display: "flex", alignItems: "center", justifyContent: "center", margin: "0 auto 12px" }}>
-                  <Clock size={16} color="white" />
-                </div>
-                <div style={{ fontFamily: "var(--font-display)", fontWeight: 300, fontSize: "clamp(1.8rem, 5vw, 2.4rem)", color: "white", lineHeight: 1, marginBottom: "8px", letterSpacing: "-0.04em" }}>
-                  &lt; 1h
-                </div>
-                <div style={{ fontWeight: 700, fontSize: "0.9rem", color: "rgba(255,255,255,0.9)", marginBottom: "4px" }}>
-                  Délai d'intervention
-                </div>
-                <div style={{ display: "flex", alignItems: "center", justifyContent: "center", gap: "6px", fontSize: "0.75rem", color: "rgba(255,255,255,0.6)" }}>
-                  <div style={{ width: "6px", height: "6px", borderRadius: "50%", background: "#10b981" }} />
-                  Prise en charge immédiate
-                </div>
-                <div className="stat-divider" style={{ position: "absolute", right: 0, top: "20%", bottom: "20%", width: "1px", background: "rgba(255,255,255,0.1)" }} />
-              </div>
 
-              {/* Stat 2 */}
-              <div style={{ padding: "16px", textAlign: "center", position: "relative" }}>
-                <div style={{ width: "32px", height: "32px", borderRadius: "50%", background: "rgba(255,255,255,0.05)", border: "1px solid rgba(255,255,255,0.1)", display: "flex", alignItems: "center", justifyContent: "center", margin: "0 auto 12px" }}>
-                  <Star size={16} color="white" />
-                </div>
-                <div style={{ fontFamily: "var(--font-display)", fontWeight: 300, fontSize: "clamp(1.8rem, 5vw, 2.4rem)", color: "white", lineHeight: 1, marginBottom: "8px", letterSpacing: "-0.04em" }}>
-                  200+
-                </div>
-                <div style={{ fontWeight: 700, fontSize: "0.9rem", color: "rgba(255,255,255,0.9)", marginBottom: "4px" }}>
-                  Avis certifiés
-                </div>
-                <div style={{ display: "flex", alignItems: "center", justifyContent: "center", gap: "6px", fontSize: "0.75rem", color: "rgba(255,255,255,0.6)" }}>
-                  <Star size={10} color="#f59e0b" fill="#f59e0b" />
-                  Note 4.9/5 · Google
-                </div>
-                <div className="stat-divider" style={{ position: "absolute", right: 0, top: "20%", bottom: "20%", width: "1px", background: "rgba(255,255,255,0.1)" }} />
-              </div>
+        <div className="section-container" style={{ position: "relative", zIndex: 2, display: "flex", flexDirection: "column", alignItems: "flex-start", textAlign: "left", width: "100%" }}>
 
-              {/* Stat 3 */}
-              <div style={{ padding: "16px", textAlign: "center", position: "relative" }}>
-                <div style={{ width: "32px", height: "32px", borderRadius: "50%", background: "rgba(255,255,255,0.05)", border: "1px solid rgba(255,255,255,0.1)", display: "flex", alignItems: "center", justifyContent: "center", margin: "0 auto 12px" }}>
-                  <MapPin size={16} color="white" />
-                </div>
-                <div style={{ fontFamily: "var(--font-display)", fontWeight: 300, fontSize: "clamp(1.8rem, 5vw, 2.4rem)", color: "white", lineHeight: 1, marginBottom: "8px", letterSpacing: "-0.04em" }}>
-                  31
-                </div>
-                <div style={{ fontWeight: 700, fontSize: "0.9rem", color: "rgba(255,255,255,0.9)", marginBottom: "4px" }}>
-                  Haute-Garonne
-                </div>
-                <div style={{ display: "flex", alignItems: "center", justifyContent: "center", gap: "6px", fontSize: "0.75rem", color: "rgba(255,255,255,0.6)" }}>
-                  Rayon d'action dédié
-                </div>
-                <div className="stat-divider" style={{ position: "absolute", right: 0, top: "20%", bottom: "20%", width: "1px", background: "rgba(255,255,255,0.1)" }} />
-              </div>
+          {/* Badge */}
+          <div className="animate-fade-up" style={{ marginBottom: "24px" }}>
+            <a
+              href="tel:0650579620"
+              style={{
+                display: "inline-flex", alignItems: "center", gap: "8px",
+                background: "var(--cta-500)", color: "#fff",
+                borderRadius: "999px", padding: "5px 18px",
+                fontSize: "0.82rem", fontWeight: 700,
+                letterSpacing: "0.05em", textTransform: "uppercase",
+                textDecoration: "none",
+                boxShadow: "var(--shadow-cta)",
+                transition: "transform 0.2s",
+              }}
+            >
+              <Phone size={13} />
+              Urgence ? Appelez directement
+              <ArrowRight size={13} />
+            </a>
+          </div>
 
-              {/* Stat 4 */}
-              <div style={{ padding: "16px", textAlign: "center", position: "relative" }}>
-                <div style={{ width: "32px", height: "32px", borderRadius: "50%", background: "rgba(255,255,255,0.05)", border: "1px solid rgba(255,255,255,0.1)", display: "flex", alignItems: "center", justifyContent: "center", margin: "0 auto 12px" }}>
-                  <Shield size={16} color="white" />
-                </div>
-                <div style={{ fontFamily: "var(--font-display)", fontWeight: 300, fontSize: "clamp(1.8rem, 5vw, 2.4rem)", color: "white", lineHeight: 1, marginBottom: "8px", letterSpacing: "-0.04em" }}>
-                  2 <span style={{ fontSize: "clamp(0.9rem, 2.5vw, 1.2rem)" }}>ans</span>
-                </div>
-                <div style={{ fontWeight: 700, fontSize: "0.9rem", color: "rgba(255,255,255,0.9)", marginBottom: "4px" }}>
-                  Garantie intégrale
-                </div>
-                <div style={{ display: "flex", alignItems: "center", justifyContent: "center", gap: "6px", fontSize: "0.75rem", color: "rgba(255,255,255,0.6)" }}>
-                  Pièces & main-d'œuvre
-                </div>
-              </div>
-            </div>
+          {/* Titre */}
+          <h1
+            className="animate-fade-up animate-fade-up-d1"
+            style={{
+              fontFamily: "var(--font-display)",
+              fontWeight: 800,
+              fontSize: "clamp(2.5rem, 6vw, 4rem)",
+              color: "#fff",
+              lineHeight: 1.15,
+              letterSpacing: "-0.03em",
+              marginBottom: "24px",
+              maxWidth: "500px",
+            }}
+          >
+            Plombier Toulouse —{" "}
+            <span style={{
+              display: "inline-block",
+              background: "linear-gradient(90deg, #FDE68A, #FB923C)",
+              WebkitBackgroundClip: "text",
+              WebkitTextFillColor: "transparent",
+              backgroundClip: "text",
+            }}>
+              intervention
+            </span>
+          </h1>
+
+          {/* Sous-titre et Widget */}
+          <div style={{ position: "relative", display: "inline-block", maxWidth: "560px", marginBottom: "32px" }}>
+            <p
+              className="animate-fade-up animate-fade-up-d2"
+              style={{
+                color: "rgba(255,255,255,0.9)",
+                fontSize: "1.15rem",
+                lineHeight: 1.7,
+                maxWidth: "460px",
+                margin: "0 0 32px",
+                fontWeight: 400,
+              }}
+            >
+              Votre artisan plombier qualifié à Toulouse (31) intervient rapidement pour vos urgences, dépannages et devis d'installation. Disponible <strong style={{ color: "#fff" }}>sous 1h, 7j/7</strong>.
+            </p>
+
 
           </div>
+
+          {/* CTAs */}
+          <div className="animate-fade-up animate-fade-up-d3" style={{ display: "flex", flexWrap: "wrap", gap: "16px", justifyContent: "flex-start", marginBottom: "64px" }}>
+            <a href="tel:0650579620" className="btn-cta" style={{ padding: "14px 28px", fontSize: "1rem" }}>
+              <Phone size={18} />
+              Intervention urgente
+            </a>
+            <Link to="/rendez-vous" className="btn-ghost" style={{ padding: "14px 28px", fontSize: "1rem" }}>
+              <Calendar size={18} />
+              Prendre Rendez-vous
+            </Link>
+          </div>
+
+          {/* Stats inline */}
+          <div className="animate-fade-up animate-fade-up-d4" style={{
+            display: "grid",
+            gridTemplateColumns: "repeat(4, 1fr)",
+            gap: "1px",
+            background: "rgba(255,255,255,0.1)",
+            borderRadius: "16px",
+            overflow: "hidden",
+            width: "100%",
+            maxWidth: "720px",
+          }}>
+            {[
+              { icon: Clock,  val: "< 1h",  label: "Délai urgence",     sub: "Prise en charge immédiate" },
+              { icon: Star,   val: "75+",   label: "Avis Google",       sub: "Note 4,5/5 certifiée" },
+              { icon: MapPin, val: "31",     label: "Haute-Garonne",     sub: "Rayon d'action dédié" },
+              { icon: Shield, val: "2 ans",  label: "Garantie",          sub: "Pièces & main-d'œuvre" },
+            ].map(({ icon: Icon, val, label, sub }) => (
+              <div key={label} style={{ padding: "20px 12px", textAlign: "center", background: "rgba(255,255,255,0.04)" }}>
+                <div style={{ fontFamily: "var(--font-display)", fontWeight: 800, fontSize: "clamp(1.2rem, 3vw, 1.8rem)", color: "white", lineHeight: 1, marginBottom: "6px", letterSpacing: "-0.03em" }}>
+                  {val}
+                </div>
+                <div style={{ fontWeight: 700, fontSize: "0.8rem", color: "rgba(255,255,255,0.9)", marginBottom: "2px" }}>{label}</div>
+                <div style={{ fontSize: "0.7rem", color: "rgba(255,255,255,0.5)" }}>{sub}</div>
+              </div>
+            ))}
+          </div>
+
         </div>
         <style>{`
-          .stats-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-          }
-          @media (max-width: 900px) {
-            .stats-grid {
-              grid-template-columns: repeat(2, 1fr);
-              gap: 16px 8px;
-            }
-            .stat-divider { display: none; }
+          @media (max-width: 640px) {
+            .hero-stats { grid-template-columns: repeat(2, 1fr) !important; }
           }
         `}</style>
       </section>
@@ -396,7 +333,7 @@ function HomePage() {
                     <Icon size={36} strokeWidth={1.5} />
                   </div>
                   <h3 style={{ fontFamily: "var(--font-display)", fontWeight: 700, fontSize: "1.15rem", color: "var(--ink-950)", marginBottom: "8px" }}>{titre}</h3>
-                  <p style={{ color: "var(--gray-500)", fontSize: "1rem", lineHeight: 1.6 }}>{desc}</p>
+                  <p style={{ color: "var(--gray-500)", fontSize: "1.05rem", lineHeight: 1.7 }}>{desc}</p>
                 </div>
               ))}
             </div>
@@ -421,7 +358,7 @@ function HomePage() {
           </div>
 
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))", gap: "24px", paddingTop: "60px" }}>
-            {services.map(({ icon: Icon, titre, desc, href, imgUrl, couleur, bg }, index) => (
+            {services.map(({ icon: Icon, titre, desc, href, imgUrl, couleur, bg, urgence }, index) => (
               <Link key={href} to={href as "/services"} style={{ textDecoration: "none" }}>
                 <div 
                   style={{ 
@@ -457,12 +394,13 @@ function HomePage() {
                 >
                   {imgUrl ? (
                     <div style={{ 
-                      width: index === 0 ? "clamp(220px, 80vw, 420px)" : "clamp(180px, 60vw, 340px)",
-                      height: index === 0 ? "clamp(220px, 80vw, 420px)" : "clamp(180px, 60vw, 340px)",
+                      width: "clamp(160px, 50vw, 240px)",
+                      height: "clamp(160px, 50vw, 240px)",
                       flexShrink: 0,
                       position: "relative", 
                       zIndex: 2,
-                      marginBottom: "16px"
+                      marginBottom: "16px",
+                      margin: "0 auto"
                     }}>
                       <img src={imgUrl} alt={`Service ${titre}`} style={{ width: "100%", height: "100%", objectFit: "contain" }} />
                     </div>
@@ -480,17 +418,22 @@ function HomePage() {
                       position: "relative", 
                       zIndex: 2,
                       boxShadow: `0 8px 24px ${couleur}33`,
-                      border: `1px solid ${couleur}22`
+                      border: `1px solid ${couleur}22`,
+                      margin: "0 auto 16px"
                     }}>
                       <Icon size={40} strokeWidth={2} />
                     </div>
                   )}
-                  <div style={{ position: "relative", zIndex: 2 }}>
-                    <div style={{ display: "inline-block", background: "var(--cta-500)", color: "white", fontSize: "0.7rem", fontWeight: 800, textTransform: "uppercase", letterSpacing: "0.05em", padding: "4px 12px", borderRadius: "100px", marginBottom: "clamp(12px, 3vw, 16px)" }}>
-                      URGENCE 24/7
+                  <div style={{ position: "relative", zIndex: 2, display: "flex", flexDirection: "column", flex: 1 }}>
+                    <div style={{ minHeight: "28px", marginBottom: "clamp(8px, 2vw, 12px)" }}>
+                      {urgence && (
+                        <div style={{ display: "inline-block", background: "var(--cta-500)", color: "white", fontSize: "0.7rem", fontWeight: 800, textTransform: "uppercase", letterSpacing: "0.05em", padding: "4px 12px", borderRadius: "100px" }}>
+                          URGENCE 24/7
+                        </div>
+                      )}
                     </div>
                     <h3 style={{ fontFamily: "var(--font-display)", fontWeight: 800, fontSize: "clamp(1.2rem, 4.5vw, 1.6rem)", color: "var(--ink-950)", marginBottom: "12px", letterSpacing: "-0.02em" }}>{titre}</h3>
-                    <p style={{ color: "var(--gray-600)", fontSize: "clamp(0.9rem, 3.5vw, 1.05rem)", lineHeight: 1.6, margin: 0 }}>{desc}</p>
+                    <p style={{ color: "var(--gray-600)", fontSize: "clamp(1rem, 3.5vw, 1.1rem)", lineHeight: 1.7, margin: 0 }}>{desc}</p>
                   </div>
                 </div>
               </Link>
@@ -543,9 +486,9 @@ function HomePage() {
               <p
                 style={{
                   color: "var(--gray-600)",
-                  lineHeight: 1.8,
+                  lineHeight: 1.7,
                   marginBottom: "28px",
-                  fontSize: "0.95rem",
+                  fontSize: "1.05rem",
                 }}
               >
                 Basé à Toulouse, j'interviens dans toute la{" "}
@@ -756,7 +699,7 @@ function HomePage() {
                 <p
                   style={{
                     color: "var(--ink-700)",
-                    fontSize: "0.9rem",
+                    fontSize: "1rem",
                     lineHeight: 1.7,
                     marginBottom: "18px",
                     fontStyle: "italic",
@@ -863,12 +806,12 @@ function HomePage() {
 
           <p
             style={{
-              color: "rgba(255,255,255,0.8)",
-              fontSize: "1.05rem",
-              marginBottom: "40px",
-              maxWidth: "460px",
-              margin: "0 auto 40px",
+              color: "rgba(255,255,255,0.9)",
+              fontSize: "1.15rem",
               lineHeight: 1.7,
+              maxWidth: "520px",
+              margin: "0 0 32px",
+              fontWeight: 400,
             }}
           >
             Une fuite non traitée peut causer des milliers d'euros de dégâts
@@ -890,7 +833,7 @@ function HomePage() {
                 alignItems: "center",
                 gap: "10px",
                 padding: "18px 40px",
-                background: "var(--ink-900)",
+                background: "linear-gradient(135deg, var(--brand-600) 0%, var(--brand-500) 60%, var(--brand-400) 100%)",
                 color: "var(--white)",
                 borderRadius: "var(--radius-md)",
                 fontWeight: 800,

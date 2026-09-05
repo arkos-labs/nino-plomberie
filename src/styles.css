@@ -1,7 +1,7 @@
 /* src/styles.css — Nino Plomberie 31 — Design System v2 */
 
 /* ─── Google Fonts ───────────────────────────────────────────────────────── */
-@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&display=swap");
 
 @import "tailwindcss";
 
@@ -46,9 +46,9 @@
   --steel-100: #f1f5f9;
   --steel-50:  #f8fafc;
 
-  /* Typo */
+  /* Typo — Outfit partout */
   --font-display: "Outfit", system-ui, sans-serif;
-  --font-body:    "Inter", system-ui, sans-serif;
+  --font-body:    "Outfit", system-ui, sans-serif;
 
   /* Spacing scale compacte */
   --space-1:  4px;
@@ -105,7 +105,10 @@ body {
   font-family: var(--font-body);
   background-color: var(--sand-50);
   color: var(--ink-800);
-  line-height: 1.6;
+  line-height: 1.7;
+  font-size: 1rem;
+  font-weight: 400;
+  letter-spacing: -0.01em;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -115,6 +118,21 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.15;
   font-weight: 800;
   color: var(--ink-900);
+  letter-spacing: -0.03em;
+}
+
+p {
+  line-height: 1.7;
+  font-size: 1.05rem;
+}
+
+/* Sous-titres de section (paragraphes intro) */
+.section-subtitle,
+.lead {
+  font-size: 1.125rem;
+  line-height: 1.7;
+  font-weight: 400;
+  color: var(--gray-600);
 }
 
 img { max-width: 100%; }
@@ -129,18 +147,22 @@ a { text-decoration: none; }
 
 /* ─── Typographie ────────────────────────────────────────────────────────── */
 .section-title {
-  font-size: clamp(1.75rem, 3.5vw, 2.5rem);
+  font-size: clamp(1.85rem, 3.5vw, 2.75rem);
   font-family: var(--font-display);
   font-weight: 800;
   color: var(--ink-900);
   line-height: 1.15;
+  letter-spacing: -0.03em;
 }
 
 .section-subtitle {
-  font-size: 1.05rem;
+  font-size: 1.125rem;
+  font-family: var(--font-body);
+  font-weight: 400;
   color: var(--gray-600);
   max-width: 560px;
   line-height: 1.7;
+  letter-spacing: -0.01em;
 }
 
 /* ─── Badges ─────────────────────────────────────────────────────────────── */
@@ -562,3 +584,20 @@ a { text-decoration: none; }
     transition-duration: 0.01ms !important;
   }
 }
+
+.hero-bg-image {
+  background-position: center center;
+}
+.hero-overlay {
+  background: linear-gradient(90deg, rgba(28,52,84,0.95) 0%, rgba(28,52,84,0.8) 45%, rgba(28,52,84,0.2) 100%);
+}
+
+@media (max-width: 768px) {
+  .hero-bg-image {
+    background-position: 85% center !important;
+  }
+  .hero-overlay {
+    background: linear-gradient(180deg, rgba(28,52,84,0.95) 0%, rgba(28,52,84,0.8) 40%, rgba(28,52,84,0.3) 100%) !important;
+  }
+}
+

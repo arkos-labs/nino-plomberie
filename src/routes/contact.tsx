@@ -70,8 +70,62 @@ function ContactPage() {
   }
 
   return (
-    <div style={{ background: "#ffffff", minHeight: "100vh" }}>
-      
+    <div style={{ background: "var(--sand-50)", minHeight: "100vh" }}>
+
+      {/* ── Hero ── */}
+      <section style={{
+        background: "linear-gradient(135deg, var(--brand-600) 0%, var(--brand-500) 60%, var(--brand-400) 100%)",
+        paddingTop: "64px",
+        paddingBottom: "80px",
+      }}>
+        <div className="section-container" style={{ display: "flex", flexDirection: "column", alignItems: "center", textAlign: "center", width: "100%" }}>
+
+          {/* Badge */}
+          <div style={{
+            display: "inline-flex", alignItems: "center", gap: "8px",
+            background: "var(--cta-500)", color: "#fff",
+            borderRadius: "999px", padding: "5px 18px",
+            fontSize: "0.82rem", fontWeight: 700,
+            letterSpacing: "0.05em", textTransform: "uppercase",
+            marginBottom: "24px",
+          }}>
+            <Phone size={13} />
+            Devis gratuit · Réponse sous 2h
+          </div>
+
+          <h1 style={{
+            fontFamily: "var(--font-display)",
+            fontWeight: 800,
+            fontSize: "clamp(2rem, 5vw, 3.25rem)",
+            color: "#fff",
+            lineHeight: 1.15,
+            letterSpacing: "-0.03em",
+            marginBottom: "16px",
+          }}>
+            Contactez{" "}
+            <span style={{
+              display: "inline-block",
+              background: "linear-gradient(90deg, #FDE68A, #FB923C)",
+              WebkitBackgroundClip: "text",
+              WebkitTextFillColor: "transparent",
+              backgroundClip: "text",
+            }}>
+              Nino Plomberie
+            </span>
+          </h1>
+
+          <p style={{
+            color: "rgba(255,255,255,0.82)",
+            fontSize: "1.125rem",
+            lineHeight: 1.7,
+            maxWidth: "560px",
+            margin: "0 auto",
+          }}>
+            Une urgence ou besoin d'un devis ? Remplissez le formulaire ci-dessous ou appelez directement — nous répondons en moins de 2h.
+          </p>
+        </div>
+      </section>
+
       {/* ── Main Content Container ── */}
       <section style={{ padding: "80px 24px", maxWidth: "1200px", margin: "0 auto" }}>
         
@@ -80,7 +134,7 @@ function ContactPage() {
           
           {/* Left Column: Form */}
           <div>
-            <h1 style={{ fontFamily: "Outfit, sans-serif", fontSize: "clamp(2.5rem, 4vw, 3.5rem)", fontWeight: 700, color: "#111827", margin: "0 0 16px 0", letterSpacing: "-0.02em" }}>
+            <h1 style={{ fontFamily: "var(--font-display)", fontSize: "clamp(2.5rem, 4vw, 3.5rem)", fontWeight: 700, color: "var(--ink-950)", margin: "0 0 16px 0", letterSpacing: "-0.02em" }}>
               Contactez-nous
             </h1>
             <p style={{ color: "#6b7280", fontSize: "1.1rem", margin: "0 0 48px 0" }}>
@@ -90,7 +144,7 @@ function ContactPage() {
             {sent ? (
               <div style={{ padding: "40px 0", textAlign: "left" }}>
                 <CheckCircle2 size={48} color="#15803d" style={{ marginBottom: "16px" }} />
-                <h2 style={{ fontFamily: "Outfit", fontWeight: 700, color: "#111827", fontSize: "1.5rem", marginBottom: "12px" }}>
+                <h2 style={{ fontFamily: "var(--font-display)", fontWeight: 700, color: "var(--ink-950)", fontSize: "1.5rem", marginBottom: "12px" }}>
                   Message envoyé avec succès !
                 </h2>
                 <p style={{ color: "#4b5563", fontSize: "1.05rem" }}>Nino vous recontactera très rapidement. En cas d'extrême urgence, n'hésitez pas à nous appeler directement.</p>
@@ -106,7 +160,7 @@ function ContactPage() {
 
                 <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "24px" }}>
                   <div style={{ display: "flex", flexDirection: "column", gap: "8px" }}>
-                    <label style={{ fontSize: "0.95rem", fontWeight: 600, color: "#111827" }}>
+                    <label style={{ fontSize: "0.95rem", fontWeight: 600, color: "var(--ink-950)" }}>
                       Votre Nom <span style={{ color: "#ef4444" }}>*</span>
                     </label>
                     <input 
@@ -122,7 +176,7 @@ function ContactPage() {
                   </div>
                   
                   <div style={{ display: "flex", flexDirection: "column", gap: "8px" }}>
-                    <label style={{ fontSize: "0.95rem", fontWeight: 600, color: "#111827" }}>
+                    <label style={{ fontSize: "0.95rem", fontWeight: 600, color: "var(--ink-950)" }}>
                       Téléphone <span style={{ color: "#ef4444" }}>*</span>
                     </label>
                     <input 
@@ -139,7 +193,7 @@ function ContactPage() {
                 </div>
 
                 <div style={{ display: "flex", flexDirection: "column", gap: "8px" }}>
-                  <label style={{ fontSize: "0.95rem", fontWeight: 600, color: "#111827" }}>
+                  <label style={{ fontSize: "0.95rem", fontWeight: 600, color: "var(--ink-950)" }}>
                     Service souhaité <span style={{ color: "#ef4444" }}>*</span>
                   </label>
                   <select 
@@ -159,7 +213,7 @@ function ContactPage() {
                 </div>
 
                 <div style={{ display: "flex", flexDirection: "column", gap: "8px" }}>
-                  <label style={{ fontSize: "0.95rem", fontWeight: 600, color: "#111827" }}>
+                  <label style={{ fontSize: "0.95rem", fontWeight: 600, color: "var(--ink-950)" }}>
                     Votre Message <span style={{ color: "#ef4444" }}>*</span>
                   </label>
                   <textarea
@@ -175,7 +229,7 @@ function ContactPage() {
                 </div>
 
                 <div style={{ display: "flex", flexDirection: "column", gap: "8px" }}>
-                  <label style={{ fontSize: "0.95rem", fontWeight: 600, color: "#111827" }}>
+                  <label style={{ fontSize: "0.95rem", fontWeight: 600, color: "var(--ink-950)" }}>
                     Joindre une photo (optionnel)
                   </label>
                   <input

@@ -15,7 +15,7 @@ function MentionsLegalesPage() {
   return (
     <div style={{ background: "#f9fafb", padding: "64px 0" }}>
       <div className="section-container" style={{ maxWidth: "800px" }}>
-        <h1 style={{ fontFamily: "Outfit", fontWeight: 900, color: "#0f2040", fontSize: "2.2rem", marginBottom: "32px" }}>
+        <h1 style={{ fontFamily: "var(--font-display)", fontWeight: 900, color: "var(--ink-950)", fontSize: "2.2rem", marginBottom: "32px" }}>
           Mentions Légales
         </h1>
 
@@ -70,11 +70,11 @@ function MentionsLegalesPage() {
           },
         ].map(({ titre, contenu }) => (
           <section key={titre} style={{ marginBottom: "32px" }}>
-            <h2 style={{ fontFamily: "Outfit", fontWeight: 700, color: "#1e3a5f", fontSize: "1.15rem", marginBottom: "12px" }}>
+            <h2 style={{ fontFamily: "var(--font-display)", fontWeight: 700, color: "var(--ink-950)", fontSize: "1.15rem", marginBottom: "12px" }}>
               {titre}
             </h2>
             {contenu.map((line, i) => (
-              <p key={i} style={{ color: "#374151", lineHeight: 1.75, marginBottom: "6px", fontSize: "0.95rem" }}>
+              <p key={i} style={{ color: "#374151", lineHeight: 1.7, marginBottom: "6px", fontSize: "1.05rem" }}>
                 {line}
               </p>
             ))}

@@ -136,7 +136,7 @@ function LiveTrackingPage() {
       {/* Header */}
       <section style={{ background: "linear-gradient(135deg, #0f2040, #1e3a5f)", padding: "40px 0" }}>
         <div className="section-container">
-          <h1 style={{ fontFamily: "Outfit", fontWeight: 900, fontSize: "1.8rem", color: "white", marginBottom: "8px" }}>
+          <h1 style={{ fontFamily: "var(--font-display)", fontWeight: 900, fontSize: "1.8rem", color: "white", marginBottom: "8px" }}>
             Suivi de votre intervention
           </h1>
           <div style={{ color: "rgba(255,255,255,0.65)", fontSize: "0.875rem" }}>Intervention #{id}</div>
@@ -168,7 +168,7 @@ function LiveTrackingPage() {
                   }}
                 >
                   <Navigation size={48} color="#3b82c4" />
-                  <div style={{ fontFamily: "Outfit", fontWeight: 700, color: "#1e3a5f" }}>Carte Mapbox</div>
+                  <div style={{ fontFamily: "var(--font-display)", fontWeight: 700, color: "var(--ink-950)" }}>Carte Mapbox</div>
                   <div style={{ color: "#6b7280", fontSize: "0.875rem", textAlign: "center", maxWidth: "260px" }}>
                     Ajoutez VITE_MAPBOX_TOKEN dans .env.local pour activer la carte temps réel
                   </div>
@@ -192,12 +192,12 @@ function LiveTrackingPage() {
                 {status === "arrive" ? (
                   <>
                     <CheckCircle2 size={40} color="#15803d" style={{ margin: "0 auto 12px", display: "block" }} />
-                    <div style={{ fontFamily: "Outfit", fontWeight: 800, fontSize: "1.2rem", color: "#15803d" }}>Nino est arrivé !</div>
+                    <div style={{ fontFamily: "var(--font-display)", fontWeight: 800, fontSize: "1.2rem", color: "#15803d" }}>Nino est arrivé !</div>
                   </>
                 ) : (
                   <>
                     <Clock size={36} color="var(--cta-500)" style={{ margin: "0 auto 8px", display: "block" }} />
-                    <div style={{ fontFamily: "Outfit", fontWeight: 900, fontSize: "2.5rem", color: "var(--cta-500)", lineHeight: 1 }}>
+                    <div style={{ fontFamily: "var(--font-display)", fontWeight: 900, fontSize: "2.5rem", color: "var(--cta-500)", lineHeight: 1 }}>
                       {etaMinutes}
                     </div>
                     <div style={{ color: "#6b7280", fontWeight: 500 }}>minutes estimées</div>
@@ -236,7 +236,7 @@ function LiveTrackingPage() {
                     👷
                   </div>
                   <div>
-                    <div style={{ fontWeight: 800, color: "#0f2040" }}>Nino</div>
+                    <div style={{ fontWeight: 800, color: "var(--ink-950)" }}>Nino</div>
                     <div style={{ color: "#6b7280", fontSize: "0.8rem" }}>Artisan plombier RGE</div>
                   </div>
                 </div>

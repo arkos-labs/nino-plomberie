@@ -7,7 +7,7 @@ export const Route = createFileRoute("/merci")({
 
 function MerciPage() {
   return (
-    <div className="page-wrapper" style={{ minHeight: "100vh", paddingTop: "120px", paddingBottom: "80px", background: "var(--ink-950)", display: "flex", alignItems: "center", justifyContent: "center" }}>
+    <div className="page-wrapper" style={{ minHeight: "100vh", paddingTop: "120px", paddingBottom: "80px", background: "linear-gradient(135deg, var(--brand-600) 0%, var(--brand-500) 60%, var(--brand-400) 100%)", display: "flex", alignItems: "center", justifyContent: "center" }}>
       <div className="container" style={{ maxWidth: "600px", margin: "0 auto", padding: "0 24px", textAlign: "center" }}>
         
         <div style={{ 
@@ -46,7 +46,7 @@ function MerciPage() {
             Rendez-vous <span style={{ color: "#10b981" }}>Confirmé !</span>
           </h1>
           
-          <p style={{ color: "var(--gray-400)", fontSize: "1.1rem", lineHeight: 1.6, marginBottom: "32px" }}>
+          <p style={{ color: "rgba(255,255,255,0.82)", fontSize: "1.125rem", lineHeight: 1.7, marginBottom: "32px" }}>
             Merci de votre confiance. Votre demande d'intervention a bien été enregistrée. 
             Vous recevrez un e-mail de confirmation d'ici quelques instants.
           </p>

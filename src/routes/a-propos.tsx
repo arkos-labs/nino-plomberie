@@ -49,47 +49,66 @@ function AProposPage() {
     <div style={{ background: "var(--sand-50)" }}>
 
       {/* ── Hero ── */}
-      <section style={{ background: "var(--ink-900)", padding: "80px 0 72px" }}>
-        <div className="section-container" style={{ maxWidth: "1100px" }}>
+      <section style={{
+        background: "linear-gradient(135deg, var(--brand-600) 0%, var(--brand-500) 60%, var(--brand-400) 100%)",
+        paddingTop: "64px",
+        paddingBottom: "80px",
+      }}>
+        <div className="section-container" style={{ display: "flex", flexDirection: "column", alignItems: "center", textAlign: "center", width: "100%" }}>
 
-          {/* Breadcrumb */}
-          <div style={{ fontSize: "0.76rem", color: "rgba(255,255,255,0.38)", marginBottom: "36px", display: "flex", alignItems: "center", gap: "6px" }}>
-            <Link to="/" style={{ color: "inherit", textDecoration: "none" }}>Accueil</Link>
-            <span>/</span>
-            <span style={{ color: "rgba(255,255,255,0.7)" }}>À propos</span>
+          {/* Badge */}
+          <div style={{
+            display: "inline-flex", alignItems: "center", gap: "8px",
+            background: "var(--cta-500)", color: "#fff",
+            borderRadius: "999px", padding: "5px 18px",
+            fontSize: "0.82rem", fontWeight: 700,
+            letterSpacing: "0.05em", textTransform: "uppercase",
+            marginBottom: "24px",
+          }}>
+            <CheckCircle2 size={13} />
+            Artisan Indépendant · Toulouse
           </div>
 
-          <div className="ap-hero" style={{ display: "flex", flexDirection: "column", alignItems: "center", textAlign: "center", gap: "64px" }}>
+          <h1 style={{
+            fontFamily: "var(--font-display)",
+            fontWeight: 800,
+            fontSize: "clamp(2rem, 5vw, 3.25rem)",
+            color: "#fff",
+            lineHeight: 1.15,
+            letterSpacing: "-0.03em",
+            marginBottom: "16px",
+          }}>
+            À propos de{" "}
+            <span style={{
+              display: "inline-block",
+              background: "linear-gradient(90deg, #FDE68A, #FB923C)",
+              WebkitBackgroundClip: "text",
+              WebkitTextFillColor: "transparent",
+              backgroundClip: "text",
+            }}>
+              Nino Plomberie
+            </span>
+          </h1>
 
-            {/* Texte */}
-            <div style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
-              <div style={{ display: "inline-flex", alignItems: "center", gap: "7px", background: "rgba(40, 75, 122, 0.15)", border: "1px solid rgba(40, 75, 122, 0.25)", borderRadius: "999px", padding: "4px 14px", fontSize: "0.72rem", fontWeight: 700, color: "var(--brand-100)", letterSpacing: "0.07em", textTransform: "uppercase", marginBottom: "20px" }}>
-                <CheckCircle2 size={11} />
-                Artisan Indépendant
-              </div>
+          <p style={{
+            color: "rgba(255,255,255,0.82)",
+            fontSize: "1.125rem",
+            lineHeight: 1.7,
+            maxWidth: "560px",
+            margin: "0 auto 28px",
+          }}>
+            Passionné du métier depuis plus de 12 ans, j'ai fondé <strong style={{ color: "white" }}>Nino Plomberie 31</strong> pour offrir aux habitants de Toulouse une plomberie sérieuse, réactive et sans mauvaises surprises.
+          </p>
 
-              <h1 style={{ fontFamily: "var(--font-display, Outfit, sans-serif)", fontWeight: 800, fontSize: "clamp(2rem, 4.5vw, 3rem)", color: "white", lineHeight: 1.12, letterSpacing: "-0.03em", marginBottom: "20px" }}>
-                Nino Delacroix<br />
-                <span style={{ color: "rgba(255,255,255,0.38)", fontSize: "0.75em" }}>Plombier-chauffagiste, Toulouse</span>
-              </h1>
-
-              <p style={{ color: "rgba(255,255,255,0.55)", fontSize: "1rem", lineHeight: 1.75, maxWidth: "600px", margin: "0 auto 36px auto" }}>
-                Passionné du métier depuis plus de 12 ans, j'ai fondé <strong style={{ color: "rgba(255,255,255,0.85)", fontWeight: 600 }}>Nino Plomberie 31</strong> pour offrir aux habitants de Toulouse une plomberie sérieuse, réactive et sans mauvaises surprises. Aujourd'hui une équipe de 3 compagnons qualifiés.
-              </p>
-
-              <div style={{ display: "flex", gap: "20px", flexWrap: "wrap", justifyContent: "center" }}>
-                <div style={{ display: "flex", alignItems: "center", gap: "8px", fontSize: "0.82rem", color: "rgba(255,255,255,0.45)" }}>
-                  <MapPin size={13} color="var(--brand-100)" />
-                  Toulouse, Haute-Garonne (31)
-                </div>
-                <div style={{ display: "flex", alignItems: "center", gap: "8px", fontSize: "0.82rem", color: "rgba(255,255,255,0.45)" }}>
-                  <Star size={13} fill="#eab308" color="#eab308" />
-                  4.9/5 · 120 avis Google
-                </div>
-              </div>
+          <div style={{ display: "flex", gap: "20px", flexWrap: "wrap", justifyContent: "center" }}>
+            <div style={{ display: "flex", alignItems: "center", gap: "6px", fontSize: "0.85rem", color: "rgba(255,255,255,0.7)" }}>
+              <MapPin size={14} />
+              Toulouse, Haute-Garonne (31)
             </div>
-
-
+            <div style={{ display: "flex", alignItems: "center", gap: "6px", fontSize: "0.85rem", color: "rgba(255,255,255,0.7)" }}>
+              <Star size={14} fill="#FDE68A" color="#FDE68A" />
+              4.9/5 · 120 avis Google
+            </div>
           </div>
         </div>
       </section>
@@ -100,7 +119,7 @@ function AProposPage() {
           <div className="ap-stats" style={{ display: "grid", gridTemplateColumns: "repeat(4, 1fr)" }}>
             {CHIFFRES.map(({ valeur, label }, i) => (
               <div key={label} style={{ padding: "28px 24px", textAlign: "center", borderRight: i < 3 ? "1px solid #f1f5f9" : "none" }}>
-                <div style={{ fontFamily: "var(--font-display, Outfit, sans-serif)", fontWeight: 800, fontSize: "1.9rem", color: "#0f1923", letterSpacing: "-0.03em", lineHeight: 1 }}>{valeur}</div>
+                <div style={{ fontFamily: "var(--font-display)", fontWeight: 800, fontSize: "1.9rem", color: "var(--ink-950)", letterSpacing: "-0.03em", lineHeight: 1 }}>{valeur}</div>
                 <div style={{ fontSize: "0.78rem", color: "#94a3b8", marginTop: "6px" }}>{label}</div>
               </div>
             ))}
@@ -115,7 +134,7 @@ function AProposPage() {
 
             {/* Timeline */}
             <div style={{ background: "white", borderRadius: "18px", padding: "36px" }}>
-              <h2 style={{ fontFamily: "var(--font-display, Outfit, sans-serif)", fontWeight: 700, fontSize: "1rem", color: "#0f1923", marginBottom: "32px", display: "flex", alignItems: "center", gap: "10px" }}>
+              <h2 style={{ fontFamily: "var(--font-display)", fontWeight: 700, fontSize: "1rem", color: "var(--ink-950)", marginBottom: "32px", display: "flex", alignItems: "center", gap: "10px" }}>
                 <span style={{ display: "inline-block", width: "3px", height: "18px", background: "var(--brand-400)", borderRadius: "2px" }} />
                 Parcours
               </h2>
@@ -132,8 +151,8 @@ function AProposPage() {
                         <span style={{ fontSize: "0.65rem", fontWeight: 800, color: i === TIMELINE.length - 1 ? "white" : "#94a3b8", letterSpacing: "-0.02em" }}>{annee}</span>
                       </div>
                       <div style={{ paddingTop: "8px" }}>
-                        <div style={{ fontSize: "0.88rem", fontWeight: 700, color: "#1e293b", marginBottom: "4px" }}>{titre}</div>
-                        <div style={{ fontSize: "0.78rem", color: "#94a3b8", lineHeight: 1.55 }}>{desc}</div>
+                        <div style={{ fontSize: "0.95rem", fontWeight: 700, color: "#1e293b", marginBottom: "4px" }}>{titre}</div>
+                        <div style={{ fontSize: "0.9rem", color: "#94a3b8", lineHeight: 1.7 }}>{desc}</div>
                       </div>
                     </div>
                   ))}
@@ -143,7 +162,7 @@ function AProposPage() {
 
             {/* Valeurs */}
             <div style={{ background: "white", borderRadius: "18px", padding: "36px" }}>
-              <h2 style={{ fontFamily: "var(--font-display, Outfit, sans-serif)", fontWeight: 700, fontSize: "1rem", color: "#0f1923", marginBottom: "32px", display: "flex", alignItems: "center", gap: "10px" }}>
+              <h2 style={{ fontFamily: "var(--font-display)", fontWeight: 700, fontSize: "1rem", color: "var(--ink-950)", marginBottom: "32px", display: "flex", alignItems: "center", gap: "10px" }}>
                 <span style={{ display: "inline-block", width: "3px", height: "18px", background: "#10b981", borderRadius: "2px" }} />
                 Mes engagements
               </h2>
@@ -155,8 +174,8 @@ function AProposPage() {
                       <Icon size={18} color="var(--brand-400)" strokeWidth={1.8} />
                     </div>
                     <div>
-                      <div style={{ fontSize: "0.88rem", fontWeight: 700, color: "#1e293b", marginBottom: "4px" }}>{titre}</div>
-                      <div style={{ fontSize: "0.8rem", color: "#64748b", lineHeight: 1.6 }}>{desc}</div>
+                      <div style={{ fontSize: "0.95rem", fontWeight: 700, color: "#1e293b", marginBottom: "4px" }}>{titre}</div>
+                      <div style={{ fontSize: "0.92rem", color: "#64748b", lineHeight: 1.7 }}>{desc}</div>
                     </div>
                   </div>
                 ))}
@@ -171,7 +190,7 @@ function AProposPage() {
       {/* ── CTA ── */}
       <section style={{ background: "white", padding: "64px 0", borderTop: "1px solid #f1f5f9" }}>
         <div className="section-container" style={{ maxWidth: "680px", textAlign: "center" }}>
-          <h2 style={{ fontFamily: "var(--font-display, Outfit, sans-serif)", fontWeight: 800, fontSize: "clamp(1.6rem, 3vw, 2rem)", color: "#0f1923", letterSpacing: "-0.03em", marginBottom: "12px" }}>
+          <h2 style={{ fontFamily: "var(--font-display)", fontWeight: 800, fontSize: "clamp(1.6rem, 3vw, 2rem)", color: "var(--ink-950)", letterSpacing: "-0.03em", marginBottom: "12px" }}>
             Travaillons ensemble
           </h2>
           <p style={{ color: "#64748b", fontSize: "0.93rem", lineHeight: 1.65, marginBottom: "32px" }}>

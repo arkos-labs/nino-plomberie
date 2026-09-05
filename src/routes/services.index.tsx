@@ -34,46 +34,74 @@ function ServicesIndex() {
     <div style={{ background: "var(--sand-50)", minHeight: "100vh" }}>
 
       {/* ── Hero ── */}
-      <section style={{ background: "var(--ink-900)", padding: "80px 0 72px" }}>
-        <div className="section-container" style={{ maxWidth: "1100px" }}>
-          <div style={{ display: "flex", alignItems: "center", gap: "8px", fontSize: "0.78rem", color: "rgba(255,255,255,0.4)", marginBottom: "32px" }}>
-            <Link to="/" style={{ color: "inherit", textDecoration: "none" }}>Accueil</Link>
-            <span>/</span>
-            <span style={{ color: "rgba(255,255,255,0.75)" }}>Nos services</span>
+      <section style={{
+        background: "linear-gradient(135deg, var(--brand-600) 0%, var(--brand-500) 60%, var(--brand-400) 100%)",
+        paddingTop: "64px",
+        paddingBottom: "80px",
+      }}>
+        <div className="section-container" style={{ display: "flex", flexDirection: "column", alignItems: "center", textAlign: "center", width: "100%" }}>
+
+          {/* Badge */}
+          <div style={{
+            display: "inline-flex", alignItems: "center", gap: "8px",
+            background: "var(--cta-500)", color: "#fff",
+            borderRadius: "999px", padding: "5px 18px",
+            fontSize: "0.82rem", fontWeight: 700,
+            letterSpacing: "0.05em", textTransform: "uppercase",
+            marginBottom: "24px",
+          }}>
+            <Zap size={13} />
+            Plombier Toulouse &amp; Métropole
           </div>
 
-          <div style={{ maxWidth: "600px" }}>
-            <div style={{ display: "inline-flex", alignItems: "center", gap: "7px", background: "rgba(40, 75, 122, 0.15)", border: "1px solid rgba(40, 75, 122, 0.25)", borderRadius: "999px", padding: "4px 14px", fontSize: "0.72rem", fontWeight: 700, color: "var(--brand-100)", letterSpacing: "0.07em", textTransform: "uppercase", marginBottom: "20px" }}>
-              <Zap size={11} />
-              Plombier Toulouse &amp; Métropole
-            </div>
+          <h1 style={{
+            fontFamily: "var(--font-display)",
+            fontWeight: 800,
+            fontSize: "clamp(2rem, 5vw, 3.25rem)",
+            color: "#fff",
+            lineHeight: 1.15,
+            letterSpacing: "-0.03em",
+            marginBottom: "16px",
+          }}>
+            Tous nos{" "}
+            <span style={{
+              display: "inline-block",
+              background: "linear-gradient(90deg, #FDE68A, #FB923C)",
+              WebkitBackgroundClip: "text",
+              WebkitTextFillColor: "transparent",
+              backgroundClip: "text",
+            }}>
+              services
+            </span>
+          </h1>
 
-            <h1 style={{ fontFamily: "var(--font-display, Outfit, sans-serif)", fontWeight: 800, fontSize: "clamp(2rem, 4.5vw, 3rem)", color: "white", lineHeight: 1.15, letterSpacing: "-0.03em", marginBottom: "18px" }}>
-              Tous nos services<br />
-              <span style={{ color: "rgba(255,255,255,0.4)" }}>de plomberie</span>
-            </h1>
+          <p style={{
+            color: "rgba(255,255,255,0.82)",
+            fontSize: "1.125rem",
+            lineHeight: 1.7,
+            maxWidth: "560px",
+            margin: "0 auto 36px",
+          }}>
+            De l'urgence fuite au chantier de rénovation — devis gratuit, tarifs transparents, intervention rapide 7j/7.
+          </p>
 
-            <p style={{ color: "rgba(255,255,255,0.5)", fontSize: "1rem", lineHeight: 1.7, marginBottom: "40px" }}>
-              De l'urgence fuite au chantier de rénovation — devis gratuit, tarifs transparents, intervention rapide 7j/7.
-            </p>
-
-            <div style={{ display: "flex", gap: "32px", flexWrap: "wrap" }}>
-              {[
-                { icon: Clock,  value: "< 1h",  label: "délai urgence" },
-                { icon: Zap,    value: "7j/7",  label: "disponible" },
-                { icon: Wrench, value: "6",      label: "prestations" },
-              ].map(({ icon: Icon, value, label }) => (
-                <div key={label} style={{ display: "flex", alignItems: "center", gap: "10px" }}>
-                  <div style={{ width: "34px", height: "34px", borderRadius: "9px", background: "rgba(255,255,255,0.06)", display: "flex", alignItems: "center", justifyContent: "center" }}>
-                    <Icon size={15} color="rgba(255,255,255,0.55)" />
-                  </div>
-                  <div>
-                    <div style={{ fontSize: "1rem", fontWeight: 800, color: "white", lineHeight: 1 }}>{value}</div>
-                    <div style={{ fontSize: "0.7rem", color: "rgba(255,255,255,0.35)", marginTop: "3px" }}>{label}</div>
-                  </div>
+          {/* Stats */}
+          <div style={{ display: "flex", gap: "32px", flexWrap: "wrap", justifyContent: "center" }}>
+            {[
+              { icon: Clock,  value: "< 1h",  label: "délai urgence" },
+              { icon: Zap,    value: "7j/7",  label: "disponible" },
+              { icon: Wrench, value: "6",      label: "prestations" },
+            ].map(({ icon: Icon, value, label }) => (
+              <div key={label} style={{ display: "flex", alignItems: "center", gap: "10px" }}>
+                <div style={{ width: "36px", height: "36px", borderRadius: "10px", background: "rgba(255,255,255,0.1)", display: "flex", alignItems: "center", justifyContent: "center" }}>
+                  <Icon size={16} color="rgba(255,255,255,0.8)" />
                 </div>
-              ))}
-            </div>
+                <div style={{ textAlign: "left" }}>
+                  <div style={{ fontSize: "1.1rem", fontWeight: 800, color: "white", lineHeight: 1 }}>{value}</div>
+                  <div style={{ fontSize: "0.75rem", color: "rgba(255,255,255,0.55)", marginTop: "3px" }}>{label}</div>
+                </div>
+              </div>
+            ))}
           </div>
         </div>
       </section>
@@ -123,10 +151,10 @@ function ServicesIndex() {
                       )}
                     </div>
 
-                    <h2 style={{ fontFamily: "var(--font-display, Outfit, sans-serif)", fontWeight: 700, fontSize: "1.05rem", color: "#0f1923", marginBottom: "8px", lineHeight: 1.3 }}>
+                    <h2 style={{ fontFamily: "var(--font-display)", fontWeight: 700, fontSize: "1.05rem", color: "var(--ink-950)", marginBottom: "8px", lineHeight: 1.3 }}>
                       {s.titre}
                     </h2>
-                    <p style={{ fontSize: "0.82rem", color: "#64748b", lineHeight: 1.6, flex: 1, marginBottom: "22px" }}>
+                    <p style={{ fontSize: "0.95rem", color: "#64748b", lineHeight: 1.7, flex: 1, marginBottom: "22px" }}>
                       {s.description.slice(0, 105)}…
                     </p>
 
@@ -145,12 +173,12 @@ function ServicesIndex() {
       </section>
 
       {/* ── CTA ── */}
-      <section style={{ background: "var(--ink-900)", padding: "64px 0" }}>
+      <section style={{ background: "linear-gradient(135deg, var(--brand-600) 0%, var(--brand-500) 60%, var(--brand-400) 100%)", padding: "64px 0" }}>
         <div className="section-container" style={{ maxWidth: "640px", textAlign: "center" }}>
-          <h2 style={{ fontFamily: "var(--font-display, Outfit, sans-serif)", fontWeight: 800, fontSize: "clamp(1.5rem, 3vw, 2rem)", color: "white", letterSpacing: "-0.03em", marginBottom: "12px" }}>
+          <h2 style={{ fontFamily: "var(--font-display)", fontWeight: 800, fontSize: "clamp(1.5rem, 3vw, 2rem)", color: "white", letterSpacing: "-0.03em", marginBottom: "12px" }}>
             Besoin d'un devis gratuit ?
           </h2>
-          <p style={{ color: "rgba(255,255,255,0.5)", fontSize: "0.93rem", marginBottom: "32px", lineHeight: 1.65 }}>
+          <p style={{ color: "rgba(255,255,255,0.82)", fontSize: "1.1rem", marginBottom: "32px", lineHeight: 1.7 }}>
             Déplacement offert dans l'agglomération toulousaine.<br />Réponse sous 2h en semaine.
           </p>
           <div style={{ display: "flex", gap: "12px", justifyContent: "center", flexWrap: "wrap" }}>

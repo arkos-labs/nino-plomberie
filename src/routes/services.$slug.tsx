@@ -48,7 +48,7 @@ export const Route = createFileRoute("/services/$slug")({
   component: ServiceDetailPage,
   notFoundComponent: () => (
     <div style={{ padding: "80px 24px", textAlign: "center" }}>
-      <h1 style={{ fontFamily: "Outfit, sans-serif", color: "#0f2040", marginBottom: "16px" }}>Service introuvable</h1>
+      <h1 style={{ fontFamily: "var(--font-display)", color: "var(--ink-950)", marginBottom: "16px" }}>Service introuvable</h1>
       <Link to="/services/" className="btn-secondary">
         ← Voir tous les services
       </Link>
@@ -80,44 +80,73 @@ function ServiceDetailPage() {
     <div style={{ background: "var(--sand-50)" }}>
 
       {/* ── Hero ──────────────────────────────────────────────────────────── */}
-      <section style={{ background: "var(--ink-900)", padding: "72px 0 64px" }}>
-        <div className="section-container" style={{ maxWidth: "800px", margin: "0 auto", textAlign: "center" }}>
+      <section style={{
+        background: "linear-gradient(135deg, var(--brand-600) 0%, var(--brand-500) 60%, var(--brand-400) 100%)",
+        paddingTop: "64px",
+        paddingBottom: "80px",
+      }}>
+        <div className="section-container" style={{ display: "flex", flexDirection: "column", alignItems: "center", textAlign: "center", width: "100%" }}>
 
-          <div style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
-            {/* Badges */}
-            <div style={{ display: "flex", justifyContent: "center", gap: "8px", flexWrap: "wrap", marginBottom: "22px" }}>
-              {service.urgence && (
-                <span style={{ display: "inline-flex", alignItems: "center", gap: "6px", background: "rgba(220,38,38,0.15)", border: "1px solid rgba(220,38,38,0.3)", borderRadius: "999px", padding: "4px 12px", fontSize: "0.7rem", fontWeight: 700, color: "#fca5a5", letterSpacing: "0.07em", textTransform: "uppercase" }}>
-                  <span style={{ width: "5px", height: "5px", borderRadius: "50%", background: "#f87171", animation: "hpulse 1.5s ease-in-out infinite" }} />
-                  Urgence 24h/7j
-                </span>
-              )}
-              <span style={{ display: "inline-flex", alignItems: "center", gap: "6px", background: "rgba(255,255,255,0.06)", border: "1px solid rgba(255,255,255,0.1)", borderRadius: "999px", padding: "4px 12px", fontSize: "0.7rem", color: "rgba(255,255,255,0.55)" }}>
-                <Zap size={10} />
+          {/* Badge */}
+          <div style={{
+            display: "inline-flex", alignItems: "center", gap: "8px",
+            background: "var(--cta-500)", color: "#fff",
+            borderRadius: "999px", padding: "5px 18px",
+            fontSize: "0.82rem", fontWeight: 700,
+            letterSpacing: "0.05em", textTransform: "uppercase",
+            marginBottom: "24px",
+          }}>
+            {service.urgence ? (
+              <>
+                <span style={{ width: "6px", height: "6px", borderRadius: "50%", background: "#fff", display: "inline-block" }} />
+                Urgence 24h/7j — Toulouse (31)
+              </>
+            ) : (
+              <>
+                <Zap size={13} />
                 Toulouse &amp; Haute-Garonne (31)
-              </span>
-            </div>
+              </>
+            )}
+          </div>
 
-            <h1 style={{ fontFamily: "var(--font-display, Outfit, sans-serif)", fontWeight: 800, fontSize: "clamp(2rem, 5vw, 3.2rem)", color: "white", lineHeight: 1.15, letterSpacing: "-0.03em", marginBottom: "20px" }}>
+          <h1 style={{
+            fontFamily: "var(--font-display)",
+            fontWeight: 800,
+            fontSize: "clamp(2rem, 5vw, 3.25rem)",
+            color: "#fff",
+            lineHeight: 1.15,
+            letterSpacing: "-0.03em",
+            marginBottom: "16px",
+          }}>
+            <span style={{
+              display: "inline-block",
+              background: "linear-gradient(90deg, #FDE68A, #FB923C)",
+              WebkitBackgroundClip: "text",
+              WebkitTextFillColor: "transparent",
+              backgroundClip: "text",
+            }}>
               {service.titre}
-            </h1>
-            
-            <p style={{ color: "rgba(255,255,255,0.7)", fontSize: "1.15rem", fontWeight: 500, marginBottom: "12px" }}>
-              {service.sousTitre}
-            </p>
-            <p style={{ color: "rgba(255,255,255,0.55)", fontSize: "1rem", lineHeight: 1.7, maxWidth: "700px", marginBottom: "36px" }}>
-              {service.description}
-            </p>
+            </span>
+          </h1>
 
-            <div style={{ display: "flex", justifyContent: "center", gap: "12px", flexWrap: "wrap" }}>
-              <a href="tel:0650579620" className="btn-cta" style={{ display: "inline-flex", alignItems: "center", gap: "10px", padding: "14px 28px", borderRadius: "10px", textDecoration: "none", border: "none" }}>
-                <Phone size={18} />
-                Appeler maintenant
-              </a>
-              <Link to="/contact" className="btn-ghost" style={{ padding: "14px 28px" }}>
-                Devis gratuit <ArrowRight size={14} />
-              </Link>
-            </div>
+          <p style={{
+            color: "rgba(255,255,255,0.82)",
+            fontSize: "1.125rem",
+            lineHeight: 1.7,
+            maxWidth: "560px",
+            margin: "0 auto 36px",
+          }}>
+            {service.sousTitre ? service.sousTitre : service.description}
+          </p>
+
+          <div style={{ display: "flex", justifyContent: "center", gap: "12px", flexWrap: "wrap" }}>
+            <a href="tel:0650579620" className="btn-cta" style={{ display: "inline-flex", alignItems: "center", gap: "10px", padding: "14px 28px", borderRadius: "10px", textDecoration: "none", border: "none" }}>
+              <Phone size={18} />
+              Appeler maintenant
+            </a>
+            <Link to="/contact" className="btn-ghost" style={{ padding: "14px 28px" }}>
+              Devis gratuit <ArrowRight size={14} />
+            </Link>
           </div>
         </div>
       </section>
@@ -132,7 +161,7 @@ function ServiceDetailPage() {
 
               {/* Ce qui est inclus */}
               <div style={{ background: "white", borderRadius: "16px", padding: "36px", marginBottom: "24px" }}>
-                <h3 style={{ fontFamily: "var(--font-display, Outfit, sans-serif)", fontWeight: 700, fontSize: "1rem", color: "#0f1923", marginBottom: "20px", display: "flex", alignItems: "center", gap: "10px" }}>
+                <h3 style={{ fontFamily: "var(--font-display)", fontWeight: 700, fontSize: "1rem", color: "var(--ink-950)", marginBottom: "20px", display: "flex", alignItems: "center", gap: "10px" }}>
                   <span style={{ display: "inline-block", width: "3px", height: "18px", background: accent, borderRadius: "2px" }} />
                   Ce qui est inclus
                 </h3>
@@ -140,7 +169,7 @@ function ServiceDetailPage() {
                   {service.details.map((d) => (
                     <div key={d} style={{ display: "flex", alignItems: "flex-start", gap: "10px", padding: "12px 14px", background: "#f8fafc", borderRadius: "10px", border: "1px solid #f1f5f9" }}>
                       <CheckCircle2 size={15} color={accent} style={{ flexShrink: 0, marginTop: "2px" }} />
-                      <span style={{ color: "#334155", fontSize: "0.83rem", lineHeight: 1.5 }}>{d}</span>
+                      <span style={{ color: "#334155", fontSize: "0.92rem", lineHeight: 1.7 }}>{d}</span>
                     </div>
                   ))}
                 </div>
@@ -149,12 +178,12 @@ function ServiceDetailPage() {
               {/* Contenu SEO */}
               {service.seoContent && service.seoContent.length > 0 && (
                 <div style={{ background: "white", borderRadius: "16px", padding: "36px", marginBottom: "24px" }}>
-                  <h2 style={{ fontFamily: "var(--font-display, Outfit, sans-serif)", fontWeight: 700, fontSize: "1.2rem", color: "#0f1923", marginBottom: "16px" }}>
+                  <h2 style={{ fontFamily: "var(--font-display)", fontWeight: 700, fontSize: "1.2rem", color: "var(--ink-950)", marginBottom: "16px" }}>
                     Notre expertise : {service.titre} à Toulouse
                   </h2>
                   <div style={{ display: "flex", flexDirection: "column", gap: "14px" }}>
                     {service.seoContent.map((paragraphe, idx) => (
-                      <p key={idx} style={{ color: "#475569", fontSize: "0.95rem", lineHeight: 1.7 }}>
+                      <p key={idx} style={{ color: "#475569", fontSize: "1.05rem", lineHeight: 1.7 }}>
                         {paragraphe}
                       </p>
                     ))}
@@ -165,7 +194,7 @@ function ServiceDetailPage() {
               {/* Réalisations */}
               {service.realisations && service.realisations.length > 0 && (
                 <div style={{ background: "white", borderRadius: "16px", padding: "36px", marginBottom: "24px" }}>
-                  <h3 style={{ fontFamily: "var(--font-display, Outfit, sans-serif)", fontWeight: 700, fontSize: "1.1rem", color: "#0f1923", marginBottom: "20px", display: "flex", alignItems: "center", gap: "10px" }}>
+                  <h3 style={{ fontFamily: "var(--font-display)", fontWeight: 700, fontSize: "1.1rem", color: "var(--ink-950)", marginBottom: "20px", display: "flex", alignItems: "center", gap: "10px" }}>
                     <span style={{ display: "inline-block", width: "3px", height: "18px", background: accent, borderRadius: "2px" }} />
                     Dernières interventions
                   </h3>
@@ -190,7 +219,7 @@ function ServiceDetailPage() {
               {/* FAQ */}
               {service.faq.length > 0 && (
                 <div style={{ background: "white", borderRadius: "16px", padding: "36px" }}>
-                  <h3 style={{ fontFamily: "var(--font-display, Outfit, sans-serif)", fontWeight: 700, fontSize: "1rem", color: "#0f1923", marginBottom: "20px", display: "flex", alignItems: "center", gap: "10px" }}>
+                  <h3 style={{ fontFamily: "var(--font-display)", fontWeight: 700, fontSize: "1rem", color: "var(--ink-950)", marginBottom: "20px", display: "flex", alignItems: "center", gap: "10px" }}>
                     <span style={{ display: "inline-block", width: "3px", height: "18px", background: accent, borderRadius: "2px" }} />
                     Questions fréquentes
                   </h3>
@@ -204,11 +233,11 @@ function ServiceDetailPage() {
                           onClick={() => setOpenFaq(openFaq === i ? null : i)}
                           style={{ width: "100%", padding: "18px 20px", background: openFaq === i ? `${accent}08` : "transparent", border: "none", cursor: "pointer", display: "flex", justifyContent: "space-between", alignItems: "center", gap: "16px", textAlign: "left", transition: "background 0.2s" }}
                         >
-                          <span style={{ fontWeight: 600, color: "#1e293b", fontSize: "0.88rem", lineHeight: 1.4 }}>{item.question}</span>
+                          <span style={{ fontWeight: 600, color: "#1e293b", fontSize: "1rem", lineHeight: 1.5 }}>{item.question}</span>
                           <ChevronDown size={16} color="#94a3b8" style={{ flexShrink: 0, transform: openFaq === i ? "rotate(180deg)" : "rotate(0)", transition: "transform 0.25s" }} />
                         </button>
                         {openFaq === i && (
-                          <div style={{ padding: "0 20px 18px", color: "#64748b", fontSize: "0.86rem", lineHeight: 1.75, borderTop: "1px solid #f1f5f9" }}>
+                          <div style={{ padding: "0 20px 18px", color: "#64748b", fontSize: "1rem", lineHeight: 1.7, borderTop: "1px solid #f1f5f9" }}>
                             <div style={{ paddingTop: "14px" }}>{item.reponse}</div>
                           </div>
                         )}
@@ -227,7 +256,7 @@ function ServiceDetailPage() {
                 <div style={{ fontSize: "0.68rem", fontWeight: 700, color: accent, textTransform: "uppercase", letterSpacing: "0.1em", marginBottom: "8px" }}>
                   Tarification
                 </div>
-                <p style={{ color: "#334155", fontSize: "0.88rem", lineHeight: 1.65, marginBottom: "22px" }}>{service.prix}</p>
+                <p style={{ color: "#334155", fontSize: "1rem", lineHeight: 1.7, marginBottom: "22px" }}>{service.prix}</p>
 
                 <a href="tel:0650579620" className="btn-cta"
                   style={{ display: "flex", alignItems: "center", justifyContent: "center", gap: "10px", width: "100%", padding: "13px", borderRadius: "10px", textDecoration: "none", marginBottom: "10px", boxSizing: "border-box" }}
@@ -245,7 +274,7 @@ function ServiceDetailPage() {
               </div>
 
               {/* Garanties */}
-              <div style={{ background: "var(--ink-900)", borderRadius: "16px", padding: "24px" }}>
+              <div style={{ background: "linear-gradient(135deg, var(--brand-600) 0%, var(--brand-500) 60%, var(--brand-400) 100%)", borderRadius: "16px", padding: "24px" }}>
                 <div style={{ fontSize: "0.68rem", fontWeight: 700, color: "rgba(255,255,255,0.45)", textTransform: "uppercase", letterSpacing: "0.1em", marginBottom: "16px" }}>
                   Nos engagements
                 </div>
@@ -280,7 +309,7 @@ function ServiceDetailPage() {
       {/* ── Autres services ──────────────────────────────────────────────── */}
       <section style={{ background: "white", padding: "56px 0 64px", borderTop: "1px solid #f1f5f9" }}>
         <div className="section-container" style={{ maxWidth: "1100px" }}>
-          <h2 style={{ fontFamily: "var(--font-display, Outfit, sans-serif)", fontWeight: 700, fontSize: "1.1rem", color: "#0f1923", marginBottom: "24px" }}>
+          <h2 style={{ fontFamily: "var(--font-display)", fontWeight: 700, fontSize: "1.1rem", color: "var(--ink-950)", marginBottom: "24px" }}>
             Autres prestations
           </h2>
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(200px, 1fr))", gap: "12px" }}>
