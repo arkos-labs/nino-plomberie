@@ -60,23 +60,10 @@ export function Footer() {
           {/* Gauche — Marque */}
           <div className="footer-brand" style={{ flexShrink: 0, maxWidth: "260px" }}>
             {/* Logo */}
-            <div className="footer-logo-wrap" style={{ display: "flex", alignItems: "center", gap: "10px", marginBottom: "18px" }}>
-              <div style={{
-                width: "34px", height: "34px", borderRadius: "9px",
-                background: "var(--brand-500)",
-                display: "flex", alignItems: "center", justifyContent: "center",
-              }}>
-                <Droplet size={17} color="white" fill="white" />
+            <div className="footer-logo-wrap" style={{ marginBottom: "18px" }}>
+              <div style={{ background: "white", padding: "8px 16px", borderRadius: "8px", display: "inline-block" }}>
+                <img src="/logo.png" alt="Nino Plomberie" style={{ height: "45px", width: "auto", objectFit: "contain", display: "block" }} />
               </div>
-              <span style={{
-                fontFamily: "var(--font-display, system-ui)",
-                fontWeight: 700,
-                fontSize: "1.35rem",
-                color: "white",
-                letterSpacing: "-0.02em",
-              }}>
-                NinoPlomberie
-              </span>
             </div>
             
             {/* Tagline */}

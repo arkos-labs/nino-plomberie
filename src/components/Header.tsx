@@ -53,69 +53,8 @@ export function Header() {
           }}
         >
           {/* ── Logo ── */}
-          <Link to="/" style={{ textDecoration: "none", display: "flex", alignItems: "center", gap: "12px" }}>
-            {/* Icône plomberie stylisée */}
-            <div
-              style={{
-                width: "42px",
-                height: "42px",
-                borderRadius: "12px",
-                background: "linear-gradient(135deg, var(--ink-900), var(--ink-700))",
-                display: "flex",
-                alignItems: "center",
-                justifyContent: "center",
-                flexShrink: 0,
-                position: "relative",
-                overflow: "hidden",
-                boxShadow: "var(--shadow-sm)",
-              }}
-            >
-              {/* Goutte d'eau SVG inline */}
-              <svg width="22" height="22" viewBox="0 0 24 24" fill="none">
-                <path
-                  d="M12 2C12 2 5 9.5 5 14.5C5 18.09 8.13 21 12 21C15.87 21 19 18.09 19 14.5C19 9.5 12 2 12 2Z"
-                  fill="url(#fireGradient)"
-                />
-                <path
-                  d="M9 15C9 13.34 10.34 12 12 12"
-                  stroke="rgba(255,255,255,0.7)"
-                  strokeWidth="1.5"
-                  strokeLinecap="round"
-                />
-                <defs>
-                  <linearGradient id="fireGradient" x1="5" y1="2" x2="19" y2="21" gradientUnits="userSpaceOnUse">
-                    <stop stopColor="var(--brand-400)" />
-                    <stop offset="1" stopColor="var(--brand-600)" />
-                  </linearGradient>
-                </defs>
-              </svg>
-            </div>
-            <div>
-              <div
-                style={{
-                  fontFamily: "var(--font-display)",
-                  fontWeight: 800,
-                  fontSize: "1.2rem",
-                  color: scrolled ? "var(--ink-900)" : "var(--ink-900)",
-                  lineHeight: 1.1,
-                  letterSpacing: "-0.02em",
-                }}
-              >
-                Nino Plomberie
-              </div>
-              <div
-                style={{
-                  fontSize: "0.7rem",
-                  color: "var(--brand-500)",
-                  fontWeight: 700,
-                  letterSpacing: "0.15em",
-                  textTransform: "uppercase",
-                  lineHeight: 1.2,
-                }}
-              >
-                Artisan Toulouse
-              </div>
-            </div>
+          <Link to="/" style={{ textDecoration: "none", display: "flex", alignItems: "center" }}>
+            <img src="/logo.png" alt="Nino Plomberie" style={{ height: "55px", width: "auto", objectFit: "contain" }} />
           </Link>
 
           {/* ── Nav Desktop ── */}
