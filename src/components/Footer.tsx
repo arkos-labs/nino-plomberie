@@ -118,7 +118,7 @@ export function Footer() {
             justifyContent: "flex-end",
           }}>
             {NAV.map(({ heading, links }) => (
-              <div key={heading}>
+              <div key={heading} className={`nav-col nav-col-${heading.toLowerCase()}`}>
                 <div style={{
                   fontSize: "0.72rem",
                   fontWeight: 600,
@@ -176,7 +176,7 @@ export function Footer() {
         </div>
 
         {/* ── Barre basse ── */}
-        <div style={{
+        <div className="footer-bottom" style={{
           borderTop: "1px solid rgba(255,255,255,0.08)",
           padding: "20px 0",
           display: "flex",
@@ -188,7 +188,7 @@ export function Footer() {
           <span style={{ fontSize: "0.8rem", color: "rgba(255,255,255,0.35)" }}>
             Copyright © 2026 NinoPlomberie. Tous droits réservés.
           </span>
-          <div style={{ display: "flex", gap: "28px" }}>
+          <div className="footer-bottom-links" style={{ display: "flex", gap: "28px", flexWrap: "wrap" }}>
             {[
               { label: "Mentions légales",             href: "/mentions-legales" },
               { label: "Politique de confidentialité", href: "/politique-confidentialite" },
@@ -226,8 +226,11 @@ export function Footer() {
             grid-template-columns: 1fr 1fr; 
             gap: 24px 12px !important; 
           }
+          .nav-col-zones { display: none !important; }
           .seo-text { display: none !important; }
-          .seo-container { padding: 12px 0 !important; margin-top: 0 !important; }
+          .seo-container { padding: 12px 0 !important; margin-top: 0 !important; border: none !important; }
+          .footer-bottom { padding: 12px 0 24px !important; gap: 8px !important; flex-direction: column; text-align: center; }
+          .footer-bottom-links { justify-content: center; gap: 12px !important; }
         }
       `}</style>
     </footer>
