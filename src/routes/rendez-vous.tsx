@@ -1,4 +1,4 @@
-import { createFileRoute } from "@tanstack/react-router"
+import { createFileRoute, useNavigate } from "@tanstack/react-router"
 import { Clock, ShieldCheck, MapPin } from "lucide-react"
 import Cal, { getCalApi } from "@calcom/embed-react"
 import { useEffect } from "react"
@@ -14,6 +14,8 @@ export const Route = createFileRoute("/rendez-vous")({
 })
 
 function RendezVousPage() {
+  const navigate = useNavigate();
+
   useEffect(() => {
     (async function () {
       const cal = await getCalApi({});
@@ -23,8 +25,14 @@ function RendezVousPage() {
         hideEventTypeDetails: false,
         layout: "month_view",
       });
+      cal("on", {
+        action: "bookingSuccessful",
+        callback: (e) => {
+          navigate({ to: "/merci" });
+        },
+      });
     })();
-  }, []);
+  }, [navigate]);
 
   return (
     <div className="page-wrapper" style={{ minHeight: "100vh", paddingTop: "120px", paddingBottom: "80px", background: "var(--ink-950)" }}>

@@ -13,6 +13,7 @@ import { Route as IndexRouteImport } from './routes/index'
 import { Route as AProposRouteImport } from './routes/a-propos'
 import { Route as ContactRouteImport } from './routes/contact'
 import { Route as MentionsLegalesRouteImport } from './routes/mentions-legales'
+import { Route as MerciRouteImport } from './routes/merci'
 import { Route as PolitiqueConfidentialiteRouteImport } from './routes/politique-confidentialite'
 import { Route as RendezVousRouteImport } from './routes/rendez-vous'
 import { Route as ServicesRouteImport } from './routes/services'
@@ -40,6 +41,11 @@ const ContactRoute = ContactRouteImport.update({
 const MentionsLegalesRoute = MentionsLegalesRouteImport.update({
   id: '/mentions-legales',
   path: '/mentions-legales',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const MerciRoute = MerciRouteImport.update({
+  id: '/merci',
+  path: '/merci',
   getParentRoute: () => rootRouteImport,
 } as any)
 const PolitiqueConfidentialiteRoute =
@@ -89,6 +95,7 @@ export interface FileRoutesByFullPath {
   '/a-propos': typeof AProposRoute
   '/contact': typeof ContactRoute
   '/mentions-legales': typeof MentionsLegalesRoute
+  '/merci': typeof MerciRoute
   '/politique-confidentialite': typeof PolitiqueConfidentialiteRoute
   '/rendez-vous': typeof RendezVousRoute
   '/services': typeof ServicesRouteWithChildren
@@ -103,6 +110,7 @@ export interface FileRoutesByTo {
   '/a-propos': typeof AProposRoute
   '/contact': typeof ContactRoute
   '/mentions-legales': typeof MentionsLegalesRoute
+  '/merci': typeof MerciRoute
   '/politique-confidentialite': typeof PolitiqueConfidentialiteRoute
   '/rendez-vous': typeof RendezVousRoute
   '/zones': typeof ZonesRoute
@@ -117,6 +125,7 @@ export interface FileRoutesById {
   '/a-propos': typeof AProposRoute
   '/contact': typeof ContactRoute
   '/mentions-legales': typeof MentionsLegalesRoute
+  '/merci': typeof MerciRoute
   '/politique-confidentialite': typeof PolitiqueConfidentialiteRoute
   '/rendez-vous': typeof RendezVousRoute
   '/services': typeof ServicesRouteWithChildren
@@ -133,6 +142,7 @@ export interface FileRouteTypes {
     | '/a-propos'
     | '/contact'
     | '/mentions-legales'
+    | '/merci'
     | '/politique-confidentialite'
     | '/rendez-vous'
     | '/services'
@@ -147,6 +157,7 @@ export interface FileRouteTypes {
     | '/a-propos'
     | '/contact'
     | '/mentions-legales'
+    | '/merci'
     | '/politique-confidentialite'
     | '/rendez-vous'
     | '/zones'
@@ -160,6 +171,7 @@ export interface FileRouteTypes {
     | '/a-propos'
     | '/contact'
     | '/mentions-legales'
+    | '/merci'
     | '/politique-confidentialite'
     | '/rendez-vous'
     | '/services'
@@ -175,6 +187,7 @@ export interface RootRouteChildren {
   AProposRoute: typeof AProposRoute
   ContactRoute: typeof ContactRoute
   MentionsLegalesRoute: typeof MentionsLegalesRoute
+  MerciRoute: typeof MerciRoute
   PolitiqueConfidentialiteRoute: typeof PolitiqueConfidentialiteRoute
   RendezVousRoute: typeof RendezVousRoute
   ServicesRoute: typeof ServicesRouteWithChildren
@@ -211,6 +224,13 @@ declare module '@tanstack/react-router' {
       path: '/mentions-legales'
       fullPath: '/mentions-legales'
       preLoaderRoute: typeof MentionsLegalesRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/merci': {
+      id: '/merci'
+      path: '/merci'
+      fullPath: '/merci'
+      preLoaderRoute: typeof MerciRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/politique-confidentialite': {
@@ -291,6 +311,7 @@ const rootRouteChildren: RootRouteChildren = {
   AProposRoute: AProposRoute,
   ContactRoute: ContactRoute,
   MentionsLegalesRoute: MentionsLegalesRoute,
+  MerciRoute: MerciRoute,
   PolitiqueConfidentialiteRoute: PolitiqueConfidentialiteRoute,
   RendezVousRoute: RendezVousRoute,
   ServicesRoute: ServicesRouteWithChildren,
