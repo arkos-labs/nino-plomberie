@@ -494,7 +494,7 @@ function HomePage() {
                 }}
               >
                 Toulouse &<br />
-                <span style={{ color: "var(--brand-400)" }}>Haute-Garonne</span>
+                <span style={{ color: "var(--brand-100)" }}>Haute-Garonne</span>
               </h2>
 
               <p
@@ -535,7 +535,7 @@ function HomePage() {
                   >
                     <CheckCircle
                       size={18}
-                      color="var(--brand-400)"
+                      color="var(--brand-100)"
                       style={{ flexShrink: 0, marginTop: "2px" }}
                     />
                     {item}
@@ -570,7 +570,7 @@ function HomePage() {
                     justifyContent: "center",
                   }}
                 >
-                  <MapPin size={20} color="var(--brand-400)" />
+                  <MapPin size={20} color="var(--brand-100)" />
                 </div>
                 <div>
                   <div style={{ fontFamily: "var(--font-display)", fontWeight: 700, color: "var(--white)", fontSize: "1rem" }}>
@@ -596,10 +596,10 @@ function HomePage() {
                       borderRadius: "var(--radius-pill)",
                       fontSize: "0.8rem",
                       fontWeight: i === 11 ? 700 : 500,
-                      background: i === 11 ? "rgba(40, 75, 122, 0.15)" : "rgba(255,255,255,0.06)",
-                      color: i === 11 ? "var(--brand-400)" : "rgba(255,255,255,0.7)",
+                      background: i === 11 ? "rgba(255, 255, 255, 0.15)" : "rgba(255,255,255,0.06)",
+                      color: i === 11 ? "var(--white)" : "rgba(255,255,255,0.7)",
                       border: i === 11
-                        ? "1px solid rgba(40, 75, 122, 0.25)"
+                        ? "1px solid rgba(255, 255, 255, 0.3)"
                         : "1px solid rgba(255,255,255,0.08)",
                     }}
                   >
@@ -622,7 +622,7 @@ function HomePage() {
                   gap: "12px",
                 }}
               >
-                <Zap size={20} color="var(--brand-400)" />
+                <Zap size={20} color="var(--cta-400)" />
                 <span style={{ color: "rgba(255,255,255,0.8)", fontSize: "0.875rem" }}>
                   Délai moyen d'arrivée :{" "}
                   <strong style={{ color: "var(--cta-400)" }}>38 minutes</strong>
