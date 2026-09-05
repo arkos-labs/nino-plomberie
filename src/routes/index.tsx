@@ -1,6 +1,6 @@
 // src/routes/index.tsx — Homepage v2
 import { createFileRoute, Link } from "@tanstack/react-router"
-import { Phone, Shield, Clock, Star, MapPin, Droplets, Flame, Wind, Wrench, ArrowRight, CheckCircle, ChevronRight, Zap, Award, History, ShieldCheck } from "lucide-react"
+import { Phone, Shield, Clock, Star, MapPin, Droplets, Flame, Wind, Wrench, ArrowRight, CheckCircle, ChevronRight, Zap, Award, History, ShieldCheck, Calendar } from "lucide-react"
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -228,8 +228,8 @@ function HomePage() {
                 className="btn-ghost"
                 style={{ padding: "14px 28px", fontSize: "1rem" }}
               >
-                Demander un devis
-                <ArrowRight size={18} />
+                <Calendar size={18} />
+                Prendre Rendez-vous
               </Link>
             </div>
           </div>

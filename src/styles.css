@@ -414,34 +414,6 @@ a { text-decoration: none; }
   box-shadow: 0 12px 48px rgba(249, 115, 22, 0.65);
 }
 
-/* ── Float CTA RDV ── */
-.float-cta-rdv {
-  position: fixed;
-  bottom: 28px;
-  left: 28px;
-  z-index: 9999;
-  display: flex;
-  align-items: center;
-  gap: var(--space-2);
-  padding: 16px 24px;
-  background: var(--brand-500);
-  color: var(--white);
-  border-radius: var(--radius-pill);
-  font-weight: 700;
-  font-size: 0.9rem;
-  font-family: var(--font-display);
-  box-shadow: 0 8px 32px rgba(59, 130, 246, 0.4);
-  text-decoration: none;
-  transition: transform var(--dur-base) var(--ease-out),
-              box-shadow var(--dur-base) var(--ease-out),
-              background var(--dur-base) var(--ease-out);
-}
-.float-cta-rdv:hover {
-  transform: translateY(-3px) scale(1.02);
-  background: var(--brand-600);
-  box-shadow: 0 12px 48px rgba(59, 130, 246, 0.65);
-}
-
 /* ─── Stars ──────────────────────────────────────────────────────────────── */
 .star-rating {
   display: flex;

@@ -218,16 +218,6 @@ export function Header() {
         <Phone size={18} />
         Urgence 24h/7j
       </a>
-
-      {/* ── Floating CTA Prendre RDV ── */}
-      <Link
-        to="/contact"
-        className="float-cta-rdv"
-        aria-label="Prendre rendez-vous"
-      >
-        <Calendar size={18} />
-        Prendre RDV
-      </Link>
     </>
   )
 }
