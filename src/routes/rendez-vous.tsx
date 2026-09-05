@@ -91,7 +91,7 @@ function RendezVousPage() {
           overflow: "hidden"
         }}>
           <Cal 
-            calLink="nicolas-cherki-128dpj"
+            calLink="nicolas-cherki-128dpj/diagnostic-devis-premiere-visite"
             style={{ width: "100%", height: "100%", overflow: "scroll" }}
             config={{ layout: "month_view" }}
           />
