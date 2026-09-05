@@ -1,6 +1,6 @@
 // src/components/Header.tsx — v2 Premium
 import { Link, useRouterState } from "@tanstack/react-router"
-import { Phone, Menu, X } from "lucide-react"
+import { Phone, Menu, X, Calendar } from "lucide-react"
 import { useState, useEffect } from "react"
 
 const navLinks = [
@@ -218,6 +218,16 @@ export function Header() {
         <Phone size={18} />
         Urgence 24h/7j
       </a>
+
+      {/* ── Floating CTA Prendre RDV ── */}
+      <Link
+        to="/contact"
+        className="float-cta-rdv"
+        aria-label="Prendre rendez-vous"
+      >
+        <Calendar size={18} />
+        Prendre RDV
+      </Link>
     </>
   )
 }
