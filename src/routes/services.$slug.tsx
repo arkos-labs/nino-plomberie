@@ -4,7 +4,7 @@ import { getServiceBySlug, services } from "../data/services"
 import {
   Phone, CheckCircle2, ChevronRight, ChevronDown,
   Droplets, Flame, Wind, Wrench, Bath, Building2,
-  ArrowRight, Shield, Star, Clock, Zap,
+  ArrowRight, Shield, Star, Clock, Zap, Calendar
 } from "lucide-react"
 import { useState } from "react"
 
@@ -139,13 +139,14 @@ function ServiceDetailPage() {
             {service.sousTitre ? service.sousTitre : service.description}
           </p>
 
-          <div style={{ display: "flex", justifyContent: "center", gap: "12px", flexWrap: "wrap" }}>
-            <a href="tel:0650579620" className="btn-cta" style={{ display: "inline-flex", alignItems: "center", gap: "10px", padding: "14px 28px", borderRadius: "10px", textDecoration: "none", border: "none" }}>
+          <div style={{ display: "flex", flexWrap: "wrap", gap: "14px", justifyContent: "center" }}>
+            <a href="tel:0650579620" className="btn-cta" style={{ fontSize: "1rem", padding: "14px 28px", borderRadius: "10px", display: "inline-flex", alignItems: "center", gap: "10px", textDecoration: "none" }}>
               <Phone size={18} />
-              Appeler maintenant
+              Appeler Nino - 06 50 57 96 20
             </a>
-            <Link to="/contact" className="btn-ghost" style={{ padding: "14px 28px" }}>
-              Devis gratuit <ArrowRight size={14} />
+            <Link to="/rendez-vous" className="btn-ghost" style={{ fontSize: "1rem", padding: "14px 28px", borderRadius: "10px", display: "inline-flex", alignItems: "center", gap: "10px", textDecoration: "none", border: "1px solid rgba(255,255,255,0.2)" }}>
+              <Calendar size={18} />
+              Prendre Rendez-vous
             </Link>
           </div>
         </div>

@@ -1,6 +1,6 @@
 // src/routes/a-propos.tsx — v2
 import { createFileRoute, Link } from "@tanstack/react-router"
-import { Shield, Award, Users, Clock, CheckCircle2, Phone, MapPin, Wrench, Star, ArrowRight } from "lucide-react"
+import { Shield, Award, Users, Clock, CheckCircle2, Phone, MapPin, Wrench, Star, ArrowRight, Calendar } from "lucide-react"
 
 export const Route = createFileRoute("/a-propos")({
   head: () => ({
@@ -99,6 +99,18 @@ function AProposPage() {
           }}>
             Passionné du métier depuis plus de 12 ans, j'ai fondé <strong style={{ color: "white" }}>Nino Plomberie 31</strong> pour offrir aux habitants de Toulouse une plomberie sérieuse, réactive et sans mauvaises surprises.
           </p>
+
+          <div style={{ display: "flex", flexWrap: "wrap", gap: "14px", justifyContent: "center", marginBottom: "32px" }}>
+            <a href="tel:0650579620" className="btn-cta" style={{ fontSize: "1rem", padding: "14px 28px", display: "inline-flex", alignItems: "center", gap: "10px", borderRadius: "10px", textDecoration: "none" }}>
+              <Phone size={18} />
+              Appeler Nino
+            </a>
+            <Link to="/rendez-vous" className="btn-ghost" style={{ fontSize: "1rem", padding: "14px 28px", display: "inline-flex", alignItems: "center", gap: "10px", borderRadius: "10px", textDecoration: "none", border: "1px solid rgba(255,255,255,0.2)" }}>
+              <Calendar size={18} />
+              Prendre Rendez-vous
+            </Link>
+          </div>
+
 
           <div style={{ display: "flex", gap: "20px", flexWrap: "wrap", justifyContent: "center" }}>
             <div style={{ display: "flex", alignItems: "center", gap: "6px", fontSize: "0.85rem", color: "rgba(255,255,255,0.7)" }}>

@@ -1,6 +1,6 @@
 // src/components/Header.tsx — v2 Premium
 import { Link, useRouterState } from "@tanstack/react-router"
-import { Phone, Menu, X, Calendar } from "lucide-react"
+import { Phone, Menu, X, Calendar, Mail } from "lucide-react"
 import { useState, useEffect } from "react"
 
 const navLinks = [
@@ -81,7 +81,7 @@ export function Header() {
                   to={link.to}
                   style={{
                     fontWeight: 500,
-                    fontSize: "0.88rem",
+                    fontSize: "1.05rem",
                     color: isActive
                       ? "var(--brand-500)"
                       : "var(--ink-700)",
@@ -113,6 +113,21 @@ export function Header() {
 
           {/* ── CTA + Burger ── */}
           <div style={{ display: "flex", alignItems: "center", gap: "12px" }}>
+            <a
+              href="mailto:contact@ninoplomberie31.fr"
+              className="hidden-mobile btn-cta"
+              style={{
+                background: "var(--ink-800)",
+                padding: "10px 20px",
+                fontSize: "0.875rem",
+                boxShadow: "none",
+                marginRight: "8px",
+              }}
+            >
+              <Mail size={15} />
+              contact@ninoplomberie31.fr
+            </a>
+
             <a
               href="tel:0650579620"
               className="btn-cta"
@@ -209,7 +224,7 @@ export function Header() {
         )}
       </header>
 
-      {/* ── Floating CTA 24h/7j ── */}
+      {/* ── Floating CTA 24h/7j (Bottom Right) ── */}
       <a
         href="tel:0650579620"
         className="float-cta"

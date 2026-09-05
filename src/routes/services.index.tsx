@@ -1,7 +1,7 @@
 // src/routes/services.index.tsx — Listing services v2
 import { createFileRoute, Link } from "@tanstack/react-router"
 import { services } from "../data/services"
-import { Droplets, Flame, Wind, Wrench, Bath, Building2, ArrowRight, Zap, Clock, Phone } from "lucide-react"
+import { Droplets, Flame, Wind, Wrench, Bath, Building2, ArrowRight, Zap, Clock, Phone, Calendar } from "lucide-react"
 
 export const Route = createFileRoute("/services/")({
   head: () => ({
@@ -84,6 +84,17 @@ function ServicesIndex() {
           }}>
             De l'urgence fuite au chantier de rénovation — devis gratuit, tarifs transparents, intervention rapide 7j/7.
           </p>
+
+          <div style={{ display: "flex", flexWrap: "wrap", gap: "14px", justifyContent: "center", marginBottom: "40px" }}>
+            <a href="tel:0650579620" className="btn-cta" style={{ fontSize: "1rem", padding: "14px 28px", display: "inline-flex", alignItems: "center", gap: "10px", borderRadius: "10px", textDecoration: "none" }}>
+              <Phone size={18} />
+              Appeler Nino
+            </a>
+            <Link to="/rendez-vous" className="btn-ghost" style={{ fontSize: "1rem", padding: "14px 28px", display: "inline-flex", alignItems: "center", gap: "10px", borderRadius: "10px", textDecoration: "none", border: "1px solid rgba(255,255,255,0.2)" }}>
+              <Calendar size={18} />
+              Prendre Rendez-vous
+            </Link>
+          </div>
 
           {/* Stats */}
           <div style={{ display: "flex", gap: "32px", flexWrap: "wrap", justifyContent: "center" }}>

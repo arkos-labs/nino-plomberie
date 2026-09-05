@@ -810,7 +810,7 @@ function HomePage() {
               fontSize: "1.15rem",
               lineHeight: 1.7,
               maxWidth: "520px",
-              margin: "0 0 32px",
+              margin: "0 auto 32px",
               fontWeight: 400,
             }}
           >

@@ -1,7 +1,7 @@
 // src/routes/contact.tsx
-import { createFileRoute } from "@tanstack/react-router"
+import { createFileRoute, Link } from "@tanstack/react-router"
 import { useState } from "react"
-import { Phone, Mail, MapPin, Send, CheckCircle2, Loader2 } from "lucide-react"
+import { Phone, Mail, MapPin, Send, CheckCircle2, Loader2, Calendar } from "lucide-react"
 
 export const Route = createFileRoute("/contact")({
   head: () => ({
@@ -123,6 +123,17 @@ function ContactPage() {
           }}>
             Une urgence ou besoin d'un devis ? Remplissez le formulaire ci-dessous ou appelez directement — nous répondons en moins de 2h.
           </p>
+
+          <div style={{ display: "flex", flexWrap: "wrap", gap: "14px", justifyContent: "center", marginBottom: "12px" }}>
+            <a href="tel:0650579620" className="btn-cta" style={{ fontSize: "1rem", padding: "14px 28px", display: "inline-flex", alignItems: "center", gap: "10px", borderRadius: "10px", textDecoration: "none" }}>
+              <Phone size={18} />
+              Appeler Nino
+            </a>
+            <Link to="/rendez-vous" className="btn-ghost" style={{ fontSize: "1rem", padding: "14px 28px", display: "inline-flex", alignItems: "center", gap: "10px", borderRadius: "10px", textDecoration: "none", border: "1px solid rgba(255,255,255,0.2)" }}>
+              <Calendar size={18} />
+              Prendre Rendez-vous
+            </Link>
+          </div>
         </div>
       </section>
 

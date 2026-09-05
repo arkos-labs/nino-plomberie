@@ -1,7 +1,7 @@
 // src/routes/intervention.$ville.tsx — SEO programmatique par commune
 import { createFileRoute, Link, notFound } from "@tanstack/react-router"
 import { getCommuneBySlug, communes } from "../data/communes"
-import { Phone, MapPin, Clock, CheckCircle2, ChevronRight } from "lucide-react"
+import { Phone, MapPin, Clock, CheckCircle2, ChevronRight, Calendar } from "lucide-react"
 
 export const Route = createFileRoute("/intervention/$ville")({
   head: ({ params }) => {
@@ -163,7 +163,10 @@ function VillePage() {
               <Phone size={18} />
               Appeler Nino — 06 50 57 96 20
             </a>
-            <Link to="/contact" className="btn-ghost">📅 Demander un devis →</Link>
+            <Link to="/rendez-vous" className="btn-ghost" style={{ fontSize: "1rem", padding: "14px 28px", display: "inline-flex", alignItems: "center", gap: "10px" }}>
+              <Calendar size={18} />
+              Prendre Rendez-vous
+            </Link>
           </div>
         </div>
       </section>
