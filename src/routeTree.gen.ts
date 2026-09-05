@@ -17,6 +17,7 @@ import { Route as MerciRouteImport } from './routes/merci'
 import { Route as PolitiqueConfidentialiteRouteImport } from './routes/politique-confidentialite'
 import { Route as RendezVousRouteImport } from './routes/rendez-vous'
 import { Route as ServicesRouteImport } from './routes/services'
+import { Route as TarifsRouteImport } from './routes/tarifs'
 import { Route as ZonesRouteImport } from './routes/zones'
 import { Route as InterventionVilleRouteImport } from './routes/intervention.$ville'
 import { Route as LiveTrackingIdRouteImport } from './routes/live-tracking.$id'
@@ -64,6 +65,11 @@ const ServicesRoute = ServicesRouteImport.update({
   path: '/services',
   getParentRoute: () => rootRouteImport,
 } as any)
+const TarifsRoute = TarifsRouteImport.update({
+  id: '/tarifs',
+  path: '/tarifs',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const ZonesRoute = ZonesRouteImport.update({
   id: '/zones',
   path: '/zones',
@@ -99,6 +105,7 @@ export interface FileRoutesByFullPath {
   '/politique-confidentialite': typeof PolitiqueConfidentialiteRoute
   '/rendez-vous': typeof RendezVousRoute
   '/services': typeof ServicesRouteWithChildren
+  '/tarifs': typeof TarifsRoute
   '/zones': typeof ZonesRoute
   '/intervention/$ville': typeof InterventionVilleRoute
   '/live-tracking/$id': typeof LiveTrackingIdRoute
@@ -113,6 +120,7 @@ export interface FileRoutesByTo {
   '/merci': typeof MerciRoute
   '/politique-confidentialite': typeof PolitiqueConfidentialiteRoute
   '/rendez-vous': typeof RendezVousRoute
+  '/tarifs': typeof TarifsRoute
   '/zones': typeof ZonesRoute
   '/intervention/$ville': typeof InterventionVilleRoute
   '/live-tracking/$id': typeof LiveTrackingIdRoute
@@ -129,6 +137,7 @@ export interface FileRoutesById {
   '/politique-confidentialite': typeof PolitiqueConfidentialiteRoute
   '/rendez-vous': typeof RendezVousRoute
   '/services': typeof ServicesRouteWithChildren
+  '/tarifs': typeof TarifsRoute
   '/zones': typeof ZonesRoute
   '/intervention/$ville': typeof InterventionVilleRoute
   '/live-tracking/$id': typeof LiveTrackingIdRoute
@@ -146,6 +155,7 @@ export interface FileRouteTypes {
     | '/politique-confidentialite'
     | '/rendez-vous'
     | '/services'
+    | '/tarifs'
     | '/zones'
     | '/intervention/$ville'
     | '/live-tracking/$id'
@@ -160,6 +170,7 @@ export interface FileRouteTypes {
     | '/merci'
     | '/politique-confidentialite'
     | '/rendez-vous'
+    | '/tarifs'
     | '/zones'
     | '/intervention/$ville'
     | '/live-tracking/$id'
@@ -175,6 +186,7 @@ export interface FileRouteTypes {
     | '/politique-confidentialite'
     | '/rendez-vous'
     | '/services'
+    | '/tarifs'
     | '/zones'
     | '/intervention/$ville'
     | '/live-tracking/$id'
@@ -191,6 +203,7 @@ export interface RootRouteChildren {
   PolitiqueConfidentialiteRoute: typeof PolitiqueConfidentialiteRoute
   RendezVousRoute: typeof RendezVousRoute
   ServicesRoute: typeof ServicesRouteWithChildren
+  TarifsRoute: typeof TarifsRoute
   ZonesRoute: typeof ZonesRoute
   InterventionVilleRoute: typeof InterventionVilleRoute
   LiveTrackingIdRoute: typeof LiveTrackingIdRoute
@@ -254,6 +267,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof ServicesRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/tarifs': {
+      id: '/tarifs'
+      path: '/tarifs'
+      fullPath: '/tarifs'
+      preLoaderRoute: typeof TarifsRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/zones': {
       id: '/zones'
       path: '/zones'
@@ -315,6 +335,7 @@ const rootRouteChildren: RootRouteChildren = {
   PolitiqueConfidentialiteRoute: PolitiqueConfidentialiteRoute,
   RendezVousRoute: RendezVousRoute,
   ServicesRoute: ServicesRouteWithChildren,
+  TarifsRoute: TarifsRoute,
   ZonesRoute: ZonesRoute,
   InterventionVilleRoute: InterventionVilleRoute,
   LiveTrackingIdRoute: LiveTrackingIdRoute,

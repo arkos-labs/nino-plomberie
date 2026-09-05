@@ -36,7 +36,8 @@ export const services: ServiceFiche[] = [
     icon: "Droplets",
     seoContent: [
       "Faire appel à un expert pour la recherche de fuite d'eau à Toulouse est indispensable pour éviter des dégâts des eaux coûteux. Avec les variations de température et le calcaire présent dans l'eau de la Garonne, les canalisations vieillissantes ont tendance à se fragiliser.",
-      "Nino Plomberie 31 utilise des méthodes de détection non destructives (caméra thermique, gaz traceur) pour localiser précisément l'origine du sinistre sans casser vos murs ou votre carrelage. Nous couvrons toute l'agglomération (Blagnac, Colomiers, Balma...) avec un délai d'intervention express."
+      "Nino Plomberie 31 utilise des méthodes de détection non destructives (caméra thermique, gaz traceur) pour localiser précisément l'origine du sinistre sans casser vos murs ou votre carrelage. Nous couvrons toute l'agglomération (Blagnac, Colomiers, Balma...) avec un délai d'intervention express.",
+      "En cas de dégât des eaux, notre intervention rapide limite l'étendue du sinistre. Nous établissons un rapport d'intervention détaillé que vous pouvez transmettre à votre assurance pour votre déclaration de sinistre. Robinet qui fuit, tuyau percé, joint défaillant : chaque source d'humidité traitée rapidement évite des milliers d'euros de dégâts sur parquet, placo ou circuit électrique.",
     ],
     realisations: [
       { titre: "Détection sous carrelage", lieu: "📍 Toulouse Centre", description: "Recherche de fuite non destructive dans une salle de bain ancienne.", image: "" },
@@ -57,6 +58,16 @@ export const services: ServiceFiche[] = [
         question: "La réparation est-elle garantie ?",
         reponse:
           "Oui, toutes nos réparations sont garanties 2 ans pièces et main-d'œuvre. Nous utilisons uniquement des pièces certifiées NF.",
+      },
+      {
+        question: "Mon robinet fuit même fermé, que faire ?",
+        reponse:
+          "Un robinet qui fuit en position fermée indique un joint usé ou un clapet défaillant. Coupez l'arrivée d'eau sous l'évier et appelez-nous. L'intervention est rapide (30 à 60 min) et peu coûteuse si elle est faite rapidement — un robinet qui goutte peut gaspiller jusqu'à 120 L d'eau par jour.",
+      },
+      {
+        question: "Comment déclarer un dégât des eaux après une fuite ?",
+        reponse:
+          "Prévenez votre assurance dans les 5 jours ouvrés. Nous vous remettons un bon d'intervention détaillant la cause, l'étendue et les réparations effectuées — document indispensable pour votre déclaration de sinistre auprès de votre assureur.",
       },
     ],
   },
@@ -139,10 +150,10 @@ export const services: ServiceFiche[] = [
     ],
   },
   {
-    slug: "remplacement-robinetterie",
+    slug: "robinetterie-sanitaires",
     titre: "Robinetterie & Sanitaires",
-    sousTitre: "Pose et remplacement de robinets, WC, douche",
-    metaDescription: "Remplacement robinet, mécanisme WC, douche à l'italienne à Toulouse. Artisan plombier qualifié, fourniture Grohe / Hansgrohe possible. Devis gratuit. ☎ 06 50 57 96 20",
+    sousTitre: "Changer un robinet, WC, douche à Toulouse",
+    metaDescription: "Robinet qui fuit ou à changer à Toulouse ? Nino Plomberie 31 remplace robinets, mécanismes WC, douche italienne. Grohe / Hansgrohe disponible. Devis gratuit. ☎ 06 50 57 96 20",
     description:
       "Robinet qui goutte, mécanisme WC défaillant, douche à remplacer — Nino Plomberie 31 intervient pour tous vos travaux de robinetterie et sanitaires. Large choix de marques (Grohe, Hansgrohe, Jacob Delafon).",
     details: [
@@ -242,6 +253,55 @@ export const services: ServiceFiche[] = [
         question: "Intervenez-vous en coordination avec d'autres corps de métier ?",
         reponse:
           "Oui, nous avons l'habitude de travailler avec électriciens, carreleurs et maçons. Nous nous adaptons au planning de chantier.",
+      },
+    ],
+  },
+  {
+    slug: "chauffage-chaudiere",
+    titre: "Chauffage & Chaudière",
+    sousTitre: "Chauffagiste Toulouse — entretien, dépannage, installation",
+    metaDescription: "Plombier chauffagiste à Toulouse — entretien chaudière gaz, panne chauffage, radiateur froid. Nino Plomberie 31 intervient rapidement. Devis gratuit. ☎ 06 50 57 96 20",
+    description:
+      "Plus de chauffage ? Chaudière en panne ? Radiateurs froids ? Nino Plomberie 31 intervient comme chauffagiste qualifié à Toulouse et en Haute-Garonne : entretien annuel obligatoire de chaudière gaz, dépannage toutes marques, remplacement de radiateurs.",
+    details: [
+      "Entretien annuel chaudière gaz (obligatoire depuis 2009)",
+      "Dépannage panne de chauffage central",
+      "Remplacement brûleur, vase d'expansion, soupape de sécurité",
+      "Pose et remplacement de radiateurs acier ou aluminium",
+      "Purge et rééquilibrage du circuit de chauffage",
+      "Installation chaudière à condensation",
+    ],
+    prix: "Entretien chaudière à partir de 120 € TTC — devis gratuit sur place",
+    urgence: true,
+    icon: "Thermometer",
+    seoContent: [
+      "Un chauffagiste qualifié à Toulouse intervient rapidement en cas de panne de chauffage, surtout en hiver. Nino Plomberie 31 assure l'entretien annuel obligatoire de votre chaudière gaz (individuelle ou collective) conformément au décret du 9 juin 2009. L'absence d'entretien peut entraîner un refus de garantie de votre assureur en cas de sinistre.",
+      "Chaudière qui s'éteint seule, radiateurs qui ne chauffent plus, bruits anormaux ou pression qui chute — ces symptômes nécessitent une intervention professionnelle. Nous diagnostiquons la panne et intervenons avec les pièces détachées adaptées à toutes les marques : Chaffoteaux, Saunier Duval, Vaillant, Atlantic, Frisquet, De Dietrich, Bosch, Viessmann.",
+    ],
+    realisations: [
+      { titre: "Entretien chaudière murale", lieu: "📍 Toulouse Compans", description: "Entretien annuel et remplacement du brûleur d'une chaudière murale Saunier Duval.", image: "" },
+      { titre: "Dépannage radiateur froid", lieu: "📍 Colomiers", description: "Purge et rééquilibrage du circuit de chauffage pour un appartement 4 pièces.", image: "" },
+    ],
+    faq: [
+      {
+        question: "L'entretien annuel de chaudière est-il obligatoire ?",
+        reponse:
+          "Oui, l'entretien annuel d'une chaudière gaz est obligatoire depuis le décret du 9 juin 2009 pour toute puissance comprise entre 4 et 400 kW. En cas de sinistre, l'absence d'entretien peut entraîner un refus de garantie de votre assureur.",
+      },
+      {
+        question: "Ma chaudière s'éteint régulièrement, que faire ?",
+        reponse:
+          "Une chaudière qui s'éteint seule peut indiquer un problème de pression, de vase d'expansion, de sonde de température ou d'électrode d'allumage. Appelez-nous pour un diagnostic — nous intervenons sous 24h.",
+      },
+      {
+        question: "Quelles marques de chaudière dépannez-vous ?",
+        reponse:
+          "Nous intervenons sur toutes les marques : Chaffoteaux, Saunier Duval, Vaillant, Atlantic, Frisquet, De Dietrich, Bosch, Viessmann. Nous disposons des pièces détachées courantes en stock.",
+      },
+      {
+        question: "Mes radiateurs sont froids alors que la chaudière tourne, pourquoi ?",
+        reponse:
+          "Radiateurs froids avec chaudière en marche : il s'agit probablement d'un problème de déséquilibrage du circuit, de présence d'air (purge nécessaire) ou de vanne thermostatique bloquée. Nous diagnostiquons et résolvons le problème en une intervention.",
       },
     ],
   },

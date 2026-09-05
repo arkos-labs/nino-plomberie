@@ -1,7 +1,7 @@
 // src/routes/services.index.tsx — Listing services v2
 import { createFileRoute, Link } from "@tanstack/react-router"
 import { services } from "../data/services"
-import { Droplets, Flame, Wind, Wrench, Bath, Building2, ArrowRight, Zap, Clock, Phone, Calendar } from "lucide-react"
+import { Droplets, Flame, Wind, Wrench, Bath, Building2, Thermometer, ArrowRight, Zap, Clock, Phone, Calendar } from "lucide-react"
 
 export const Route = createFileRoute("/services/")({
   head: () => ({
@@ -17,14 +17,15 @@ export const Route = createFileRoute("/services/")({
 })
 
 const iconMap: Record<string, React.ComponentType<{ size?: number; color?: string; strokeWidth?: number }>> = {
-  Droplets, Flame, Wind, Wrench, Bath, Building2,
+  Droplets, Flame, Wind, Wrench, Bath, Building2, Thermometer,
 }
 
 const accentMap: Record<string, string> = {
   "fuite-d-eau":                  "var(--brand-400)",
   "chauffe-eau":                  "var(--brand-400)",
   "debouchage":                   "var(--brand-400)",
-  "remplacement-robinetterie":    "var(--brand-400)",
+  "robinetterie-sanitaires":      "var(--brand-400)",
+  "chauffage-chaudiere":          "var(--brand-400)",
   "renovation-salle-de-bain":     "var(--brand-400)",
   "installation-plomberie-neuve": "var(--brand-400)",
 }

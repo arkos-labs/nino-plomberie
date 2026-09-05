@@ -110,7 +110,7 @@ export const communes: Commune[] = [
     "codePostal": "31130",
     "lat": 43.6108,
     "lng": 1.5037,
-    "description": "Commune de la Haute-Garonne, intervention rapide plomberie et chauffage."
+    "description": "Commune résidentielle à l'est de Toulouse. Plombier à Balma disponible en moins d'1h pour toute urgence fuite d'eau, chauffe-eau ou débouchage."
   },
   {
     "slug": "bax",
@@ -190,7 +190,7 @@ export const communes: Commune[] = [
     "codePostal": "31700",
     "lat": 43.641,
     "lng": 1.377,
-    "description": "Commune de la Haute-Garonne, intervention rapide plomberie et chauffage."
+    "description": "Commune aéronautique (Airbus, aéroport Toulouse-Blagnac). Plombier à Blagnac disponible sous 1h pour toute urgence fuite, chauffe-eau ou débouchage."
   },
   {
     "slug": "bois-de-la-pierre",
@@ -278,7 +278,7 @@ export const communes: Commune[] = [
     "codePostal": "31320",
     "lat": 43.5083,
     "lng": 1.5069,
-    "description": "Commune de la Haute-Garonne, intervention rapide plomberie et chauffage."
+    "description": "Commune dynamique au sud-est de Toulouse en pleine croissance. Nino Plomberie 31 intervient à Castanet-Tolosan pour toute urgence plomberie — devis gratuit."
   },
   {
     "slug": "castelginest",
@@ -326,7 +326,7 @@ export const communes: Commune[] = [
     "codePostal": "31770",
     "lat": 43.6116,
     "lng": 1.3245,
-    "description": "Commune de la Haute-Garonne, intervention rapide plomberie et chauffage."
+    "description": "2e ville de la Haute-Garonne, proche de Toulouse-Blagnac. Intervention rapide plomberie à Colomiers : fuite d'eau, débouchage, chauffe-eau — 7j/7."
   },
   {
     "slug": "cornebarrieu",
@@ -350,7 +350,7 @@ export const communes: Commune[] = [
     "codePostal": "31270",
     "lat": 43.5446,
     "lng": 1.3432,
-    "description": "Commune de la Haute-Garonne, intervention rapide plomberie et chauffage."
+    "description": "Commune résidentielle au sud-ouest de Toulouse. Dépannage plomberie à Cugnaux : fuite d'eau, WC bouché, chauffe-eau HS — intervention sous 1h, 7j/7."
   },
   {
     "slug": "daux",
@@ -558,7 +558,7 @@ export const communes: Commune[] = [
     "codePostal": "31240",
     "lat": 43.6515,
     "lng": 1.483,
-    "description": "Commune de la Haute-Garonne, intervention rapide plomberie et chauffage."
+    "description": "Commune résidentielle à l'est de Toulouse. Intervention plomberie à L'Union en moins d'1h : fuite, débouchage, chauffe-eau — 7j/7, sans supplément week-end."
   },
   {
     "slug": "la-salvetat-saint-gilles",
@@ -606,7 +606,7 @@ export const communes: Commune[] = [
     "codePostal": "31670",
     "lat": 43.5396,
     "lng": 1.5207,
-    "description": "Commune de la Haute-Garonne, intervention rapide plomberie et chauffage."
+    "description": "Parc technologique et zone résidentielle au sud-est de Toulouse. Plombier à Labège disponible en urgence pour particuliers et professionnels — devis gratuit."
   },
   {
     "slug": "labruyere-dorsa",
@@ -1078,7 +1078,7 @@ export const communes: Commune[] = [
     "codePostal": "31600",
     "lat": 43.4407,
     "lng": 1.2987,
-    "description": "Commune de la Haute-Garonne, intervention rapide plomberie et chauffage."
+    "description": "Sous-préfecture de la Haute-Garonne au sud de Toulouse. Dépannage et travaux de plomberie à Muret, disponible 7j/7 — fuite, chauffe-eau, débouchage."
   },
   {
     "slug": "nailloux",
@@ -1150,7 +1150,7 @@ export const communes: Commune[] = [
     "codePostal": "31820",
     "lat": 43.6245,
     "lng": 1.2584,
-    "description": "Commune de la Haute-Garonne, intervention rapide plomberie et chauffage."
+    "description": "Commune à l'ouest de Toulouse, proche de Colomiers. Dépannage et installation plomberie à Pibrac — fuite, chauffe-eau, robinetterie — intervention rapide."
   },
   {
     "slug": "pin-balma",
@@ -1190,7 +1190,7 @@ export const communes: Commune[] = [
     "codePostal": "31830",
     "lat": 43.5626,
     "lng": 1.2833,
-    "description": "Commune de la Haute-Garonne, intervention rapide plomberie et chauffage."
+    "description": "Commune résidentielle à l'ouest de l'agglomération toulousaine. Plombier à Plaisance-du-Touch disponible rapidement — devis gratuit, pas de supplément déplacement."
   },
   {
     "slug": "pompertuzat",
@@ -1206,7 +1206,7 @@ export const communes: Commune[] = [
     "codePostal": "31120",
     "lat": 43.5285,
     "lng": 1.3995,
-    "description": "Commune de la Haute-Garonne, intervention rapide plomberie et chauffage."
+    "description": "Commune au sud de Toulouse en bords de Garonne. Plombier à Portet-sur-Garonne : urgences et travaux plomberie 7j/7, intervention en moins d'1h."
   },
   {
     "slug": "poucharramet",
@@ -1262,7 +1262,7 @@ export const communes: Commune[] = [
     "codePostal": "31520",
     "lat": 43.5438,
     "lng": 1.4784,
-    "description": "Commune de la Haute-Garonne, intervention rapide plomberie et chauffage."
+    "description": "Terminus du métro B, commune au sud de Toulouse. Plombier à Ramonville-Saint-Agne — urgences fuite, débouchage, chauffe-eau traités 7j/7."
   },
   {
     "slug": "rebigue",
@@ -1422,7 +1422,7 @@ export const communes: Commune[] = [
     "codePostal": "31650",
     "lat": 43.555,
     "lng": 1.5332,
-    "description": "Commune de la Haute-Garonne, intervention rapide plomberie et chauffage."
+    "description": "Commune en forte croissance au sud-est de Toulouse. Intervention plomberie à Saint-Orens-de-Gameville — fuite, chauffe-eau, débouchage — devis gratuit."
   },
   {
     "slug": "saint-paul-sur-save",
@@ -1566,7 +1566,7 @@ export const communes: Commune[] = [
     "codePostal": "31170",
     "lat": 43.5747,
     "lng": 1.3338,
-    "description": "Commune de la Haute-Garonne, intervention rapide plomberie et chauffage."
+    "description": "Commune résidentielle dynamique à l'ouest de Toulouse. Plombier à Tournefeuille en urgence sous 1h : fuite, WC bouché, chauffe-eau HS."
   },
   {
     "slug": "vallesvilles",
@@ -1647,6 +1647,56 @@ export const communes: Commune[] = [
     "lat": 43.4368,
     "lng": 1.6583,
     "description": "Commune de la Haute-Garonne, intervention rapide plomberie et chauffage."
+  },
+
+  // ── Quartiers de Toulouse ──────────────────────────────────────────────
+  {
+    "slug": "toulouse-capitole",
+    "nom": "Toulouse — Capitole",
+    "codePostal": "31000",
+    "lat": 43.604,
+    "lng": 1.444,
+    "description": "Quartier historique et central de Toulouse. Plombier au Capitole disponible en urgence pour appartements anciens : fuite d'eau, canalisation encastrée, chauffe-eau."
+  },
+  {
+    "slug": "toulouse-minimes",
+    "nom": "Toulouse — Les Minimes",
+    "codePostal": "31200",
+    "lat": 43.628,
+    "lng": 1.432,
+    "description": "Quartier nord de Toulouse avec de nombreuses copropriétés. Plombier aux Minimes : intervention rapide fuite d'eau, débouchage, chauffe-eau — 7j/7."
+  },
+  {
+    "slug": "toulouse-rangueil",
+    "nom": "Toulouse — Rangueil",
+    "codePostal": "31400",
+    "lat": 43.568,
+    "lng": 1.453,
+    "description": "Quartier universitaire et médical au sud de Toulouse. Plombier à Rangueil pour appartements et résidences — urgence fuite, débouchage, chauffe-eau — sous 1h."
+  },
+  {
+    "slug": "toulouse-cote-pavee",
+    "nom": "Toulouse — Côte Pavée",
+    "codePostal": "31400",
+    "lat": 43.577,
+    "lng": 1.473,
+    "description": "Quartier résidentiel prisé à l'est de Toulouse. Plombier à la Côte Pavée pour maisons et villas : fuite, rénovation salle de bain, chauffe-eau — devis gratuit."
+  },
+  {
+    "slug": "toulouse-borderouge",
+    "nom": "Toulouse — Borderouge",
+    "codePostal": "31200",
+    "lat": 43.648,
+    "lng": 1.440,
+    "description": "Quartier nord de Toulouse en développement, nombreux logements neufs. Plombier à Borderouge : installation, dépannage et urgences plomberie 24h/7j."
+  },
+  {
+    "slug": "toulouse-purpan",
+    "nom": "Toulouse — Purpan",
+    "codePostal": "31300",
+    "lat": 43.606,
+    "lng": 1.393,
+    "description": "Quartier ouest de Toulouse proche de l'hôpital Purpan. Plombier à Purpan disponible rapidement pour toute urgence fuite, débouchage ou chauffe-eau."
   }
 ];
 

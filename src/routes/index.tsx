@@ -89,7 +89,7 @@ const services = [
     icon: Wrench,
     titre: "Robinetterie",
     desc: "Pose et remplacement robinets, WC, douche, baignoire.",
-    href: "/services/remplacement-robinetterie",
+    href: "/services/robinetterie-sanitaires",
     imgUrl: "/services/robinetterie.png",
     urgence: false,
     couleur: "#3b82f6",
@@ -228,7 +228,7 @@ function HomePage() {
               lineHeight: 1.15,
               letterSpacing: "-0.03em",
               marginBottom: "24px",
-              maxWidth: "500px",
+              maxWidth: "560px",
             }}
           >
             Plombier Toulouse —{" "}
@@ -239,7 +239,7 @@ function HomePage() {
               WebkitTextFillColor: "transparent",
               backgroundClip: "text",
             }}>
-              intervention
+              Urgence & Dépannage 24h/7j
             </span>
           </h1>
 
