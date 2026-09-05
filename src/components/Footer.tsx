@@ -215,7 +215,11 @@ export function Footer() {
           .footer-nav  { justify-content: flex-start !important; gap: 40px !important; }
         }
         @media (max-width: 560px) {
-          .footer-nav  { flex-wrap: wrap !important; gap: 32px !important; }
+          .footer-nav  { 
+            display: grid !important; 
+            grid-template-columns: 1fr 1fr; 
+            gap: 32px 16px !important; 
+          }
         }
       `}</style>
     </footer>

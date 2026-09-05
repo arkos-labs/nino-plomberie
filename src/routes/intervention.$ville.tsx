@@ -96,7 +96,7 @@ export const Route = createFileRoute("/intervention/$ville")({
   notFoundComponent: () => (
     <div style={{ padding: "80px 24px", textAlign: "center" }}>
       <h1 style={{ fontFamily: "Outfit", color: "#0f2040", marginBottom: "12px" }}>Commune introuvable</h1>
-      <Link to="/contact" className="btn-primary" style={{ display: "inline-flex" }}>Voir notre zone d'intervention</Link>
+      <Link to="/contact" className="btn-cta" style={{ display: "inline-flex" }}>Voir notre zone d'intervention</Link>
     </div>
   ),
 })
@@ -140,11 +140,11 @@ function VillePage() {
           </p>
 
           <div style={{ display: "flex", flexWrap: "wrap", gap: "14px" }}>
-            <a href="tel:0650579620" className="btn-primary" style={{ fontSize: "1.05rem" }}>
+            <a href="tel:0650579620" className="btn-cta" style={{ fontSize: "1.05rem" }}>
               <Phone size={20} />
               Appeler Nino — 06 50 57 96 20
             </a>
-            <Link to="/contact" className="btn-secondary">📅 Demander un devis →</Link>
+            <Link to="/contact" className="btn-ghost">📅 Demander un devis →</Link>
           </div>
         </div>
       </section>
