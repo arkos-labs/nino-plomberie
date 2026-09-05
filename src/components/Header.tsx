@@ -55,9 +55,17 @@ export function Header() {
           }}
         >
           {/* ── Logo ── */}
-          <Link to="/" style={{ textDecoration: "none", display: "flex", alignItems: "center", gap: "2px" }}>
-            <span style={{ fontFamily: "var(--font-display)", fontWeight: 900, fontSize: "1.8rem", color: "var(--ink-950)", letterSpacing: "-0.04em" }}>Nino</span>
-            <span style={{ fontFamily: "var(--font-display)", fontWeight: 700, fontSize: "1.8rem", color: "var(--brand-600)", letterSpacing: "-0.02em" }}>Plomberie</span>
+          <Link to="/" style={{ textDecoration: "none", display: "flex", alignItems: "center" }}>
+            <img
+              src="/logo.png"
+              alt="Nino Plomberie"
+              style={{
+                height: "126px",
+                width: "auto",
+                objectFit: "contain",
+                filter: "drop-shadow(0 2px 8px rgba(0,0,0,0.18))",
+              }}
+            />
           </Link>
 
           {/* ── Nav Desktop ── */}

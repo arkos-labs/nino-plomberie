@@ -62,8 +62,17 @@ export function Footer() {
             {/* Logo */}
             <div className="footer-logo-wrap" style={{ marginBottom: "18px" }}>
               <div style={{ display: "inline-block" }}>
-                <span style={{ fontFamily: "var(--font-display)", fontWeight: 800, fontSize: "1.75rem", color: "white", letterSpacing: "-0.03em" }}>Nino</span>
-                <span style={{ fontFamily: "var(--font-display)", fontWeight: 600, fontSize: "1.75rem", color: "var(--brand-400)" }}>Plomberie</span>
+                <img 
+                  src="/logo.png" 
+                  alt="Nino Plomberie" 
+                  style={{ 
+                    height: "160px", 
+                    width: "auto", 
+                    objectFit: "contain", 
+                    display: "block",
+                    filter: "brightness(0) invert(1)" 
+                  }} 
+                />
               </div>
             </div>
             
