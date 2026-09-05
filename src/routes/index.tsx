@@ -255,7 +255,7 @@ function HomePage() {
                 <div style={{ width: "32px", height: "32px", borderRadius: "50%", background: "rgba(255,255,255,0.05)", border: "1px solid rgba(255,255,255,0.1)", display: "flex", alignItems: "center", justifyContent: "center", margin: "0 auto 12px" }}>
                   <Clock size={16} color="white" />
                 </div>
-                <div style={{ fontFamily: "var(--font-display)", fontWeight: 300, fontSize: "2.4rem", color: "white", lineHeight: 1, marginBottom: "8px", letterSpacing: "-0.04em" }}>
+                <div style={{ fontFamily: "var(--font-display)", fontWeight: 300, fontSize: "clamp(1.8rem, 5vw, 2.4rem)", color: "white", lineHeight: 1, marginBottom: "8px", letterSpacing: "-0.04em" }}>
                   &lt; 1h
                 </div>
                 <div style={{ fontWeight: 700, fontSize: "0.9rem", color: "rgba(255,255,255,0.9)", marginBottom: "4px" }}>
@@ -273,7 +273,7 @@ function HomePage() {
                 <div style={{ width: "32px", height: "32px", borderRadius: "50%", background: "rgba(255,255,255,0.05)", border: "1px solid rgba(255,255,255,0.1)", display: "flex", alignItems: "center", justifyContent: "center", margin: "0 auto 12px" }}>
                   <Star size={16} color="white" />
                 </div>
-                <div style={{ fontFamily: "var(--font-display)", fontWeight: 300, fontSize: "2.4rem", color: "white", lineHeight: 1, marginBottom: "8px", letterSpacing: "-0.04em" }}>
+                <div style={{ fontFamily: "var(--font-display)", fontWeight: 300, fontSize: "clamp(1.8rem, 5vw, 2.4rem)", color: "white", lineHeight: 1, marginBottom: "8px", letterSpacing: "-0.04em" }}>
                   200+
                 </div>
                 <div style={{ fontWeight: 700, fontSize: "0.9rem", color: "rgba(255,255,255,0.9)", marginBottom: "4px" }}>
@@ -291,7 +291,7 @@ function HomePage() {
                 <div style={{ width: "32px", height: "32px", borderRadius: "50%", background: "rgba(255,255,255,0.05)", border: "1px solid rgba(255,255,255,0.1)", display: "flex", alignItems: "center", justifyContent: "center", margin: "0 auto 12px" }}>
                   <MapPin size={16} color="white" />
                 </div>
-                <div style={{ fontFamily: "var(--font-display)", fontWeight: 300, fontSize: "2.4rem", color: "white", lineHeight: 1, marginBottom: "8px", letterSpacing: "-0.04em" }}>
+                <div style={{ fontFamily: "var(--font-display)", fontWeight: 300, fontSize: "clamp(1.8rem, 5vw, 2.4rem)", color: "white", lineHeight: 1, marginBottom: "8px", letterSpacing: "-0.04em" }}>
                   31
                 </div>
                 <div style={{ fontWeight: 700, fontSize: "0.9rem", color: "rgba(255,255,255,0.9)", marginBottom: "4px" }}>
@@ -308,8 +308,8 @@ function HomePage() {
                 <div style={{ width: "32px", height: "32px", borderRadius: "50%", background: "rgba(255,255,255,0.05)", border: "1px solid rgba(255,255,255,0.1)", display: "flex", alignItems: "center", justifyContent: "center", margin: "0 auto 12px" }}>
                   <Shield size={16} color="white" />
                 </div>
-                <div style={{ fontFamily: "var(--font-display)", fontWeight: 300, fontSize: "2.4rem", color: "white", lineHeight: 1, marginBottom: "8px", letterSpacing: "-0.04em" }}>
-                  2 <span style={{ fontSize: "1.2rem" }}>ans</span>
+                <div style={{ fontFamily: "var(--font-display)", fontWeight: 300, fontSize: "clamp(1.8rem, 5vw, 2.4rem)", color: "white", lineHeight: 1, marginBottom: "8px", letterSpacing: "-0.04em" }}>
+                  2 <span style={{ fontSize: "clamp(0.9rem, 2.5vw, 1.2rem)" }}>ans</span>
                 </div>
                 <div style={{ fontWeight: 700, fontSize: "0.9rem", color: "rgba(255,255,255,0.9)", marginBottom: "4px" }}>
                   Garantie intégrale
@@ -332,11 +332,11 @@ function HomePage() {
       {/* ═══════════════════════════════════════════════════════════════════
           GARANTIES — Premium
       ═══════════════════════════════════════════════════════════════════ */}
-      <section style={{ background: "var(--white)", padding: "120px 0" }}>
+      <section style={{ background: "var(--white)", padding: "clamp(60px, 10vw, 120px) 0" }}>
         <div className="section-container">
           <div style={{ display: "grid", gridTemplateColumns: "1fr 1.2fr", gap: "60px", alignItems: "center" }} className="grid-responsive-1col">
             <div>
-              <h2 style={{ fontFamily: "var(--font-display)", fontWeight: 800, fontSize: "clamp(2.5rem, 5vw, 3.8rem)", color: "var(--ink-950)", lineHeight: 1.1, marginBottom: "24px", letterSpacing: "-0.03em" }}>
+              <h2 style={{ fontFamily: "var(--font-display)", fontWeight: 800, fontSize: "clamp(2rem, 5vw, 3.8rem)", color: "var(--ink-950)", lineHeight: 1.1, marginBottom: "24px", letterSpacing: "-0.03em" }}>
                 Mon engagement<br/>
                 <span className="text-copper-gradient">artisan.</span>
               </h2>
@@ -364,11 +364,11 @@ function HomePage() {
       {/* ═══════════════════════════════════════════════════════════════════
           SERVICES — Asymétrique
       ═══════════════════════════════════════════════════════════════════ */}
-      <section style={{ background: "var(--sand-50)", padding: "120px 0", position: "relative" }}>
+      <section style={{ background: "var(--sand-50)", padding: "clamp(60px, 10vw, 120px) 0", position: "relative" }}>
         <div className="section-container">
           <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-start", marginBottom: "60px", flexWrap: "wrap", gap: "24px" }}>
              <div>
-                <h2 style={{ fontFamily: "var(--font-display)", fontWeight: 800, fontSize: "clamp(2.5rem, 5vw, 3.5rem)", color: "var(--ink-950)", lineHeight: 1.1, letterSpacing: "-0.02em" }}>
+                <h2 style={{ fontFamily: "var(--font-display)", fontWeight: 800, fontSize: "clamp(2rem, 5vw, 3.5rem)", color: "var(--ink-950)", lineHeight: 1.1, letterSpacing: "-0.02em" }}>
                   Domaines<br/>d'intervention
                 </h2>
              </div>
@@ -462,7 +462,7 @@ function HomePage() {
       <section
         style={{
           background: "var(--ink-800)",
-          padding: "88px 0",
+          padding: "clamp(48px, 8vw, 88px) 0",
           position: "relative",
           overflow: "hidden",
         }}
@@ -641,7 +641,7 @@ function HomePage() {
       {/* ═══════════════════════════════════════════════════════════════════
           AVIS CLIENTS
       ═══════════════════════════════════════════════════════════════════ */}
-      <section style={{ background: "var(--sand-50)", padding: "88px 0" }}>
+      <section style={{ background: "var(--sand-50)", padding: "clamp(48px, 8vw, 88px) 0" }}>
         <div className="section-container">
           <div style={{ textAlign: "center", marginBottom: "52px" }}>
             <span className="badge-fire" style={{ marginBottom: "14px" }}>
@@ -768,7 +768,7 @@ function HomePage() {
       <section
         style={{
           background: "var(--fire-500)",
-          padding: "80px 0",
+          padding: "clamp(48px, 8vw, 80px) 0",
           position: "relative",
           overflow: "hidden",
         }}
