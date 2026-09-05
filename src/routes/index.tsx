@@ -238,7 +238,7 @@ function HomePage() {
         {/* ── Widget Avis Google (Flottant à droite) ── */}
         <div className="hidden-mobile animate-fade-up animate-fade-up-d3" style={{
           position: "absolute",
-          right: "clamp(60px, 12vw, 160px)",
+          right: "clamp(100px, 22vw, 350px)",
           bottom: "35%",
           zIndex: 10,
           display: "inline-flex",
