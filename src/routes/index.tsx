@@ -787,20 +787,7 @@ function HomePage() {
             )`,
           }}
         />
-        {/* Halo gauche */}
-        <div
-          style={{
-            position: "absolute",
-            left: "-100px",
-            top: "50%",
-            transform: "translateY(-50%)",
-            width: "400px",
-            height: "400px",
-            borderRadius: "50%",
-            background: "rgba(255,255,255,0.06)",
-            pointerEvents: "none",
-          }}
-        />
+
 
         <div
           className="section-container"
@@ -823,16 +810,7 @@ function HomePage() {
               border: "1px solid rgba(255,255,255,0.15)",
             }}
           >
-            <span
-              style={{
-                width: "8px",
-                height: "8px",
-                borderRadius: "50%",
-                background: "white",
-                display: "inline-block",
-                animation: "pulse-glow 2s ease infinite",
-              }}
-            />
+
             Disponible maintenant
           </div>
 
