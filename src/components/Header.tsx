@@ -49,12 +49,12 @@ export function Header() {
             display: "flex",
             alignItems: "center",
             justifyContent: "space-between",
-            height: "80px", // Slightly taller for premium feel
+            height: "100px", // Slightly taller for premium feel
           }}
         >
           {/* ── Logo ── */}
           <Link to="/" style={{ textDecoration: "none", display: "flex", alignItems: "center" }}>
-            <img src="/logo.png" alt="Nino Plomberie" style={{ height: "55px", width: "auto", objectFit: "contain" }} />
+            <img src="/logo.png" alt="Nino Plomberie" style={{ height: "85px", width: "auto", objectFit: "contain" }} />
           </Link>
 
           {/* ── Nav Desktop ── */}

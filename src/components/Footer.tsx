@@ -62,7 +62,7 @@ export function Footer() {
             {/* Logo */}
             <div className="footer-logo-wrap" style={{ marginBottom: "18px" }}>
               <div style={{ background: "white", padding: "8px 16px", borderRadius: "8px", display: "inline-block" }}>
-                <img src="/logo.png" alt="Nino Plomberie" style={{ height: "45px", width: "auto", objectFit: "contain", display: "block" }} />
+                <img src="/logo.png" alt="Nino Plomberie" style={{ height: "75px", width: "auto", objectFit: "contain", display: "block" }} />
               </div>
             </div>
             
