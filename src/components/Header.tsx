@@ -44,17 +44,28 @@ export function Header() {
         }}
       >
         <div
-          className="section-container"
           style={{
             display: "flex",
             alignItems: "center",
             justifyContent: "space-between",
-            height: "100px", // Slightly taller for premium feel
+            height: "100px",
+            overflow: "visible",
+            padding: "0 32px",
+            width: "100%",
           }}
         >
           {/* ── Logo ── */}
           <Link to="/" style={{ textDecoration: "none", display: "flex", alignItems: "center" }}>
-            <img src="/logo.png" alt="Nino Plomberie" style={{ height: "85px", width: "auto", objectFit: "contain" }} />
+            <img
+              src="/logo.png"
+              alt="Nino Plomberie"
+              style={{
+                height: "126px",
+                width: "auto",
+                objectFit: "contain",
+                filter: "drop-shadow(0 2px 8px rgba(0,0,0,0.18))",
+              }}
+            />
           </Link>
 
           {/* ── Nav Desktop ── */}
