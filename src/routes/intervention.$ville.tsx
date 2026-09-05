@@ -144,7 +144,7 @@ function VillePage() {
               <Phone size={20} />
               Appeler Nino — 06 50 57 96 20
             </a>
-            <Link to="/contact" className="btn-secondary">📸 Diagnostic photo IA →</Link>
+            <Link to="/contact" className="btn-secondary">📅 Demander un devis →</Link>
           </div>
         </div>
       </section>

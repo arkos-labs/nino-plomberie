@@ -7,38 +7,44 @@
 
 /* ─── CSS Custom Properties ──────────────────────────────────────────────── */
 :root {
-  /* Bleu Ardoise (Nuit / Slate) - Plus élégant et statutaire */
-  --ink-950: #0a0f18;
-  --ink-900: #101623;
-  --ink-800: #1a2333;
-  --ink-700: #2a374c;
-  --ink-600: #3a4b66;
+  /* Textes & Structure (30%) - Gris anthracite (Slate) */
+  --ink-950: #0f172a;
+  --ink-900: #1e293b;
+  --ink-800: #334155;
+  --ink-700: #475569;
+  --ink-600: #64748b;
 
-  /* Cuivre / Laiton (Copper / Brass) - Rappel plomberie luxueux */
-  --fire-600: #9c4a22;
-  --fire-500: #c26131; /* Couleur principale accents */
-  --fire-400: #d67a4d;
-  --fire-300: #e59773;
-  --fire-100: #f5dfd3;
-  --fire-50:  #fcf5f1;
+  /* Couleur de marque / Principale (30%) - Bleu de travail */
+  --brand-600: #1C3454;
+  --brand-500: #284B7A; /* Couleur principale */
+  --brand-400: #3B659C;
+  --brand-300: #5F87B8;
+  --brand-100: #D3E1F1;
+  --brand-50:  #EAF0F7;
 
-  /* Acier — accents froids (moins saturé) */
-  --steel-700: #2c3e50;
-  --steel-600: #34495e;
-  --steel-400: #7f8c8d;
-  --steel-200: #bdc3c7;
-  --steel-100: #e8ecf1;
-  --steel-50:  #f4f6f8;
+  /* Urgence / CTA (10%) - Orange vif */
+  --cta-600: #EA580C;
+  --cta-500: #F97316; /* CTA principal */
+  --cta-400: #FB923C;
+  --cta-100: #FFEDD5;
 
-  /* Neutres */
-  --sand-100: #f4eee8; /* Ton sable très léger */
-  --sand-50:  #f9f7f4;
+  /* Neutres / Fonds (60%) */
+  --sand-100: #f1f5f9; /* Slate 100 */
+  --sand-50:  #f8fafc; /* Blanc cassé */
   --white:    #ffffff;
-  --gray-600: #575c66;
-  --gray-500: #7b818a;
-  --gray-400: #9da3ad;
-  --gray-200: #e2e4e8;
-  --gray-100: #f0f2f5;
+  --gray-600: #475569;
+  --gray-500: #64748b;
+  --gray-400: #94a3b8;
+  --gray-200: #e2e8f0;
+  --gray-100: #f1f5f9;
+
+  /* Acier (gardé pour compatibilité) */
+  --steel-700: #334155;
+  --steel-600: #475569;
+  --steel-400: #94a3b8;
+  --steel-200: #e2e8f0;
+  --steel-100: #f1f5f9;
+  --steel-50:  #f8fafc;
 
   /* Typo */
   --font-display: "Outfit", system-ui, sans-serif;
@@ -58,19 +64,21 @@
   --space-20: 80px;
   --space-24: 96px;
 
-  /* Radius (plus subtil pour un côté premium) */
+  /* Radius */
   --radius-sm:  4px;
   --radius-md:  8px;
   --radius-lg:  12px;
   --radius-xl:  20px;
   --radius-pill: 999px;
 
-  /* Shadows (douces et diffuses) */
-  --shadow-sm:   0 2px 8px rgba(10, 15, 24, 0.04);
-  --shadow-md:   0 8px 24px rgba(10, 15, 24, 0.06), 0 2px 6px rgba(10, 15, 24, 0.04);
-  --shadow-lg:   0 16px 40px rgba(10, 15, 24, 0.08), 0 4px 12px rgba(10, 15, 24, 0.06);
-  --shadow-fire: 0 8px 24px rgba(194, 97, 49, 0.3);
-  --shadow-fire-lg: 0 16px 32px rgba(194, 97, 49, 0.4);
+  /* Shadows */
+  --shadow-sm:   0 2px 8px rgba(15, 23, 42, 0.04);
+  --shadow-md:   0 8px 24px rgba(15, 23, 42, 0.06), 0 2px 6px rgba(15, 23, 42, 0.04);
+  --shadow-lg:   0 16px 40px rgba(15, 23, 42, 0.08), 0 4px 12px rgba(15, 23, 42, 0.06);
+  --shadow-brand: 0 8px 24px rgba(40, 75, 122, 0.3);
+  --shadow-brand-lg: 0 16px 32px rgba(40, 75, 122, 0.4);
+  --shadow-cta: 0 8px 24px rgba(249, 115, 22, 0.3);
+  --shadow-cta-lg: 0 16px 32px rgba(249, 115, 22, 0.4);
 
   /* Transitions */
   --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
@@ -136,19 +144,34 @@ a { text-decoration: none; }
 }
 
 /* ─── Badges ─────────────────────────────────────────────────────────────── */
-.badge-fire {
+.badge-brand {
   display: inline-flex;
   align-items: center;
   gap: var(--space-2);
   padding: 5px 14px;
-  background: var(--fire-100);
-  color: var(--fire-600);
+  background: var(--brand-100);
+  color: var(--brand-600);
   border-radius: var(--radius-pill);
   font-size: 0.75rem;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.07em;
-  border: 1px solid rgba(234, 88, 12, 0.15);
+  border: 1px solid rgba(40, 75, 122, 0.15);
+}
+
+.badge-cta {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  padding: 5px 14px;
+  background: var(--cta-100);
+  color: var(--cta-600);
+  border-radius: var(--radius-pill);
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  border: 1px solid rgba(249, 115, 22, 0.15);
 }
 
 .badge-dark {
@@ -181,12 +204,12 @@ a { text-decoration: none; }
 }
 
 /* ─── Boutons ────────────────────────────────────────────────────────────── */
-.btn-fire {
+.btn-cta {
   display: inline-flex;
   align-items: center;
   gap: var(--space-2);
   padding: 15px 32px;
-  background: var(--fire-500);
+  background: var(--cta-500);
   color: var(--white);
   border-radius: var(--radius-md);
   font-weight: 700;
@@ -197,23 +220,23 @@ a { text-decoration: none; }
   transition: background var(--dur-base) var(--ease-out),
               box-shadow var(--dur-base) var(--ease-out),
               transform var(--dur-fast) var(--ease-out);
-  box-shadow: var(--shadow-fire);
+  box-shadow: var(--shadow-cta);
   position: relative;
   overflow: hidden;
 }
-.btn-fire::after {
+.btn-cta::after {
   content: '';
   position: absolute;
   inset: 0;
   background: linear-gradient(135deg, rgba(255,255,255,0.12) 0%, transparent 60%);
   pointer-events: none;
 }
-.btn-fire:hover {
-  background: var(--fire-600);
-  box-shadow: var(--shadow-fire-lg);
+.btn-cta:hover {
+  background: var(--cta-600);
+  box-shadow: var(--shadow-cta-lg);
   transform: translateY(-2px);
 }
-.btn-fire:active { transform: translateY(0); }
+.btn-cta:active { transform: translateY(0); }
 
 .btn-ghost {
   display: inline-flex;
@@ -304,11 +327,11 @@ a { text-decoration: none; }
   left: 0;
   width: 0;
   height: 2px;
-  background: var(--fire-500);
+  background: var(--brand-500);
   border-radius: 2px;
   transition: width var(--dur-base) var(--ease-out);
 }
-.nav-link:hover { color: var(--fire-500); }
+.nav-link:hover { color: var(--brand-500); }
 .nav-link:hover::after { width: 100%; }
 
 /* ─── Formulaires ────────────────────────────────────────────────────────── */
@@ -326,8 +349,8 @@ a { text-decoration: none; }
   outline: none;
 }
 .form-input:focus {
-  border-color: var(--fire-400);
-  box-shadow: 0 0 0 3px rgba(249, 115, 22, 0.12);
+  border-color: var(--brand-400);
+  box-shadow: 0 0 0 3px rgba(40, 75, 122, 0.12);
 }
 .form-input::placeholder { color: var(--gray-400); }
 
@@ -355,21 +378,21 @@ a { text-decoration: none; }
   align-items: center;
   gap: var(--space-2);
   padding: 16px 24px;
-  background: var(--fire-500);
+  background: var(--cta-500);
   color: var(--white);
   border-radius: var(--radius-pill);
   font-weight: 700;
   font-size: 0.9rem;
   font-family: var(--font-display);
-  box-shadow: var(--shadow-fire-lg);
+  box-shadow: var(--shadow-cta-lg);
   transition: transform var(--dur-base) var(--ease-out),
               box-shadow var(--dur-base) var(--ease-out),
               background var(--dur-base) var(--ease-out);
 }
 .float-cta:hover {
   transform: translateY(-3px) scale(1.02);
-  background: var(--fire-600);
-  box-shadow: 0 12px 48px rgba(234, 88, 12, 0.65);
+  background: var(--cta-600);
+  box-shadow: 0 12px 48px rgba(249, 115, 22, 0.65);
 }
 
 /* ─── Stars ──────────────────────────────────────────────────────────────── */
@@ -396,12 +419,12 @@ a { text-decoration: none; }
   background: var(--gray-200);
   border-radius: 4px;
 }
-::-webkit-scrollbar-thumb:hover { background: var(--fire-400); }
+::-webkit-scrollbar-thumb:hover { background: var(--brand-400); }
 
 /* ─── Animations ─────────────────────────────────────────────────────────── */
 @keyframes pulse-glow {
-  0%, 100% { box-shadow: 0 0 0 0 rgba(234, 88, 12, 0.5); }
-  50%       { box-shadow: 0 0 0 12px rgba(234, 88, 12, 0); }
+  0%, 100% { box-shadow: 0 0 0 0 rgba(249, 115, 22, 0.5); }
+  50%       { box-shadow: 0 0 0 12px rgba(249, 115, 22, 0); }
 }
 .pulse-glow { animation: pulse-glow 2s ease infinite; }
 
@@ -454,8 +477,8 @@ a { text-decoration: none; }
   border: 1px solid rgba(255, 255, 255, 0.1);
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
 }
-.text-copper-gradient {
-  background: linear-gradient(135deg, var(--fire-500), var(--fire-300));
+.text-brand-gradient {
+  background: linear-gradient(135deg, var(--brand-500), var(--brand-300));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -484,7 +507,7 @@ a { text-decoration: none; }
 .deco-line {
   width: 48px;
   height: 2px;
-  background: var(--fire-500);
+  background: var(--brand-500);
   display: block;
 }
 
@@ -509,7 +532,7 @@ a { text-decoration: none; }
 
 /* ─── Focus visible ──────────────────────────────────────────────────────── */
 :focus-visible {
-  outline: 2px solid var(--fire-400);
+  outline: 2px solid var(--brand-400);
   outline-offset: 3px;
 }
 

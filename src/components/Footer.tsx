@@ -167,7 +167,7 @@ export function Footer() {
             textAlign: "justify",
           }}>
             <strong style={{ fontWeight: 600, color: "rgba(255,255,255,0.35)" }}>Zones d'intervention (31) : </strong>
-            Toulouse, Colomiers, Tournefeuille, Blagnac, Muret, Plaisance-du-Touch, Cugnaux, Balma, Ramonville-Saint-Agne, Castanet-Tolosan, Fonsorbes, L'Union, Aucamville, Saint-Orens-de-Gameville, Saint-Jean, Portet-sur-Garonne, Castelginest, Auterive, Villeneuve-Tolosane, Pibrac, Frouzins, Seysses, Launaguet, Saint-Lys, Cornebarrieu, Aussonne, Lespinasse, Mondonville, Roques, Quint-Fonsegrives, Escalquens... <Link to="/zones" style={{ color: "var(--fire-500)", textDecoration: "none", fontWeight: 600, marginLeft: "4px" }}>Voir nos 205 communes d'intervention →</Link>
+            Toulouse, Colomiers, Tournefeuille, Blagnac, Muret, Plaisance-du-Touch, Cugnaux, Balma, Ramonville-Saint-Agne, Castanet-Tolosan, Fonsorbes, L'Union, Aucamville, Saint-Orens-de-Gameville, Saint-Jean, Portet-sur-Garonne, Castelginest, Auterive, Villeneuve-Tolosane, Pibrac, Frouzins, Seysses, Launaguet, Saint-Lys, Cornebarrieu, Aussonne, Lespinasse, Mondonville, Roques, Quint-Fonsegrives, Escalquens... <Link to="/zones" style={{ color: "var(--brand-500)", textDecoration: "none", fontWeight: 600, marginLeft: "4px" }}>Voir nos 205 communes d'intervention →</Link>
           </p>
         </div>
 

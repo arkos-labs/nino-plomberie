@@ -84,8 +84,8 @@ export function Header() {
                 />
                 <defs>
                   <linearGradient id="fireGradient" x1="5" y1="2" x2="19" y2="21" gradientUnits="userSpaceOnUse">
-                    <stop stopColor="var(--fire-400)" />
-                    <stop offset="1" stopColor="var(--fire-600)" />
+                    <stop stopColor="var(--brand-400)" />
+                    <stop offset="1" stopColor="var(--brand-600)" />
                   </linearGradient>
                 </defs>
               </svg>
@@ -106,7 +106,7 @@ export function Header() {
               <div
                 style={{
                   fontSize: "0.7rem",
-                  color: "var(--fire-500)",
+                  color: "var(--brand-500)",
                   fontWeight: 700,
                   letterSpacing: "0.15em",
                   textTransform: "uppercase",
@@ -133,7 +133,7 @@ export function Header() {
                     fontWeight: 500,
                     fontSize: "0.88rem",
                     color: isActive
-                      ? "var(--fire-500)"
+                      ? "var(--brand-500)"
                       : "var(--ink-700)",
                     position: "relative",
                     paddingBottom: "2px",
@@ -151,7 +151,7 @@ export function Header() {
                         left: 0,
                         width: "100%",
                         height: "2px",
-                        background: "var(--fire-500)",
+                        background: "var(--brand-500)",
                         borderRadius: "2px",
                       }}
                     />
@@ -165,7 +165,7 @@ export function Header() {
           <div style={{ display: "flex", alignItems: "center", gap: "12px" }}>
             <a
               href="tel:0650579620"
-              className="btn-fire"
+              className="btn-cta"
               style={{ padding: "10px 20px", fontSize: "0.875rem" }}
             >
               <Phone size={15} />
@@ -218,10 +218,10 @@ export function Header() {
                   style={{
                     padding: "13px 16px",
                     borderRadius: "var(--radius-sm)",
-                    color: isActive ? "var(--fire-500)" : "var(--ink-700)",
+                    color: isActive ? "var(--brand-500)" : "var(--ink-700)",
                     fontWeight: isActive ? 700 : 500,
                     fontSize: "1rem",
-                    background: isActive ? "var(--fire-50)" : "transparent",
+                    background: isActive ? "var(--brand-50)" : "transparent",
                     transition: "background 0.15s ease",
                     display: "flex",
                     alignItems: "center",
@@ -238,7 +238,7 @@ export function Header() {
               style={{
                 marginTop: "10px",
                 padding: "14px 16px",
-                background: "var(--fire-500)",
+                background: "var(--cta-500)",
                 color: "white",
                 borderRadius: "var(--radius-md)",
                 fontWeight: 700,

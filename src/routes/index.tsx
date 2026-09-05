@@ -40,7 +40,7 @@ const avis = [
     nom: "Sandrine R.",
     ville: "Toulouse",
     note: 5,
-    texte: "Diagnostic IA via photo vraiment pratique avant le déplacement. Rénovation salle de bain terminée dans les délais. Parfait.",
+    texte: "Devis en ligne vraiment pratique avant le déplacement. Rénovation salle de bain terminée dans les délais. Parfait.",
     date: "Il y a 3 semaines",
     service: "Rénovation",
   },
@@ -173,7 +173,7 @@ function HomePage() {
           <div style={{ maxWidth: "600px" }}>
             <div className="animate-fade-up" style={{ display: "flex", alignItems: "center", gap: "12px", marginBottom: "20px" }}>
               <div className="deco-line" style={{ width: "24px" }} />
-              <span style={{ color: "var(--fire-400)", textTransform: "uppercase", letterSpacing: "0.15em", fontSize: "0.8rem", fontWeight: 700 }}>
+              <span style={{ color: "var(--brand-400)", textTransform: "uppercase", letterSpacing: "0.15em", fontSize: "0.8rem", fontWeight: 700 }}>
                 Artisan Indépendant • Toulouse
               </span>
             </div>
@@ -193,7 +193,7 @@ function HomePage() {
               Plombier Toulouse —<br />
               <span style={{ fontWeight: 800, color: "transparent", WebkitTextStroke: "1px rgba(255,255,255,0.9)", backgroundImage: "linear-gradient(135deg, var(--white), rgba(255,255,255,0.7))", WebkitBackgroundClip: "text" }}>l'artisanat d'excellence.</span>
               <br/>
-              <span className="text-copper-gradient" style={{ fontWeight: 800, fontSize: "clamp(2rem, 5vw, 3.5rem)" }}>En urgence.</span>
+              <span className="text-brand-gradient" style={{ fontWeight: 800, fontSize: "clamp(2rem, 5vw, 3.5rem)" }}>En urgence.</span>
             </h1>
 
             <p
@@ -217,7 +217,7 @@ function HomePage() {
             >
               <a
                 href="tel:0650579620"
-                className="btn-fire"
+                className="btn-cta"
                 style={{ padding: "14px 28px", fontSize: "1rem" }}
               >
                 <Phone size={18} />
@@ -228,7 +228,7 @@ function HomePage() {
                 className="btn-secondary"
                 style={{ padding: "14px 28px", fontSize: "1rem", color: "white", borderColor: "rgba(255,255,255,0.2)" }}
               >
-                Diagnostic IA en ligne
+                Demander un devis
                 <ArrowRight size={18} />
               </Link>
             </div>
@@ -338,7 +338,7 @@ function HomePage() {
             <div>
               <h2 style={{ fontFamily: "var(--font-display)", fontWeight: 800, fontSize: "clamp(2rem, 5vw, 3.8rem)", color: "var(--ink-950)", lineHeight: 1.1, marginBottom: "24px", letterSpacing: "-0.03em" }}>
                 Mon engagement<br/>
-                <span className="text-copper-gradient">artisan.</span>
+                <span className="text-brand-gradient">artisan.</span>
               </h2>
               <p style={{ color: "var(--gray-600)", fontSize: "1.1rem", lineHeight: 1.8, marginBottom: "32px", maxWidth: "480px" }}>
                 L'artisanat, c'est avant tout la confiance. Je m'engage à fournir un travail soigné, durable, et au juste prix. Aucun compromis sur la qualité des matériaux ni sur la finition de mes chantiers.
@@ -348,7 +348,7 @@ function HomePage() {
             <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "48px 32px" }} className="grid-responsive-1col">
               {garanties.map(({ icon: Icon, titre, desc }) => (
                 <div key={titre}>
-                  <div style={{ marginBottom: "16px", color: "var(--fire-600)" }}>
+                  <div style={{ marginBottom: "16px", color: "var(--brand-600)" }}>
                     {/* Simulation de l'effet gradient sur l'icône */}
                     <Icon size={36} strokeWidth={1.5} />
                   </div>
@@ -391,15 +391,15 @@ function HomePage() {
                     alignItems: "center",
                     textAlign: "center",
                     gap: "clamp(16px, 3vw, 24px)",
-                    border: index === 2 ? "2px solid var(--fire-400)" : "2px solid transparent",
-                    boxShadow: index === 2 ? "0 16px 40px rgba(234, 88, 12, 0.15)" : "0 12px 32px rgba(0,0,0,0.08)",
+                    border: index === 2 ? "2px solid var(--cta-400)" : "2px solid transparent",
+                    boxShadow: index === 2 ? "0 16px 40px rgba(249, 115, 22, 0.15)" : "0 12px 32px rgba(0,0,0,0.08)",
                     transition: "all 0.3s ease",
                     cursor: "pointer",
                     height: "100%"
                   }}
                   onMouseEnter={(e) => { 
                     if (index !== 2) {
-                      e.currentTarget.style.border = "2px solid rgba(234, 88, 12, 0.3)";
+                      e.currentTarget.style.border = "2px solid rgba(249, 115, 22, 0.3)";
                       e.currentTarget.style.boxShadow = "0 16px 48px rgba(0,0,0,0.12)";
                     }
                     e.currentTarget.style.transform = "translateY(-6px)";
@@ -443,7 +443,7 @@ function HomePage() {
                     </div>
                   )}
                   <div style={{ position: "relative", zIndex: 2 }}>
-                    <div style={{ display: "inline-block", background: "var(--fire-500)", color: "white", fontSize: "0.7rem", fontWeight: 800, textTransform: "uppercase", letterSpacing: "0.05em", padding: "4px 12px", borderRadius: "100px", marginBottom: "clamp(12px, 3vw, 16px)" }}>
+                    <div style={{ display: "inline-block", background: "var(--cta-500)", color: "white", fontSize: "0.7rem", fontWeight: 800, textTransform: "uppercase", letterSpacing: "0.05em", padding: "4px 12px", borderRadius: "100px", marginBottom: "clamp(12px, 3vw, 16px)" }}>
                       URGENCE 24/7
                     </div>
                     <h3 style={{ fontFamily: "var(--font-display)", fontWeight: 800, fontSize: "clamp(1.2rem, 4.5vw, 1.6rem)", color: "var(--ink-950)", marginBottom: "12px", letterSpacing: "-0.02em" }}>{titre}</h3>
@@ -479,7 +479,7 @@ function HomePage() {
           >
             {/* Texte */}
             <div>
-              <span className="badge-fire" style={{ marginBottom: "16px" }}>
+              <span className="badge-brand" style={{ marginBottom: "16px" }}>
                 Zone de déplacement
               </span>
               <h2
@@ -494,7 +494,7 @@ function HomePage() {
                 }}
               >
                 Toulouse &<br />
-                <span style={{ color: "var(--fire-400)" }}>Haute-Garonne</span>
+                <span style={{ color: "var(--brand-400)" }}>Haute-Garonne</span>
               </h2>
 
               <p
@@ -535,7 +535,7 @@ function HomePage() {
                   >
                     <CheckCircle
                       size={18}
-                      color="var(--fire-400)"
+                      color="var(--brand-400)"
                       style={{ flexShrink: 0, marginTop: "2px" }}
                     />
                     {item}
@@ -563,14 +563,14 @@ function HomePage() {
                     width: "42px",
                     height: "42px",
                     borderRadius: "10px",
-                    background: "rgba(234,88,12,0.12)",
-                    border: "1px solid rgba(234,88,12,0.2)",
+                    background: "rgba(40, 75, 122, 0.12)",
+                    border: "1px solid rgba(40, 75, 122, 0.2)",
                     display: "flex",
                     alignItems: "center",
                     justifyContent: "center",
                   }}
                 >
-                  <MapPin size={20} color="var(--fire-400)" />
+                  <MapPin size={20} color="var(--brand-400)" />
                 </div>
                 <div>
                   <div style={{ fontFamily: "var(--font-display)", fontWeight: 700, color: "var(--white)", fontSize: "1rem" }}>
@@ -596,10 +596,10 @@ function HomePage() {
                       borderRadius: "var(--radius-pill)",
                       fontSize: "0.8rem",
                       fontWeight: i === 11 ? 700 : 500,
-                      background: i === 11 ? "rgba(234,88,12,0.15)" : "rgba(255,255,255,0.06)",
-                      color: i === 11 ? "var(--fire-400)" : "rgba(255,255,255,0.7)",
+                      background: i === 11 ? "rgba(40, 75, 122, 0.15)" : "rgba(255,255,255,0.06)",
+                      color: i === 11 ? "var(--brand-400)" : "rgba(255,255,255,0.7)",
                       border: i === 11
-                        ? "1px solid rgba(234,88,12,0.25)"
+                        ? "1px solid rgba(40, 75, 122, 0.25)"
                         : "1px solid rgba(255,255,255,0.08)",
                     }}
                   >
@@ -614,18 +614,18 @@ function HomePage() {
                 style={{
                   marginTop: "24px",
                   padding: "16px 20px",
-                  background: "rgba(234,88,12,0.08)",
-                  border: "1px solid rgba(234,88,12,0.18)",
+                  background: "rgba(249, 115, 22, 0.08)",
+                  border: "1px solid rgba(249, 115, 22, 0.18)",
                   borderRadius: "12px",
                   display: "flex",
                   alignItems: "center",
                   gap: "12px",
                 }}
               >
-                <Zap size={20} color="var(--fire-400)" />
+                <Zap size={20} color="var(--brand-400)" />
                 <span style={{ color: "rgba(255,255,255,0.8)", fontSize: "0.875rem" }}>
                   Délai moyen d'arrivée :{" "}
-                  <strong style={{ color: "var(--fire-400)" }}>38 minutes</strong>
+                  <strong style={{ color: "var(--cta-400)" }}>38 minutes</strong>
                 </span>
               </div>
             </div>
@@ -644,7 +644,7 @@ function HomePage() {
       <section style={{ background: "var(--sand-50)", padding: "clamp(48px, 8vw, 88px) 0" }}>
         <div className="section-container">
           <div style={{ textAlign: "center", marginBottom: "52px" }}>
-            <span className="badge-fire" style={{ marginBottom: "14px" }}>
+            <span className="badge-brand" style={{ marginBottom: "14px" }}>
               Témoignages
             </span>
             <h2 className="section-title" style={{ marginBottom: "8px" }}>
@@ -767,7 +767,7 @@ function HomePage() {
       ═══════════════════════════════════════════════════════════════════ */}
       <section
         style={{
-          background: "var(--fire-500)",
+          background: "var(--brand-500)",
           padding: "clamp(48px, 8vw, 80px) 0",
           position: "relative",
           overflow: "hidden",

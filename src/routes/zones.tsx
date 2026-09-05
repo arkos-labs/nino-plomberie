@@ -40,7 +40,7 @@ function ZonesComponent() {
       >
         <div className="texture-grain" />
         <div className="section-container" style={{ position: "relative", zIndex: 10 }}>
-          <div style={{ display: "inline-flex", alignItems: "center", gap: "8px", background: "rgba(249,115,22,0.15)", borderRadius: "100px", padding: "6px 16px", color: "var(--fire-400)", fontSize: "0.8rem", fontWeight: 700, letterSpacing: "0.05em", textTransform: "uppercase", marginBottom: "20px" }}>
+          <div style={{ display: "inline-flex", alignItems: "center", gap: "8px", background: "rgba(40, 75, 122, 0.15)", borderRadius: "100px", padding: "6px 16px", color: "var(--brand-400)", fontSize: "0.8rem", fontWeight: 700, letterSpacing: "0.05em", textTransform: "uppercase", marginBottom: "20px" }}>
             <MapPin size={14} />
             Haute-Garonne (31)
           </div>
@@ -109,7 +109,7 @@ function ZonesComponent() {
                 <h2 style={{ 
                   fontFamily: "var(--font-display)", 
                   fontSize: "2rem", 
-                  color: "var(--fire-600)", 
+                  color: "var(--brand-600)", 
                   borderBottom: "2px solid rgba(249,115,22,0.2)", 
                   paddingBottom: "12px", 
                   marginBottom: "32px",
@@ -144,9 +144,9 @@ function ZonesComponent() {
                         transition: "all 0.2s ease"
                       }}
                       onMouseEnter={(e) => {
-                        e.currentTarget.style.borderColor = "var(--fire-300)"
+                        e.currentTarget.style.borderColor = "var(--brand-300)"
                         e.currentTarget.style.boxShadow = "0 4px 12px rgba(249,115,22,0.1)"
-                        e.currentTarget.style.color = "var(--fire-600)"
+                        e.currentTarget.style.color = "var(--brand-600)"
                       }}
                       onMouseLeave={(e) => {
                         e.currentTarget.style.borderColor = "var(--gray-200)"
