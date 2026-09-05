@@ -48,7 +48,7 @@ export function Footer() {
       color: "rgba(255,255,255,0.55)",
       fontFamily: "var(--font-body, system-ui, sans-serif)",
     }}>
-      <div style={{ maxWidth: "1280px", margin: "0 auto", padding: "64px 40px 0" }}>
+      <div className="footer-container" style={{ maxWidth: "1280px", margin: "0 auto", padding: "64px 40px 0" }}>
 
         {/* ── Rangée principale ── */}
         <div className="footer-main" style={{
@@ -155,7 +155,7 @@ export function Footer() {
         </div>
 
         {/* ── SEO Zones d'intervention (Compact) ── */}
-        <div style={{
+        <div className="seo-container" style={{
           borderTop: "1px solid rgba(255,255,255,0.08)",
           padding: "16px 0",
           marginTop: "12px",
@@ -167,8 +167,11 @@ export function Footer() {
             margin: 0,
             textAlign: "justify",
           }}>
-            <strong style={{ fontWeight: 600, color: "rgba(255,255,255,0.35)" }}>Zones d'intervention (31) : </strong>
-            Toulouse, Colomiers, Tournefeuille, Blagnac, Muret, Plaisance-du-Touch, Cugnaux, Balma, Ramonville-Saint-Agne, Castanet-Tolosan, Fonsorbes, L'Union, Aucamville, Saint-Orens-de-Gameville, Saint-Jean, Portet-sur-Garonne, Castelginest, Auterive, Villeneuve-Tolosane, Pibrac, Frouzins, Seysses, Launaguet, Saint-Lys, Cornebarrieu, Aussonne, Lespinasse, Mondonville, Roques, Quint-Fonsegrives, Escalquens... <Link to="/zones" style={{ color: "var(--brand-300)", textDecoration: "none", fontWeight: 600, marginLeft: "4px" }}>Voir nos 205 communes d'intervention →</Link>
+            <span className="seo-text">
+              <strong style={{ fontWeight: 600, color: "rgba(255,255,255,0.35)" }}>Zones d'intervention (31) : </strong>
+              Toulouse, Colomiers, Tournefeuille, Blagnac, Muret, Plaisance-du-Touch, Cugnaux, Balma, Ramonville-Saint-Agne, Castanet-Tolosan, Fonsorbes, L'Union, Aucamville, Saint-Orens-de-Gameville, Saint-Jean, Portet-sur-Garonne, Castelginest, Auterive, Villeneuve-Tolosane, Pibrac, Frouzins, Seysses, Launaguet, Saint-Lys, Cornebarrieu, Aussonne, Lespinasse, Mondonville, Roques, Quint-Fonsegrives, Escalquens...
+            </span> 
+            <Link to="/zones" style={{ color: "var(--brand-300)", textDecoration: "none", fontWeight: 600, display: "inline-block" }}>Voir nos 205 communes d'intervention →</Link>
           </p>
         </div>
 
@@ -211,15 +214,20 @@ export function Footer() {
 
       <style>{`
         @media (max-width: 900px) {
-          .footer-main { flex-direction: column !important; gap: 40px !important; }
-          .footer-nav  { justify-content: flex-start !important; gap: 40px !important; }
+          .footer-container { padding: 40px 24px 0 !important; }
+          .footer-main { flex-direction: column !important; gap: 32px !important; padding-bottom: 32px !important; }
+          .footer-nav  { justify-content: flex-start !important; gap: 32px !important; }
         }
         @media (max-width: 560px) {
+          .footer-container { padding: 32px 16px 0 !important; }
+          .footer-main { gap: 24px !important; padding-bottom: 24px !important; }
           .footer-nav  { 
             display: grid !important; 
             grid-template-columns: 1fr 1fr; 
-            gap: 32px 16px !important; 
+            gap: 24px 12px !important; 
           }
+          .seo-text { display: none !important; }
+          .seo-container { padding: 12px 0 !important; margin-top: 0 !important; }
         }
       `}</style>
     </footer>
