@@ -1,5 +1,7 @@
 import { createFileRoute } from "@tanstack/react-router"
-import { Calendar, Clock, ShieldCheck, MapPin } from "lucide-react"
+import { Clock, ShieldCheck, MapPin } from "lucide-react"
+import Cal, { getCalApi } from "@calcom/embed-react"
+import { useEffect } from "react"
 
 export const Route = createFileRoute("/rendez-vous")({
   head: () => ({
@@ -12,6 +14,18 @@ export const Route = createFileRoute("/rendez-vous")({
 })
 
 function RendezVousPage() {
+  useEffect(() => {
+    (async function () {
+      const cal = await getCalApi({});
+      cal("ui", {
+        theme: "light",
+        styles: { branding: { brandColor: "#3b82f6" } },
+        hideEventTypeDetails: false,
+        layout: "month_view",
+      });
+    })();
+  }, []);
+
   return (
     <div className="page-wrapper" style={{ minHeight: "100vh", paddingTop: "120px", paddingBottom: "80px", background: "var(--ink-950)" }}>
       <div className="container" style={{ maxWidth: "1000px", margin: "0 auto", padding: "0 24px" }}>
@@ -70,27 +84,17 @@ function RendezVousPage() {
         <div style={{ 
           background: "white", 
           borderRadius: "24px", 
-          padding: "40px", 
+          padding: "16px", 
           minHeight: "600px", 
           boxShadow: "0 24px 48px rgba(0,0,0,0.2)",
-          display: "flex",
-          flexDirection: "column",
-          alignItems: "center",
-          justifyContent: "center",
-          textAlign: "center"
+          width: "100%",
+          overflow: "hidden"
         }}>
-          <Calendar size={64} color="var(--brand-500)" style={{ marginBottom: "24px", opacity: 0.8 }} />
-          <h2 style={{ fontSize: "1.8rem", fontWeight: 700, color: "var(--ink-950)", marginBottom: "16px" }}>
-            Module d'Agenda
-          </h2>
-          <p style={{ color: "var(--gray-600)", fontSize: "1.1rem", maxWidth: "480px", marginBottom: "32px", lineHeight: 1.6 }}>
-            C'est ici que s'affichera votre calendrier de prise de rendez-vous (ex: <strong>Calendly, Planity, ou Google Agenda</strong>).
-          </p>
-          <div style={{ padding: "16px 24px", background: "var(--gray-100)", borderRadius: "12px", border: "1px dashed var(--gray-300)" }}>
-            <p style={{ color: "var(--gray-600)", fontSize: "0.9rem", margin: 0 }}>
-              <em>En attente de votre lien d'intégration...</em>
-            </p>
-          </div>
+          <Cal 
+            calLink="intervention-plomberie"
+            style={{ width: "100%", height: "100%", overflow: "scroll" }}
+            config={{ layout: "month_view" }}
+          />
         </div>
 
       </div>
