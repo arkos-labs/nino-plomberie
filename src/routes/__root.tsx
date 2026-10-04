@@ -15,10 +15,10 @@ export const Route = createRootRoute({
       { property: "og:type", content: "website" },
       { property: "og:site_name", content: "Nino Plomberie" },
       { property: "og:locale", content: "fr_FR" },
-      { property: "og:image", content: `${SITE_URL}/hero-nino-v2.jpg` },
+      { property: "og:image", content: `${SITE_URL}/logo.png` },
       { property: "og:image:alt", content: "Nino Plomberie — plombier à Muret et Toulouse" },
       { name: "twitter:card", content: "summary_large_image" },
-      { name: "twitter:image", content: `${SITE_URL}/hero-nino-v2.jpg` },
+      { name: "twitter:image", content: `${SITE_URL}/logo.png` },
     ],
     links: [
       { rel: "stylesheet", href: appCss },
