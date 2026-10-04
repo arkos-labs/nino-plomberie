@@ -1,5 +1,7 @@
 // src/routes/__root.tsx
 import { HeadContent, Scripts, createRootRoute, Outlet } from "@tanstack/react-router"
+import { Analytics } from "@vercel/analytics/react"
+import { SpeedInsights } from "@vercel/speed-insights/react"
 import { Header } from "../components/Header"
 import { Footer } from "../components/Footer"
 
@@ -135,6 +137,8 @@ function RootDocument() {
           <Outlet />
         </main>
         <Footer />
+        <Analytics />
+        <SpeedInsights />
         <Scripts />
       </body>
     </html>
