@@ -41,7 +41,10 @@ export const Route = createFileRoute("/api/contact")({
 
     // ── 3. Send email via Resend ──────────────────────────────────────────
     const apiKey = process.env["RESEND_API_KEY"]
-    const emailTo = process.env["EMAIL_TO"] ?? "contact.ninoplomberie@gmail.com"
+    const emailTo = (process.env["EMAIL_TO"] ?? "contact.ninoplomberie@gmail.com")
+      .split(",")
+      .map((s) => s.trim())
+      .filter(Boolean)
     const emailFrom = process.env["EMAIL_FROM"] ?? "noreply@ninoplomberie.fr"
 
     if (!apiKey) {
@@ -76,7 +79,7 @@ export const Route = createFileRoute("/api/contact")({
         },
         body: JSON.stringify({
           from: emailFrom,
-          to: [emailTo],
+          to: emailTo,
           reply_to: data.email || undefined,
           subject: `[Nino Plomberie 31] Demande de ${data.nom} — ${data.sujet}`,
           html: emailHtml,
