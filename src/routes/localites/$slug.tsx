@@ -1,4 +1,4 @@
-import { createFileRoute } from '@tanstack/react-router'
+import { createFileRoute, notFound } from '@tanstack/react-router'
 import { getLocalityBySlug } from '../../data/localities'
 import { pageHead } from '../../lib/site'
 
@@ -12,21 +12,22 @@ export const Route = createFileRoute('/localites/$slug')({
       path: `/localites/${params.slug}`,
     })
   },
+  loader: ({ params }) => {
+    const locality = getLocalityBySlug(params.slug)
+    if (!locality) throw notFound()
+    return { locality }
+  },
   component: LocaliteDetail,
+  notFoundComponent: () => (
+    <div className="container mx-auto px-4 py-8">
+      <h1 className="text-3xl font-bold">Localité non trouvée</h1>
+      <p>Retour à la <a href="/zones" className="text-blue-600">liste des zones</a></p>
+    </div>
+  ),
 })
 
 function LocaliteDetail() {
-  const { slug } = Route.useParams()
-  const locality = getLocalityBySlug(slug)
-
-  if (!locality) {
-    return (
-      <div className="container mx-auto px-4 py-8">
-        <h1 className="text-3xl font-bold">Localité non trouvée</h1>
-        <p>Retour à la <a href="/zones" className="text-blue-600">liste des zones</a></p>
-      </div>
-    )
-  }
+  const { locality } = Route.useLoaderData()
 
   return (
     <>
