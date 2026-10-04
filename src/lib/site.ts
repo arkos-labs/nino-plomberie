@@ -11,7 +11,7 @@ export const BUSINESS = {
   naf: "4322A",
   phone: "06 50 57 96 20",
   phoneIntl: "+33650579620",
-  email: "contact@nino-plomberie31.fr",
+  email: "contact.ninoplomberie@gmail.com",
   street: "11 Rue François Arago",
   postalCode: "31600",
   city: "Muret",

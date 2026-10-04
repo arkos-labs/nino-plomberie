@@ -30,7 +30,7 @@ function MentionsLegalesPage() {
               "Code NAF/APE : 4322A (Travaux d'installation d'eau et de gaz en tous locaux)",
               "Adresse : 11 Rue François Arago, 31600 Muret",
               "Téléphone : 06 50 57 96 20",
-              "Email : contact@nino-plomberie31.fr",
+              "Email : contact.ninoplomberie@gmail.com",
               "Directeur de la publication : Christophe Hajjar",
             ],
           },

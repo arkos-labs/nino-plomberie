@@ -51,7 +51,7 @@ export const Route = createFileRoute("/api/contact-urgence")({
     const scoreLabel = scoreLabels[score] ?? ""
 
     const apiKey = process.env["RESEND_API_KEY"]
-    const emailTo = process.env["EMAIL_TO"] ?? "contact@nino-plomberie31.fr"
+    const emailTo = process.env["EMAIL_TO"] ?? "contact.ninoplomberie@gmail.com"
     const emailFrom = process.env["EMAIL_FROM"] ?? "noreply@ninoplomberie.fr"
 
     if (!apiKey) {

@@ -31,7 +31,7 @@ function PolitiqueConfidentialitePage() {
               "SIRET (Siège) : 532 365 988 00023",
               "Adresse : 11 Rue François Arago, 31600 Muret",
               "Responsable : Christophe Hajjar",
-              "Contact DPO : contact@nino-plomberie31.fr",
+              "Contact DPO : contact.ninoplomberie@gmail.com",
             ],
           },
           {
@@ -76,7 +76,7 @@ function PolitiqueConfidentialitePage() {
             titre: "7. Vos droits",
             contenu: [
               "Vous disposez d'un droit d'accès, de rectification, d'effacement, de limitation et de portabilité de vos données.",
-              "Vous pouvez exercer ces droits par email à : contact@nino-plomberie31.fr",
+              "Vous pouvez exercer ces droits par email à : contact.ninoplomberie@gmail.com",
               "En cas de réclamation : autorité compétente — CNIL (www.cnil.fr).",
             ],
           },
