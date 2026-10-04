@@ -17,7 +17,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/",
+      "destination": "https://www.ninoplomberie.fr/",
       "statusCode": 301
     },
     {
@@ -28,7 +28,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services",
+      "destination": "https://www.ninoplomberie.fr/services",
       "statusCode": 301
     },
     {
@@ -39,7 +39,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services",
+      "destination": "https://www.ninoplomberie.fr/services",
       "statusCode": 301
     },
     {
@@ -50,7 +50,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/intervention/aucamville",
+      "destination": "https://www.ninoplomberie.fr/intervention/aucamville",
       "statusCode": 301
     },
     {
@@ -61,7 +61,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/intervention/aucamville",
+      "destination": "https://www.ninoplomberie.fr/intervention/aucamville",
       "statusCode": 301
     },
     {
@@ -72,7 +72,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/intervention/cugnaux",
+      "destination": "https://www.ninoplomberie.fr/intervention/cugnaux",
       "statusCode": 301
     },
     {
@@ -83,7 +83,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/intervention/cugnaux",
+      "destination": "https://www.ninoplomberie.fr/intervention/cugnaux",
       "statusCode": 301
     },
     {
@@ -94,7 +94,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/intervention/cornebarrieu",
+      "destination": "https://www.ninoplomberie.fr/intervention/cornebarrieu",
       "statusCode": 301
     },
     {
@@ -105,7 +105,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/intervention/cornebarrieu",
+      "destination": "https://www.ninoplomberie.fr/intervention/cornebarrieu",
       "statusCode": 301
     },
     {
@@ -116,7 +116,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/intervention/beauzelle",
+      "destination": "https://www.ninoplomberie.fr/intervention/beauzelle",
       "statusCode": 301
     },
     {
@@ -127,7 +127,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/intervention/beauzelle",
+      "destination": "https://www.ninoplomberie.fr/intervention/beauzelle",
       "statusCode": 301
     },
     {
@@ -138,7 +138,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/intervention/auterive",
+      "destination": "https://www.ninoplomberie.fr/intervention/auterive",
       "statusCode": 301
     },
     {
@@ -149,7 +149,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/intervention/auterive",
+      "destination": "https://www.ninoplomberie.fr/intervention/auterive",
       "statusCode": 301
     },
     {
@@ -160,7 +160,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/intervention/colomiers",
+      "destination": "https://www.ninoplomberie.fr/intervention/colomiers",
       "statusCode": 301
     },
     {
@@ -171,7 +171,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/intervention/colomiers",
+      "destination": "https://www.ninoplomberie.fr/intervention/colomiers",
       "statusCode": 301
     },
     {
@@ -182,7 +182,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/intervention/balma",
+      "destination": "https://www.ninoplomberie.fr/intervention/balma",
       "statusCode": 301
     },
     {
@@ -193,7 +193,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/intervention/balma",
+      "destination": "https://www.ninoplomberie.fr/intervention/balma",
       "statusCode": 301
     },
     {
@@ -204,7 +204,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/intervention/blagnac",
+      "destination": "https://www.ninoplomberie.fr/intervention/blagnac",
       "statusCode": 301
     },
     {
@@ -215,7 +215,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/intervention/blagnac",
+      "destination": "https://www.ninoplomberie.fr/intervention/blagnac",
       "statusCode": 301
     },
     {
@@ -226,7 +226,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/intervention/castanet-tolosan",
+      "destination": "https://www.ninoplomberie.fr/intervention/castanet-tolosan",
       "statusCode": 301
     },
     {
@@ -237,7 +237,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/intervention/castanet-tolosan",
+      "destination": "https://www.ninoplomberie.fr/intervention/castanet-tolosan",
       "statusCode": 301
     },
     {
@@ -248,7 +248,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/intervention/castelginest",
+      "destination": "https://www.ninoplomberie.fr/intervention/castelginest",
       "statusCode": 301
     },
     {
@@ -259,7 +259,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/intervention/castelginest",
+      "destination": "https://www.ninoplomberie.fr/intervention/castelginest",
       "statusCode": 301
     },
     {
@@ -270,7 +270,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/intervention/plaisance-du-touch",
+      "destination": "https://www.ninoplomberie.fr/intervention/plaisance-du-touch",
       "statusCode": 301
     },
     {
@@ -281,7 +281,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/intervention/plaisance-du-touch",
+      "destination": "https://www.ninoplomberie.fr/intervention/plaisance-du-touch",
       "statusCode": 301
     },
     {
@@ -292,7 +292,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/intervention/labarthe-sur-leze",
+      "destination": "https://www.ninoplomberie.fr/intervention/labarthe-sur-leze",
       "statusCode": 301
     },
     {
@@ -303,7 +303,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/intervention/labarthe-sur-leze",
+      "destination": "https://www.ninoplomberie.fr/intervention/labarthe-sur-leze",
       "statusCode": 301
     },
     {
@@ -314,7 +314,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/intervention/frouzins",
+      "destination": "https://www.ninoplomberie.fr/intervention/frouzins",
       "statusCode": 301
     },
     {
@@ -325,7 +325,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/intervention/frouzins",
+      "destination": "https://www.ninoplomberie.fr/intervention/frouzins",
       "statusCode": 301
     },
     {
@@ -336,7 +336,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/intervention/fonsorbes",
+      "destination": "https://www.ninoplomberie.fr/intervention/fonsorbes",
       "statusCode": 301
     },
     {
@@ -347,7 +347,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/intervention/fonsorbes",
+      "destination": "https://www.ninoplomberie.fr/intervention/fonsorbes",
       "statusCode": 301
     },
     {
@@ -358,7 +358,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/intervention/pibrac",
+      "destination": "https://www.ninoplomberie.fr/intervention/pibrac",
       "statusCode": 301
     },
     {
@@ -369,7 +369,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/intervention/pibrac",
+      "destination": "https://www.ninoplomberie.fr/intervention/pibrac",
       "statusCode": 301
     },
     {
@@ -380,7 +380,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/intervention/escalquens",
+      "destination": "https://www.ninoplomberie.fr/intervention/escalquens",
       "statusCode": 301
     },
     {
@@ -391,7 +391,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/intervention/escalquens",
+      "destination": "https://www.ninoplomberie.fr/intervention/escalquens",
       "statusCode": 301
     },
     {
@@ -402,7 +402,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/zones",
+      "destination": "https://www.ninoplomberie.fr/zones",
       "statusCode": 301
     },
     {
@@ -413,7 +413,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/zones",
+      "destination": "https://www.ninoplomberie.fr/zones",
       "statusCode": 301
     },
     {
@@ -424,7 +424,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/intervention/la-salvetat-saint-gilles",
+      "destination": "https://www.ninoplomberie.fr/intervention/la-salvetat-saint-gilles",
       "statusCode": 301
     },
     {
@@ -435,7 +435,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/intervention/la-salvetat-saint-gilles",
+      "destination": "https://www.ninoplomberie.fr/intervention/la-salvetat-saint-gilles",
       "statusCode": 301
     },
     {
@@ -446,7 +446,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/intervention/launaguet",
+      "destination": "https://www.ninoplomberie.fr/intervention/launaguet",
       "statusCode": 301
     },
     {
@@ -457,7 +457,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/intervention/launaguet",
+      "destination": "https://www.ninoplomberie.fr/intervention/launaguet",
       "statusCode": 301
     },
     {
@@ -468,7 +468,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/intervention/ramonville-saint-agne",
+      "destination": "https://www.ninoplomberie.fr/intervention/ramonville-saint-agne",
       "statusCode": 301
     },
     {
@@ -479,7 +479,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/intervention/ramonville-saint-agne",
+      "destination": "https://www.ninoplomberie.fr/intervention/ramonville-saint-agne",
       "statusCode": 301
     },
     {
@@ -490,7 +490,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/intervention/portet-sur-garonne",
+      "destination": "https://www.ninoplomberie.fr/intervention/portet-sur-garonne",
       "statusCode": 301
     },
     {
@@ -501,7 +501,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/intervention/portet-sur-garonne",
+      "destination": "https://www.ninoplomberie.fr/intervention/portet-sur-garonne",
       "statusCode": 301
     },
     {
@@ -512,7 +512,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/intervention/tournefeuille",
+      "destination": "https://www.ninoplomberie.fr/intervention/tournefeuille",
       "statusCode": 301
     },
     {
@@ -523,7 +523,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/intervention/tournefeuille",
+      "destination": "https://www.ninoplomberie.fr/intervention/tournefeuille",
       "statusCode": 301
     },
     {
@@ -534,7 +534,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/intervention/toulouse",
+      "destination": "https://www.ninoplomberie.fr/intervention/toulouse",
       "statusCode": 301
     },
     {
@@ -545,7 +545,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/intervention/toulouse",
+      "destination": "https://www.ninoplomberie.fr/intervention/toulouse",
       "statusCode": 301
     },
     {
@@ -556,7 +556,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/zones",
+      "destination": "https://www.ninoplomberie.fr/zones",
       "statusCode": 301
     },
     {
@@ -567,7 +567,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/zones",
+      "destination": "https://www.ninoplomberie.fr/zones",
       "statusCode": 301
     },
     {
@@ -578,7 +578,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/intervention/seysses",
+      "destination": "https://www.ninoplomberie.fr/intervention/seysses",
       "statusCode": 301
     },
     {
@@ -589,7 +589,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/intervention/seysses",
+      "destination": "https://www.ninoplomberie.fr/intervention/seysses",
       "statusCode": 301
     },
     {
@@ -600,7 +600,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/intervention/saint-lys",
+      "destination": "https://www.ninoplomberie.fr/intervention/saint-lys",
       "statusCode": 301
     },
     {
@@ -611,7 +611,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/intervention/saint-lys",
+      "destination": "https://www.ninoplomberie.fr/intervention/saint-lys",
       "statusCode": 301
     },
     {
@@ -622,7 +622,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/intervention/saint-orens-de-gameville",
+      "destination": "https://www.ninoplomberie.fr/intervention/saint-orens-de-gameville",
       "statusCode": 301
     },
     {
@@ -633,7 +633,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/intervention/saint-orens-de-gameville",
+      "destination": "https://www.ninoplomberie.fr/intervention/saint-orens-de-gameville",
       "statusCode": 301
     },
     {
@@ -644,7 +644,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/intervention/saint-alban",
+      "destination": "https://www.ninoplomberie.fr/intervention/saint-alban",
       "statusCode": 301
     },
     {
@@ -655,7 +655,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/intervention/saint-alban",
+      "destination": "https://www.ninoplomberie.fr/intervention/saint-alban",
       "statusCode": 301
     },
     {
@@ -666,7 +666,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/intervention/villeneuve-tolosane",
+      "destination": "https://www.ninoplomberie.fr/intervention/villeneuve-tolosane",
       "statusCode": 301
     },
     {
@@ -677,7 +677,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/intervention/villeneuve-tolosane",
+      "destination": "https://www.ninoplomberie.fr/intervention/villeneuve-tolosane",
       "statusCode": 301
     },
     {
@@ -688,7 +688,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/intervention/beaupuy",
+      "destination": "https://www.ninoplomberie.fr/intervention/beaupuy",
       "statusCode": 301
     },
     {
@@ -699,7 +699,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/intervention/beaupuy",
+      "destination": "https://www.ninoplomberie.fr/intervention/beaupuy",
       "statusCode": 301
     },
     {
@@ -710,7 +710,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/intervention/berat",
+      "destination": "https://www.ninoplomberie.fr/intervention/berat",
       "statusCode": 301
     },
     {
@@ -721,7 +721,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/intervention/berat",
+      "destination": "https://www.ninoplomberie.fr/intervention/berat",
       "statusCode": 301
     },
     {
@@ -732,7 +732,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/intervention/beaumont-sur-leze",
+      "destination": "https://www.ninoplomberie.fr/intervention/beaumont-sur-leze",
       "statusCode": 301
     },
     {
@@ -743,7 +743,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/intervention/beaumont-sur-leze",
+      "destination": "https://www.ninoplomberie.fr/intervention/beaumont-sur-leze",
       "statusCode": 301
     },
     {
@@ -754,7 +754,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/intervention/belberaud",
+      "destination": "https://www.ninoplomberie.fr/intervention/belberaud",
       "statusCode": 301
     },
     {
@@ -765,7 +765,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/intervention/belberaud",
+      "destination": "https://www.ninoplomberie.fr/intervention/belberaud",
       "statusCode": 301
     },
     {
@@ -776,7 +776,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/zones",
+      "destination": "https://www.ninoplomberie.fr/zones",
       "statusCode": 301
     },
     {
@@ -787,7 +787,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/zones",
+      "destination": "https://www.ninoplomberie.fr/zones",
       "statusCode": 301
     },
     {
@@ -798,7 +798,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/zones",
+      "destination": "https://www.ninoplomberie.fr/zones",
       "statusCode": 301
     },
     {
@@ -809,7 +809,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/zones",
+      "destination": "https://www.ninoplomberie.fr/zones",
       "statusCode": 301
     },
     {
@@ -820,7 +820,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/zones",
+      "destination": "https://www.ninoplomberie.fr/zones",
       "statusCode": 301
     },
     {
@@ -831,7 +831,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/zones",
+      "destination": "https://www.ninoplomberie.fr/zones",
       "statusCode": 301
     },
     {
@@ -842,7 +842,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/intervention/brax",
+      "destination": "https://www.ninoplomberie.fr/intervention/brax",
       "statusCode": 301
     },
     {
@@ -853,7 +853,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/intervention/brax",
+      "destination": "https://www.ninoplomberie.fr/intervention/brax",
       "statusCode": 301
     },
     {
@@ -864,7 +864,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/zones",
+      "destination": "https://www.ninoplomberie.fr/zones",
       "statusCode": 301
     },
     {
@@ -875,7 +875,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/zones",
+      "destination": "https://www.ninoplomberie.fr/zones",
       "statusCode": 301
     },
     {
@@ -886,7 +886,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/intervention/carbonne",
+      "destination": "https://www.ninoplomberie.fr/intervention/carbonne",
       "statusCode": 301
     },
     {
@@ -897,7 +897,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/intervention/carbonne",
+      "destination": "https://www.ninoplomberie.fr/intervention/carbonne",
       "statusCode": 301
     },
     {
@@ -908,7 +908,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/intervention/castelmaurou",
+      "destination": "https://www.ninoplomberie.fr/intervention/castelmaurou",
       "statusCode": 301
     },
     {
@@ -919,7 +919,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/intervention/castelmaurou",
+      "destination": "https://www.ninoplomberie.fr/intervention/castelmaurou",
       "statusCode": 301
     },
     {
@@ -930,7 +930,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/zones",
+      "destination": "https://www.ninoplomberie.fr/zones",
       "statusCode": 301
     },
     {
@@ -941,7 +941,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/zones",
+      "destination": "https://www.ninoplomberie.fr/zones",
       "statusCode": 301
     },
     {
@@ -952,7 +952,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/zones",
+      "destination": "https://www.ninoplomberie.fr/zones",
       "statusCode": 301
     },
     {
@@ -963,7 +963,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/zones",
+      "destination": "https://www.ninoplomberie.fr/zones",
       "statusCode": 301
     },
     {
@@ -974,7 +974,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/intervention/cintegabelle",
+      "destination": "https://www.ninoplomberie.fr/intervention/cintegabelle",
       "statusCode": 301
     },
     {
@@ -985,7 +985,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/intervention/cintegabelle",
+      "destination": "https://www.ninoplomberie.fr/intervention/cintegabelle",
       "statusCode": 301
     },
     {
@@ -996,7 +996,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/intervention/daux",
+      "destination": "https://www.ninoplomberie.fr/intervention/daux",
       "statusCode": 301
     },
     {
@@ -1007,7 +1007,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/intervention/daux",
+      "destination": "https://www.ninoplomberie.fr/intervention/daux",
       "statusCode": 301
     },
     {
@@ -1018,7 +1018,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/intervention/dremil-lafage",
+      "destination": "https://www.ninoplomberie.fr/intervention/dremil-lafage",
       "statusCode": 301
     },
     {
@@ -1029,7 +1029,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/intervention/dremil-lafage",
+      "destination": "https://www.ninoplomberie.fr/intervention/dremil-lafage",
       "statusCode": 301
     },
     {
@@ -1040,7 +1040,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/intervention/eaunes",
+      "destination": "https://www.ninoplomberie.fr/intervention/eaunes",
       "statusCode": 301
     },
     {
@@ -1051,7 +1051,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/intervention/eaunes",
+      "destination": "https://www.ninoplomberie.fr/intervention/eaunes",
       "statusCode": 301
     },
     {
@@ -1062,7 +1062,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/intervention/flourens",
+      "destination": "https://www.ninoplomberie.fr/intervention/flourens",
       "statusCode": 301
     },
     {
@@ -1073,7 +1073,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/intervention/flourens",
+      "destination": "https://www.ninoplomberie.fr/intervention/flourens",
       "statusCode": 301
     },
     {
@@ -1084,7 +1084,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/intervention/fonbeauzard",
+      "destination": "https://www.ninoplomberie.fr/intervention/fonbeauzard",
       "statusCode": 301
     },
     {
@@ -1095,7 +1095,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/intervention/fonbeauzard",
+      "destination": "https://www.ninoplomberie.fr/intervention/fonbeauzard",
       "statusCode": 301
     },
     {
@@ -1106,7 +1106,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/intervention/fontenilles",
+      "destination": "https://www.ninoplomberie.fr/intervention/fontenilles",
       "statusCode": 301
     },
     {
@@ -1117,7 +1117,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/intervention/fontenilles",
+      "destination": "https://www.ninoplomberie.fr/intervention/fontenilles",
       "statusCode": 301
     },
     {
@@ -1128,7 +1128,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/intervention/gagnac-sur-garonne",
+      "destination": "https://www.ninoplomberie.fr/intervention/gagnac-sur-garonne",
       "statusCode": 301
     },
     {
@@ -1139,7 +1139,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/intervention/gagnac-sur-garonne",
+      "destination": "https://www.ninoplomberie.fr/intervention/gagnac-sur-garonne",
       "statusCode": 301
     },
     {
@@ -1150,7 +1150,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/intervention/gaillac-toulza",
+      "destination": "https://www.ninoplomberie.fr/intervention/gaillac-toulza",
       "statusCode": 301
     },
     {
@@ -1161,7 +1161,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/intervention/gaillac-toulza",
+      "destination": "https://www.ninoplomberie.fr/intervention/gaillac-toulza",
       "statusCode": 301
     },
     {
@@ -1172,7 +1172,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/intervention/labege",
+      "destination": "https://www.ninoplomberie.fr/intervention/labege",
       "statusCode": 301
     },
     {
@@ -1183,7 +1183,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/intervention/labege",
+      "destination": "https://www.ninoplomberie.fr/intervention/labege",
       "statusCode": 301
     },
     {
@@ -1194,7 +1194,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/intervention/gardouch",
+      "destination": "https://www.ninoplomberie.fr/intervention/gardouch",
       "statusCode": 301
     },
     {
@@ -1205,7 +1205,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/intervention/gardouch",
+      "destination": "https://www.ninoplomberie.fr/intervention/gardouch",
       "statusCode": 301
     },
     {
@@ -1216,7 +1216,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/zones",
+      "destination": "https://www.ninoplomberie.fr/zones",
       "statusCode": 301
     },
     {
@@ -1227,7 +1227,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/zones",
+      "destination": "https://www.ninoplomberie.fr/zones",
       "statusCode": 301
     },
     {
@@ -1238,7 +1238,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/zones",
+      "destination": "https://www.ninoplomberie.fr/zones",
       "statusCode": 301
     },
     {
@@ -1249,7 +1249,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/zones",
+      "destination": "https://www.ninoplomberie.fr/zones",
       "statusCode": 301
     },
     {
@@ -1260,7 +1260,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/zones",
+      "destination": "https://www.ninoplomberie.fr/zones",
       "statusCode": 301
     },
     {
@@ -1271,7 +1271,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/zones",
+      "destination": "https://www.ninoplomberie.fr/zones",
       "statusCode": 301
     },
     {
@@ -1282,7 +1282,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/intervention/labastide-beauvoir",
+      "destination": "https://www.ninoplomberie.fr/intervention/labastide-beauvoir",
       "statusCode": 301
     },
     {
@@ -1293,7 +1293,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/intervention/labastide-beauvoir",
+      "destination": "https://www.ninoplomberie.fr/intervention/labastide-beauvoir",
       "statusCode": 301
     },
     {
@@ -1304,7 +1304,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/zones",
+      "destination": "https://www.ninoplomberie.fr/zones",
       "statusCode": 301
     },
     {
@@ -1315,7 +1315,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/zones",
+      "destination": "https://www.ninoplomberie.fr/zones",
       "statusCode": 301
     },
     {
@@ -1326,7 +1326,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/intervention/labastidette",
+      "destination": "https://www.ninoplomberie.fr/intervention/labastidette",
       "statusCode": 301
     },
     {
@@ -1337,7 +1337,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/intervention/labastidette",
+      "destination": "https://www.ninoplomberie.fr/intervention/labastidette",
       "statusCode": 301
     },
     {
@@ -1348,7 +1348,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/intervention/lacroix-falgarde",
+      "destination": "https://www.ninoplomberie.fr/intervention/lacroix-falgarde",
       "statusCode": 301
     },
     {
@@ -1359,7 +1359,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/intervention/lacroix-falgarde",
+      "destination": "https://www.ninoplomberie.fr/intervention/lacroix-falgarde",
       "statusCode": 301
     },
     {
@@ -1370,7 +1370,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/intervention/lespinasse",
+      "destination": "https://www.ninoplomberie.fr/intervention/lespinasse",
       "statusCode": 301
     },
     {
@@ -1381,7 +1381,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/intervention/lespinasse",
+      "destination": "https://www.ninoplomberie.fr/intervention/lespinasse",
       "statusCode": 301
     },
     {
@@ -1392,7 +1392,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/intervention/levignac",
+      "destination": "https://www.ninoplomberie.fr/intervention/levignac",
       "statusCode": 301
     },
     {
@@ -1403,7 +1403,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/intervention/levignac",
+      "destination": "https://www.ninoplomberie.fr/intervention/levignac",
       "statusCode": 301
     },
     {
@@ -1414,7 +1414,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/intervention/lanta",
+      "destination": "https://www.ninoplomberie.fr/intervention/lanta",
       "statusCode": 301
     },
     {
@@ -1425,7 +1425,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/intervention/lanta",
+      "destination": "https://www.ninoplomberie.fr/intervention/lanta",
       "statusCode": 301
     },
     {
@@ -1436,7 +1436,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/zones",
+      "destination": "https://www.ninoplomberie.fr/zones",
       "statusCode": 301
     },
     {
@@ -1447,7 +1447,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/zones",
+      "destination": "https://www.ninoplomberie.fr/zones",
       "statusCode": 301
     },
     {
@@ -1458,7 +1458,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/zones",
+      "destination": "https://www.ninoplomberie.fr/zones",
       "statusCode": 301
     },
     {
@@ -1469,7 +1469,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/zones",
+      "destination": "https://www.ninoplomberie.fr/zones",
       "statusCode": 301
     },
     {
@@ -1480,7 +1480,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/intervention/lherm",
+      "destination": "https://www.ninoplomberie.fr/intervention/lherm",
       "statusCode": 301
     },
     {
@@ -1491,7 +1491,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/intervention/lherm",
+      "destination": "https://www.ninoplomberie.fr/intervention/lherm",
       "statusCode": 301
     },
     {
@@ -1502,7 +1502,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/zones",
+      "destination": "https://www.ninoplomberie.fr/zones",
       "statusCode": 301
     },
     {
@@ -1513,7 +1513,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/zones",
+      "destination": "https://www.ninoplomberie.fr/zones",
       "statusCode": 301
     },
     {
@@ -1524,7 +1524,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/intervention/miremont",
+      "destination": "https://www.ninoplomberie.fr/intervention/miremont",
       "statusCode": 301
     },
     {
@@ -1535,7 +1535,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/intervention/miremont",
+      "destination": "https://www.ninoplomberie.fr/intervention/miremont",
       "statusCode": 301
     },
     {
@@ -1546,7 +1546,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/zones",
+      "destination": "https://www.ninoplomberie.fr/zones",
       "statusCode": 301
     },
     {
@@ -1557,7 +1557,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/zones",
+      "destination": "https://www.ninoplomberie.fr/zones",
       "statusCode": 301
     },
     {
@@ -1568,7 +1568,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/zones",
+      "destination": "https://www.ninoplomberie.fr/zones",
       "statusCode": 301
     },
     {
@@ -1579,7 +1579,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/zones",
+      "destination": "https://www.ninoplomberie.fr/zones",
       "statusCode": 301
     },
     {
@@ -1590,7 +1590,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/zones",
+      "destination": "https://www.ninoplomberie.fr/zones",
       "statusCode": 301
     },
     {
@@ -1601,7 +1601,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/zones",
+      "destination": "https://www.ninoplomberie.fr/zones",
       "statusCode": 301
     },
     {
@@ -1612,7 +1612,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/intervention/montaigut-sur-save",
+      "destination": "https://www.ninoplomberie.fr/intervention/montaigut-sur-save",
       "statusCode": 301
     },
     {
@@ -1623,7 +1623,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/intervention/montaigut-sur-save",
+      "destination": "https://www.ninoplomberie.fr/intervention/montaigut-sur-save",
       "statusCode": 301
     },
     {
@@ -1634,7 +1634,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/intervention/nailloux",
+      "destination": "https://www.ninoplomberie.fr/intervention/nailloux",
       "statusCode": 301
     },
     {
@@ -1645,7 +1645,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/intervention/nailloux",
+      "destination": "https://www.ninoplomberie.fr/intervention/nailloux",
       "statusCode": 301
     },
     {
@@ -1656,7 +1656,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/intervention/montlaur",
+      "destination": "https://www.ninoplomberie.fr/intervention/montlaur",
       "statusCode": 301
     },
     {
@@ -1667,7 +1667,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/intervention/montlaur",
+      "destination": "https://www.ninoplomberie.fr/intervention/montlaur",
       "statusCode": 301
     },
     {
@@ -1678,7 +1678,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/intervention/noe",
+      "destination": "https://www.ninoplomberie.fr/intervention/noe",
       "statusCode": 301
     },
     {
@@ -1689,7 +1689,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/intervention/noe",
+      "destination": "https://www.ninoplomberie.fr/intervention/noe",
       "statusCode": 301
     },
     {
@@ -1700,7 +1700,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/zones",
+      "destination": "https://www.ninoplomberie.fr/zones",
       "statusCode": 301
     },
     {
@@ -1711,7 +1711,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/zones",
+      "destination": "https://www.ninoplomberie.fr/zones",
       "statusCode": 301
     },
     {
@@ -1722,7 +1722,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/zones",
+      "destination": "https://www.ninoplomberie.fr/zones",
       "statusCode": 301
     },
     {
@@ -1733,7 +1733,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/zones",
+      "destination": "https://www.ninoplomberie.fr/zones",
       "statusCode": 301
     },
     {
@@ -1744,7 +1744,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/intervention/pechbonnieu",
+      "destination": "https://www.ninoplomberie.fr/intervention/pechbonnieu",
       "statusCode": 301
     },
     {
@@ -1755,7 +1755,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/intervention/pechbonnieu",
+      "destination": "https://www.ninoplomberie.fr/intervention/pechbonnieu",
       "statusCode": 301
     },
     {
@@ -1766,7 +1766,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/zones",
+      "destination": "https://www.ninoplomberie.fr/zones",
       "statusCode": 301
     },
     {
@@ -1777,7 +1777,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/zones",
+      "destination": "https://www.ninoplomberie.fr/zones",
       "statusCode": 301
     },
     {
@@ -1788,7 +1788,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/intervention/pechabou",
+      "destination": "https://www.ninoplomberie.fr/intervention/pechabou",
       "statusCode": 301
     },
     {
@@ -1799,7 +1799,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/intervention/pechabou",
+      "destination": "https://www.ninoplomberie.fr/intervention/pechabou",
       "statusCode": 301
     },
     {
@@ -1810,7 +1810,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/intervention/rieumes",
+      "destination": "https://www.ninoplomberie.fr/intervention/rieumes",
       "statusCode": 301
     },
     {
@@ -1821,7 +1821,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/intervention/rieumes",
+      "destination": "https://www.ninoplomberie.fr/intervention/rieumes",
       "statusCode": 301
     },
     {
@@ -1832,7 +1832,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/zones",
+      "destination": "https://www.ninoplomberie.fr/zones",
       "statusCode": 301
     },
     {
@@ -1843,7 +1843,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/zones",
+      "destination": "https://www.ninoplomberie.fr/zones",
       "statusCode": 301
     },
     {
@@ -1854,7 +1854,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/zones",
+      "destination": "https://www.ninoplomberie.fr/zones",
       "statusCode": 301
     },
     {
@@ -1865,7 +1865,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/zones",
+      "destination": "https://www.ninoplomberie.fr/zones",
       "statusCode": 301
     },
     {
@@ -1876,7 +1876,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/intervention/saint-loup-cammas",
+      "destination": "https://www.ninoplomberie.fr/intervention/saint-loup-cammas",
       "statusCode": 301
     },
     {
@@ -1887,7 +1887,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/intervention/saint-loup-cammas",
+      "destination": "https://www.ninoplomberie.fr/intervention/saint-loup-cammas",
       "statusCode": 301
     },
     {
@@ -1898,7 +1898,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/zones",
+      "destination": "https://www.ninoplomberie.fr/zones",
       "statusCode": 301
     },
     {
@@ -1909,7 +1909,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/zones",
+      "destination": "https://www.ninoplomberie.fr/zones",
       "statusCode": 301
     },
     {
@@ -1920,7 +1920,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/intervention/saubens",
+      "destination": "https://www.ninoplomberie.fr/intervention/saubens",
       "statusCode": 301
     },
     {
@@ -1931,7 +1931,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/intervention/saubens",
+      "destination": "https://www.ninoplomberie.fr/intervention/saubens",
       "statusCode": 301
     },
     {
@@ -1942,7 +1942,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/intervention/vieille-toulouse",
+      "destination": "https://www.ninoplomberie.fr/intervention/vieille-toulouse",
       "statusCode": 301
     },
     {
@@ -1953,7 +1953,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/intervention/vieille-toulouse",
+      "destination": "https://www.ninoplomberie.fr/intervention/vieille-toulouse",
       "statusCode": 301
     },
     {
@@ -1964,7 +1964,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/zones",
+      "destination": "https://www.ninoplomberie.fr/zones",
       "statusCode": 301
     },
     {
@@ -1975,7 +1975,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/zones",
+      "destination": "https://www.ninoplomberie.fr/zones",
       "statusCode": 301
     },
     {
@@ -1986,7 +1986,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/intervention/vernet",
+      "destination": "https://www.ninoplomberie.fr/intervention/vernet",
       "statusCode": 301
     },
     {
@@ -1997,7 +1997,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/intervention/vernet",
+      "destination": "https://www.ninoplomberie.fr/intervention/vernet",
       "statusCode": 301
     },
     {
@@ -2008,7 +2008,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/intervention/villenouvelle",
+      "destination": "https://www.ninoplomberie.fr/intervention/villenouvelle",
       "statusCode": 301
     },
     {
@@ -2019,7 +2019,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/intervention/villenouvelle",
+      "destination": "https://www.ninoplomberie.fr/intervention/villenouvelle",
       "statusCode": 301
     },
     {
@@ -2030,7 +2030,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/intervention/lavernose-lacasse",
+      "destination": "https://www.ninoplomberie.fr/intervention/lavernose-lacasse",
       "statusCode": 301
     },
     {
@@ -2041,7 +2041,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/intervention/lavernose-lacasse",
+      "destination": "https://www.ninoplomberie.fr/intervention/lavernose-lacasse",
       "statusCode": 301
     },
     {
@@ -2052,7 +2052,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/intervention/le-fauga",
+      "destination": "https://www.ninoplomberie.fr/intervention/le-fauga",
       "statusCode": 301
     },
     {
@@ -2063,7 +2063,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/intervention/le-fauga",
+      "destination": "https://www.ninoplomberie.fr/intervention/le-fauga",
       "statusCode": 301
     },
     {
@@ -2074,7 +2074,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/intervention/le-fousseret",
+      "destination": "https://www.ninoplomberie.fr/intervention/le-fousseret",
       "statusCode": 301
     },
     {
@@ -2085,7 +2085,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/intervention/le-fousseret",
+      "destination": "https://www.ninoplomberie.fr/intervention/le-fousseret",
       "statusCode": 301
     },
     {
@@ -2096,7 +2096,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/intervention/longages",
+      "destination": "https://www.ninoplomberie.fr/intervention/longages",
       "statusCode": 301
     },
     {
@@ -2107,7 +2107,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/intervention/longages",
+      "destination": "https://www.ninoplomberie.fr/intervention/longages",
       "statusCode": 301
     },
     {
@@ -2118,7 +2118,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/intervention/marquefave",
+      "destination": "https://www.ninoplomberie.fr/intervention/marquefave",
       "statusCode": 301
     },
     {
@@ -2129,7 +2129,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/intervention/marquefave",
+      "destination": "https://www.ninoplomberie.fr/intervention/marquefave",
       "statusCode": 301
     },
     {
@@ -2140,7 +2140,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/intervention/merville",
+      "destination": "https://www.ninoplomberie.fr/intervention/merville",
       "statusCode": 301
     },
     {
@@ -2151,7 +2151,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/intervention/merville",
+      "destination": "https://www.ninoplomberie.fr/intervention/merville",
       "statusCode": 301
     },
     {
@@ -2162,7 +2162,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/intervention/mondonville",
+      "destination": "https://www.ninoplomberie.fr/intervention/mondonville",
       "statusCode": 301
     },
     {
@@ -2173,7 +2173,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/intervention/mondonville",
+      "destination": "https://www.ninoplomberie.fr/intervention/mondonville",
       "statusCode": 301
     },
     {
@@ -2184,7 +2184,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/intervention/mons",
+      "destination": "https://www.ninoplomberie.fr/intervention/mons",
       "statusCode": 301
     },
     {
@@ -2195,7 +2195,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/intervention/mons",
+      "destination": "https://www.ninoplomberie.fr/intervention/mons",
       "statusCode": 301
     },
     {
@@ -2206,7 +2206,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/zones",
+      "destination": "https://www.ninoplomberie.fr/zones",
       "statusCode": 301
     },
     {
@@ -2217,7 +2217,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/zones",
+      "destination": "https://www.ninoplomberie.fr/zones",
       "statusCode": 301
     },
     {
@@ -2228,7 +2228,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/zones",
+      "destination": "https://www.ninoplomberie.fr/zones",
       "statusCode": 301
     },
     {
@@ -2239,7 +2239,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/zones",
+      "destination": "https://www.ninoplomberie.fr/zones",
       "statusCode": 301
     },
     {
@@ -2250,7 +2250,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/intervention/montgiscard",
+      "destination": "https://www.ninoplomberie.fr/intervention/montgiscard",
       "statusCode": 301
     },
     {
@@ -2261,7 +2261,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/intervention/montgiscard",
+      "destination": "https://www.ninoplomberie.fr/intervention/montgiscard",
       "statusCode": 301
     },
     {
@@ -2272,7 +2272,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/zones",
+      "destination": "https://www.ninoplomberie.fr/zones",
       "statusCode": 301
     },
     {
@@ -2283,7 +2283,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/zones",
+      "destination": "https://www.ninoplomberie.fr/zones",
       "statusCode": 301
     },
     {
@@ -2294,7 +2294,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/intervention/pinsaguel",
+      "destination": "https://www.ninoplomberie.fr/intervention/pinsaguel",
       "statusCode": 301
     },
     {
@@ -2305,7 +2305,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/intervention/pinsaguel",
+      "destination": "https://www.ninoplomberie.fr/intervention/pinsaguel",
       "statusCode": 301
     },
     {
@@ -2316,7 +2316,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/intervention/pompertuzat",
+      "destination": "https://www.ninoplomberie.fr/intervention/pompertuzat",
       "statusCode": 301
     },
     {
@@ -2327,7 +2327,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/intervention/pompertuzat",
+      "destination": "https://www.ninoplomberie.fr/intervention/pompertuzat",
       "statusCode": 301
     },
     {
@@ -2338,7 +2338,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/contact",
+      "destination": "https://www.ninoplomberie.fr/contact",
       "statusCode": 301
     },
     {
@@ -2349,7 +2349,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/contact",
+      "destination": "https://www.ninoplomberie.fr/contact",
       "statusCode": 301
     },
     {
@@ -2360,7 +2360,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/intervention/rieux-volvestre",
+      "destination": "https://www.ninoplomberie.fr/intervention/rieux-volvestre",
       "statusCode": 301
     },
     {
@@ -2371,7 +2371,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/intervention/rieux-volvestre",
+      "destination": "https://www.ninoplomberie.fr/intervention/rieux-volvestre",
       "statusCode": 301
     },
     {
@@ -2382,7 +2382,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/intervention/roquettes",
+      "destination": "https://www.ninoplomberie.fr/intervention/roquettes",
       "statusCode": 301
     },
     {
@@ -2393,7 +2393,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/intervention/roquettes",
+      "destination": "https://www.ninoplomberie.fr/intervention/roquettes",
       "statusCode": 301
     },
     {
@@ -2404,7 +2404,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/intervention/rouffiac-tolosan",
+      "destination": "https://www.ninoplomberie.fr/intervention/rouffiac-tolosan",
       "statusCode": 301
     },
     {
@@ -2415,7 +2415,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/intervention/rouffiac-tolosan",
+      "destination": "https://www.ninoplomberie.fr/intervention/rouffiac-tolosan",
       "statusCode": 301
     },
     {
@@ -2426,7 +2426,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/intervention/saint-genies-bellevue",
+      "destination": "https://www.ninoplomberie.fr/intervention/saint-genies-bellevue",
       "statusCode": 301
     },
     {
@@ -2437,7 +2437,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/intervention/saint-genies-bellevue",
+      "destination": "https://www.ninoplomberie.fr/intervention/saint-genies-bellevue",
       "statusCode": 301
     },
     {
@@ -2448,7 +2448,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/zones",
+      "destination": "https://www.ninoplomberie.fr/zones",
       "statusCode": 301
     },
     {
@@ -2459,7 +2459,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/zones",
+      "destination": "https://www.ninoplomberie.fr/zones",
       "statusCode": 301
     },
     {
@@ -2470,7 +2470,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/intervention/saint-sulpice-sur-leze",
+      "destination": "https://www.ninoplomberie.fr/intervention/saint-sulpice-sur-leze",
       "statusCode": 301
     },
     {
@@ -2481,7 +2481,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/intervention/saint-sulpice-sur-leze",
+      "destination": "https://www.ninoplomberie.fr/intervention/saint-sulpice-sur-leze",
       "statusCode": 301
     },
     {
@@ -2492,7 +2492,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/intervention/sainte-foy-de-peyrolieres",
+      "destination": "https://www.ninoplomberie.fr/intervention/sainte-foy-de-peyrolieres",
       "statusCode": 301
     },
     {
@@ -2503,7 +2503,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/intervention/sainte-foy-de-peyrolieres",
+      "destination": "https://www.ninoplomberie.fr/intervention/sainte-foy-de-peyrolieres",
       "statusCode": 301
     },
     {
@@ -2514,7 +2514,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/intervention/seilh",
+      "destination": "https://www.ninoplomberie.fr/intervention/seilh",
       "statusCode": 301
     },
     {
@@ -2525,7 +2525,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/intervention/seilh",
+      "destination": "https://www.ninoplomberie.fr/intervention/seilh",
       "statusCode": 301
     },
     {
@@ -2536,7 +2536,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/zones",
+      "destination": "https://www.ninoplomberie.fr/zones",
       "statusCode": 301
     },
     {
@@ -2547,7 +2547,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/zones",
+      "destination": "https://www.ninoplomberie.fr/zones",
       "statusCode": 301
     },
     {
@@ -2558,7 +2558,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/intervention/venerque",
+      "destination": "https://www.ninoplomberie.fr/intervention/venerque",
       "statusCode": 301
     },
     {
@@ -2569,7 +2569,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/intervention/venerque",
+      "destination": "https://www.ninoplomberie.fr/intervention/venerque",
       "statusCode": 301
     },
     {
@@ -2580,7 +2580,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/zones",
+      "destination": "https://www.ninoplomberie.fr/zones",
       "statusCode": 301
     },
     {
@@ -2591,7 +2591,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/zones",
+      "destination": "https://www.ninoplomberie.fr/zones",
       "statusCode": 301
     },
     {
@@ -2602,7 +2602,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/zones",
+      "destination": "https://www.ninoplomberie.fr/zones",
       "statusCode": 301
     },
     {
@@ -2613,7 +2613,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/zones",
+      "destination": "https://www.ninoplomberie.fr/zones",
       "statusCode": 301
     },
     {
@@ -2624,7 +2624,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/realisations",
+      "destination": "https://www.ninoplomberie.fr/realisations",
       "statusCode": 301
     },
     {
@@ -2635,7 +2635,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/realisations",
+      "destination": "https://www.ninoplomberie.fr/realisations",
       "statusCode": 301
     },
     {
@@ -2646,7 +2646,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -2657,7 +2657,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -2668,7 +2668,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -2679,7 +2679,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -2690,7 +2690,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -2701,7 +2701,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -2712,7 +2712,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -2723,7 +2723,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -2734,7 +2734,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -2745,7 +2745,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -2756,7 +2756,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -2767,7 +2767,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -2778,7 +2778,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -2789,7 +2789,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -2800,7 +2800,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -2811,7 +2811,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -2822,7 +2822,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -2833,7 +2833,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -2844,7 +2844,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -2855,7 +2855,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -2866,7 +2866,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -2877,7 +2877,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -2888,7 +2888,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -2899,7 +2899,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -2910,7 +2910,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -2921,7 +2921,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -2932,7 +2932,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -2943,7 +2943,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -2954,7 +2954,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -2965,7 +2965,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -2976,7 +2976,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -2987,7 +2987,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -2998,7 +2998,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -3009,7 +3009,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -3020,7 +3020,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -3031,7 +3031,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -3042,7 +3042,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -3053,7 +3053,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -3064,7 +3064,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -3075,7 +3075,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -3086,7 +3086,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -3097,7 +3097,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -3108,7 +3108,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -3119,7 +3119,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -3130,7 +3130,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -3141,7 +3141,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -3152,7 +3152,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -3163,7 +3163,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -3174,7 +3174,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -3185,7 +3185,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -3196,7 +3196,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -3207,7 +3207,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -3218,7 +3218,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -3229,7 +3229,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -3240,7 +3240,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -3251,7 +3251,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -3262,7 +3262,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -3273,7 +3273,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -3284,7 +3284,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -3295,7 +3295,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -3306,7 +3306,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -3317,7 +3317,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -3328,7 +3328,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -3339,7 +3339,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -3350,7 +3350,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -3361,7 +3361,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -3372,7 +3372,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -3383,7 +3383,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -3394,7 +3394,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -3405,7 +3405,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -3416,7 +3416,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -3427,7 +3427,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -3438,7 +3438,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -3449,7 +3449,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -3460,7 +3460,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -3471,7 +3471,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -3482,7 +3482,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -3493,7 +3493,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -3504,7 +3504,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -3515,7 +3515,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -3526,7 +3526,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -3537,7 +3537,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -3548,7 +3548,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -3559,7 +3559,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -3570,7 +3570,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -3581,7 +3581,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -3592,7 +3592,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -3603,7 +3603,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -3614,7 +3614,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -3625,7 +3625,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -3636,7 +3636,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -3647,7 +3647,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -3658,7 +3658,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -3669,7 +3669,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -3680,7 +3680,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -3691,7 +3691,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -3702,7 +3702,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -3713,7 +3713,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -3724,7 +3724,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -3735,7 +3735,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -3746,7 +3746,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -3757,7 +3757,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -3768,7 +3768,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -3779,7 +3779,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -3790,7 +3790,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -3801,7 +3801,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -3812,7 +3812,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -3823,7 +3823,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -3834,7 +3834,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -3845,7 +3845,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -3856,7 +3856,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -3867,7 +3867,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -3878,7 +3878,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -3889,7 +3889,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -3900,7 +3900,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -3911,7 +3911,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -3922,7 +3922,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -3933,7 +3933,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -3944,7 +3944,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -3955,7 +3955,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -3966,7 +3966,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -3977,7 +3977,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -3988,7 +3988,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -3999,7 +3999,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -4010,7 +4010,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -4021,7 +4021,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -4032,7 +4032,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -4043,7 +4043,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -4054,7 +4054,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -4065,7 +4065,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -4076,7 +4076,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -4087,7 +4087,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -4098,7 +4098,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -4109,7 +4109,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -4120,7 +4120,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -4131,7 +4131,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -4142,7 +4142,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -4153,7 +4153,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -4164,7 +4164,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -4175,7 +4175,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -4186,7 +4186,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -4197,7 +4197,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -4208,7 +4208,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -4219,7 +4219,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -4230,7 +4230,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -4241,7 +4241,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -4252,7 +4252,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -4263,7 +4263,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -4274,7 +4274,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -4285,7 +4285,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -4296,7 +4296,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -4307,7 +4307,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -4318,7 +4318,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -4329,7 +4329,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -4340,7 +4340,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -4351,7 +4351,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -4362,7 +4362,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -4373,7 +4373,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -4384,7 +4384,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -4395,7 +4395,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -4406,7 +4406,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -4417,7 +4417,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -4428,7 +4428,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -4439,7 +4439,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -4450,7 +4450,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -4461,7 +4461,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -4472,7 +4472,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -4483,7 +4483,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -4494,7 +4494,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -4505,7 +4505,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -4516,7 +4516,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -4527,7 +4527,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -4538,7 +4538,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -4549,7 +4549,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -4560,7 +4560,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -4571,7 +4571,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -4582,7 +4582,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -4593,7 +4593,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -4604,7 +4604,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -4615,7 +4615,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -4626,7 +4626,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -4637,7 +4637,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -4648,7 +4648,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -4659,7 +4659,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -4670,7 +4670,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -4681,7 +4681,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -4692,7 +4692,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -4703,7 +4703,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -4714,7 +4714,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -4725,7 +4725,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -4736,7 +4736,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -4747,7 +4747,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -4758,7 +4758,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -4769,7 +4769,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -4780,7 +4780,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -4791,7 +4791,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -4802,7 +4802,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -4813,7 +4813,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -4824,7 +4824,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -4835,7 +4835,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -4846,7 +4846,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -4857,7 +4857,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -4868,7 +4868,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -4879,7 +4879,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -4890,7 +4890,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -4901,7 +4901,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -4912,7 +4912,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -4923,7 +4923,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -4934,7 +4934,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -4945,7 +4945,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -4956,7 +4956,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -4967,7 +4967,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -4978,7 +4978,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -4989,7 +4989,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -5000,7 +5000,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -5011,7 +5011,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -5022,7 +5022,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -5033,7 +5033,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -5044,7 +5044,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -5055,7 +5055,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -5066,7 +5066,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -5077,7 +5077,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -5088,7 +5088,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -5099,7 +5099,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -5110,7 +5110,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -5121,7 +5121,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -5132,7 +5132,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -5143,7 +5143,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -5154,7 +5154,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/intervention/muret",
+      "destination": "https://www.ninoplomberie.fr/intervention/muret",
       "statusCode": 301
     },
     {
@@ -5165,7 +5165,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/intervention/muret",
+      "destination": "https://www.ninoplomberie.fr/intervention/muret",
       "statusCode": 301
     },
     {
@@ -5176,7 +5176,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -5187,7 +5187,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -5198,7 +5198,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/intervention/aussonne",
+      "destination": "https://www.ninoplomberie.fr/intervention/aussonne",
       "statusCode": 301
     },
     {
@@ -5209,7 +5209,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/intervention/aussonne",
+      "destination": "https://www.ninoplomberie.fr/intervention/aussonne",
       "statusCode": 301
     },
     {
@@ -5220,7 +5220,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/a-propos",
+      "destination": "https://www.ninoplomberie.fr/a-propos",
       "statusCode": 301
     },
     {
@@ -5231,7 +5231,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/a-propos",
+      "destination": "https://www.ninoplomberie.fr/a-propos",
       "statusCode": 301
     },
     {
@@ -5242,7 +5242,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/debouchage",
+      "destination": "https://www.ninoplomberie.fr/services/debouchage",
       "statusCode": 301
     },
     {
@@ -5253,7 +5253,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/debouchage",
+      "destination": "https://www.ninoplomberie.fr/services/debouchage",
       "statusCode": 301
     },
     {
@@ -5264,7 +5264,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/fuite-d-eau",
+      "destination": "https://www.ninoplomberie.fr/services/fuite-d-eau",
       "statusCode": 301
     },
     {
@@ -5275,7 +5275,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/fuite-d-eau",
+      "destination": "https://www.ninoplomberie.fr/services/fuite-d-eau",
       "statusCode": 301
     },
     {
@@ -5286,7 +5286,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/",
+      "destination": "https://www.ninoplomberie.fr/",
       "statusCode": 301
     },
     {
@@ -5297,7 +5297,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/",
+      "destination": "https://www.ninoplomberie.fr/",
       "statusCode": 301
     },
     {
@@ -5308,7 +5308,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -5319,7 +5319,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -5330,7 +5330,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/",
+      "destination": "https://www.ninoplomberie.fr/",
       "statusCode": 301
     },
     {
@@ -5341,7 +5341,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/",
+      "destination": "https://www.ninoplomberie.fr/",
       "statusCode": 301
     },
     {
@@ -5352,7 +5352,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/",
+      "destination": "https://www.ninoplomberie.fr/",
       "statusCode": 301
     },
     {
@@ -5363,7 +5363,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/",
+      "destination": "https://www.ninoplomberie.fr/",
       "statusCode": 301
     },
     {
@@ -5374,7 +5374,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -5385,7 +5385,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -5396,7 +5396,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/",
+      "destination": "https://www.ninoplomberie.fr/",
       "statusCode": 301
     },
     {
@@ -5407,7 +5407,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/",
+      "destination": "https://www.ninoplomberie.fr/",
       "statusCode": 301
     },
     {
@@ -5418,7 +5418,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -5429,7 +5429,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -5440,7 +5440,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/fuite-d-eau",
+      "destination": "https://www.ninoplomberie.fr/services/fuite-d-eau",
       "statusCode": 301
     },
     {
@@ -5451,7 +5451,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/fuite-d-eau",
+      "destination": "https://www.ninoplomberie.fr/services/fuite-d-eau",
       "statusCode": 301
     },
     {
@@ -5462,7 +5462,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/tarifs",
+      "destination": "https://www.ninoplomberie.fr/tarifs",
       "statusCode": 301
     },
     {
@@ -5473,7 +5473,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/tarifs",
+      "destination": "https://www.ninoplomberie.fr/tarifs",
       "statusCode": 301
     },
     {
@@ -5484,7 +5484,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -5495,7 +5495,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -5506,7 +5506,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/debouchage",
+      "destination": "https://www.ninoplomberie.fr/services/debouchage",
       "statusCode": 301
     },
     {
@@ -5517,7 +5517,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/debouchage",
+      "destination": "https://www.ninoplomberie.fr/services/debouchage",
       "statusCode": 301
     },
     {
@@ -5528,7 +5528,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -5539,7 +5539,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -5550,7 +5550,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -5561,7 +5561,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -5572,7 +5572,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/tarifs",
+      "destination": "https://www.ninoplomberie.fr/tarifs",
       "statusCode": 301
     },
     {
@@ -5583,7 +5583,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/tarifs",
+      "destination": "https://www.ninoplomberie.fr/tarifs",
       "statusCode": 301
     },
     {
@@ -5594,7 +5594,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -5605,7 +5605,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -5616,7 +5616,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/tarifs",
+      "destination": "https://www.ninoplomberie.fr/tarifs",
       "statusCode": 301
     },
     {
@@ -5627,7 +5627,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/tarifs",
+      "destination": "https://www.ninoplomberie.fr/tarifs",
       "statusCode": 301
     },
     {
@@ -5638,7 +5638,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/tarifs",
+      "destination": "https://www.ninoplomberie.fr/tarifs",
       "statusCode": 301
     },
     {
@@ -5649,7 +5649,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/tarifs",
+      "destination": "https://www.ninoplomberie.fr/tarifs",
       "statusCode": 301
     },
     {
@@ -5660,7 +5660,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/",
+      "destination": "https://www.ninoplomberie.fr/",
       "statusCode": 301
     },
     {
@@ -5671,7 +5671,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/",
+      "destination": "https://www.ninoplomberie.fr/",
       "statusCode": 301
     },
     {
@@ -5682,7 +5682,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -5693,7 +5693,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -5704,7 +5704,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -5715,7 +5715,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -5726,7 +5726,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -5737,7 +5737,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -5748,7 +5748,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -5759,7 +5759,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -5770,7 +5770,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/tarifs",
+      "destination": "https://www.ninoplomberie.fr/tarifs",
       "statusCode": 301
     },
     {
@@ -5781,7 +5781,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/tarifs",
+      "destination": "https://www.ninoplomberie.fr/tarifs",
       "statusCode": 301
     },
     {
@@ -5792,7 +5792,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/a-propos",
+      "destination": "https://www.ninoplomberie.fr/a-propos",
       "statusCode": 301
     },
     {
@@ -5803,7 +5803,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/a-propos",
+      "destination": "https://www.ninoplomberie.fr/a-propos",
       "statusCode": 301
     },
     {
@@ -5814,7 +5814,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/fuite-d-eau",
+      "destination": "https://www.ninoplomberie.fr/services/fuite-d-eau",
       "statusCode": 301
     },
     {
@@ -5825,7 +5825,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/fuite-d-eau",
+      "destination": "https://www.ninoplomberie.fr/services/fuite-d-eau",
       "statusCode": 301
     },
     {
@@ -5836,7 +5836,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/a-propos",
+      "destination": "https://www.ninoplomberie.fr/a-propos",
       "statusCode": 301
     },
     {
@@ -5847,7 +5847,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/a-propos",
+      "destination": "https://www.ninoplomberie.fr/a-propos",
       "statusCode": 301
     },
     {
@@ -5858,7 +5858,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -5869,7 +5869,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -5880,7 +5880,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/pose-cuisine",
+      "destination": "https://www.ninoplomberie.fr/services/pose-cuisine",
       "statusCode": 301
     },
     {
@@ -5891,7 +5891,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/pose-cuisine",
+      "destination": "https://www.ninoplomberie.fr/services/pose-cuisine",
       "statusCode": 301
     },
     {
@@ -5902,7 +5902,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -5913,7 +5913,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -5924,7 +5924,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/robinetterie-sanitaires",
+      "destination": "https://www.ninoplomberie.fr/services/robinetterie-sanitaires",
       "statusCode": 301
     },
     {
@@ -5935,7 +5935,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/robinetterie-sanitaires",
+      "destination": "https://www.ninoplomberie.fr/services/robinetterie-sanitaires",
       "statusCode": 301
     },
     {
@@ -5946,7 +5946,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/chauffe-eau",
+      "destination": "https://www.ninoplomberie.fr/services/chauffe-eau",
       "statusCode": 301
     },
     {
@@ -5957,7 +5957,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/chauffe-eau",
+      "destination": "https://www.ninoplomberie.fr/services/chauffe-eau",
       "statusCode": 301
     },
     {
@@ -5968,7 +5968,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/debouchage",
+      "destination": "https://www.ninoplomberie.fr/services/debouchage",
       "statusCode": 301
     },
     {
@@ -5979,7 +5979,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/debouchage",
+      "destination": "https://www.ninoplomberie.fr/services/debouchage",
       "statusCode": 301
     },
     {
@@ -5990,7 +5990,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/chauffage-chaudiere",
+      "destination": "https://www.ninoplomberie.fr/services/chauffage-chaudiere",
       "statusCode": 301
     },
     {
@@ -6001,7 +6001,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/chauffage-chaudiere",
+      "destination": "https://www.ninoplomberie.fr/services/chauffage-chaudiere",
       "statusCode": 301
     },
     {
@@ -6012,7 +6012,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -6023,7 +6023,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -6034,7 +6034,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/robinetterie-sanitaires",
+      "destination": "https://www.ninoplomberie.fr/services/robinetterie-sanitaires",
       "statusCode": 301
     },
     {
@@ -6045,7 +6045,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/robinetterie-sanitaires",
+      "destination": "https://www.ninoplomberie.fr/services/robinetterie-sanitaires",
       "statusCode": 301
     },
     {
@@ -6056,7 +6056,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -6067,7 +6067,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -6078,7 +6078,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/fuite-d-eau",
+      "destination": "https://www.ninoplomberie.fr/services/fuite-d-eau",
       "statusCode": 301
     },
     {
@@ -6089,7 +6089,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/fuite-d-eau",
+      "destination": "https://www.ninoplomberie.fr/services/fuite-d-eau",
       "statusCode": 301
     },
     {
@@ -6100,7 +6100,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -6111,7 +6111,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -6122,7 +6122,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -6133,7 +6133,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -6144,7 +6144,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -6155,7 +6155,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -6166,7 +6166,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/robinetterie-sanitaires",
+      "destination": "https://www.ninoplomberie.fr/services/robinetterie-sanitaires",
       "statusCode": 301
     },
     {
@@ -6177,7 +6177,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/robinetterie-sanitaires",
+      "destination": "https://www.ninoplomberie.fr/services/robinetterie-sanitaires",
       "statusCode": 301
     },
     {
@@ -6188,7 +6188,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/fuite-d-eau",
+      "destination": "https://www.ninoplomberie.fr/services/fuite-d-eau",
       "statusCode": 301
     },
     {
@@ -6199,7 +6199,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/fuite-d-eau",
+      "destination": "https://www.ninoplomberie.fr/services/fuite-d-eau",
       "statusCode": 301
     },
     {
@@ -6210,7 +6210,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services",
+      "destination": "https://www.ninoplomberie.fr/services",
       "statusCode": 301
     },
     {
@@ -6221,7 +6221,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services",
+      "destination": "https://www.ninoplomberie.fr/services",
       "statusCode": 301
     },
     {
@@ -6232,7 +6232,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/tarifs",
+      "destination": "https://www.ninoplomberie.fr/tarifs",
       "statusCode": 301
     },
     {
@@ -6243,7 +6243,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/tarifs",
+      "destination": "https://www.ninoplomberie.fr/tarifs",
       "statusCode": 301
     },
     {
@@ -6254,7 +6254,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/chauffage-chaudiere",
+      "destination": "https://www.ninoplomberie.fr/services/chauffage-chaudiere",
       "statusCode": 301
     },
     {
@@ -6265,7 +6265,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/chauffage-chaudiere",
+      "destination": "https://www.ninoplomberie.fr/services/chauffage-chaudiere",
       "statusCode": 301
     },
     {
@@ -6276,7 +6276,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services",
+      "destination": "https://www.ninoplomberie.fr/services",
       "statusCode": 301
     },
     {
@@ -6287,7 +6287,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services",
+      "destination": "https://www.ninoplomberie.fr/services",
       "statusCode": 301
     },
     {
@@ -6298,7 +6298,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/robinetterie-sanitaires",
+      "destination": "https://www.ninoplomberie.fr/services/robinetterie-sanitaires",
       "statusCode": 301
     },
     {
@@ -6309,7 +6309,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/robinetterie-sanitaires",
+      "destination": "https://www.ninoplomberie.fr/services/robinetterie-sanitaires",
       "statusCode": 301
     },
     {
@@ -6320,7 +6320,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services",
+      "destination": "https://www.ninoplomberie.fr/services",
       "statusCode": 301
     },
     {
@@ -6331,7 +6331,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services",
+      "destination": "https://www.ninoplomberie.fr/services",
       "statusCode": 301
     },
     {
@@ -6342,7 +6342,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/robinetterie-sanitaires",
+      "destination": "https://www.ninoplomberie.fr/services/robinetterie-sanitaires",
       "statusCode": 301
     },
     {
@@ -6353,7 +6353,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/robinetterie-sanitaires",
+      "destination": "https://www.ninoplomberie.fr/services/robinetterie-sanitaires",
       "statusCode": 301
     },
     {
@@ -6364,7 +6364,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/debouchage",
+      "destination": "https://www.ninoplomberie.fr/services/debouchage",
       "statusCode": 301
     },
     {
@@ -6375,7 +6375,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/debouchage",
+      "destination": "https://www.ninoplomberie.fr/services/debouchage",
       "statusCode": 301
     },
     {
@@ -6386,7 +6386,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/tarifs",
+      "destination": "https://www.ninoplomberie.fr/tarifs",
       "statusCode": 301
     },
     {
@@ -6397,7 +6397,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/tarifs",
+      "destination": "https://www.ninoplomberie.fr/tarifs",
       "statusCode": 301
     },
     {
@@ -6408,7 +6408,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/chauffage-chaudiere",
+      "destination": "https://www.ninoplomberie.fr/services/chauffage-chaudiere",
       "statusCode": 301
     },
     {
@@ -6419,7 +6419,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/chauffage-chaudiere",
+      "destination": "https://www.ninoplomberie.fr/services/chauffage-chaudiere",
       "statusCode": 301
     },
     {
@@ -6430,7 +6430,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/robinetterie-sanitaires",
+      "destination": "https://www.ninoplomberie.fr/services/robinetterie-sanitaires",
       "statusCode": 301
     },
     {
@@ -6441,7 +6441,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/robinetterie-sanitaires",
+      "destination": "https://www.ninoplomberie.fr/services/robinetterie-sanitaires",
       "statusCode": 301
     },
     {
@@ -6452,7 +6452,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/robinetterie-sanitaires",
+      "destination": "https://www.ninoplomberie.fr/services/robinetterie-sanitaires",
       "statusCode": 301
     },
     {
@@ -6463,7 +6463,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/robinetterie-sanitaires",
+      "destination": "https://www.ninoplomberie.fr/services/robinetterie-sanitaires",
       "statusCode": 301
     },
     {
@@ -6474,7 +6474,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/robinetterie-sanitaires",
+      "destination": "https://www.ninoplomberie.fr/services/robinetterie-sanitaires",
       "statusCode": 301
     },
     {
@@ -6485,7 +6485,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/robinetterie-sanitaires",
+      "destination": "https://www.ninoplomberie.fr/services/robinetterie-sanitaires",
       "statusCode": 301
     },
     {
@@ -6496,7 +6496,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -6507,7 +6507,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -6518,7 +6518,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/pose-cuisine",
+      "destination": "https://www.ninoplomberie.fr/services/pose-cuisine",
       "statusCode": 301
     },
     {
@@ -6529,7 +6529,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/pose-cuisine",
+      "destination": "https://www.ninoplomberie.fr/services/pose-cuisine",
       "statusCode": 301
     },
     {
@@ -6540,7 +6540,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/robinetterie-sanitaires",
+      "destination": "https://www.ninoplomberie.fr/services/robinetterie-sanitaires",
       "statusCode": 301
     },
     {
@@ -6551,7 +6551,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/robinetterie-sanitaires",
+      "destination": "https://www.ninoplomberie.fr/services/robinetterie-sanitaires",
       "statusCode": 301
     },
     {
@@ -6562,7 +6562,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -6573,7 +6573,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -6584,7 +6584,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/fuite-d-eau",
+      "destination": "https://www.ninoplomberie.fr/services/fuite-d-eau",
       "statusCode": 301
     },
     {
@@ -6595,7 +6595,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/fuite-d-eau",
+      "destination": "https://www.ninoplomberie.fr/services/fuite-d-eau",
       "statusCode": 301
     },
     {
@@ -6606,7 +6606,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -6617,7 +6617,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -6628,7 +6628,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/fuite-d-eau",
+      "destination": "https://www.ninoplomberie.fr/services/fuite-d-eau",
       "statusCode": 301
     },
     {
@@ -6639,7 +6639,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/fuite-d-eau",
+      "destination": "https://www.ninoplomberie.fr/services/fuite-d-eau",
       "statusCode": 301
     },
     {
@@ -6650,7 +6650,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -6661,7 +6661,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -6672,7 +6672,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -6683,7 +6683,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -6694,7 +6694,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/chauffe-eau",
+      "destination": "https://www.ninoplomberie.fr/services/chauffe-eau",
       "statusCode": 301
     },
     {
@@ -6705,7 +6705,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/chauffe-eau",
+      "destination": "https://www.ninoplomberie.fr/services/chauffe-eau",
       "statusCode": 301
     },
     {
@@ -6716,7 +6716,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -6727,7 +6727,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -6738,7 +6738,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -6749,7 +6749,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -6760,7 +6760,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -6771,7 +6771,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -6782,7 +6782,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/chauffe-eau",
+      "destination": "https://www.ninoplomberie.fr/services/chauffe-eau",
       "statusCode": 301
     },
     {
@@ -6793,7 +6793,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/chauffe-eau",
+      "destination": "https://www.ninoplomberie.fr/services/chauffe-eau",
       "statusCode": 301
     },
     {
@@ -6804,7 +6804,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/tarifs",
+      "destination": "https://www.ninoplomberie.fr/tarifs",
       "statusCode": 301
     },
     {
@@ -6815,7 +6815,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/tarifs",
+      "destination": "https://www.ninoplomberie.fr/tarifs",
       "statusCode": 301
     },
     {
@@ -6826,7 +6826,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/robinetterie-sanitaires",
+      "destination": "https://www.ninoplomberie.fr/services/robinetterie-sanitaires",
       "statusCode": 301
     },
     {
@@ -6837,7 +6837,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/robinetterie-sanitaires",
+      "destination": "https://www.ninoplomberie.fr/services/robinetterie-sanitaires",
       "statusCode": 301
     },
     {
@@ -6848,7 +6848,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/robinetterie-sanitaires",
+      "destination": "https://www.ninoplomberie.fr/services/robinetterie-sanitaires",
       "statusCode": 301
     },
     {
@@ -6859,7 +6859,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/robinetterie-sanitaires",
+      "destination": "https://www.ninoplomberie.fr/services/robinetterie-sanitaires",
       "statusCode": 301
     },
     {
@@ -6870,7 +6870,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/debouchage",
+      "destination": "https://www.ninoplomberie.fr/services/debouchage",
       "statusCode": 301
     },
     {
@@ -6881,7 +6881,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/debouchage",
+      "destination": "https://www.ninoplomberie.fr/services/debouchage",
       "statusCode": 301
     },
     {
@@ -6892,7 +6892,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -6903,7 +6903,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "destination": "https://www.ninoplomberie.fr/services/renovation-salle-de-bain",
       "statusCode": 301
     },
     {
@@ -6914,7 +6914,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/robinetterie-sanitaires",
+      "destination": "https://www.ninoplomberie.fr/services/robinetterie-sanitaires",
       "statusCode": 301
     },
     {
@@ -6925,7 +6925,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/robinetterie-sanitaires",
+      "destination": "https://www.ninoplomberie.fr/services/robinetterie-sanitaires",
       "statusCode": 301
     },
     {
@@ -6936,7 +6936,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/debouchage",
+      "destination": "https://www.ninoplomberie.fr/services/debouchage",
       "statusCode": 301
     },
     {
@@ -6947,7 +6947,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services/debouchage",
+      "destination": "https://www.ninoplomberie.fr/services/debouchage",
       "statusCode": 301
     },
     {
@@ -6958,7 +6958,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services",
+      "destination": "https://www.ninoplomberie.fr/services",
       "statusCode": 301
     },
     {
@@ -6969,7 +6969,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/services",
+      "destination": "https://www.ninoplomberie.fr/services",
       "statusCode": 301
     },
     {
@@ -6980,8 +6980,31 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://ninoplomberie.fr/",
+      "destination": "https://www.ninoplomberie.fr/",
       "statusCode": 301
+    }
+  ],
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "key": "Referrer-Policy",
+          "value": "strict-origin-when-cross-origin"
+        },
+        {
+          "key": "X-Frame-Options",
+          "value": "SAMEORIGIN"
+        },
+        {
+          "key": "Permissions-Policy",
+          "value": "camera=(), microphone=(), geolocation=(self)"
+        }
+      ]
     }
   ]
 }

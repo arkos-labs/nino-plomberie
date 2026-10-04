@@ -10,6 +10,8 @@ export interface ServiceFiche {
   enBref: string
   description: string
   metaDescription?: string
+  /** Titre de page (balise title) si différent de « {titre} à Muret et Toulouse » */
+  metaTitle?: string
   details: string[]
   prix: string
   urgence: boolean
@@ -77,11 +79,12 @@ export const services: ServiceFiche[] = [
   {
     slug: "debouchage",
     titre: "Débouchage canalisation",
-    sousTitre: "WC, évier, douche, baignoire et canalisations",
+    sousTitre: "Débouchage WC, évier, douche, baignoire et canalisation",
+    metaTitle: "Débouchage canalisation & WC à Toulouse et Muret | Nino Plomberie",
     enBref:
       "Nino Plomberie débouche WC, éviers, lavabos, douches, baignoires et canalisations à Muret, Toulouse et en Haute-Garonne, 24h/24 et 7j/7. L'intervention se fait avec des outils professionnels, sans produit chimique agressif, et le devis est gratuit.",
     metaDescription:
-      "WC, évier ou douche bouché à Muret ou Toulouse ? Nino Plomberie débouche vos canalisations 24h/24 et 7j/7, sans produit agressif. Devis gratuit. ☎ 06 50 57 96 20",
+      "Débouchage de WC, évier, douche et canalisation à Toulouse, Muret et en Haute-Garonne, 24h/24 et 7j/7, sans produit agressif. Devis gratuit ☎ 06 50 57 96 20",
     description:
       "WC qui déborde, évier qui ne s'écoule plus, douche qui stagne : Nino Plomberie trouve le bouchon et rétablit l'écoulement, puis vous conseille pour éviter que le problème ne revienne.",
     details: [
@@ -175,13 +178,15 @@ export const services: ServiceFiche[] = [
     slug: "chauffage-chaudiere",
     titre: "Chauffage & Chaudière",
     sousTitre: "Plombier chauffagiste à Muret et Toulouse",
+    metaTitle: "Entretien chaudière & chauffagiste Toulouse | Nino Plomberie",
     enBref:
-      "Nino Plomberie est plombier-chauffagiste à Muret et intervient à Toulouse et en Haute-Garonne pour les pannes de chauffage, de chaudière et de radiateurs : chaudière qui se met en sécurité, pression qui chute, radiateurs froids ou circuit à purger. Le devis est gratuit.",
+      "Nino Plomberie est plombier-chauffagiste à Muret et intervient à Toulouse et en Haute-Garonne pour l'entretien et le dépannage de chaudière, de chauffage et de radiateurs : chaudière qui se met en sécurité, pression qui chute, radiateurs froids ou circuit à purger. Le devis est gratuit.",
     metaDescription:
-      "Panne de chauffage ou de chaudière à Muret ou Toulouse ? Nino Plomberie, plombier-chauffagiste, dépanne chaudières et radiateurs. Devis gratuit. ☎ 06 50 57 96 20",
+      "Plombier chauffagiste à Muret et Toulouse : entretien et dépannage de chaudière, chauffage et radiateurs en Haute-Garonne. Devis gratuit ☎ 06 50 57 96 20",
     description:
       "Plus de chauffage, chaudière qui s'arrête, radiateurs qui restent froids ou qui font du bruit : Nino Plomberie diagnostique le problème et remet votre installation en état.",
     details: [
+      "Entretien de chaudière",
       "Dépannage de chaudière",
       "Diagnostic de perte de pression du circuit",
       "Purge et équilibrage des radiateurs",
@@ -273,6 +278,7 @@ export const services: ServiceFiche[] = [
     slug: "renovation-salle-de-bain",
     titre: "Rénovation salle de bain",
     sousTitre: "Création et rénovation de A à Z",
+    metaTitle: "Rénovation salle de bain Toulouse & Muret | Nino Plomberie",
     enBref:
       "Nino Plomberie crée et rénove des salles de bain de A à Z à Muret, Toulouse et en Haute-Garonne : plomberie, cloisons, placo, carrelage, peinture, douche à l'italienne ou receveur extra-plat, WC suspendu, meuble vasque. Les chantiers sont réalisés à deux professionnels pour un résultat soigné dans les délais. Le devis est gratuit.",
     metaDescription:

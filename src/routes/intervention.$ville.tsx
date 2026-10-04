@@ -57,7 +57,7 @@ export const Route = createFileRoute("/intervention/$ville")({
     const path = `/intervention/${params.ville}`
     const head = pageHead({
       title: `Plombier ${commune.nom} (${commune.codePostal}) 24h/24 — Nino Plomberie`,
-      description: `Plombier à ${commune.nom} (${commune.codePostal}) : Nino Plomberie, artisan basé à Muret, intervient 24h/24 et 7j/7 pour fuite d'eau, débouchage, chauffe-eau et salle de bain. Devis gratuit ☎ 06 50 57 96 20`,
+      description: `Plombier chauffagiste à ${commune.nom} (${commune.codePostal}) : Nino Plomberie intervient 24h/24 pour fuite, débouchage, chauffe-eau, chauffage. Devis gratuit ☎ 06 50 57 96 20`,
       path,
     })
     return {

@@ -3,12 +3,15 @@ import { localities } from '../../data/localities'
 import { pageHead } from '../../lib/site'
 
 export const Route = createFileRoute('/localites/')({
-  head: () =>
-    pageHead({
+  head: () => {
+    const head = pageHead({
       title: "Plombier Muret & Toulouse - Zones d'intervention | Nino Plomberie",
       description: "Nino Plomberie intervient à Muret, Toulouse et dans de nombreuses communes de Haute-Garonne. Trouvez votre zone d'intervention.",
       path: "/localites",
-    }),
+    })
+    // Contenu à valider avec Nino avant indexation
+    return { ...head, meta: [...head.meta, { name: "robots", content: "noindex, follow" }] }
+  },
   component: LocalitesIndex,
 })
 

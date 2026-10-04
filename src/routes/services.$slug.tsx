@@ -36,7 +36,7 @@ export const Route = createFileRoute("/services/$slug")({
     const service = getServiceBySlug(params.slug)
     if (!service) return { meta: [{ title: "Service introuvable" }, { name: "robots", content: "noindex" }] }
     const url = `${SITE_URL}/services/${params.slug}`
-    const title = `${service.titre} à Muret et Toulouse | Nino Plomberie`
+    const title = service.metaTitle ?? `${service.titre} à Muret et Toulouse | Nino Plomberie`
     const description = service.metaDescription ?? service.enBref
     return {
       meta: [

@@ -6,11 +6,13 @@ export const Route = createFileRoute('/localites/$slug')({
   head: ({ params }) => {
     const locality = getLocalityBySlug(params.slug)
     if (!locality) return {}
-    return pageHead({
+    const head = pageHead({
       title: `Plombier ${locality.name} | Nino Plomberie`,
       description: locality.description,
       path: `/localites/${params.slug}`,
     })
+    // Contenu à valider avec Nino avant indexation (délais et FAQ non vérifiés)
+    return { ...head, meta: [...head.meta, { name: "robots", content: "noindex, follow" }] }
   },
   loader: ({ params }) => {
     const locality = getLocalityBySlug(params.slug)
