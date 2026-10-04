@@ -1,0 +1,67 @@
+import { createFileRoute, Link } from "@tanstack/react-router"
+import { CheckCircle, ArrowLeft } from "lucide-react"
+
+export const Route = createFileRoute("/merci")({
+  component: MerciPage,
+})
+
+function MerciPage() {
+  return (
+    <div className="page-wrapper" style={{ minHeight: "100vh", paddingTop: "120px", paddingBottom: "80px", background: "var(--white)", display: "flex", alignItems: "center", justifyContent: "center" }}>
+      <div className="container" style={{ maxWidth: "600px", margin: "0 auto", padding: "0 24px", textAlign: "center" }}>
+        
+        <div style={{ 
+          background: "linear-gradient(135deg, var(--brand-600) 0%, var(--brand-500) 60%, var(--brand-400) 100%)",
+          border: "1px solid rgba(255,255,255,0.08)",
+          borderRadius: "var(--radius-sm)",
+          padding: "48px 32px",
+          display: "flex",
+          flexDirection: "column",
+          alignItems: "center",
+          boxShadow: "0 24px 48px rgba(15, 30, 60, 0.18)"
+        }}>
+          
+          <div style={{ 
+            width: "80px", 
+            height: "80px", 
+            borderRadius: "50%", 
+            background: "rgba(16, 185, 129, 0.1)", 
+            display: "flex", 
+            alignItems: "center", 
+            justifyContent: "center",
+            marginBottom: "24px",
+            color: "#10b981"
+          }}>
+            <CheckCircle size={40} />
+          </div>
+
+          <h1 style={{ 
+            fontFamily: "var(--font-display)", 
+            fontSize: "clamp(2rem, 4vw, 2.5rem)", 
+            fontWeight: 800, 
+            color: "var(--white)", 
+            marginBottom: "16px",
+            lineHeight: 1.2
+          }}>
+            Rendez-vous <span style={{ color: "#10b981" }}>Confirmé !</span>
+          </h1>
+          
+          <p style={{ color: "rgba(255,255,255,0.82)", fontSize: "1.125rem", lineHeight: 1.7, marginBottom: "32px" }}>
+            Merci de votre confiance. Votre demande d'intervention a bien été enregistrée. 
+            Vous recevrez un e-mail de confirmation d'ici quelques instants.
+          </p>
+
+          <Link
+            to="/"
+            className="btn-ghost"
+            style={{ padding: "14px 28px", fontSize: "1rem" }}
+          >
+            <ArrowLeft size={18} />
+            Retour à l'accueil
+          </Link>
+          
+        </div>
+      </div>
+    </div>
+  )
+}

@@ -1,0 +1,6987 @@
+{
+  "buildCommand": "npm run build",
+  "outputDirectory": ".output/public",
+  "framework": null,
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/"
+    }
+  ],
+  "redirects": [
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-aucamville/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/intervention/aucamville",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-aucamville",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/intervention/aucamville",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-cugnaux/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/intervention/cugnaux",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-cugnaux",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/intervention/cugnaux",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-cornebarrieu/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/intervention/cornebarrieu",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-cornebarrieu",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/intervention/cornebarrieu",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-beauzelle/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/intervention/beauzelle",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-beauzelle",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/intervention/beauzelle",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-auterive/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/intervention/auterive",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-auterive",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/intervention/auterive",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-colomiers/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/intervention/colomiers",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-colomiers",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/intervention/colomiers",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-balma/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/intervention/balma",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-balma",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/intervention/balma",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-blagnac/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/intervention/blagnac",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-blagnac",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/intervention/blagnac",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-castanet-tolosan/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/intervention/castanet-tolosan",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-castanet-tolosan",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/intervention/castanet-tolosan",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-castelginest/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/intervention/castelginest",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-castelginest",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/intervention/castelginest",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-plaisance-du-touch/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/intervention/plaisance-du-touch",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-plaisance-du-touch",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/intervention/plaisance-du-touch",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-labarthe-sur-leze/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/intervention/labarthe-sur-leze",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-labarthe-sur-leze",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/intervention/labarthe-sur-leze",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-frouzins/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/intervention/frouzins",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-frouzins",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/intervention/frouzins",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-fonsorbes/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/intervention/fonsorbes",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-fonsorbes",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/intervention/fonsorbes",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-pibrac/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/intervention/pibrac",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-pibrac",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/intervention/pibrac",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-escalquens/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/intervention/escalquens",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-escalquens",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/intervention/escalquens",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-grenade/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/zones",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-grenade",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/zones",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-la-salvetat-saint-gilles/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/intervention/la-salvetat-saint-gilles",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-la-salvetat-saint-gilles",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/intervention/la-salvetat-saint-gilles",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-launaguet/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/intervention/launaguet",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-launaguet",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/intervention/launaguet",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-ramonville-saint-agne/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/intervention/ramonville-saint-agne",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-ramonville-saint-agne",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/intervention/ramonville-saint-agne",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-portet-sur-garonne/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/intervention/portet-sur-garonne",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-portet-sur-garonne",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/intervention/portet-sur-garonne",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-tournefeuille/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/intervention/tournefeuille",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-tournefeuille",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/intervention/tournefeuille",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-toulouse/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/intervention/toulouse",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-toulouse",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/intervention/toulouse",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-saix/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/zones",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-saix",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/zones",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-seysses/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/intervention/seysses",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-seysses",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/intervention/seysses",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-saint-lys/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/intervention/saint-lys",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-saint-lys",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/intervention/saint-lys",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-saint-orens-de-gameville/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/intervention/saint-orens-de-gameville",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-saint-orens-de-gameville",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/intervention/saint-orens-de-gameville",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-saint-alban/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/intervention/saint-alban",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-saint-alban",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/intervention/saint-alban",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-villeneuve-tolosane/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/intervention/villeneuve-tolosane",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-villeneuve-tolosane",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/intervention/villeneuve-tolosane",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-beaupuy/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/intervention/beaupuy",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-beaupuy",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/intervention/beaupuy",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-berat/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/intervention/berat",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-berat",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/intervention/berat",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-beaumont-sur-leze/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/intervention/beaumont-sur-leze",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-beaumont-sur-leze",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/intervention/beaumont-sur-leze",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-belberaud/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/intervention/belberaud",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-belberaud",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/intervention/belberaud",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-calmont/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/zones",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-calmont",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/zones",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-cepet/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/zones",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-cepet",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/zones",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-bouloc/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/zones",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-bouloc",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/zones",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-brax/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/intervention/brax",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-brax",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/intervention/brax",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-bruguieres/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/zones",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-bruguieres",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/zones",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-carbonne/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/intervention/carbonne",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-carbonne",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/intervention/carbonne",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-castelmaurou/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/intervention/castelmaurou",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-castelmaurou",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/intervention/castelmaurou",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-castelnau-d-estretefonds/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/zones",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-castelnau-d-estretefonds",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/zones",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-cazeres/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/zones",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-cazeres",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/zones",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-cintegabelle/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/intervention/cintegabelle",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-cintegabelle",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/intervention/cintegabelle",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-daux/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/intervention/daux",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-daux",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/intervention/daux",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-dremil-lafage/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/intervention/dremil-lafage",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-dremil-lafage",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/intervention/dremil-lafage",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-eaunes/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/intervention/eaunes",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-eaunes",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/intervention/eaunes",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-flourens/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/intervention/flourens",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-flourens",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/intervention/flourens",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-fonbeauzard/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/intervention/fonbeauzard",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-fonbeauzard",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/intervention/fonbeauzard",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-fontenilles/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/intervention/fontenilles",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-fontenilles",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/intervention/fontenilles",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-gagnac-sur-garonne/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/intervention/gagnac-sur-garonne",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-gagnac-sur-garonne",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/intervention/gagnac-sur-garonne",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-gaillac-toulza/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/intervention/gaillac-toulza",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-gaillac-toulza",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/intervention/gaillac-toulza",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-labege/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/intervention/labege",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-labege",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/intervention/labege",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-gardouch/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/intervention/gardouch",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-gardouch",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/intervention/gardouch",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-garidech/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/zones",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-garidech",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/zones",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-gratentour/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/zones",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-gratentour",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/zones",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-gragnague/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/zones",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-gragnague",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/zones",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-labastide-beauvoir/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/intervention/labastide-beauvoir",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-labastide-beauvoir",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/intervention/labastide-beauvoir",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-labastide-saint-sernin/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/zones",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-labastide-saint-sernin",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/zones",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-labastidette/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/intervention/labastidette",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-labastidette",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/intervention/labastidette",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-lacroix-falgarde/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/intervention/lacroix-falgarde",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-lacroix-falgarde",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/intervention/lacroix-falgarde",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-lespinasse/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/intervention/lespinasse",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-lespinasse",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/intervention/lespinasse",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-levignac/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/intervention/levignac",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-levignac",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/intervention/levignac",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-lanta/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/intervention/lanta",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-lanta",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/intervention/lanta",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-lapeyrouse-fossat/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/zones",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-lapeyrouse-fossat",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/zones",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-launac/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/zones",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-launac",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/zones",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-lherm/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/intervention/lherm",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-lherm",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/intervention/lherm",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-lezat-sur-leze/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/zones",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-lezat-sur-leze",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/zones",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-miremont/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/intervention/miremont",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-miremont",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/intervention/miremont",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-lombez/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/zones",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-lombez",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/zones",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-martres-tolosane/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/zones",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-martres-tolosane",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/zones",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-mazeres/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/zones",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-mazeres",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/zones",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-montaigut-sur-save/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/intervention/montaigut-sur-save",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-montaigut-sur-save",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/intervention/montaigut-sur-save",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-nailloux/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/intervention/nailloux",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-nailloux",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/intervention/nailloux",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-montlaur/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/intervention/montlaur",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-montlaur",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/intervention/montlaur",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-noe/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/intervention/noe",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-noe",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/intervention/noe",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-pompignan/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/zones",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-pompignan",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/zones",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-paulhac/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/zones",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-paulhac",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/zones",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-pechbonnieu/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/intervention/pechbonnieu",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-pechbonnieu",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/intervention/pechbonnieu",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-pujaudran/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/zones",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-pujaudran",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/zones",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-pechabou/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/intervention/pechabou",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-pechabou",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/intervention/pechabou",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-rieumes/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/intervention/rieumes",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-rieumes",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/intervention/rieumes",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-saint-jory/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/zones",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-saint-jory",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/zones",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-samatan/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/zones",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-samatan",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/zones",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-saint-loup-cammas/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/intervention/saint-loup-cammas",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-saint-loup-cammas",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/intervention/saint-loup-cammas",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-saverdun/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/zones",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-saverdun",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/zones",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-saubens/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/intervention/saubens",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-saubens",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/intervention/saubens",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-vieille-toulouse/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/intervention/vieille-toulouse",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-vieille-toulouse",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/intervention/vieille-toulouse",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-verfeil/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/zones",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-verfeil",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/zones",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-vernet/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/intervention/vernet",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-vernet",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/intervention/vernet",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-villenouvelle/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/intervention/villenouvelle",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-villenouvelle",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/intervention/villenouvelle",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-lavernose-lacasse/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/intervention/lavernose-lacasse",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-lavernose-lacasse",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/intervention/lavernose-lacasse",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-le-fauga/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/intervention/le-fauga",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-le-fauga",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/intervention/le-fauga",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-le-fousseret/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/intervention/le-fousseret",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-le-fousseret",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/intervention/le-fousseret",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-longages/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/intervention/longages",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-longages",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/intervention/longages",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-marquefave/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/intervention/marquefave",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-marquefave",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/intervention/marquefave",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-merville/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/intervention/merville",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-merville",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/intervention/merville",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-mondonville/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/intervention/mondonville",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-mondonville",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/intervention/mondonville",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-mons/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/intervention/mons",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-mons",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/intervention/mons",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-montberon/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/zones",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-montberon",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/zones",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-montesquieu-volvestre/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/zones",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-montesquieu-volvestre",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/zones",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-montgiscard/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/intervention/montgiscard",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-montgiscard",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/intervention/montgiscard",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-ondes/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/zones",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-ondes",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/zones",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-pinsaguel/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/intervention/pinsaguel",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-pinsaguel",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/intervention/pinsaguel",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-pompertuzat/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/intervention/pompertuzat",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-pompertuzat",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/intervention/pompertuzat",
+      "statusCode": 301
+    },
+    {
+      "source": "/contact/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/contact",
+      "statusCode": 301
+    },
+    {
+      "source": "/contact",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/contact",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-rieux-volvestre/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/intervention/rieux-volvestre",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-rieux-volvestre",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/intervention/rieux-volvestre",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-roquettes/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/intervention/roquettes",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-roquettes",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/intervention/roquettes",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-rouffiac-tolosan/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/intervention/rouffiac-tolosan",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-rouffiac-tolosan",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/intervention/rouffiac-tolosan",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-saint-genies-bellevue/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/intervention/saint-genies-bellevue",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-saint-genies-bellevue",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/intervention/saint-genies-bellevue",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-saint-sauveur/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/zones",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-saint-sauveur",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/zones",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-saint-sulpice-sur-leze/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/intervention/saint-sulpice-sur-leze",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-saint-sulpice-sur-leze",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/intervention/saint-sulpice-sur-leze",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-sainte-foy-de-peyrolieres/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/intervention/sainte-foy-de-peyrolieres",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-sainte-foy-de-peyrolieres",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/intervention/sainte-foy-de-peyrolieres",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-seilh/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/intervention/seilh",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-seilh",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/intervention/seilh",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-vacquiers/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/zones",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-vacquiers",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/zones",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-venerque/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/intervention/venerque",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-venerque",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/intervention/venerque",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-villefranche-de-lauragais/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/zones",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-villefranche-de-lauragais",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/zones",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-villeneuve-les-bouloc/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/zones",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-villeneuve-les-bouloc",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/zones",
+      "statusCode": 301
+    },
+    {
+      "source": "/realisations-muret/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/realisations",
+      "statusCode": 301
+    },
+    {
+      "source": "/realisations-muret",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/realisations",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-auzeville-tolosane/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-auzeville-tolosane",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-baziege/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-baziege",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-beaupuy/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-beaupuy",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-beaumont-sur-leze/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-beaumont-sur-leze",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-belberaud/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-belberaud",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-bruguieres/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-bruguieres",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-calmont/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-calmont",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-carbonne/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-carbonne",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-caraman/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-caraman",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-castelmaurou/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-castelmaurou",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-castelnau-destretefonds/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-castelnau-destretefonds",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-cazeres/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-cazeres",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-cepet/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-cepet",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-cintegabelle/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-cintegabelle",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-daux/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-daux",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-dremil-lafage/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-dremil-lafage",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-eaunes/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-eaunes",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-fenouillet/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-fenouillet",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-flourens/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-flourens",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-fontenilles/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-fontenilles",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-gagnac-sur-garonne/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-gagnac-sur-garonne",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-gaillac-toulza/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-gaillac-toulza",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-labege/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-labege",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-gardouch/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-gardouch",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-garidech/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-garidech",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-gragnague/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-gragnague",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-labastide-beauvoir/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-labastide-beauvoir",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-labastide-saint-sernin/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-labastide-saint-sernin",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-lacroix-falgarde/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-lacroix-falgarde",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-lapeyrouse-fossat/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-lapeyrouse-fossat",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-lanta/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-lanta",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-launac/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-launac",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-lavernose-lacasse/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-lavernose-lacasse",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-le-fauga/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-le-fauga",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-le-fousseret/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-le-fousseret",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-lherm/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-lherm",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-lezat-sur-leze/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-lezat-sur-leze",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-lombez/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-lombez",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-longages/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-longages",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-marquefave/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-marquefave",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-martres-tolosane/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-martres-tolosane",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-mazeres/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-mazeres",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-merville/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-merville",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-mondonville/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-mondonville",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-mons/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-mons",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-montaigut-sur-save/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-montaigut-sur-save",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-nailloux/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-nailloux",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-montastruc-la-conseillere/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-montastruc-la-conseillere",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-montberon/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-montberon",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-montesquieu-volvestre/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-montesquieu-volvestre",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-montgiscard/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-montgiscard",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-montjoire/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-montjoire",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-montlaur/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-montlaur",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-ondes/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-ondes",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-noe/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-noe",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-paulhac/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-paulhac",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-pechbonnieu/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-pechbonnieu",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-pinsaguel/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-pinsaguel",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-pompertuzat/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-pompertuzat",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-pujaudran/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-pujaudran",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-rieumes/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-rieumes",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-rieux-volvestre/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-rieux-volvestre",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-roquettes/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-roquettes",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-pechabou/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-pechabou",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-saint-jory/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-saint-jory",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-rouffiac-tolosan/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-rouffiac-tolosan",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-saint-genies-bellevue/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-saint-genies-bellevue",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-saint-loup-cammas/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-saint-loup-cammas",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-saint-sauveur/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-saint-sauveur",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-saint-sulpice-sur-leze/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-saint-sulpice-sur-leze",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-sainte-foy-de-peyrolieres/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-sainte-foy-de-peyrolieres",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-saubens/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-saubens",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-saverdun/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-saverdun",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-seilh/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-seilh",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-venerque/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-venerque",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-vacquiers/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-vacquiers",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-verfeil/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-verfeil",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-vernet/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-vernet",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-villefranche-de-lauragais/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-villefranche-de-lauragais",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-villeneuve-les-bouloc/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-villeneuve-les-bouloc",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-villenouvelle/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-villenouvelle",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-aucamville/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-aucamville",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-auterive/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-auterive",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-blagnac/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-blagnac",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-cugnaux/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-cugnaux",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-beauzelle/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-beauzelle",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-castelginest/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-castelginest",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-colomiers/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-colomiers",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-castanet-tolosan/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-castanet-tolosan",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-cornebarrieu/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-cornebarrieu",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-plaisance-du-touch/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-plaisance-du-touch",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-labarthe-sur-leze/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-labarthe-sur-leze",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-frouzins/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-frouzins",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-fonsorbes/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-fonsorbes",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-la-salvetat-saint-gilles/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-la-salvetat-saint-gilles",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-leguevin/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-leguevin",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-pibrac/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-pibrac",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-escalquens/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-escalquens",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-launaguet/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-launaguet",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-grenade/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-grenade",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-ramonville-saint-agne/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-ramonville-saint-agne",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-portet-sur-garonne/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-portet-sur-garonne",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-tournefeuille/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-tournefeuille",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-toulouse/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-toulouse",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-saix/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-saix",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-seysses/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-seysses",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-saint-lys/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-saint-lys",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-saint-orens-de-gameville/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-saint-orens-de-gameville",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-saint-alban/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-saint-alban",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-saint-jean/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-saint-jean",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-villeneuve-tolosane/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-villeneuve-tolosane",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-labastidette/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-labastidette",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-balma/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-balma",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-muret/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-muret",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-muret/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/intervention/muret",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-muret",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/intervention/muret",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-aussonne/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-aussonne",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-aussonne/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/intervention/aussonne",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-aussonne",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/intervention/aussonne",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-comment-choisir-le-bon-professionnel-pour-vos-travaux/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/a-propos",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-comment-choisir-le-bon-professionnel-pour-vos-travaux",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/a-propos",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-debouchage-que-faire-en-cas-durgence/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/debouchage",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-debouchage-que-faire-en-cas-durgence",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/debouchage",
+      "statusCode": 301
+    },
+    {
+      "source": "/reparation-fuite-d-eau-canalisation-enterree-methodes-efficaces/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/fuite-d-eau",
+      "statusCode": 301
+    },
+    {
+      "source": "/reparation-fuite-d-eau-canalisation-enterree-methodes-efficaces",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/fuite-d-eau",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-urgence-quand-faire-appel-a-un-professionnel/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-urgence-quand-faire-appel-a-un-professionnel",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/",
+      "statusCode": 301
+    },
+    {
+      "source": "/quelques-idees-pour-moderniser-votre-salle-de-bain/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/quelques-idees-pour-moderniser-votre-salle-de-bain",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/astuces-pour-un-depannage-plomberie-efficace-chez-soi/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/",
+      "statusCode": 301
+    },
+    {
+      "source": "/astuces-pour-un-depannage-plomberie-efficace-chez-soi",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/",
+      "statusCode": 301
+    },
+    {
+      "source": "/reussir-votre-depannage-de-plomberie-avec-un-professionnel/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/",
+      "statusCode": 301
+    },
+    {
+      "source": "/reussir-votre-depannage-de-plomberie-avec-un-professionnel",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/",
+      "statusCode": 301
+    },
+    {
+      "source": "/amenager-une-nouvelle-salle-de-bains-dans-un-petit-espace/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/amenager-une-nouvelle-salle-de-bains-dans-un-petit-espace",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/quand-faire-appel-a-un-plombier-en-urgence/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/",
+      "statusCode": 301
+    },
+    {
+      "source": "/quand-faire-appel-a-un-plombier-en-urgence",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/",
+      "statusCode": 301
+    },
+    {
+      "source": "/conseils-pour-choisir-une-entreprise-renovation-salle-de-bain/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/conseils-pour-choisir-une-entreprise-renovation-salle-de-bain",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/limportance-dun-plombier-experimente-en-recherche-de-fuite/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/fuite-d-eau",
+      "statusCode": 301
+    },
+    {
+      "source": "/limportance-dun-plombier-experimente-en-recherche-de-fuite",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/fuite-d-eau",
+      "statusCode": 301
+    },
+    {
+      "source": "/les-couts-moyens-des-interventions-dun-artisan-plombier/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/tarifs",
+      "statusCode": 301
+    },
+    {
+      "source": "/les-couts-moyens-des-interventions-dun-artisan-plombier",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/tarifs",
+      "statusCode": 301
+    },
+    {
+      "source": "/creer-une-salle-de-bain-fonctionnelle-et-esthetique-nos-recommandations/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/creer-une-salle-de-bain-fonctionnelle-et-esthetique-nos-recommandations",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/comment-trouver-un-plombier-toilette-rapidement-et-efficacement/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/debouchage",
+      "statusCode": 301
+    },
+    {
+      "source": "/comment-trouver-un-plombier-toilette-rapidement-et-efficacement",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/debouchage",
+      "statusCode": 301
+    },
+    {
+      "source": "/premier-projet-de-renovation-faire-appel-a-un-plombier-salle-de-bain/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/premier-projet-de-renovation-faire-appel-a-un-plombier-salle-de-bain",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/les-essentiels-a-savoir-avant-de-renover-la-plomberie-de-votre-salle-de-bain/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/les-essentiels-a-savoir-avant-de-renover-la-plomberie-de-votre-salle-de-bain",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/choisir-le-bon-tarif-plombier-ce-quil-faut-savoir/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/tarifs",
+      "statusCode": 301
+    },
+    {
+      "source": "/choisir-le-bon-tarif-plombier-ce-quil-faut-savoir",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/tarifs",
+      "statusCode": 301
+    },
+    {
+      "source": "/pourquoi-choisir-un-artisan-local-pour-votre-salle-de-bain/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/pourquoi-choisir-un-artisan-local-pour-votre-salle-de-bain",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/les-facteurs-qui-influencent-le-prix-dun-plombier/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/tarifs",
+      "statusCode": 301
+    },
+    {
+      "source": "/les-facteurs-qui-influencent-le-prix-dun-plombier",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/tarifs",
+      "statusCode": 301
+    },
+    {
+      "source": "/les-facteurs-qui-influencent-le-prix-de-renovation-dune-salle-de-bain/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/tarifs",
+      "statusCode": 301
+    },
+    {
+      "source": "/les-facteurs-qui-influencent-le-prix-de-renovation-dune-salle-de-bain",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/tarifs",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-depannage-24-24-que-faire-en-cas-durgence/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/",
+      "statusCode": 301
+    },
+    {
+      "source": "/plombier-depannage-24-24-que-faire-en-cas-durgence",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/",
+      "statusCode": 301
+    },
+    {
+      "source": "/refaire-sa-salle-de-bain-les-indispensables-a-ne-pas-negliger/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/refaire-sa-salle-de-bain-les-indispensables-a-ne-pas-negliger",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/creer-une-salle-de-bain-sur-mesure-conseils-et-astuces/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/creer-une-salle-de-bain-sur-mesure-conseils-et-astuces",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-de-salle-de-bain-ce-que-vous-devez-savoir-sur-les-entrepreneurs/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-de-salle-de-bain-ce-que-vous-devez-savoir-sur-les-entrepreneurs",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/les-etapes-essentielles-de-linstallation-dune-douche-par-un-plombier/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/les-etapes-essentielles-de-linstallation-dune-douche-par-un-plombier",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/refaire-sa-salle-de-bain-quel-est-le-prix-moyen-en-2025/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/tarifs",
+      "statusCode": 301
+    },
+    {
+      "source": "/refaire-sa-salle-de-bain-quel-est-le-prix-moyen-en-2025",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/tarifs",
+      "statusCode": 301
+    },
+    {
+      "source": "/comprendre-le-role-dun-plombier-chauffagiste-dans-votre-projet-de-renovation/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/a-propos",
+      "statusCode": 301
+    },
+    {
+      "source": "/comprendre-le-role-dun-plombier-chauffagiste-dans-votre-projet-de-renovation",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/a-propos",
+      "statusCode": 301
+    },
+    {
+      "source": "/plomberie-sanitaire-astuces-pour-eviter-les-fuites-courantes/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/fuite-d-eau",
+      "statusCode": 301
+    },
+    {
+      "source": "/plomberie-sanitaire-astuces-pour-eviter-les-fuites-courantes",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/fuite-d-eau",
+      "statusCode": 301
+    },
+    {
+      "source": "/comment-bien-choisir-son-artisan-plombier-chauffagiste/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/a-propos",
+      "statusCode": 301
+    },
+    {
+      "source": "/comment-bien-choisir-son-artisan-plombier-chauffagiste",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/a-propos",
+      "statusCode": 301
+    },
+    {
+      "source": "/quels-travaux-confier-a-un-installateur-salle-de-bain/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/quels-travaux-confier-a-un-installateur-salle-de-bain",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/les-outils-indispensables-pour-une-pose-de-cuisine-parfaite/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/pose-cuisine",
+      "statusCode": 301
+    },
+    {
+      "source": "/les-outils-indispensables-pour-une-pose-de-cuisine-parfaite",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/pose-cuisine",
+      "statusCode": 301
+    },
+    {
+      "source": "/plomberie-baignoire-ilot/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/plomberie-baignoire-ilot",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/reparer-fuite-chasse-deau-wc-suspendu/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/robinetterie-sanitaires",
+      "statusCode": 301
+    },
+    {
+      "source": "/reparer-fuite-chasse-deau-wc-suspendu",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/robinetterie-sanitaires",
+      "statusCode": 301
+    },
+    {
+      "source": "/entretien-chauffe-eau/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/chauffe-eau",
+      "statusCode": 301
+    },
+    {
+      "source": "/entretien-chauffe-eau",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/chauffe-eau",
+      "statusCode": 301
+    },
+    {
+      "source": "/debouchage-canalisation-locataire-proprietaire/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/debouchage",
+      "statusCode": 301
+    },
+    {
+      "source": "/debouchage-canalisation-locataire-proprietaire",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/debouchage",
+      "statusCode": 301
+    },
+    {
+      "source": "/entretien-chaudiere-obligatoire/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/chauffage-chaudiere",
+      "statusCode": 301
+    },
+    {
+      "source": "/entretien-chaudiere-obligatoire",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/chauffage-chaudiere",
+      "statusCode": 301
+    },
+    {
+      "source": "/pente-evacuation-douche-italienne/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/pente-evacuation-douche-italienne",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/types-de-raccords-plomberie/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/robinetterie-sanitaires",
+      "statusCode": 301
+    },
+    {
+      "source": "/types-de-raccords-plomberie",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/robinetterie-sanitaires",
+      "statusCode": 301
+    },
+    {
+      "source": "/evacuation-salle-de-bain/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/evacuation-salle-de-bain",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/degat-des-eaux-qui-paye-le-plombier/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/fuite-d-eau",
+      "statusCode": 301
+    },
+    {
+      "source": "/degat-des-eaux-qui-paye-le-plombier",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/fuite-d-eau",
+      "statusCode": 301
+    },
+    {
+      "source": "/receveur-de-douche-resine-ou-acrylique/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/receveur-de-douche-resine-ou-acrylique",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/vmc-salle-de-bain-obligatoire/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/vmc-salle-de-bain-obligatoire",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renover-salle-de-bain-sans-casser-carrelage/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renover-salle-de-bain-sans-casser-carrelage",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/installation-siphon-machine-a-laver/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/robinetterie-sanitaires",
+      "statusCode": 301
+    },
+    {
+      "source": "/installation-siphon-machine-a-laver",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/robinetterie-sanitaires",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalisation-gelee/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/fuite-d-eau",
+      "statusCode": 301
+    },
+    {
+      "source": "/canalisation-gelee",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/fuite-d-eau",
+      "statusCode": 301
+    },
+    {
+      "source": "/diagnostic-plomberie/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services",
+      "statusCode": 301
+    },
+    {
+      "source": "/diagnostic-plomberie",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services",
+      "statusCode": 301
+    },
+    {
+      "source": "/prix-recherche-de-fuite/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/tarifs",
+      "statusCode": 301
+    },
+    {
+      "source": "/prix-recherche-de-fuite",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/tarifs",
+      "statusCode": 301
+    },
+    {
+      "source": "/aide-remplacement-chaudiere-gaz-copropriete/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/chauffage-chaudiere",
+      "statusCode": 301
+    },
+    {
+      "source": "/aide-remplacement-chaudiere-gaz-copropriete",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/chauffage-chaudiere",
+      "statusCode": 301
+    },
+    {
+      "source": "/norme-dtu-plomberie/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services",
+      "statusCode": 301
+    },
+    {
+      "source": "/norme-dtu-plomberie",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services",
+      "statusCode": 301
+    },
+    {
+      "source": "/meilleur-adoucisseur-deau/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/robinetterie-sanitaires",
+      "statusCode": 301
+    },
+    {
+      "source": "/meilleur-adoucisseur-deau",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/robinetterie-sanitaires",
+      "statusCode": 301
+    },
+    {
+      "source": "/garantie-decennale-plomberie/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services",
+      "statusCode": 301
+    },
+    {
+      "source": "/garantie-decennale-plomberie",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services",
+      "statusCode": 301
+    },
+    {
+      "source": "/plomberie-cuivre-per-multicouche/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/robinetterie-sanitaires",
+      "statusCode": 301
+    },
+    {
+      "source": "/plomberie-cuivre-per-multicouche",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/robinetterie-sanitaires",
+      "statusCode": 301
+    },
+    {
+      "source": "/debouchage-canalisation-saint-orens-de-gameville/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/debouchage",
+      "statusCode": 301
+    },
+    {
+      "source": "/debouchage-canalisation-saint-orens-de-gameville",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/debouchage",
+      "statusCode": 301
+    },
+    {
+      "source": "/verifier-devis-plomberie/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/tarifs",
+      "statusCode": 301
+    },
+    {
+      "source": "/verifier-devis-plomberie",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/tarifs",
+      "statusCode": 301
+    },
+    {
+      "source": "/purger-radiateur/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/chauffage-chaudiere",
+      "statusCode": 301
+    },
+    {
+      "source": "/purger-radiateur",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/chauffage-chaudiere",
+      "statusCode": 301
+    },
+    {
+      "source": "/installer-robinet-exterieur/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/robinetterie-sanitaires",
+      "statusCode": 301
+    },
+    {
+      "source": "/installer-robinet-exterieur",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/robinetterie-sanitaires",
+      "statusCode": 301
+    },
+    {
+      "source": "/debit-deau-douche/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/robinetterie-sanitaires",
+      "statusCode": 301
+    },
+    {
+      "source": "/debit-deau-douche",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/robinetterie-sanitaires",
+      "statusCode": 301
+    },
+    {
+      "source": "/installation-robinetterie-encastree/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/robinetterie-sanitaires",
+      "statusCode": 301
+    },
+    {
+      "source": "/installation-robinetterie-encastree",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/robinetterie-sanitaires",
+      "statusCode": 301
+    },
+    {
+      "source": "/normes-electriques-salle-de-bain/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/normes-electriques-salle-de-bain",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-plomberie-cuisine/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/pose-cuisine",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-plomberie-cuisine",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/pose-cuisine",
+      "statusCode": 301
+    },
+    {
+      "source": "/filtre-anti-tartre-maison/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/robinetterie-sanitaires",
+      "statusCode": 301
+    },
+    {
+      "source": "/filtre-anti-tartre-maison",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/robinetterie-sanitaires",
+      "statusCode": 301
+    },
+    {
+      "source": "/transformer-baignoire-en-douche/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/transformer-baignoire-en-douche",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/coup-de-belier-bruit/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/fuite-d-eau",
+      "statusCode": 301
+    },
+    {
+      "source": "/coup-de-belier-bruit",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/fuite-d-eau",
+      "statusCode": 301
+    },
+    {
+      "source": "/systeme-d-etancheite-sous-carrelage/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/systeme-d-etancheite-sous-carrelage",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/fuite-d-eau-invisible/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/fuite-d-eau",
+      "statusCode": 301
+    },
+    {
+      "source": "/fuite-d-eau-invisible",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/fuite-d-eau",
+      "statusCode": 301
+    },
+    {
+      "source": "/vmc-ventilation-mecanique-controlee/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/vmc-ventilation-mecanique-controlee",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/douche-italienne-ou-baignoire/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/douche-italienne-ou-baignoire",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/purger-chauffe-eau/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/chauffe-eau",
+      "statusCode": 301
+    },
+    {
+      "source": "/purger-chauffe-eau",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/chauffe-eau",
+      "statusCode": 301
+    },
+    {
+      "source": "/meilleurs-materiaux-pour-une-piece-humide/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/meilleurs-materiaux-pour-une-piece-humide",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/petite-salle-de-bain-optimisee/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/petite-salle-de-bain-optimisee",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/aides-renovation-salle-de-bain/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/aides-renovation-salle-de-bain",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/ballon-d-eau-chaude-plus-de-pression/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/chauffe-eau",
+      "statusCode": 301
+    },
+    {
+      "source": "/ballon-d-eau-chaude-plus-de-pression",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/chauffe-eau",
+      "statusCode": 301
+    },
+    {
+      "source": "/quel-budget-prevoir-pour-la-renovation-d-une-salle-de-bain/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/tarifs",
+      "statusCode": 301
+    },
+    {
+      "source": "/quel-budget-prevoir-pour-la-renovation-d-une-salle-de-bain",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/tarifs",
+      "statusCode": 301
+    },
+    {
+      "source": "/cuivre-per-ou-multicouche/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/robinetterie-sanitaires",
+      "statusCode": 301
+    },
+    {
+      "source": "/cuivre-per-ou-multicouche",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/robinetterie-sanitaires",
+      "statusCode": 301
+    },
+    {
+      "source": "/chasse-d-eau-qui-coule-en-continu/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/robinetterie-sanitaires",
+      "statusCode": 301
+    },
+    {
+      "source": "/chasse-d-eau-qui-coule-en-continu",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/robinetterie-sanitaires",
+      "statusCode": 301
+    },
+    {
+      "source": "/mauvaise-odeur-evier-cuisine/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/debouchage",
+      "statusCode": 301
+    },
+    {
+      "source": "/mauvaise-odeur-evier-cuisine",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/debouchage",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-personne-agee/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/renovation-salle-de-bain-personne-agee",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/renovation-salle-de-bain",
+      "statusCode": 301
+    },
+    {
+      "source": "/un-adoucisseur-d-eau-est-il-utile/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/robinetterie-sanitaires",
+      "statusCode": 301
+    },
+    {
+      "source": "/un-adoucisseur-d-eau-est-il-utile",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/robinetterie-sanitaires",
+      "statusCode": 301
+    },
+    {
+      "source": "/comment-deboucher-une-canalisation-tres-bouchee/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/debouchage",
+      "statusCode": 301
+    },
+    {
+      "source": "/comment-deboucher-une-canalisation-tres-bouchee",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services/debouchage",
+      "statusCode": 301
+    },
+    {
+      "source": "/category/uncategorized/",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services",
+      "statusCode": 301
+    },
+    {
+      "source": "/category/uncategorized",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/services",
+      "statusCode": 301
+    },
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "(www\\.)?nino-plomberie31\\.fr"
+        }
+      ],
+      "destination": "https://ninoplomberie.fr/",
+      "statusCode": 301
+    }
+  ]
+}
