@@ -1,6 +1,6 @@
 // Informations officielles de l'entreprise — source unique pour le SEO et les données structurées.
 // Sources : fiche Google Business + site historique nino-plomberie31.fr
-export const SITE_URL = "https://ninoplomberie.fr"
+export const SITE_URL = "https://www.ninoplomberie.fr"
 
 export const BUSINESS = {
   name: "Nino Plomberie",
