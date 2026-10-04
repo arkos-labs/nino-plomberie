@@ -116,7 +116,8 @@ function RendezVousPage() {
                 hideEventTypeDetails: false,
                 hideLandingPageDetails: false,
                 primaryColor: '284b7a',
-                textColor: '111827'
+                textColor: '111827',
+                hideGdprBanner: true
               }}
             />
           </motion.div>

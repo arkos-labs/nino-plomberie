@@ -163,10 +163,13 @@ function HomePage() {
       ═══════════════════════════════════════════════════════════════════ */}
       <section style={{
         background: "linear-gradient(135deg, var(--brand-600) 0%, var(--brand-500) 60%, var(--brand-400) 100%)",
-        paddingTop: "64px",
-        paddingBottom: "80px",
+        paddingTop: "40px",
+        paddingBottom: "40px",
         position: "relative",
         overflow: "hidden",
+        minHeight: "100dvh",
+        display: "flex",
+        alignItems: "center"
       }}>
         {/* Photo plein fond */}
         <div className="hero-bg-image" style={{
@@ -186,7 +189,7 @@ function HomePage() {
         <div className="section-container" style={{ position: "relative", zIndex: 2, display: "flex", flexDirection: "column", alignItems: "flex-start", textAlign: "left", width: "100%" }}>
 
           {/* Badge */}
-          <div className="animate-fade-up" style={{ marginBottom: "24px" }}>
+          <div className="animate-fade-up" style={{ marginBottom: "16px" }}>
             <a href="tel:0650579620" className="page-hero-kicker" style={{ margin: 0 }}>
               Urgence ? Appelez directement
               <ArrowRight size={14} aria-hidden="true" />
@@ -203,7 +206,7 @@ function HomePage() {
               color: "#fff",
               lineHeight: 1.15,
               letterSpacing: "-0.03em",
-              marginBottom: "24px",
+              marginBottom: "16px",
               maxWidth: "560px",
             }}
           >
@@ -214,7 +217,7 @@ function HomePage() {
           </h1>
 
           {/* Sous-titre et Widget */}
-          <div style={{ position: "relative", display: "inline-block", maxWidth: "560px", marginBottom: "32px" }}>
+          <div style={{ position: "relative", display: "inline-block", maxWidth: "560px", marginBottom: "24px" }}>
             <p
               className="animate-fade-up animate-fade-up-d2"
               style={{
@@ -222,7 +225,7 @@ function HomePage() {
                 fontSize: "1.15rem",
                 lineHeight: 1.7,
                 maxWidth: "460px",
-                margin: "0 0 32px",
+                margin: "0 0 24px",
                 fontWeight: 400,
               }}
             >
@@ -233,7 +236,7 @@ function HomePage() {
           </div>
 
           {/* CTAs */}
-          <div className="animate-fade-up animate-fade-up-d3" style={{ display: "flex", flexWrap: "wrap", gap: "16px", justifyContent: "flex-start", marginBottom: "28px" }}>
+          <div className="animate-fade-up animate-fade-up-d3" style={{ display: "flex", flexWrap: "wrap", gap: "16px", justifyContent: "flex-start", marginBottom: "24px" }}>
             <a href="tel:0650579620" className="btn-cta" style={{ padding: "14px 28px", fontSize: "1rem" }}>
               <Phone size={18} />
               Intervention urgente
@@ -275,7 +278,7 @@ function HomePage() {
           <style>{`
             .g-badge {
               display: inline-flex; align-items: center; gap: 18px;
-              margin-bottom: 56px;
+              margin-bottom: 32px;
               text-decoration: none; white-space: nowrap;
               text-shadow: 0 2px 12px rgba(0,0,0,0.45);
               transition: scale .2s ease;
@@ -404,7 +407,7 @@ function HomePage() {
 
             <dl className="enbref-facts">
               {[
-                ["Basé à", "11 Rue François Arago, 31600 Muret"],
+                ["Basé à", "Muret (31600)"],
                 ["Disponibilité", "24h/24, 7j/7"],
                 ["Expérience", "Plus de 20 ans"],
                 ["Garantie", "2 ans pièces et main-d'œuvre"],
