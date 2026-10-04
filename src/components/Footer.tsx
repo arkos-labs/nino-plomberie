@@ -1,5 +1,6 @@
 // src/components/Footer.tsx — v7 (Clean Navigation Style)
 import { Link } from "@tanstack/react-router"
+import { communes } from "../data/communes"
 
 const NAV = [
   {
@@ -17,12 +18,21 @@ const NAV = [
   {
     heading: "Zones",
     links: [
+      { label: "Muret",                 to: "/intervention/$ville", params: { ville: "muret" } },
       { label: "Toulouse",              to: "/intervention/$ville", params: { ville: "toulouse" } },
       { label: "Toulouse — Capitole",   to: "/intervention/$ville", params: { ville: "toulouse-capitole" } },
+      { label: "Toulouse — Minimes",    to: "/intervention/$ville", params: { ville: "toulouse-minimes" } },
+      { label: "Toulouse — Purpan",     to: "/intervention/$ville", params: { ville: "toulouse-purpan" } },
+      { label: "Toulouse — Rangueil",   to: "/intervention/$ville", params: { ville: "toulouse-rangueil" } },
       { label: "Colomiers",             to: "/intervention/$ville", params: { ville: "colomiers" } },
       { label: "Blagnac",               to: "/intervention/$ville", params: { ville: "blagnac" } },
       { label: "Tournefeuille",         to: "/intervention/$ville", params: { ville: "tournefeuille" } },
-      { label: "Muret",                 to: "/intervention/$ville", params: { ville: "muret" } },
+      { label: "Balma",                 to: "/intervention/$ville", params: { ville: "balma" } },
+      { label: "Cugnaux",               to: "/intervention/$ville", params: { ville: "cugnaux" } },
+      { label: "Plaisance-du-Touch",    to: "/intervention/$ville", params: { ville: "plaisance-du-touch" } },
+      { label: "Ramonville-Saint-Agne", to: "/intervention/$ville", params: { ville: "ramonville-saint-agne" } },
+      { label: "Saint-Orens",           to: "/intervention/$ville", params: { ville: "saint-orens-de-gameville" } },
+      { label: "Labège",                to: "/intervention/$ville", params: { ville: "labege" } },
     ],
   },
   {
@@ -144,7 +154,7 @@ export function Footer() {
               <strong style={{ fontWeight: 600, color: "rgba(255,255,255,0.35)" }}>Zones d'intervention (31) : </strong>
               Toulouse, Colomiers, Tournefeuille, Blagnac, Muret, Plaisance-du-Touch, Cugnaux, Balma, Ramonville-Saint-Agne, Castanet-Tolosan, Fonsorbes, L'Union, Aucamville, Saint-Orens-de-Gameville, Saint-Jean, Portet-sur-Garonne, Castelginest, Auterive, Villeneuve-Tolosane, Pibrac, Frouzins, Seysses, Launaguet, Saint-Lys, Cornebarrieu, Aussonne, Lespinasse, Mondonville, Roques, Quint-Fonsegrives, Escalquens...
             </span> 
-            <Link to="/zones" style={{ color: "var(--brand-300)", textDecoration: "none", fontWeight: 600, display: "inline-block" }}>Voir nos 205 communes d'intervention →</Link>
+            <Link to="/zones" style={{ color: "var(--brand-300)", textDecoration: "none", fontWeight: 600, display: "inline-block" }}>Voir nos {communes.length} communes d'intervention →</Link>
           </p>
         </div>
 
