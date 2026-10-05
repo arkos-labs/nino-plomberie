@@ -34,6 +34,16 @@ function RendezVousPage() {
   useCalendlyEventListener({
     onProfilePageViewed: () => console.log("Calendly loaded"),
     onEventScheduled: (e) => {
+      // Alerte Telegram : ne doit jamais empêcher la redirection vers la page de remerciement
+      try {
+        track({
+          event: "rdv_confirmed",
+          eventUri: e.data.payload?.event?.uri,
+          inviteeUri: e.data.payload?.invitee?.uri,
+        })
+      } catch {
+        /* ignoré */
+      }
       navigate({ to: "/merci" })
     },
   })
