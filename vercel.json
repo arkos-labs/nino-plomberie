@@ -116,7 +116,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://www.ninoplomberie.fr/intervention/beauzelle",
+      "destination": "https://www.ninoplomberie.fr/zones",
       "statusCode": 301
     },
     {
@@ -127,7 +127,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://www.ninoplomberie.fr/intervention/beauzelle",
+      "destination": "https://www.ninoplomberie.fr/zones",
       "statusCode": 301
     },
     {
@@ -248,7 +248,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://www.ninoplomberie.fr/intervention/castelginest",
+      "destination": "https://www.ninoplomberie.fr/zones",
       "statusCode": 301
     },
     {
@@ -259,7 +259,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://www.ninoplomberie.fr/intervention/castelginest",
+      "destination": "https://www.ninoplomberie.fr/zones",
       "statusCode": 301
     },
     {
@@ -358,7 +358,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://www.ninoplomberie.fr/intervention/pibrac",
+      "destination": "https://www.ninoplomberie.fr/zones",
       "statusCode": 301
     },
     {
@@ -369,7 +369,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://www.ninoplomberie.fr/intervention/pibrac",
+      "destination": "https://www.ninoplomberie.fr/zones",
       "statusCode": 301
     },
     {
@@ -380,7 +380,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://www.ninoplomberie.fr/intervention/escalquens",
+      "destination": "https://www.ninoplomberie.fr/zones",
       "statusCode": 301
     },
     {
@@ -391,7 +391,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://www.ninoplomberie.fr/intervention/escalquens",
+      "destination": "https://www.ninoplomberie.fr/zones",
       "statusCode": 301
     },
     {
@@ -424,7 +424,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://www.ninoplomberie.fr/intervention/la-salvetat-saint-gilles",
+      "destination": "https://www.ninoplomberie.fr/zones",
       "statusCode": 301
     },
     {
@@ -435,7 +435,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://www.ninoplomberie.fr/intervention/la-salvetat-saint-gilles",
+      "destination": "https://www.ninoplomberie.fr/zones",
       "statusCode": 301
     },
     {
@@ -644,7 +644,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://www.ninoplomberie.fr/intervention/saint-alban",
+      "destination": "https://www.ninoplomberie.fr/zones",
       "statusCode": 301
     },
     {
@@ -655,7 +655,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://www.ninoplomberie.fr/intervention/saint-alban",
+      "destination": "https://www.ninoplomberie.fr/zones",
       "statusCode": 301
     },
     {
@@ -688,7 +688,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://www.ninoplomberie.fr/intervention/beaupuy",
+      "destination": "https://www.ninoplomberie.fr/zones",
       "statusCode": 301
     },
     {
@@ -699,7 +699,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://www.ninoplomberie.fr/intervention/beaupuy",
+      "destination": "https://www.ninoplomberie.fr/zones",
       "statusCode": 301
     },
     {
@@ -754,7 +754,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://www.ninoplomberie.fr/intervention/belberaud",
+      "destination": "https://www.ninoplomberie.fr/zones",
       "statusCode": 301
     },
     {
@@ -765,7 +765,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://www.ninoplomberie.fr/intervention/belberaud",
+      "destination": "https://www.ninoplomberie.fr/zones",
       "statusCode": 301
     },
     {
@@ -842,7 +842,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://www.ninoplomberie.fr/intervention/brax",
+      "destination": "https://www.ninoplomberie.fr/zones",
       "statusCode": 301
     },
     {
@@ -853,7 +853,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://www.ninoplomberie.fr/intervention/brax",
+      "destination": "https://www.ninoplomberie.fr/zones",
       "statusCode": 301
     },
     {
@@ -908,7 +908,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://www.ninoplomberie.fr/intervention/castelmaurou",
+      "destination": "https://www.ninoplomberie.fr/zones",
       "statusCode": 301
     },
     {
@@ -919,7 +919,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://www.ninoplomberie.fr/intervention/castelmaurou",
+      "destination": "https://www.ninoplomberie.fr/zones",
       "statusCode": 301
     },
     {
@@ -974,7 +974,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://www.ninoplomberie.fr/intervention/cintegabelle",
+      "destination": "https://www.ninoplomberie.fr/zones",
       "statusCode": 301
     },
     {
@@ -985,7 +985,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://www.ninoplomberie.fr/intervention/cintegabelle",
+      "destination": "https://www.ninoplomberie.fr/zones",
       "statusCode": 301
     },
     {
@@ -996,7 +996,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://www.ninoplomberie.fr/intervention/daux",
+      "destination": "https://www.ninoplomberie.fr/zones",
       "statusCode": 301
     },
     {
@@ -1007,7 +1007,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://www.ninoplomberie.fr/intervention/daux",
+      "destination": "https://www.ninoplomberie.fr/zones",
       "statusCode": 301
     },
     {
@@ -1018,7 +1018,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://www.ninoplomberie.fr/intervention/dremil-lafage",
+      "destination": "https://www.ninoplomberie.fr/zones",
       "statusCode": 301
     },
     {
@@ -1029,7 +1029,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://www.ninoplomberie.fr/intervention/dremil-lafage",
+      "destination": "https://www.ninoplomberie.fr/zones",
       "statusCode": 301
     },
     {
@@ -1062,7 +1062,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://www.ninoplomberie.fr/intervention/flourens",
+      "destination": "https://www.ninoplomberie.fr/zones",
       "statusCode": 301
     },
     {
@@ -1073,7 +1073,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://www.ninoplomberie.fr/intervention/flourens",
+      "destination": "https://www.ninoplomberie.fr/zones",
       "statusCode": 301
     },
     {
@@ -1084,7 +1084,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://www.ninoplomberie.fr/intervention/fonbeauzard",
+      "destination": "https://www.ninoplomberie.fr/zones",
       "statusCode": 301
     },
     {
@@ -1095,7 +1095,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://www.ninoplomberie.fr/intervention/fonbeauzard",
+      "destination": "https://www.ninoplomberie.fr/zones",
       "statusCode": 301
     },
     {
@@ -1106,7 +1106,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://www.ninoplomberie.fr/intervention/fontenilles",
+      "destination": "https://www.ninoplomberie.fr/zones",
       "statusCode": 301
     },
     {
@@ -1117,7 +1117,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://www.ninoplomberie.fr/intervention/fontenilles",
+      "destination": "https://www.ninoplomberie.fr/zones",
       "statusCode": 301
     },
     {
@@ -1128,7 +1128,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://www.ninoplomberie.fr/intervention/gagnac-sur-garonne",
+      "destination": "https://www.ninoplomberie.fr/zones",
       "statusCode": 301
     },
     {
@@ -1139,7 +1139,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://www.ninoplomberie.fr/intervention/gagnac-sur-garonne",
+      "destination": "https://www.ninoplomberie.fr/zones",
       "statusCode": 301
     },
     {
@@ -1150,7 +1150,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://www.ninoplomberie.fr/intervention/gaillac-toulza",
+      "destination": "https://www.ninoplomberie.fr/zones",
       "statusCode": 301
     },
     {
@@ -1161,7 +1161,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://www.ninoplomberie.fr/intervention/gaillac-toulza",
+      "destination": "https://www.ninoplomberie.fr/zones",
       "statusCode": 301
     },
     {
@@ -1194,7 +1194,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://www.ninoplomberie.fr/intervention/gardouch",
+      "destination": "https://www.ninoplomberie.fr/zones",
       "statusCode": 301
     },
     {
@@ -1205,7 +1205,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://www.ninoplomberie.fr/intervention/gardouch",
+      "destination": "https://www.ninoplomberie.fr/zones",
       "statusCode": 301
     },
     {
@@ -1282,7 +1282,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://www.ninoplomberie.fr/intervention/labastide-beauvoir",
+      "destination": "https://www.ninoplomberie.fr/zones",
       "statusCode": 301
     },
     {
@@ -1293,7 +1293,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://www.ninoplomberie.fr/intervention/labastide-beauvoir",
+      "destination": "https://www.ninoplomberie.fr/zones",
       "statusCode": 301
     },
     {
@@ -1348,7 +1348,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://www.ninoplomberie.fr/intervention/lacroix-falgarde",
+      "destination": "https://www.ninoplomberie.fr/zones",
       "statusCode": 301
     },
     {
@@ -1359,7 +1359,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://www.ninoplomberie.fr/intervention/lacroix-falgarde",
+      "destination": "https://www.ninoplomberie.fr/zones",
       "statusCode": 301
     },
     {
@@ -1370,7 +1370,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://www.ninoplomberie.fr/intervention/lespinasse",
+      "destination": "https://www.ninoplomberie.fr/zones",
       "statusCode": 301
     },
     {
@@ -1381,7 +1381,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://www.ninoplomberie.fr/intervention/lespinasse",
+      "destination": "https://www.ninoplomberie.fr/zones",
       "statusCode": 301
     },
     {
@@ -1392,7 +1392,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://www.ninoplomberie.fr/intervention/levignac",
+      "destination": "https://www.ninoplomberie.fr/zones",
       "statusCode": 301
     },
     {
@@ -1403,7 +1403,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://www.ninoplomberie.fr/intervention/levignac",
+      "destination": "https://www.ninoplomberie.fr/zones",
       "statusCode": 301
     },
     {
@@ -1414,7 +1414,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://www.ninoplomberie.fr/intervention/lanta",
+      "destination": "https://www.ninoplomberie.fr/zones",
       "statusCode": 301
     },
     {
@@ -1425,7 +1425,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://www.ninoplomberie.fr/intervention/lanta",
+      "destination": "https://www.ninoplomberie.fr/zones",
       "statusCode": 301
     },
     {
@@ -1524,7 +1524,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://www.ninoplomberie.fr/intervention/miremont",
+      "destination": "https://www.ninoplomberie.fr/zones",
       "statusCode": 301
     },
     {
@@ -1535,7 +1535,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://www.ninoplomberie.fr/intervention/miremont",
+      "destination": "https://www.ninoplomberie.fr/zones",
       "statusCode": 301
     },
     {
@@ -1612,7 +1612,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://www.ninoplomberie.fr/intervention/montaigut-sur-save",
+      "destination": "https://www.ninoplomberie.fr/zones",
       "statusCode": 301
     },
     {
@@ -1623,7 +1623,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://www.ninoplomberie.fr/intervention/montaigut-sur-save",
+      "destination": "https://www.ninoplomberie.fr/zones",
       "statusCode": 301
     },
     {
@@ -1634,7 +1634,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://www.ninoplomberie.fr/intervention/nailloux",
+      "destination": "https://www.ninoplomberie.fr/zones",
       "statusCode": 301
     },
     {
@@ -1645,7 +1645,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://www.ninoplomberie.fr/intervention/nailloux",
+      "destination": "https://www.ninoplomberie.fr/zones",
       "statusCode": 301
     },
     {
@@ -1656,7 +1656,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://www.ninoplomberie.fr/intervention/montlaur",
+      "destination": "https://www.ninoplomberie.fr/zones",
       "statusCode": 301
     },
     {
@@ -1667,7 +1667,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://www.ninoplomberie.fr/intervention/montlaur",
+      "destination": "https://www.ninoplomberie.fr/zones",
       "statusCode": 301
     },
     {
@@ -1744,7 +1744,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://www.ninoplomberie.fr/intervention/pechbonnieu",
+      "destination": "https://www.ninoplomberie.fr/zones",
       "statusCode": 301
     },
     {
@@ -1755,7 +1755,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://www.ninoplomberie.fr/intervention/pechbonnieu",
+      "destination": "https://www.ninoplomberie.fr/zones",
       "statusCode": 301
     },
     {
@@ -1788,7 +1788,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://www.ninoplomberie.fr/intervention/pechabou",
+      "destination": "https://www.ninoplomberie.fr/zones",
       "statusCode": 301
     },
     {
@@ -1799,7 +1799,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://www.ninoplomberie.fr/intervention/pechabou",
+      "destination": "https://www.ninoplomberie.fr/zones",
       "statusCode": 301
     },
     {
@@ -1876,7 +1876,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://www.ninoplomberie.fr/intervention/saint-loup-cammas",
+      "destination": "https://www.ninoplomberie.fr/zones",
       "statusCode": 301
     },
     {
@@ -1887,7 +1887,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://www.ninoplomberie.fr/intervention/saint-loup-cammas",
+      "destination": "https://www.ninoplomberie.fr/zones",
       "statusCode": 301
     },
     {
@@ -1942,7 +1942,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://www.ninoplomberie.fr/intervention/vieille-toulouse",
+      "destination": "https://www.ninoplomberie.fr/zones",
       "statusCode": 301
     },
     {
@@ -1953,7 +1953,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://www.ninoplomberie.fr/intervention/vieille-toulouse",
+      "destination": "https://www.ninoplomberie.fr/zones",
       "statusCode": 301
     },
     {
@@ -1986,7 +1986,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://www.ninoplomberie.fr/intervention/vernet",
+      "destination": "https://www.ninoplomberie.fr/zones",
       "statusCode": 301
     },
     {
@@ -1997,7 +1997,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://www.ninoplomberie.fr/intervention/vernet",
+      "destination": "https://www.ninoplomberie.fr/zones",
       "statusCode": 301
     },
     {
@@ -2008,7 +2008,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://www.ninoplomberie.fr/intervention/villenouvelle",
+      "destination": "https://www.ninoplomberie.fr/zones",
       "statusCode": 301
     },
     {
@@ -2019,7 +2019,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://www.ninoplomberie.fr/intervention/villenouvelle",
+      "destination": "https://www.ninoplomberie.fr/zones",
       "statusCode": 301
     },
     {
@@ -2074,7 +2074,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://www.ninoplomberie.fr/intervention/le-fousseret",
+      "destination": "https://www.ninoplomberie.fr/zones",
       "statusCode": 301
     },
     {
@@ -2085,7 +2085,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://www.ninoplomberie.fr/intervention/le-fousseret",
+      "destination": "https://www.ninoplomberie.fr/zones",
       "statusCode": 301
     },
     {
@@ -2118,7 +2118,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://www.ninoplomberie.fr/intervention/marquefave",
+      "destination": "https://www.ninoplomberie.fr/zones",
       "statusCode": 301
     },
     {
@@ -2129,7 +2129,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://www.ninoplomberie.fr/intervention/marquefave",
+      "destination": "https://www.ninoplomberie.fr/zones",
       "statusCode": 301
     },
     {
@@ -2140,7 +2140,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://www.ninoplomberie.fr/intervention/merville",
+      "destination": "https://www.ninoplomberie.fr/zones",
       "statusCode": 301
     },
     {
@@ -2151,7 +2151,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://www.ninoplomberie.fr/intervention/merville",
+      "destination": "https://www.ninoplomberie.fr/zones",
       "statusCode": 301
     },
     {
@@ -2162,7 +2162,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://www.ninoplomberie.fr/intervention/mondonville",
+      "destination": "https://www.ninoplomberie.fr/zones",
       "statusCode": 301
     },
     {
@@ -2173,7 +2173,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://www.ninoplomberie.fr/intervention/mondonville",
+      "destination": "https://www.ninoplomberie.fr/zones",
       "statusCode": 301
     },
     {
@@ -2184,7 +2184,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://www.ninoplomberie.fr/intervention/mons",
+      "destination": "https://www.ninoplomberie.fr/zones",
       "statusCode": 301
     },
     {
@@ -2195,7 +2195,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://www.ninoplomberie.fr/intervention/mons",
+      "destination": "https://www.ninoplomberie.fr/zones",
       "statusCode": 301
     },
     {
@@ -2250,7 +2250,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://www.ninoplomberie.fr/intervention/montgiscard",
+      "destination": "https://www.ninoplomberie.fr/zones",
       "statusCode": 301
     },
     {
@@ -2261,7 +2261,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://www.ninoplomberie.fr/intervention/montgiscard",
+      "destination": "https://www.ninoplomberie.fr/zones",
       "statusCode": 301
     },
     {
@@ -2294,7 +2294,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://www.ninoplomberie.fr/intervention/pinsaguel",
+      "destination": "https://www.ninoplomberie.fr/zones",
       "statusCode": 301
     },
     {
@@ -2305,7 +2305,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://www.ninoplomberie.fr/intervention/pinsaguel",
+      "destination": "https://www.ninoplomberie.fr/zones",
       "statusCode": 301
     },
     {
@@ -2316,7 +2316,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://www.ninoplomberie.fr/intervention/pompertuzat",
+      "destination": "https://www.ninoplomberie.fr/zones",
       "statusCode": 301
     },
     {
@@ -2327,7 +2327,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://www.ninoplomberie.fr/intervention/pompertuzat",
+      "destination": "https://www.ninoplomberie.fr/zones",
       "statusCode": 301
     },
     {
@@ -2360,7 +2360,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://www.ninoplomberie.fr/intervention/rieux-volvestre",
+      "destination": "https://www.ninoplomberie.fr/zones",
       "statusCode": 301
     },
     {
@@ -2371,7 +2371,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://www.ninoplomberie.fr/intervention/rieux-volvestre",
+      "destination": "https://www.ninoplomberie.fr/zones",
       "statusCode": 301
     },
     {
@@ -2404,7 +2404,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://www.ninoplomberie.fr/intervention/rouffiac-tolosan",
+      "destination": "https://www.ninoplomberie.fr/zones",
       "statusCode": 301
     },
     {
@@ -2415,7 +2415,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://www.ninoplomberie.fr/intervention/rouffiac-tolosan",
+      "destination": "https://www.ninoplomberie.fr/zones",
       "statusCode": 301
     },
     {
@@ -2426,7 +2426,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://www.ninoplomberie.fr/intervention/saint-genies-bellevue",
+      "destination": "https://www.ninoplomberie.fr/zones",
       "statusCode": 301
     },
     {
@@ -2437,7 +2437,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://www.ninoplomberie.fr/intervention/saint-genies-bellevue",
+      "destination": "https://www.ninoplomberie.fr/zones",
       "statusCode": 301
     },
     {
@@ -2470,7 +2470,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://www.ninoplomberie.fr/intervention/saint-sulpice-sur-leze",
+      "destination": "https://www.ninoplomberie.fr/zones",
       "statusCode": 301
     },
     {
@@ -2481,7 +2481,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://www.ninoplomberie.fr/intervention/saint-sulpice-sur-leze",
+      "destination": "https://www.ninoplomberie.fr/zones",
       "statusCode": 301
     },
     {
@@ -2492,7 +2492,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://www.ninoplomberie.fr/intervention/sainte-foy-de-peyrolieres",
+      "destination": "https://www.ninoplomberie.fr/zones",
       "statusCode": 301
     },
     {
@@ -2503,7 +2503,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://www.ninoplomberie.fr/intervention/sainte-foy-de-peyrolieres",
+      "destination": "https://www.ninoplomberie.fr/zones",
       "statusCode": 301
     },
     {
@@ -2514,7 +2514,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://www.ninoplomberie.fr/intervention/seilh",
+      "destination": "https://www.ninoplomberie.fr/zones",
       "statusCode": 301
     },
     {
@@ -2525,7 +2525,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://www.ninoplomberie.fr/intervention/seilh",
+      "destination": "https://www.ninoplomberie.fr/zones",
       "statusCode": 301
     },
     {
@@ -5198,7 +5198,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://www.ninoplomberie.fr/intervention/aussonne",
+      "destination": "https://www.ninoplomberie.fr/zones",
       "statusCode": 301
     },
     {
@@ -5209,7 +5209,7 @@
           "value": "(www\\.)?nino-plomberie31\\.fr"
         }
       ],
-      "destination": "https://www.ninoplomberie.fr/intervention/aussonne",
+      "destination": "https://www.ninoplomberie.fr/zones",
       "statusCode": 301
     },
     {
