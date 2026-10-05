@@ -23,6 +23,9 @@ export const BUSINESS = {
   reviewCount: "78",
   googleMapsUrl: "https://maps.google.com/?cid=9239381501337303445",
   experience: "plus de 20 ans",
+  // À renseigner (obligatoires pour un professionnel du bâtiment qui vend à des particuliers) : affichés dans les mentions légales dès qu'ils sont remplis
+  insurance: null as null | { insurer: string; policyNumber?: string; coverage: string },
+  mediator: null as null | { name: string; website: string },
 } as const
 
 export const BUSINESS_ID = `${SITE_URL}/#business`

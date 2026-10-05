@@ -9,7 +9,7 @@ export const Route = createFileRoute("/zones")({
   head: () => ({
     ...pageHead({
       title: "Zones d'intervention en Haute-Garonne (31) — Nino Plomberie",
-      description: `Basé à Muret, Nino Plomberie intervient à Toulouse et dans ${communes.length} communes de Haute-Garonne : dépannage 24h/24, chauffe-eau, débouchage, salle de bain. Trouvez votre commune.`,
+      description: `Basé à Muret, Nino Plomberie intervient à Toulouse et dans ${communes.length} communes du Muretain et de l'agglomération toulousaine : dépannage 24h/24, chauffe-eau, débouchage, salle de bain. Trouvez votre commune.`,
       path: "/zones",
     }),
     scripts: [
@@ -37,7 +37,7 @@ function ZonesComponent() {
       <PageHero
         kicker="Haute-Garonne (31)"
         title={<>Nos zones <em>d'intervention</em></>}
-        lead="Basé à Muret, Nino Plomberie se déplace à Toulouse et dans toute la Haute-Garonne, 24h/24 et 7j/7 pour les urgences. Trouvez votre commune ci-dessous."
+        lead="Basé à Muret, Nino Plomberie se déplace à Toulouse et dans les communes du Muretain et de l'agglomération toulousaine listées ci-dessous. Trouvez la vôtre."
         image="/realisations/photo-06.jpg"
       />
 

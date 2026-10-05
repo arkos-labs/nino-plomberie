@@ -1,5 +1,6 @@
 // src/routes/mentions-legales.tsx
 import { createFileRoute } from "@tanstack/react-router"
+import { BUSINESS } from "../lib/site"
 
 export const Route = createFileRoute("/mentions-legales")({
   head: () => ({
@@ -42,6 +43,21 @@ function MentionsLegalesPage() {
               "Site web : https://vercel.com",
             ],
           },
+          ...(BUSINESS.insurance ? [{
+            titre: "Assurance décennale",
+            contenu: [
+              `Assureur : ${BUSINESS.insurance.insurer}`,
+              ...(BUSINESS.insurance.policyNumber ? [`Contrat n° ${BUSINESS.insurance.policyNumber}`] : []),
+              `Zone géographique de couverture : ${BUSINESS.insurance.coverage}`,
+            ],
+          }] : []),
+          ...(BUSINESS.mediator ? [{
+            titre: "Médiation de la consommation",
+            contenu: [
+              "Conformément au Code de la consommation, tout consommateur peut recourir gratuitement au médiateur de la consommation en cas de litige non résolu avec le professionnel.",
+              `Médiateur : ${BUSINESS.mediator.name} — ${BUSINESS.mediator.website}`,
+            ],
+          }] : []),
           {
             titre: "3. Propriété intellectuelle",
             contenu: [

@@ -15,6 +15,7 @@ import { Route as ContactRouteImport } from './routes/contact'
 import { Route as MentionsLegalesRouteImport } from './routes/mentions-legales'
 import { Route as MerciRouteImport } from './routes/merci'
 import { Route as PolitiqueConfidentialiteRouteImport } from './routes/politique-confidentialite'
+import { Route as PortfolioRouteImport } from './routes/portfolio'
 import { Route as RealisationsRouteImport } from './routes/realisations'
 import { Route as RendezVousRouteImport } from './routes/rendez-vous'
 import { Route as ServicesRouteImport } from './routes/services'
@@ -26,8 +27,11 @@ import { Route as ApiContactUrgenceRouteImport } from './routes/api/contact-urge
 import { Route as ApiDiagnosticRouteImport } from './routes/api/diagnostic'
 import { Route as InterventionVilleRouteImport } from './routes/intervention.$ville'
 import { Route as LiveTrackingIdRouteImport } from './routes/live-tracking.$id'
+import { Route as LocalitesIndexRouteImport } from './routes/localites/index'
+import { Route as LocalitesSlugRouteImport } from './routes/localites/$slug'
 import { Route as ServicesIndexRouteImport } from './routes/services.index'
 import { Route as ServicesSlugRouteImport } from './routes/services.$slug'
+import { Route as ServicesServiceLocalityRouteImport } from './routes/services/$service/$locality'
 
 const IndexRoute = IndexRouteImport.update({
   id: '/',
@@ -60,6 +64,11 @@ const PolitiqueConfidentialiteRoute =
     path: '/politique-confidentialite',
     getParentRoute: () => rootRouteImport,
   } as any)
+const PortfolioRoute = PortfolioRouteImport.update({
+  id: '/portfolio',
+  path: '/portfolio',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const RealisationsRoute = RealisationsRouteImport.update({
   id: '/realisations',
   path: '/realisations',
@@ -115,6 +124,16 @@ const LiveTrackingIdRoute = LiveTrackingIdRouteImport.update({
   path: '/live-tracking/$id',
   getParentRoute: () => rootRouteImport,
 } as any)
+const LocalitesIndexRoute = LocalitesIndexRouteImport.update({
+  id: '/localites/',
+  path: '/localites/',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const LocalitesSlugRoute = LocalitesSlugRouteImport.update({
+  id: '/localites/$slug',
+  path: '/localites/$slug',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const ServicesIndexRoute = ServicesIndexRouteImport.update({
   id: '/',
   path: '/',
@@ -125,6 +144,11 @@ const ServicesSlugRoute = ServicesSlugRouteImport.update({
   path: '/$slug',
   getParentRoute: () => ServicesRoute,
 } as any)
+const ServicesServiceLocalityRoute = ServicesServiceLocalityRouteImport.update({
+  id: '/$service/$locality',
+  path: '/$service/$locality',
+  getParentRoute: () => ServicesRoute,
+} as any)
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
@@ -133,6 +157,7 @@ export interface FileRoutesByFullPath {
   '/mentions-legales': typeof MentionsLegalesRoute
   '/merci': typeof MerciRoute
   '/politique-confidentialite': typeof PolitiqueConfidentialiteRoute
+  '/portfolio': typeof PortfolioRoute
   '/realisations': typeof RealisationsRoute
   '/rendez-vous': typeof RendezVousRoute
   '/services': typeof ServicesRouteWithChildren
@@ -144,8 +169,11 @@ export interface FileRoutesByFullPath {
   '/api/diagnostic': typeof ApiDiagnosticRoute
   '/intervention/$ville': typeof InterventionVilleRoute
   '/live-tracking/$id': typeof LiveTrackingIdRoute
+  '/localites/$slug': typeof LocalitesSlugRoute
   '/services/$slug': typeof ServicesSlugRoute
+  '/localites/': typeof LocalitesIndexRoute
   '/services/': typeof ServicesIndexRoute
+  '/services/$service/$locality': typeof ServicesServiceLocalityRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
@@ -154,6 +182,7 @@ export interface FileRoutesByTo {
   '/mentions-legales': typeof MentionsLegalesRoute
   '/merci': typeof MerciRoute
   '/politique-confidentialite': typeof PolitiqueConfidentialiteRoute
+  '/portfolio': typeof PortfolioRoute
   '/realisations': typeof RealisationsRoute
   '/rendez-vous': typeof RendezVousRoute
   '/sitemap.xml': typeof SitemapDotxmlRoute
@@ -164,8 +193,11 @@ export interface FileRoutesByTo {
   '/api/diagnostic': typeof ApiDiagnosticRoute
   '/intervention/$ville': typeof InterventionVilleRoute
   '/live-tracking/$id': typeof LiveTrackingIdRoute
+  '/localites/$slug': typeof LocalitesSlugRoute
   '/services/$slug': typeof ServicesSlugRoute
+  '/localites': typeof LocalitesIndexRoute
   '/services': typeof ServicesIndexRoute
+  '/services/$service/$locality': typeof ServicesServiceLocalityRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
@@ -175,6 +207,7 @@ export interface FileRoutesById {
   '/mentions-legales': typeof MentionsLegalesRoute
   '/merci': typeof MerciRoute
   '/politique-confidentialite': typeof PolitiqueConfidentialiteRoute
+  '/portfolio': typeof PortfolioRoute
   '/realisations': typeof RealisationsRoute
   '/rendez-vous': typeof RendezVousRoute
   '/services': typeof ServicesRouteWithChildren
@@ -186,8 +219,11 @@ export interface FileRoutesById {
   '/api/diagnostic': typeof ApiDiagnosticRoute
   '/intervention/$ville': typeof InterventionVilleRoute
   '/live-tracking/$id': typeof LiveTrackingIdRoute
+  '/localites/$slug': typeof LocalitesSlugRoute
   '/services/$slug': typeof ServicesSlugRoute
+  '/localites/': typeof LocalitesIndexRoute
   '/services/': typeof ServicesIndexRoute
+  '/services/$service/$locality': typeof ServicesServiceLocalityRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
@@ -198,6 +234,7 @@ export interface FileRouteTypes {
     | '/mentions-legales'
     | '/merci'
     | '/politique-confidentialite'
+    | '/portfolio'
     | '/realisations'
     | '/rendez-vous'
     | '/services'
@@ -209,8 +246,11 @@ export interface FileRouteTypes {
     | '/api/diagnostic'
     | '/intervention/$ville'
     | '/live-tracking/$id'
+    | '/localites/$slug'
     | '/services/$slug'
+    | '/localites/'
     | '/services/'
+    | '/services/$service/$locality'
   fileRoutesByTo: FileRoutesByTo
   to:
     | '/'
@@ -219,6 +259,7 @@ export interface FileRouteTypes {
     | '/mentions-legales'
     | '/merci'
     | '/politique-confidentialite'
+    | '/portfolio'
     | '/realisations'
     | '/rendez-vous'
     | '/sitemap.xml'
@@ -229,8 +270,11 @@ export interface FileRouteTypes {
     | '/api/diagnostic'
     | '/intervention/$ville'
     | '/live-tracking/$id'
+    | '/localites/$slug'
     | '/services/$slug'
+    | '/localites'
     | '/services'
+    | '/services/$service/$locality'
   id:
     | '__root__'
     | '/'
@@ -239,6 +283,7 @@ export interface FileRouteTypes {
     | '/mentions-legales'
     | '/merci'
     | '/politique-confidentialite'
+    | '/portfolio'
     | '/realisations'
     | '/rendez-vous'
     | '/services'
@@ -250,8 +295,11 @@ export interface FileRouteTypes {
     | '/api/diagnostic'
     | '/intervention/$ville'
     | '/live-tracking/$id'
+    | '/localites/$slug'
     | '/services/$slug'
+    | '/localites/'
     | '/services/'
+    | '/services/$service/$locality'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
@@ -261,6 +309,7 @@ export interface RootRouteChildren {
   MentionsLegalesRoute: typeof MentionsLegalesRoute
   MerciRoute: typeof MerciRoute
   PolitiqueConfidentialiteRoute: typeof PolitiqueConfidentialiteRoute
+  PortfolioRoute: typeof PortfolioRoute
   RealisationsRoute: typeof RealisationsRoute
   RendezVousRoute: typeof RendezVousRoute
   ServicesRoute: typeof ServicesRouteWithChildren
@@ -272,6 +321,8 @@ export interface RootRouteChildren {
   ApiDiagnosticRoute: typeof ApiDiagnosticRoute
   InterventionVilleRoute: typeof InterventionVilleRoute
   LiveTrackingIdRoute: typeof LiveTrackingIdRoute
+  LocalitesSlugRoute: typeof LocalitesSlugRoute
+  LocalitesIndexRoute: typeof LocalitesIndexRoute
 }
 
 declare module '@tanstack/react-router' {
@@ -316,6 +367,13 @@ declare module '@tanstack/react-router' {
       path: '/politique-confidentialite'
       fullPath: '/politique-confidentialite'
       preLoaderRoute: typeof PolitiqueConfidentialiteRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/portfolio': {
+      id: '/portfolio'
+      path: '/portfolio'
+      fullPath: '/portfolio'
+      preLoaderRoute: typeof PortfolioRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/realisations': {
@@ -395,6 +453,20 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof LiveTrackingIdRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/localites/': {
+      id: '/localites/'
+      path: '/localites'
+      fullPath: '/localites/'
+      preLoaderRoute: typeof LocalitesIndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/localites/$slug': {
+      id: '/localites/$slug'
+      path: '/localites/$slug'
+      fullPath: '/localites/$slug'
+      preLoaderRoute: typeof LocalitesSlugRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/services/': {
       id: '/services/'
       path: '/'
@@ -409,17 +481,26 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof ServicesSlugRouteImport
       parentRoute: typeof ServicesRoute
     }
+    '/services/$service/$locality': {
+      id: '/services/$service/$locality'
+      path: '/$service/$locality'
+      fullPath: '/services/$service/$locality'
+      preLoaderRoute: typeof ServicesServiceLocalityRouteImport
+      parentRoute: typeof ServicesRoute
+    }
   }
 }
 
 interface ServicesRouteChildren {
   ServicesSlugRoute: typeof ServicesSlugRoute
   ServicesIndexRoute: typeof ServicesIndexRoute
+  ServicesServiceLocalityRoute: typeof ServicesServiceLocalityRoute
 }
 
 const ServicesRouteChildren: ServicesRouteChildren = {
   ServicesSlugRoute: ServicesSlugRoute,
   ServicesIndexRoute: ServicesIndexRoute,
+  ServicesServiceLocalityRoute: ServicesServiceLocalityRoute,
 }
 
 const ServicesRouteWithChildren = ServicesRoute._addFileChildren(
@@ -433,6 +514,7 @@ const rootRouteChildren: RootRouteChildren = {
   MentionsLegalesRoute: MentionsLegalesRoute,
   MerciRoute: MerciRoute,
   PolitiqueConfidentialiteRoute: PolitiqueConfidentialiteRoute,
+  PortfolioRoute: PortfolioRoute,
   RealisationsRoute: RealisationsRoute,
   RendezVousRoute: RendezVousRoute,
   ServicesRoute: ServicesRouteWithChildren,
@@ -444,6 +526,8 @@ const rootRouteChildren: RootRouteChildren = {
   ApiDiagnosticRoute: ApiDiagnosticRoute,
   InterventionVilleRoute: InterventionVilleRoute,
   LiveTrackingIdRoute: LiveTrackingIdRoute,
+  LocalitesSlugRoute: LocalitesSlugRoute,
+  LocalitesIndexRoute: LocalitesIndexRoute,
 }
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)

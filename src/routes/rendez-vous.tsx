@@ -2,7 +2,7 @@ import { createFileRoute, useNavigate } from "@tanstack/react-router"
 import { Clock, ShieldCheck, MapPin, Phone, Star, CheckCircle2, CalendarDays } from "lucide-react"
 import { InlineWidget, useCalendlyEventListener } from "react-calendly"
 import { motion } from "framer-motion"
-import { pageHead } from "../lib/site"
+import { BUSINESS, pageHead } from "../lib/site"
 import { PageHero } from "../components/PageHero"
 
 export const Route = createFileRoute("/rendez-vous")({
@@ -122,6 +122,12 @@ function RendezVousPage() {
             />
           </motion.div>
         </div>
+
+        {/* Solution de repli si l'agenda ne s'affiche pas */}
+        <p className="text-center text-sm mt-6 px-4" style={{ color: "var(--gray-500)" }}>
+          L'agenda ne s'affiche pas ? Appelez le <a href={`tel:${BUSINESS.phoneIntl}`} style={{ fontWeight: 600 }}>{BUSINESS.phone}</a> ou{" "}
+          <a href="/contact" style={{ fontWeight: 600 }}>envoyez-nous un message</a> : nous vous proposons un créneau.
+        </p>
 
       </section>
     </div>

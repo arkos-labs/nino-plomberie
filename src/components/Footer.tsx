@@ -20,10 +20,6 @@ const NAV = [
     links: [
       { label: "Muret",                 to: "/intervention/$ville", params: { ville: "muret" } },
       { label: "Toulouse",              to: "/intervention/$ville", params: { ville: "toulouse" } },
-      { label: "Toulouse — Capitole",   to: "/intervention/$ville", params: { ville: "toulouse-capitole" } },
-      { label: "Toulouse — Minimes",    to: "/intervention/$ville", params: { ville: "toulouse-minimes" } },
-      { label: "Toulouse — Purpan",     to: "/intervention/$ville", params: { ville: "toulouse-purpan" } },
-      { label: "Toulouse — Rangueil",   to: "/intervention/$ville", params: { ville: "toulouse-rangueil" } },
       { label: "Colomiers",             to: "/intervention/$ville", params: { ville: "colomiers" } },
       { label: "Blagnac",               to: "/intervention/$ville", params: { ville: "blagnac" } },
       { label: "Tournefeuille",         to: "/intervention/$ville", params: { ville: "tournefeuille" } },
@@ -40,7 +36,7 @@ const NAV = [
     links: [
       { label: "À propos",       to: "/a-propos" },
       { label: "Réalisations",   to: "/realisations" },
-      { label: "Urgence 24h/7j", to: "/contact" },
+      { label: "Urgence 24h/7j", href: "tel:+33650579620" },
       { label: "Devis gratuit",  to: "/contact" },
       { label: "Nos tarifs",     to: "/tarifs" },
     ],
@@ -115,6 +111,16 @@ export function Footer() {
                 <ul style={{ listStyle: "none", padding: 0, margin: 0, display: "flex", flexDirection: "column", gap: "9px" }}>
                   {links.map((link) => (
                     <li key={link.label}>
+                      {"href" in link ? (
+                        <a
+                          href={link.href}
+                          style={{ fontSize: "0.875rem", color: "rgba(255,255,255,0.5)", textDecoration: "none", transition: "color 0.15s" }}
+                          onMouseEnter={(e) => e.currentTarget.style.color = "white"}
+                          onMouseLeave={(e) => e.currentTarget.style.color = "rgba(255,255,255,0.5)"}
+                        >
+                          {link.label}
+                        </a>
+                      ) : (
                       <Link
                         to={(link as any).to}
                         params={(link as any).params}
@@ -129,6 +135,7 @@ export function Footer() {
                       >
                         {link.label}
                       </Link>
+                      )}
                     </li>
                   ))}
                 </ul>

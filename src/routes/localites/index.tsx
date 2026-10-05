@@ -1,8 +1,10 @@
-import { createFileRoute } from '@tanstack/react-router'
+import { createFileRoute, notFound } from '@tanstack/react-router'
 import { localities } from '../../data/localities'
 import { pageHead } from '../../lib/site'
 
 export const Route = createFileRoute('/localites/')({
+  // Pages de zone retirées : seules les 50 pages /intervention/$ville existent
+  beforeLoad: () => { throw notFound() },
   head: () => {
     const head = pageHead({
       title: "Plombier Muret & Toulouse - Zones d'intervention | Nino Plomberie",

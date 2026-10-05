@@ -3,6 +3,8 @@ import { getLocalityBySlug } from '../../data/localities'
 import { pageHead } from '../../lib/site'
 
 export const Route = createFileRoute('/localites/$slug')({
+  // Pages de zone retirées : seules les 50 pages /intervention/$ville existent
+  beforeLoad: () => { throw notFound() },
   head: ({ params }) => {
     const locality = getLocalityBySlug(params.slug)
     if (!locality) return {}
