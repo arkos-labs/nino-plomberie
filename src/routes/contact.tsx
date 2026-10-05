@@ -77,17 +77,31 @@ function ContactPage() {
     setFormData((p) => ({ ...p, [field]: e.target.value }))
   }
 
+  /** Réduit la photo (1400 px max, JPEG) : une photo de téléphone brute dépasse la limite d'envoi du serveur */
   const readPhoto = (file: File | undefined) => {
     if (!file || !file.type.startsWith("image/")) {
       setFormData((p) => ({ ...p, photo: undefined }))
       return
     }
-    const reader = new FileReader()
-    reader.onload = () => {
-      const content = (reader.result as string).split(",")[1]
-      if (content) setFormData((p) => ({ ...p, photo: { filename: file.name, content } }))
+    const url = URL.createObjectURL(file)
+    const img = new Image()
+    img.onload = () => {
+      const scale = Math.min(1, 1400 / Math.max(img.width, img.height))
+      const canvas = document.createElement("canvas")
+      canvas.width = Math.round(img.width * scale)
+      canvas.height = Math.round(img.height * scale)
+      canvas.getContext("2d")?.drawImage(img, 0, 0, canvas.width, canvas.height)
+      URL.revokeObjectURL(url)
+      const content = canvas.toDataURL("image/jpeg", 0.75).split(",")[1]
+      const filename = file.name.replace(/\.[^.]+$/, "") + ".jpg"
+      if (content) setFormData((p) => ({ ...p, photo: { filename, content } }))
     }
-    reader.readAsDataURL(file)
+    img.onerror = () => {
+      URL.revokeObjectURL(url)
+      setFormData((p) => ({ ...p, photo: undefined }))
+      setError("Cette photo n'a pas pu être lue. Essayez une autre image (JPEG ou PNG), ou envoyez la demande sans photo.")
+    }
+    img.src = url
   }
 
   const handleSubmit = async (e: React.FormEvent) => {
@@ -100,10 +114,17 @@ function ContactPage() {
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(formData),
       })
-      if (!res.ok) throw new Error("Erreur serveur")
+      if (!res.ok) throw new Error(String(res.status))
       setSent(true)
-    } catch {
-      setError("Impossible d'envoyer votre message. Appelez-nous directement.")
+    } catch (err) {
+      const status = err instanceof Error ? err.message : ""
+      setError(
+        status === "413"
+          ? "La photo est trop lourde. Retirez-la ou choisissez une image plus petite, puis renvoyez."
+          : status === "422"
+            ? "Vérifiez votre nom et votre numéro de téléphone (8 chiffres minimum), puis renvoyez."
+            : "Impossible d'envoyer votre message. Appelez-nous directement.",
+      )
     } finally {
       setLoading(false)
     }
