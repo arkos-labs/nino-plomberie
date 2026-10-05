@@ -4,6 +4,7 @@ import { InlineWidget, useCalendlyEventListener } from "react-calendly"
 import { motion } from "framer-motion"
 import { BUSINESS, pageHead } from "../lib/site"
 import { PageHero } from "../components/PageHero"
+import { track } from "../lib/track"
 
 export const Route = createFileRoute("/rendez-vous")({
   head: () =>

@@ -4,6 +4,7 @@ import { Analytics } from "@vercel/analytics/react"
 import { SpeedInsights } from "@vercel/speed-insights/react"
 import { Header } from "../components/Header"
 import { Footer } from "../components/Footer"
+import { ClickTracker } from "../components/ClickTracker"
 
 import appCss from "../styles.css?url"
 import { SITE_URL, BUSINESS, BUSINESS_ID, ldScript } from "../lib/site"
@@ -139,6 +140,7 @@ function RootDocument() {
           <Outlet />
         </main>
         <Footer />
+        <ClickTracker />
         <Analytics />
         <SpeedInsights />
         <Scripts />

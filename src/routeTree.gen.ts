@@ -25,6 +25,7 @@ import { Route as ZonesRouteImport } from './routes/zones'
 import { Route as ApiContactRouteImport } from './routes/api/contact'
 import { Route as ApiContactUrgenceRouteImport } from './routes/api/contact-urgence'
 import { Route as ApiDiagnosticRouteImport } from './routes/api/diagnostic'
+import { Route as ApiTrackRouteImport } from './routes/api/track'
 import { Route as InterventionVilleRouteImport } from './routes/intervention.$ville'
 import { Route as LiveTrackingIdRouteImport } from './routes/live-tracking.$id'
 import { Route as LocalitesIndexRouteImport } from './routes/localites/index'
@@ -114,6 +115,11 @@ const ApiDiagnosticRoute = ApiDiagnosticRouteImport.update({
   path: '/api/diagnostic',
   getParentRoute: () => rootRouteImport,
 } as any)
+const ApiTrackRoute = ApiTrackRouteImport.update({
+  id: '/api/track',
+  path: '/api/track',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const InterventionVilleRoute = InterventionVilleRouteImport.update({
   id: '/intervention/$ville',
   path: '/intervention/$ville',
@@ -167,6 +173,7 @@ export interface FileRoutesByFullPath {
   '/api/contact': typeof ApiContactRoute
   '/api/contact-urgence': typeof ApiContactUrgenceRoute
   '/api/diagnostic': typeof ApiDiagnosticRoute
+  '/api/track': typeof ApiTrackRoute
   '/intervention/$ville': typeof InterventionVilleRoute
   '/live-tracking/$id': typeof LiveTrackingIdRoute
   '/localites/$slug': typeof LocalitesSlugRoute
@@ -191,6 +198,7 @@ export interface FileRoutesByTo {
   '/api/contact': typeof ApiContactRoute
   '/api/contact-urgence': typeof ApiContactUrgenceRoute
   '/api/diagnostic': typeof ApiDiagnosticRoute
+  '/api/track': typeof ApiTrackRoute
   '/intervention/$ville': typeof InterventionVilleRoute
   '/live-tracking/$id': typeof LiveTrackingIdRoute
   '/localites/$slug': typeof LocalitesSlugRoute
@@ -217,6 +225,7 @@ export interface FileRoutesById {
   '/api/contact': typeof ApiContactRoute
   '/api/contact-urgence': typeof ApiContactUrgenceRoute
   '/api/diagnostic': typeof ApiDiagnosticRoute
+  '/api/track': typeof ApiTrackRoute
   '/intervention/$ville': typeof InterventionVilleRoute
   '/live-tracking/$id': typeof LiveTrackingIdRoute
   '/localites/$slug': typeof LocalitesSlugRoute
@@ -244,6 +253,7 @@ export interface FileRouteTypes {
     | '/api/contact'
     | '/api/contact-urgence'
     | '/api/diagnostic'
+    | '/api/track'
     | '/intervention/$ville'
     | '/live-tracking/$id'
     | '/localites/$slug'
@@ -268,6 +278,7 @@ export interface FileRouteTypes {
     | '/api/contact'
     | '/api/contact-urgence'
     | '/api/diagnostic'
+    | '/api/track'
     | '/intervention/$ville'
     | '/live-tracking/$id'
     | '/localites/$slug'
@@ -293,6 +304,7 @@ export interface FileRouteTypes {
     | '/api/contact'
     | '/api/contact-urgence'
     | '/api/diagnostic'
+    | '/api/track'
     | '/intervention/$ville'
     | '/live-tracking/$id'
     | '/localites/$slug'
@@ -319,6 +331,7 @@ export interface RootRouteChildren {
   ApiContactRoute: typeof ApiContactRoute
   ApiContactUrgenceRoute: typeof ApiContactUrgenceRoute
   ApiDiagnosticRoute: typeof ApiDiagnosticRoute
+  ApiTrackRoute: typeof ApiTrackRoute
   InterventionVilleRoute: typeof InterventionVilleRoute
   LiveTrackingIdRoute: typeof LiveTrackingIdRoute
   LocalitesSlugRoute: typeof LocalitesSlugRoute
@@ -439,6 +452,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof ApiDiagnosticRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/api/track': {
+      id: '/api/track'
+      path: '/api/track'
+      fullPath: '/api/track'
+      preLoaderRoute: typeof ApiTrackRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/intervention/$ville': {
       id: '/intervention/$ville'
       path: '/intervention/$ville'
@@ -524,6 +544,7 @@ const rootRouteChildren: RootRouteChildren = {
   ApiContactRoute: ApiContactRoute,
   ApiContactUrgenceRoute: ApiContactUrgenceRoute,
   ApiDiagnosticRoute: ApiDiagnosticRoute,
+  ApiTrackRoute: ApiTrackRoute,
   InterventionVilleRoute: InterventionVilleRoute,
   LiveTrackingIdRoute: LiveTrackingIdRoute,
   LocalitesSlugRoute: LocalitesSlugRoute,

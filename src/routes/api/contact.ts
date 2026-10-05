@@ -3,6 +3,7 @@
 
 import { createFileRoute } from "@tanstack/react-router"
 import { z } from "zod"
+import { notifyTelegram, formatLines } from "../../lib/notify"
 
 const ContactSchema = z.object({
   nom: z.string().min(2).max(100),
@@ -38,6 +39,19 @@ export const Route = createFileRoute("/api/contact")({
       })
     }
     const data = result.data
+
+    // ── 2b. Notification Telegram à Nino (n'empêche pas l'envoi du mail en cas d'échec) ──
+    await notifyTelegram(
+      formatLines("📩 <b>NOUVELLE DEMANDE DE CONTACT</b>", [
+        ["Nom", data.nom],
+        ["Téléphone", data.tel],
+        ["E-mail", data.email],
+        ["Commune", data.ville],
+        ["Type de travaux", data.sujet],
+        ["Message", data.message],
+        ["Photo jointe", data.photo ? "oui" : "non"],
+      ]),
+    )
 
     // ── 3. Send email via Resend ──────────────────────────────────────────
     const apiKey = process.env["RESEND_API_KEY"]

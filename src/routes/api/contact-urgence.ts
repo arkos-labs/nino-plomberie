@@ -3,6 +3,7 @@
 
 import { createFileRoute } from "@tanstack/react-router"
 import { z } from "zod"
+import { notifyTelegram, formatLines } from "../../lib/notify"
 
 const UrgenceContactSchema = z.object({
   nom: z.string().min(2).max(100),
@@ -49,6 +50,17 @@ export const Route = createFileRoute("/api/contact-urgence")({
     const data = result.data
     const score = data.diagnostic?.urgence_score ?? 0
     const scoreLabel = scoreLabels[score] ?? ""
+
+    await notifyTelegram(
+      formatLines(score >= 4 ? "🚨 <b>DEMANDE D'INTERVENTION URGENTE</b>" : "📸 <b>DEMANDE URGENCE (photo)</b>", [
+        ["Nom", data.nom],
+        ["Téléphone", data.tel],
+        ["Adresse", data.adresse],
+        ["Urgence", scoreLabel ? `${score}/5 : ${scoreLabel}` : undefined],
+        ["Élément concerné", data.diagnostic?.piece],
+        ["Diagnostic", data.diagnostic?.diagnostic],
+      ]),
+    )
 
     const apiKey = process.env["RESEND_API_KEY"]
     const emailTo = (process.env["EMAIL_TO"] ?? "contact.ninoplomberie@gmail.com")
