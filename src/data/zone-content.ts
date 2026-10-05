@@ -21,6 +21,11 @@ export type ZoneContent = {
   cta: { label: string; kind: ZoneCta }
 }
 
+export type ZoneExtra = {
+  sections: ZoneSection[]
+  faq: Array<{ q: string; a: string }>
+}
+
 const GARANTIE = "Réparations garanties 2 ans, pièces et main-d'œuvre."
 
 export const zoneContent: Record<string, ZoneContent> = {
@@ -630,3 +635,28 @@ export const zoneContent: Record<string, ZoneContent> = {
 }
 
 export const zoneSlugs = Object.keys(zoneContent)
+
+import { zoneExtra1 } from "./zone-extra-1"
+import { zoneExtra2 } from "./zone-extra-2"
+import { zoneExtra3 } from "./zone-extra-3"
+import { zoneExtra4 } from "./zone-extra-4"
+import { zoneExtra5 } from "./zone-extra-5"
+import { zoneExtra6 } from "./zone-extra-6"
+import { zoneExtra7 } from "./zone-extra-7"
+
+const zoneExtra: Record<string, ZoneExtra> = { ...zoneExtra1, ...zoneExtra2, ...zoneExtra3, ...zoneExtra4, ...zoneExtra5 }
+
+/** Contenu complet d'une page de zone : sections de base + sections complémentaires, FAQ locale */
+export function getZoneContent(slug: string): (ZoneContent & { faq: Array<{ q: string; a: string }> }) | undefined {
+  const base = zoneContent[slug]
+  if (!base) return undefined
+  const extra = zoneExtra[slug]
+  const more = zoneExtra6[slug]
+  const last = zoneExtra7[slug]
+  const baseFaq = base.sections.flatMap((s) => s.faq ?? [])
+  return {
+    ...base,
+    sections: [...base.sections.map((s) => ({ ...s, faq: undefined })).filter((s) => (s.bullets && s.bullets.length > 0) || (s.text ?? "").split(" ").length >= 22), ...(extra?.sections ?? []), ...(more?.sections ?? []), ...(last?.sections ?? [])],
+    faq: [...baseFaq, ...(extra?.faq ?? []), ...(more?.faq ?? []), ...(last?.faq ?? [])],
+  }
+}

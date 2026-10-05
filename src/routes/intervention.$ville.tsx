@@ -1,7 +1,7 @@
 // src/routes/intervention.$ville.tsx — pages de zone : un contenu éditorial unique par commune (data/zone-content.ts)
 import { createFileRoute, Link, notFound } from "@tanstack/react-router"
 import { getCommuneBySlug, communes } from "../data/communes"
-import { zoneContent, type ZoneCta } from "../data/zone-content"
+import { getZoneContent, type ZoneCta } from "../data/zone-content"
 import { Phone, MapPin, Calendar, ArrowUpRight, Star, Mail } from "lucide-react"
 import { PageHero } from "../components/PageHero"
 import { SITE_URL, BUSINESS, BUSINESS_ID, pageHead, ldScript, breadcrumbJsonLd, faqJsonLd } from "../lib/site"
@@ -18,14 +18,20 @@ function distanceKm(lat1: number, lng1: number, lat2: number, lng2: number) {
 export const Route = createFileRoute("/intervention/$ville")({
   head: ({ params }) => {
     const commune = getCommuneBySlug(params.ville)
-    const content = zoneContent[params.ville]
+    const content = getZoneContent(params.ville)
     if (!commune || !content) return { meta: [{ title: "Page introuvable" }, { name: "robots", content: "noindex" }] }
     const path = `/intervention/${params.ville}`
     const head = pageHead({ title: content.title, description: content.description, path })
-    const faqs = content.sections.flatMap((s) => s.faq ?? [])
+    const faqs = content.faq
     return {
       ...head,
-      meta: [...head.meta, { name: "geo.region", content: "FR-31" }, { name: "geo.placename", content: commune.nom }],
+      meta: [
+        ...head.meta,
+        { name: "geo.region", content: "FR-31" },
+        { name: "geo.placename", content: commune.nom },
+        { name: "geo.position", content: `${commune.lat};${commune.lng}` },
+        { name: "ICBM", content: `${commune.lat}, ${commune.lng}` },
+      ],
       scripts: [
         ldScript({
           "@context": "https://schema.org",
@@ -34,7 +40,13 @@ export const Route = createFileRoute("/intervention/$ville")({
           serviceType: "Plomberie",
           url: `${SITE_URL}${path}`,
           provider: { "@id": BUSINESS_ID },
-          areaServed: { "@type": "City", name: commune.nom, postalCode: commune.codePostal },
+          description: content.description,
+          areaServed: {
+            "@type": "City",
+            name: commune.nom,
+            address: { "@type": "PostalAddress", postalCode: commune.codePostal, addressLocality: commune.nom, addressRegion: "Occitanie", addressCountry: "FR" },
+            geo: { "@type": "GeoCoordinates", latitude: commune.lat, longitude: commune.lng },
+          },
         }),
         ldScript(breadcrumbJsonLd([
           { name: "Accueil", path: "/" },
@@ -47,8 +59,9 @@ export const Route = createFileRoute("/intervention/$ville")({
   },
   loader: ({ params }) => {
     const commune = getCommuneBySlug(params.ville)
-    const content = zoneContent[params.ville]
+    const content = getZoneContent(params.ville)
     if (!commune || !content) throw notFound()
+    const km = Math.round(distanceKm(BUSINESS.lat, BUSINESS.lng, commune.lat, commune.lng))
     // Communes voisines : les plus proches géographiquement
     const nearby = communes
       .filter((c) => c.slug !== params.ville)
@@ -56,7 +69,7 @@ export const Route = createFileRoute("/intervention/$ville")({
       .sort((a, b) => a.d - b.d)
       .slice(0, 6)
       .map(({ c }) => c)
-    return { commune, content, nearby }
+    return { commune, content, nearby, km }
   },
   component: VillePage,
   notFoundComponent: () => (
@@ -105,7 +118,7 @@ function CtaButtons({ kind }: { kind: ZoneCta }) {
 const textStyle = { color: "#475569", fontSize: "1.03rem", lineHeight: 1.8 } as const
 
 function VillePage() {
-  const { commune, content, nearby } = Route.useLoaderData()
+  const { commune, content, nearby, km } = Route.useLoaderData()
 
   return (
     <div>
@@ -126,6 +139,24 @@ function VillePage() {
         image="/realisations/photo-08.jpg"
       />
 
+      <section style={{ background: "#f1f5f9", padding: "28px 0" }} aria-label={`Informations pratiques pour ${commune.nom}`}>
+        <div className="section-container" style={{ maxWidth: "860px" }}>
+          <dl style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(190px, 1fr))", gap: "14px 24px", margin: 0 }}>
+            {[
+              ["Commune", `${commune.nom} (${commune.codePostal}), Haute-Garonne`],
+              ["Basé à", commune.slug === "muret" ? "Muret, 11 rue François Arago" : `Muret, à environ ${km} km à vol d'oiseau`],
+              ["Disponibilité", "Joignable 24h/24 et 7j/7"],
+              ["Garantie", "2 ans, pièces et main-d'œuvre"],
+            ].map(([k, v]) => (
+              <div key={k}>
+                <dt style={{ fontSize: "0.72rem", letterSpacing: "0.08em", textTransform: "uppercase", color: "#64748b", fontWeight: 600 }}>{k}</dt>
+                <dd style={{ margin: "2px 0 0", color: "var(--ink-950)", fontWeight: 600 }}>{v}</dd>
+              </div>
+            ))}
+          </dl>
+        </div>
+      </section>
+
       {content.sections.map((section, i) => {
         const List = section.numbered ? "ol" : "ul"
         return (
@@ -138,20 +169,26 @@ function VillePage() {
                   {section.bullets.map((b) => <li key={b}>{b}</li>)}
                 </List>
               )}
-              {section.faq && (
-                <dl style={{ margin: 0 }}>
-                  {section.faq.map(({ q, a }) => (
-                    <div key={q} style={{ marginBottom: "16px" }}>
-                      <dt style={{ fontWeight: 700, color: "var(--ink-950)" }}>{q}</dt>
-                      <dd style={{ ...textStyle, margin: "4px 0 0" }}>{a}</dd>
-                    </div>
-                  ))}
-                </dl>
-              )}
             </div>
           </section>
         )
       })}
+
+      {content.faq.length > 0 && (
+        <section style={{ background: content.sections.length % 2 === 0 ? "white" : "#f9fafb", padding: "56px 0" }}>
+          <div className="section-container" style={{ maxWidth: "860px" }}>
+            <h2 className="section-title" style={{ marginBottom: "18px" }}>Questions fréquentes à {commune.nom}</h2>
+            <dl style={{ margin: 0 }}>
+              {content.faq.map(({ q, a }) => (
+                <div key={q} style={{ marginBottom: "16px" }}>
+                  <dt style={{ fontWeight: 700, color: "var(--ink-950)" }}>{q}</dt>
+                  <dd style={{ ...textStyle, margin: "4px 0 0" }}>{a}</dd>
+                </div>
+              ))}
+            </dl>
+          </div>
+        </section>
+      )}
 
       <section style={{ background: "white", padding: "40px 0" }}>
         <div className="section-container" style={{ textAlign: "center" }}>
