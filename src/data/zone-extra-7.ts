@@ -162,4 +162,12 @@ export const zoneExtra7: Record<string, ZoneExtra> = {
     sections: [{ h2: "Entretenir sa chaudière avant l'hiver", text: "Avant la saison de chauffe, faites vérifier la pression, purger les radiateurs, contrôler les évacuations de condensats et l'état général de la chaudière. L'entretien annuel est une obligation légale et prévient les pannes pendant les premiers froids." }],
     faq: [{ q: "À quelle période entretenir la chaudière ?", a: "Idéalement en début d'automne, avant la saison de chauffe." }],
   },
+  montrabe: {
+    sections: [{ h2: "Évacuation de douche lente : les causes", text: "Une douche qui s'écoule lentement est le plus souvent bouchée par des cheveux et du savon accumulés dans le siphon. Retirez la grille, nettoyez le siphon, puis rincez à l'eau chaude. Si le problème persiste, le bouchon se trouve plus loin dans la canalisation et un débouchage professionnel s'impose." }],
+    faq: [{ q: "Pourquoi ma douche s'évacue-t-elle lentement ?", a: "Le plus souvent à cause d'un siphon encrassé par des cheveux et du savon." }],
+  },
+  pinsaguel: {
+    sections: [{ h2: "Purger un radiateur avant l'hiver", text: "Un radiateur froid en haut et chaud en bas contient de l'air. Chauffage en marche, ouvrez doucement la purge avec la clé adaptée jusqu'à ce que l'eau s'écoule, puis refermez. Contrôlez ensuite la pression de la chaudière et complétez-la si nécessaire." }],
+    faq: [{ q: "À quelle fréquence purger les radiateurs ?", a: "Au moins une fois par an, en début de saison de chauffe." }],
+  },
 }

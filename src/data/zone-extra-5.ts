@@ -223,4 +223,46 @@ export const zoneExtra5: Record<string, ZoneExtra> = {
       { q: "Garantie ?", a: "2 ans, pièces et main-d'œuvre." },
     ],
   },
+  montrabe: {
+    sections: [
+      {
+        h2: "Où se situe Montrabé par rapport à Nino",
+        text: "Montrabé est à environ 26 km à vol d'oiseau de Muret, où Nino Plomberie est installé, et à 8 km du centre de Toulouse. Les communes voisines desservies sont Saint-Jean, L'Union, Balma, Launaguet et Quint-Fonsegrives.",
+      },
+      {
+        h2: "Préparer un devis plomberie",
+        text: "Pour obtenir un devis précis, rassemblez quelques éléments : photos de l'installation, dimensions de la pièce, âge de l'équipement à remplacer et accès au compteur d'eau. Plus la description est complète, plus l'estimation est fiable. Le devis est gratuit.",
+      },
+      {
+        h2: "En cas de fuite, en attendant l'artisan",
+        bullets: ["Repérer et fermer le robinet d'arrêt général", "Éponger et protéger meubles et appareils", "Photographier les dégâts pour la déclaration à l'assurance", "Appeler Nino Plomberie au 06 50 57 96 20"],
+      },
+    ],
+    faq: [
+      { q: "Nino Plomberie intervient-il à Montrabé ?", a: "Oui, Montrabé fait partie des zones desservies depuis Muret. Appelez le 06 50 57 96 20 pour fixer un rendez-vous." },
+      { q: "Peut-on prendre rendez-vous pour un devis à Montrabé ?", a: "Oui, en ligne ou par téléphone. Le devis est gratuit." },
+      { q: "Les travaux sont-ils garantis ?", a: "Les réparations sont garanties 2 ans, pièces et main-d'œuvre." },
+    ],
+  },
+  pinsaguel: {
+    sections: [
+      {
+        h2: "Pinsaguel et ses communes voisines",
+        text: "Pinsaguel se situe à environ 6 km de Muret et à 12 km du centre de Toulouse. Les communes les plus proches sont Roquettes, Pins-Justaret, Roques, Portet-sur-Garonne, Saubens et Villate, toutes desservies par Nino Plomberie.",
+      },
+      {
+        h2: "Pannes courantes d'un logement",
+        bullets: ["Robinet ou mitigeur qui fuit", "Chasse d'eau qui coule en continu", "Siphon d'évier ou de lavabo encrassé", "Pression d'eau irrégulière"],
+      },
+      {
+        h2: "Tester l'étanchéité de son installation",
+        text: "Relevez votre compteur le soir, ne consommez rien pendant la nuit, puis relisez-le le matin : si l'index a bougé, une fuite existe quelque part. Ce test simple permet de décider s'il faut un dépannage rapide.",
+      },
+    ],
+    faq: [
+      { q: "Pinsaguel est-elle proche de Muret ?", a: "Oui, environ 6 km, et les deux communes font partie du Muretain Agglo." },
+      { q: "Intervenez-vous la nuit à Pinsaguel ?", a: "La ligne est ouverte 24h/24 et 7j/7 au 06 50 57 96 20." },
+      { q: "Le devis est-il gratuit ?", a: "Oui, et le prix est annoncé avant les travaux." },
+    ],
+  },
 }

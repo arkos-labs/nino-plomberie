@@ -407,6 +407,22 @@ export const communes: Commune[] = [
     "lat": 43.4363,
     "lng": 1.4629,
     "description": "Commune de la Haute-Garonne, intervention rapide plomberie et chauffage."
+  },
+  {
+    "slug": "montrabe",
+    "nom": "Montrabé",
+    "codePostal": "31850",
+    "lat": 43.6436,
+    "lng": 1.5333,
+    "description": "Commune de Toulouse Métropole, à environ 8 km du centre de Toulouse."
+  },
+  {
+    "slug": "pinsaguel",
+    "nom": "Pinsaguel",
+    "codePostal": "31120",
+    "lat": 43.503,
+    "lng": 1.3919,
+    "description": "Commune du Muretain Agglo, à environ 6 km de Muret."
   }
 ]
 

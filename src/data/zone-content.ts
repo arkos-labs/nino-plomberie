@@ -632,6 +632,30 @@ export const zoneContent: Record<string, ZoneContent> = {
     ],
     cta: { label: "Appelez maintenant : 06 50 57 96 20.", kind: "tel" },
   },
+
+  montrabe: {
+    title: "Plombier Montrabé (31850) : devis gratuit, garantie 2 ans",
+    description: "Plombier à Montrabé : Nino Plomberie, artisan de Muret, intervient pour fuite, chauffe-eau, débouchage et rénovation. Devis gratuit. 06 50 57 96 20.",
+    h1: "Montrabé : un plombier pour la métropole toulousaine, joignable à toute heure",
+    intro: "Montrabé, commune de Toulouse Métropole, se trouve à environ 8 km du centre de Toulouse, entre Balma, Saint-Jean et L'Union. Nino Plomberie, artisan basé à Muret, y intervient pour les dépannages comme pour les travaux planifiés.",
+    sections: [
+      { h2: "Dépannage et travaux à Montrabé", text: "Fuite d'eau, chauffe-eau en panne, évacuation bouchée : le 06 50 57 96 20 répond 24h/24 et 7j/7. Pour un chantier à préparer (salle de bain, chauffage, plomberie neuve), un rendez-vous peut être pris en ligne et le devis est gratuit." },
+      { h2: "Un artisan indépendant, des engagements clairs", text: "Nino Plomberie compte plus de 20 ans d'expérience. Le prix est annoncé avant les travaux et les réparations sont garanties 2 ans, pièces et main-d'œuvre." },
+    ],
+    cta: { label: "Prenez rendez-vous en ligne pour votre devis gratuit.", kind: "rdv" },
+  },
+
+  pinsaguel: {
+    title: "Plombier Pinsaguel (31120) : artisan de Muret, devis gratuit",
+    description: "Plombier à Pinsaguel : Nino Plomberie, installé à Muret à 6 km, traite fuite, chauffe-eau, débouchage et salle de bain. Devis gratuit. 06 50 57 96 20.",
+    h1: "Pinsaguel : le plombier de Muret à quelques kilomètres",
+    intro: "Pinsaguel, commune du Muretain Agglo comme Muret, se trouve à environ 6 km de l'adresse de Nino Plomberie. Une proximité utile pour un dépannage comme pour un chantier suivi.",
+    sections: [
+      { h2: "Dépannage plomberie à Pinsaguel", text: "Fuite, évacuation bouchée, chauffe-eau qui ne chauffe plus : appelez le 06 50 57 96 20, 24h/24 et 7j/7. Le diagnostic précède toute réparation et le prix est annoncé avant l'intervention." },
+      { h2: "Chantiers : une distance courte depuis Muret", text: "Pour une rénovation de salle de bain ou une pose de cuisine, la distance depuis Muret reste courte, ce qui facilite les visites de chantier. Devis gratuit, réparations garanties 2 ans." },
+    ],
+    cta: { label: "Appelez le 06 50 57 96 20 pour une intervention à Pinsaguel.", kind: "tel" },
+  },
 }
 
 export const zoneSlugs = Object.keys(zoneContent)

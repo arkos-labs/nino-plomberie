@@ -202,4 +202,12 @@ export const zoneExtra6: Record<string, ZoneExtra> = {
     sections: [{ h2: "Choisir entre réparation et remplacement", text: "Un équipement de plus de dix ans, qui tombe en panne régulièrement, mérite souvent d'être remplacé. Un équipement récent avec une panne isolée se répare. Nino vous présente les deux options dans un devis gratuit et vous laisse choisir." }],
     faq: [{ q: "Réparer ou remplacer ?", a: "Cela dépend de l'âge, de la fréquence des pannes et du coût de la réparation." }],
   },
+  montrabe: {
+    sections: [{ h2: "Chauffe-eau électrique ou thermodynamique : les critères", text: "Un chauffe-eau électrique classique coûte moins cher à l'achat, tandis qu'un modèle thermodynamique consomme moins d'électricité mais demande un local adapté, avec un volume d'air suffisant et une évacuation des condensats. Comparez le budget, la place disponible et le nombre d'occupants avant de choisir. Un devis gratuit permet de comparer les options." }],
+    faq: [{ q: "Quel chauffe-eau choisir pour une famille ?", a: "Cela dépend du nombre d'occupants et de la place disponible. Le devis gratuit compare les options." }],
+  },
+  pinsaguel: {
+    sections: [{ h2: "WC suspendu ou WC posé : lequel choisir", text: "Un WC suspendu libère le sol, facilite le nettoyage et s'intègre bien à une salle de bain rénovée, mais il nécessite un bâti-support dans la cloison. Un WC posé se remplace plus simplement, sans modifier le mur. Le choix dépend de l'état de la pièce et du budget ; le devis gratuit détaille chaque option." }],
+    faq: [{ q: "Peut-on remplacer un WC posé par un WC suspendu ?", a: "Oui, à condition d'installer un bâti-support. Un devis gratuit précise les travaux." }],
+  },
 }
