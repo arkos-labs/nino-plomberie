@@ -68,7 +68,11 @@ export const Route = createFileRoute("/realisations")({
               "@type": "ImageObject",
               contentUrl: `${SITE_URL}${r.src}`,
               name: ville ? `${r.titre} à ${ville.nom}` : r.titre,
-              creator: { "@id": BUSINESS_ID },
+              creator: { "@type": "Organization", name: BUSINESS.name, url: SITE_URL },
+              creditText: BUSINESS.name,
+              copyrightNotice: `© ${BUSINESS.name}`,
+              license: `${SITE_URL}/mentions-legales`,
+              acquireLicensePage: `${SITE_URL}/contact`,
               ...(ville && {
                 contentLocation: {
                   "@type": "Place",
