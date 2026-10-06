@@ -20,7 +20,7 @@ export const BUSINESS = {
   lat: 43.4589326,
   lng: 1.3418356,
   rating: "4.4",
-  reviewCount: "78",
+  reviewCount: "79",
   googleMapsUrl: "https://maps.google.com/?cid=9239381501337303445",
   experience: "plus de 20 ans",
   // À renseigner (obligatoires pour un professionnel du bâtiment qui vend à des particuliers) : affichés dans les mentions légales dès qu'ils sont remplis

@@ -208,7 +208,7 @@ export const zoneExtra2: Record<string, ZoneExtra> = {
     sections: [
       {
         h2: "Bois-de-la-Pierre : choisir un artisan dont on peut vérifier les avis",
-        text: "Quand on habite un petit village, on veut éviter de se tromper d'artisan. Nino Plomberie est noté 4,4/5 sur 78 avis Google. Lire ces avis avant d'appeler permet de se faire une idée du sérieux, de la clarté des devis et du suivi des interventions.",
+        text: "Quand on habite un petit village, on veut éviter de se tromper d'artisan. Nino Plomberie est noté 4,4/5 sur 79 avis Google. Lire ces avis avant d'appeler permet de se faire une idée du sérieux, de la clarté des devis et du suivi des interventions.",
       },
       {
         h2: "Questions à poser à tout plombier",
@@ -223,7 +223,7 @@ export const zoneExtra2: Record<string, ZoneExtra> = {
     faq: [
       { q: "Intervenez-vous à Bois-de-la-Pierre ?", a: "Oui, depuis Muret. Appelez le 06 50 57 96 20 pour confirmer les modalités selon votre besoin." },
       { q: "Peut-on demander un devis sans se déplacer ?", a: "Oui, envoyez des photos via le formulaire de contact pour un premier avis, avant un devis gratuit complet." },
-      { q: "Les avis sont-ils consultables ?", a: "Oui, sur la fiche Google de Nino Plomberie : 4,4/5 sur 78 avis." },
+      { q: "Les avis sont-ils consultables ?", a: "Oui, sur la fiche Google de Nino Plomberie : 4,4/5 sur 79 avis." },
     ],
   },
 }

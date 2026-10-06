@@ -1,6 +1,6 @@
 // Contenu éditorial des 50 pages de zone (/intervention/$ville).
 // Chaque page a son propre angle, sa structure et son appel à l'action : ne pas dupliquer d'une commune à l'autre.
-// Faits utilisables : 24h/24 7j/7, plus de 20 ans d'expérience, garantie 2 ans, devis gratuit, 4,4/5 sur 78 avis Google.
+// Faits utilisables : 24h/24 7j/7, plus de 20 ans d'expérience, garantie 2 ans, devis gratuit, 4,4/5 sur 79 avis Google.
 
 export type ZoneCta = "tel" | "form" | "rdv" | "avis"
 
@@ -131,9 +131,9 @@ export const zoneContent: Record<string, ZoneContent> = {
 
   "saint-hilaire": {
     title: "Plombier Saint-Hilaire (31) : 4,4/5 sur Google",
-    description: "Plombier à Saint-Hilaire : Nino Plomberie, 4,4/5 sur 78 avis Google, plus de 20 ans d'expérience. Devis gratuit. 06 50 57 96 20.",
+    description: "Plombier à Saint-Hilaire : Nino Plomberie, 4,4/5 sur 79 avis Google, plus de 20 ans d'expérience. Devis gratuit. 06 50 57 96 20.",
     h1: "Saint-Hilaire : choisir un plombier dont les clients parlent bien",
-    intro: "Dans les communes autour de Muret, le choix d'un artisan passe beaucoup par les recommandations. Nino Plomberie est noté 4,4/5 sur 78 avis Google, et compte plus de 20 ans d'expérience.",
+    intro: "Dans les communes autour de Muret, le choix d'un artisan passe beaucoup par les recommandations. Nino Plomberie est noté 4,4/5 sur 79 avis Google, et compte plus de 20 ans d'expérience.",
     sections: [
       { h2: "Ce que disent les clients", text: "Vous pouvez consulter les avis publiés sur la fiche Google avant de nous appeler." },
       { h2: "Ce que vous obtenez à chaque intervention", bullets: ["Diagnostic expliqué simplement", "Devis gratuit, prix annoncé à l'avance", "Réparations garanties 2 ans"] },
@@ -263,9 +263,9 @@ export const zoneContent: Record<string, ZoneContent> = {
 
   "bois-de-la-pierre": {
     title: "Plombier Bois-de-la-Pierre : artisan de confiance",
-    description: "Bois-de-la-Pierre : Nino Plomberie, 4,4/5 sur 78 avis Google. Artisan de Muret, devis gratuit, garantie 2 ans. 06 50 57 96 20.",
+    description: "Bois-de-la-Pierre : Nino Plomberie, 4,4/5 sur 79 avis Google. Artisan de Muret, devis gratuit, garantie 2 ans. 06 50 57 96 20.",
     h1: "Bois-de-la-Pierre : choisissez un artisan dont les avis sont publics",
-    intro: "Quand on habite un petit village, on veut un artisan fiable. Nino Plomberie affiche 4,4/5 sur 78 avis Google : vous pouvez les consulter avant d'appeler.",
+    intro: "Quand on habite un petit village, on veut un artisan fiable. Nino Plomberie affiche 4,4/5 sur 79 avis Google : vous pouvez les consulter avant d'appeler.",
     sections: [
       { h2: "Ce qu'il faut savoir avant de choisir", bullets: ["Prix annoncé avant le début des travaux", "Garantie de 2 ans pièces et main-d'œuvre", "Plus de 20 ans de métier"] },
       { h2: "Un devis sans engagement", text: "Gratuit, avec diagnostic expliqué simplement." },
@@ -371,9 +371,9 @@ export const zoneContent: Record<string, ZoneContent> = {
 
   noe: {
     title: "Plombier Noé : artisan noté 4,4/5 sur Google",
-    description: "Plombier à Noé : Nino Plomberie, 4,4/5 sur 78 avis Google. Artisan de Muret, devis gratuit, garantie 2 ans. 06 50 57 96 20.",
+    description: "Plombier à Noé : Nino Plomberie, 4,4/5 sur 79 avis Google. Artisan de Muret, devis gratuit, garantie 2 ans. 06 50 57 96 20.",
     h1: "Noé : un plombier choisi sur avis, pas sur promesse",
-    intro: "Dans un village comme Noé, on choisit son artisan avec soin. Nino Plomberie affiche 4,4/5 sur 78 avis Google, consultables sur sa fiche.",
+    intro: "Dans un village comme Noé, on choisit son artisan avec soin. Nino Plomberie affiche 4,4/5 sur 79 avis Google, consultables sur sa fiche.",
     sections: [
       { h2: "Ce que vous pouvez attendre", bullets: ["Devis gratuit, prix annoncé avant travaux", "Garantie de 2 ans, pièces et main-d'œuvre", "Plus de 20 ans d'expérience"] },
       { h2: "Un seul artisan, du diagnostic à la réparation", text: "Pas de plateforme, pas d'intermédiaire." },
@@ -447,7 +447,7 @@ export const zoneContent: Record<string, ZoneContent> = {
     h1: "Colomiers : un plombier recommandé, connu de la commune",
     intro: "Ville dynamique de l'ouest toulousain, Colomiers compte de nombreux logements récents et des résidences plus anciennes. Nino Plomberie y a déjà réalisé des chantiers.",
     sections: [
-      { h2: "Un artisan noté 4,4/5 sur Google", text: "78 avis consultables sur la fiche de l'entreprise." },
+      { h2: "Un artisan noté 4,4/5 sur Google", text: "79 avis consultables sur la fiche de l'entreprise." },
       { h2: "Dépannage et travaux", bullets: ["Fuites, chauffe-eau, débouchage", "Chauffage et chaudière", "Salle de bain et plomberie neuve"] },
     ],
     cta: { label: "Lisez les avis, puis appelez le 06 50 57 96 20.", kind: "avis" },
@@ -484,7 +484,7 @@ export const zoneContent: Record<string, ZoneContent> = {
     intro: "Au nord de Toulouse, Aucamville est une commune où se côtoient pavillons et petits collectifs. Un plombier qui explique clairement le problème évite les mauvaises surprises.",
     sections: [
       { h2: "Ce qui est garanti", text: "Prix annoncé avant les travaux, réparations garanties 2 ans, pièces et main-d'œuvre." },
-      { h2: "Ce que disent les avis", text: "4,4/5 sur 78 avis Google, à consulter avant d'appeler." },
+      { h2: "Ce que disent les avis", text: "4,4/5 sur 79 avis Google, à consulter avant d'appeler." },
     ],
     cta: { label: "Lisez les avis, puis appelez le 06 50 57 96 20.", kind: "avis" },
   },
@@ -551,11 +551,11 @@ export const zoneContent: Record<string, ZoneContent> = {
 
   "saint-jory": {
     title: "Plombier Saint-Jory : artisan fiable, garantie 2 ans",
-    description: "Saint-Jory : Nino Plomberie, 4,4/5 sur 78 avis Google. Dépannage, chauffe-eau, plomberie neuve. Devis gratuit. 06 50 57 96 20.",
+    description: "Saint-Jory : Nino Plomberie, 4,4/5 sur 79 avis Google. Dépannage, chauffe-eau, plomberie neuve. Devis gratuit. 06 50 57 96 20.",
     h1: "Saint-Jory : un plombier dont les avis parlent pour lui",
     intro: "Au nord de Toulouse, Saint-Jory associe habitat résidentiel et zone logistique. Pour ses habitants, choisir un artisan fiable passe souvent par les avis.",
     sections: [
-      { h2: "Ce que disent les clients", text: "4,4/5 sur 78 avis Google, à lire avant d'appeler." },
+      { h2: "Ce que disent les clients", text: "4,4/5 sur 79 avis Google, à lire avant d'appeler." },
       { h2: "Ce que vous obtenez", bullets: ["Devis gratuit, prix annoncé", "Garantie de 2 ans, pièces et main-d'œuvre", "Plus de 20 ans d'expérience"] },
     ],
     cta: { label: "Consultez les avis, puis appelez le 06 50 57 96 20.", kind: "avis" },

@@ -24,7 +24,7 @@ const guarantees = [
 
 const trustItems = [
   "Plus de 20 ans d'expérience",
-  "4,4/5 sur Google (78 avis)",
+  "4,4/5 sur Google (79 avis)",
   "Réparations garanties 2 ans",
 ]
 

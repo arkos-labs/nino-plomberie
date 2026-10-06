@@ -222,7 +222,7 @@ export const zoneExtra1: Record<string, ZoneExtra> = {
     sections: [
       {
         h2: "À Saint-Hilaire, la recommandation compte",
-        text: "Dans un village, un artisan se choisit souvent sur ce que disent les voisins. Nino Plomberie affiche 4,4/5 sur 78 avis Google, avec plus de 20 ans d'expérience. Vous pouvez lire les avis sur la fiche Google avant d'appeler et vous faire votre propre idée.",
+        text: "Dans un village, un artisan se choisit souvent sur ce que disent les voisins. Nino Plomberie affiche 4,4/5 sur 79 avis Google, avec plus de 20 ans d'expérience. Vous pouvez lire les avis sur la fiche Google avant d'appeler et vous faire votre propre idée.",
       },
       {
         h2: "Ce que comprend une intervention de dépannage",
@@ -239,7 +239,7 @@ export const zoneExtra1: Record<string, ZoneExtra> = {
       },
     ],
     faq: [
-      { q: "Où lire les avis sur Nino Plomberie ?", a: "Sur la fiche Google de l'entreprise, accessible depuis cette page : 4,4/5 sur 78 avis." },
+      { q: "Où lire les avis sur Nino Plomberie ?", a: "Sur la fiche Google de l'entreprise, accessible depuis cette page : 4,4/5 sur 79 avis." },
       { q: "Intervenez-vous à Saint-Hilaire en urgence ?", a: "Oui, appelez le 06 50 57 96 20, la ligne est ouverte 24h/24 et 7j/7." },
       { q: "Les devis sont-ils gratuits ?", a: "Oui, et le prix est annoncé avant les travaux." },
     ],

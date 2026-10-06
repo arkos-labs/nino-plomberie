@@ -32,7 +32,7 @@ export const Route = createFileRoute("/a-propos")({
 
 const CHIFFRES = [
   { valeur: "20+",    label: "ans d'expérience"        },
-  { valeur: "4,4/5",  label: "note Google (78 avis)"  },
+  { valeur: "4,4/5",  label: "note Google (79 avis)"  },
   { valeur: "24/7",   label: "ouvert 24h/24"           },
   { valeur: "2 ans",  label: "garantie réparations"    },
 ]
@@ -69,7 +69,7 @@ const ABOUT_FAQ: Faq[] = [
   },
   {
     q: "Que disent les clients de Nino Plomberie ?",
-    a: "Nino Plomberie a une note de 4,4/5 sur Google avec 78 avis. Les clients citent souvent sa réactivité, sa disponibilité, y compris le week-end, et la qualité du travail.",
+    a: "Nino Plomberie a une note de 4,4/5 sur Google avec 79 avis. Les clients citent souvent sa réactivité, sa disponibilité, y compris le week-end, et la qualité du travail.",
   },
 ]
 
@@ -78,7 +78,7 @@ const INFOS: Array<{ icon: typeof Phone; titre: string; desc: string; href?: str
   { icon: Phone,  titre: "Téléphone",   desc: "06 50 57 96 20",                     href: "tel:+33650579620" },
   { icon: Clock,  titre: "Horaires",    desc: "Ouvert 24h/24, 7j/7" },
   { icon: MapPin, titre: "Adresse",     desc: "11 Rue François Arago, 31600 Muret" },
-  { icon: Star,   titre: "Avis Google", desc: "4,4/5 · 78 avis",       href: "https://maps.google.com/?cid=9239381501337303445" },
+  { icon: Star,   titre: "Avis Google", desc: "4,4/5 · 79 avis",       href: "https://maps.google.com/?cid=9239381501337303445" },
 ]
 
 const VALEURS = [

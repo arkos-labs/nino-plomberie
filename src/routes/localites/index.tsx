@@ -99,7 +99,7 @@ function LocalitesIndex() {
             <li>Installation plomberie neuve</li>
           </ul>
           <p className="text-gray-700 font-semibold">
-            ✅ Devis gratuit • ✅ Garantie 2 ans • ✅ 4,4/5 sur 78 avis
+            ✅ Devis gratuit • ✅ Garantie 2 ans • ✅ 4,4/5 sur 79 avis
           </p>
         </div>
       </div>

@@ -194,7 +194,7 @@ export const zoneExtra3: Record<string, ZoneExtra> = {
       },
       {
         h2: "Ce que disent les avis",
-        text: "Nino Plomberie est noté 4,4/5 sur 78 avis Google. Les avis de la fiche permettent de vérifier le sérieux des interventions, la clarté des devis et la qualité du suivi. Nous vous invitons à les lire avant de nous contacter.",
+        text: "Nino Plomberie est noté 4,4/5 sur 79 avis Google. Les avis de la fiche permettent de vérifier le sérieux des interventions, la clarté des devis et la qualité du suivi. Nous vous invitons à les lire avant de nous contacter.",
       },
       {
         h2: "Votre intervention",
@@ -204,7 +204,7 @@ export const zoneExtra3: Record<string, ZoneExtra> = {
     ],
     faq: [
       { q: "Intervenez-vous à Noé ?", a: "Oui, depuis Muret. Appelez le 06 50 57 96 20 pour connaître les modalités." },
-      { q: "Où consulter les avis ?", a: "Sur la fiche Google de Nino Plomberie : 4,4/5 sur 78 avis." },
+      { q: "Où consulter les avis ?", a: "Sur la fiche Google de Nino Plomberie : 4,4/5 sur 79 avis." },
       { q: "Le devis est-il payant ?", a: "Non, il est gratuit." },
     ],
   },

@@ -291,7 +291,7 @@ function ServiceDetailPage() {
                 </div>
                 <div>
                   <div style={{ fontSize: "0.9rem", fontWeight: 700, color: "#1e293b" }}>4,4 / 5 sur Google</div>
-                  <div style={{ fontSize: "0.75rem", color: "#64748b", marginTop: "1px" }}>78 avis clients</div>
+                  <div style={{ fontSize: "0.75rem", color: "#64748b", marginTop: "1px" }}>79 avis clients</div>
                 </div>
               </a>
             </aside>

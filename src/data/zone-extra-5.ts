@@ -76,7 +76,7 @@ export const zoneExtra5: Record<string, ZoneExtra> = {
       },
       {
         h2: "Choisir un artisan sur la base d'éléments vérifiables",
-        text: "Nino Plomberie est noté 4,4/5 sur 78 avis Google, avec plus de 20 ans d'expérience. Le devis est gratuit, le prix annoncé avant les travaux et la garantie de 2 ans. Ce sont des critères simples à comparer quand on hésite entre plusieurs artisans.",
+        text: "Nino Plomberie est noté 4,4/5 sur 79 avis Google, avec plus de 20 ans d'expérience. Le devis est gratuit, le prix annoncé avant les travaux et la garantie de 2 ans. Ce sont des critères simples à comparer quand on hésite entre plusieurs artisans.",
       },
       {
         h2: "Prestations",

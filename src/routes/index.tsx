@@ -70,7 +70,7 @@ const HOME_FAQ: Faq[] = [
   },
   {
     q: "Comment trouver un plombier fiable à Muret ou à Toulouse ?",
-    a: "Privilégiez un artisan plombier local, avec une adresse réelle et des avis clients vérifiables. Nino Plomberie est installé au 11 Rue François Arago à Muret depuis plus de 20 ans, noté 4,4/5 sur Google (78 avis), et intervient à Toulouse et dans toute la Haute-Garonne. Le devis est gratuit et validé avec vous avant les travaux, et les réparations sont garanties 2 ans. Pour un dépannage plomberie urgent, la ligne est ouverte 24h/24 et 7j/7 au 06 50 57 96 20.",
+    a: "Privilégiez un artisan plombier local, avec une adresse réelle et des avis clients vérifiables. Nino Plomberie est installé au 11 Rue François Arago à Muret depuis plus de 20 ans, noté 4,4/5 sur Google (79 avis), et intervient à Toulouse et dans toute la Haute-Garonne. Le devis est gratuit et validé avec vous avant les travaux, et les réparations sont garanties 2 ans. Pour un dépannage plomberie urgent, la ligne est ouverte 24h/24 et 7j/7 au 06 50 57 96 20.",
   },
   {
     q: "Que faire en attendant le plombier en cas de fuite d'eau ?",
@@ -127,7 +127,7 @@ const services = [
 
 const stats = [
   { val: "24/7", label: "Disponibilité", sub: "ouvert 24h/24" },
-  { val: "78", label: "Avis Google", sub: "note 4,4/5" },
+  { val: "79", label: "Avis Google", sub: "note 4,4/5" },
   { val: "31", label: "Haute-Garonne", sub: "couverte" },
   { val: "2 ans", label: "Garantie", sub: "pièces & MO" },
 ]
@@ -253,7 +253,7 @@ function HomePage() {
             target="_blank"
             rel="noopener noreferrer"
             className="g-badge animate-fade-up animate-fade-up-d3"
-            aria-label="Note Google : 4,4 sur 5, 78 avis. Voir les avis"
+            aria-label="Note Google : 4,4 sur 5, 79 avis. Voir les avis"
           >
             <span className="g-word" aria-hidden="true">
               <span style={{ color: "#4285F4" }}>G</span>
@@ -272,7 +272,7 @@ function HomePage() {
                   <span className="g-stars-fill" style={{ width: `${(4.4 / 5) * 100}%` }}>★★★★★</span>
                 </span>
               </span>
-              <span className="g-note">78 avis clients ·<span className="g-link">Voir les avis <ArrowUpRight size={13} /></span></span>
+              <span className="g-note">79 avis clients ·<span className="g-link">Voir les avis <ArrowUpRight size={13} /></span></span>
             </span>
           </a>
           <style>{`
@@ -319,7 +319,7 @@ function HomePage() {
             <div className="kf-line" aria-hidden="true" />
             {[
               { val: "24/7",  label: "Disponible",    sub: "Ouvert 24h/24",          c: "#F97316" },
-              { val: "78",    label: "Avis Google",   sub: "Note 4,4/5",             c: "#F6B17A" },
+              { val: "79",    label: "Avis Google",   sub: "Note 4,4/5",             c: "#F6B17A" },
               { val: "31",    label: "Haute-Garonne", sub: "Rayon d'action dédié",   c: "#B9CCE3" },
               { val: "2 ans", label: "Garantie",      sub: "Pièces & main-d'œuvre",  c: "#7FAEE6" },
             ].map(({ val, label, sub, c }, i) => {
@@ -749,7 +749,7 @@ function HomePage() {
                   <Star key={i} size={16} fill="#f59e0b" color="#f59e0b" />
                 ))}
               </div>
-              4,4/5 · 78 avis Google
+              4,4/5 · 79 avis Google
             </div>
           </div>
 

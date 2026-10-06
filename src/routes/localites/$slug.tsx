@@ -114,7 +114,7 @@ function LocaliteDetail() {
             rénovation salle de bain et cuisine.
           </p>
           <p className="text-gray-700">
-            Devis gratuit. Garantie 2 ans pièces et main-d'œuvre. 4,4/5 sur 78 avis clients vérifiés.
+            Devis gratuit. Garantie 2 ans pièces et main-d'œuvre. 4,4/5 sur 79 avis clients vérifiés.
           </p>
         </div>
       </div>

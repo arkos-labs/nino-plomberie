@@ -100,7 +100,7 @@ export const zoneExtra4: Record<string, ZoneExtra> = {
       },
       {
         h2: "Pourquoi vérifier les avis avant de choisir",
-        text: "Avec 4,4/5 sur 78 avis Google et plus de 20 ans d'expérience, Nino Plomberie s'appuie sur des retours de clients que vous pouvez consulter librement. Un devis clair, un prix annoncé avant les travaux et une garantie de 2 ans sont des éléments faciles à vérifier.",
+        text: "Avec 4,4/5 sur 79 avis Google et plus de 20 ans d'expérience, Nino Plomberie s'appuie sur des retours de clients que vous pouvez consulter librement. Un devis clair, un prix annoncé avant les travaux et une garantie de 2 ans sont des éléments faciles à vérifier.",
       },
       {
         h2: "Interventions fréquentes",
@@ -110,7 +110,7 @@ export const zoneExtra4: Record<string, ZoneExtra> = {
     ],
     faq: [
       { q: "Êtes-vous déjà intervenu à Colomiers ?", a: "Oui, des chantiers y ont été réalisés." },
-      { q: "Où lire les avis ?", a: "Sur la fiche Google de Nino Plomberie : 4,4/5 sur 78 avis." },
+      { q: "Où lire les avis ?", a: "Sur la fiche Google de Nino Plomberie : 4,4/5 sur 79 avis." },
       { q: "Intervenez-vous à Colomiers en urgence ?", a: "Appelez le 06 50 57 96 20 : la ligne est ouverte 24h/24, 7j/7." },
     ],
   },
@@ -172,7 +172,7 @@ export const zoneExtra4: Record<string, ZoneExtra> = {
       },
       {
         h2: "Ce que disent les clients",
-        text: "Les 78 avis Google, avec une note de 4,4/5, sont consultables par tous. Ils parlent de la réactivité, de la clarté des devis et de la qualité des réparations.",
+        text: "Les 79 avis Google, avec une note de 4,4/5, sont consultables par tous. Ils parlent de la réactivité, de la clarté des devis et de la qualité des réparations.",
       },
     ],
     faq: [
