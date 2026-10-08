@@ -178,11 +178,11 @@ export const services: ServiceFiche[] = [
     slug: "chauffage-chaudiere",
     titre: "Chauffage & Chaudière",
     sousTitre: "Plombier chauffagiste à Muret et Toulouse",
-    metaTitle: "Entretien chaudière & chauffagiste Toulouse | Nino Plomberie",
+    metaTitle: "Entreprise de chauffage Muret & Toulouse | Nino Plomberie",
     enBref:
-      "Nino Plomberie est plombier-chauffagiste à Muret et intervient à Toulouse et en Haute-Garonne pour l'entretien et le dépannage de chaudière, de chauffage et de radiateurs : chaudière qui se met en sécurité, pression qui chute, radiateurs froids ou circuit à purger. Le devis est gratuit.",
+      "Nino Plomberie est une entreprise de plomberie et de chauffage basée à Muret. Plombier-chauffagiste, elle intervient à Toulouse et en Haute-Garonne pour l'entretien et le dépannage de chaudière, de chauffage et de radiateurs : chaudière qui se met en sécurité, pression qui chute, radiateurs froids ou circuit à purger. Le devis est gratuit.",
     metaDescription:
-      "Plombier chauffagiste à Muret et Toulouse : entretien et dépannage de chaudière, chauffage et radiateurs en Haute-Garonne. Devis gratuit ☎ 06 50 57 96 20",
+      "Entreprise de chauffage et de plomberie à Muret et Toulouse : entretien et dépannage de chaudière, chauffage, radiateurs. Devis gratuit ☎ 06 50 57 96 20",
     description:
       "Plus de chauffage, chaudière qui s'arrête, radiateurs qui restent froids ou qui font du bruit : Nino Plomberie diagnostique le problème et remet votre installation en état.",
     details: [

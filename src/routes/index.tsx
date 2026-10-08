@@ -11,7 +11,7 @@ import { Phone, Shield, Clock, Star, MapPin, Droplets, Flame, Wind, Wrench, Arro
 export const Route = createFileRoute("/")({
   head: () =>
     pageHead({
-      title: "Plombier 31 Muret & Toulouse 24h/24 — Nino Plomberie",
+      title: "Nino Plomberie — Plombier 31 Muret & Toulouse 24h/24",
       description:
         "Plombier chauffagiste à Muret (31) depuis plus de 20 ans. Dépannage 24h/24 à Toulouse : fuite d'eau, débouchage WC, chauffe-eau. Devis gratuit ☎ 06 50 57 96 20",
       path: "/",

@@ -334,11 +334,12 @@ export const zoneContent: Record<string, ZoneContent> = {
   },
 
   fonsorbes: {
-    title: "Plombier Fonsorbes : devis gratuit, garantie 2 ans",
-    description: "Plombier à Fonsorbes : Nino Plomberie, artisan de Muret, pour chauffe-eau, salle de bain, dépannage. Devis gratuit. 06 50 57 96 20.",
+    title: "Plombier Fonsorbes : débouchage, chauffe-eau | Nino Plomberie",
+    description: "Plombier à Fonsorbes : débouchage de WC, évier et canalisation, chauffe-eau, salle de bain. Nino Plomberie, artisan de Muret. Devis gratuit. 06 50 57 96 20.",
     h1: "Fonsorbes : donner une seconde vie à la plomberie de votre maison",
     intro: "Fonsorbes a beaucoup grandi, avec des lotissements de différentes époques. Les installations qui avaient tout juste dix ans commencent déjà à demander de l'entretien.",
     sections: [
+      { h2: "Débouchage à Fonsorbes : WC, évier, canalisation", text: "WC, évier, douche ou canalisation bouchés à Fonsorbes : Nino Plomberie trouve le bouchon avec des outils professionnels, sans produit chimique agressif, et rétablit l'écoulement. Le devis est gratuit." },
       { h2: "Entretien et remplacement du chauffe-eau", text: "Un ballon qui chauffe mal, qui fait du bruit ou qui fuit se remplace avant la panne totale. Nino explique les options et vous laisse choisir." },
       { h2: "Salle de bain à refaire", text: "Plomberie traitée par Nino, finitions confiées à un second professionnel, devis unique." },
     ],
@@ -430,12 +431,13 @@ export const zoneContent: Record<string, ZoneContent> = {
   },
 
   blagnac: {
-    title: "Plombier Blagnac : urgences 24h/24 | Nino Plomberie",
-    description: "Plombier à Blagnac : Nino Plomberie y a déjà réalisé des chantiers. Dépannage 24h/24, devis gratuit, garantie 2 ans. 06 50 57 96 20.",
+    title: "Plombier Blagnac : dépannage 24h/24 | Nino Plomberie",
+    description: "Plombier et chauffagiste à Blagnac : dépannage 24h/24, débouchage de canalisation, chauffe-eau. Nino Plomberie, devis gratuit, garantie 2 ans. 06 50 57 96 20.",
     h1: "Blagnac : à côté de l'aéroport, un plombier qui ne dort pas",
     intro: "Blagnac, avec son pôle aéronautique, est une ville où l'on travaille souvent en horaires décalés. Une panne d'eau à 6 h ou à 22 h doit pouvoir se régler.",
     sections: [
       { h2: "Dépannage à toute heure", text: "Nino Plomberie répond 24h/24, 7j/7, week-ends et jours fériés compris." },
+      { h2: "Chauffagiste et débouchage de canalisation à Blagnac", text: "Plombier-chauffagiste, Nino intervient aussi à Blagnac pour une chaudière en panne, des radiateurs froids ou une canalisation bouchée. Devis gratuit, prix annoncé avant les travaux." },
       { h2: "Un artisan qui connaît déjà Blagnac", text: "Des chantiers y ont été réalisés. Garantie de 2 ans, prix annoncé avant travaux." },
     ],
     cta: { label: "Appelez le 06 50 57 96 20, quelle que soit l'heure.", kind: "tel" },
