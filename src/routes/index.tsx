@@ -395,8 +395,10 @@ function HomePage() {
                 importants : création de salle de bain, remplacement de cumulus, pose de sanitaires et de cuisines.
               </p>
               <p className="enbref-p">
-                L'entreprise couvre Muret, Toulouse et l'agglomération toulousaine : Portet-sur-Garonne, Cugnaux,
-                Seysses, Frouzins, Tournefeuille, Colomiers, Blagnac et toute la Haute-Garonne. Chaque intervention
+                L'entreprise couvre Muret, Toulouse et l'agglomération toulousaine : <Link to="/intervention/$ville" params={{ ville: "toulouse" }} style={{ color: "inherit", textDecoration: "underline" }}>plombier à Toulouse</Link>,
+                <Link to="/intervention/$ville" params={{ ville: "blagnac" }} style={{ color: "inherit", textDecoration: "underline" }}>plombier à Blagnac</Link>, <Link to="/intervention/$ville" params={{ ville: "balma" }} style={{ color: "inherit", textDecoration: "underline" }}>plombier à Balma</Link>, <Link to="/intervention/$ville" params={{ ville: "colomiers" }} style={{ color: "inherit", textDecoration: "underline" }}>plombier à Colomiers</Link>,
+                <Link to="/intervention/$ville" params={{ ville: "tournefeuille" }} style={{ color: "inherit", textDecoration: "underline" }}>plombier à Tournefeuille</Link>, <Link to="/intervention/$ville" params={{ ville: "cugnaux" }} style={{ color: "inherit", textDecoration: "underline" }}>plombier à Cugnaux</Link>, ainsi que Portet-sur-Garonne,
+                Seysses, Frouzins et toute la Haute-Garonne. Chaque intervention
                 commence par un diagnostic et un devis gratuit, validé avec vous avant les travaux.
               </p>
               <p className="enbref-p" style={{ marginBottom: 0 }}>

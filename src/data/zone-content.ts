@@ -30,8 +30,8 @@ const GARANTIE = "Réparations garanties 2 ans, pièces et main-d'œuvre."
 
 export const zoneContent: Record<string, ZoneContent> = {
   toulouse: {
-    title: "Plombier Toulouse 24h/24 : dépannage et devis | Nino",
-    description: "Fuite, chauffe-eau, débouchage à Toulouse : Nino Plomberie intervient 24h/24, devis gratuit, garantie 2 ans. Appelez le 06 50 57 96 20.",
+    title: "Plombier Toulouse : dépannage 24h/24, chauffagiste | Nino",
+    description: "Plombier et chauffagiste à Toulouse : dépannage 24h/24, fuite d'eau, débouchage, chauffe-eau. Nino Plomberie, artisan de Muret, devis gratuit. 06 50 57 96 20.",
     h1: "Plombier à Toulouse : un artisan pour les immeubles anciens comme pour les appartements récents",
     intro: "Entre les immeubles en briques du centre, les copropriétés de Saint-Cyprien ou des Minimes et les résidences près de la rocade, aucun logement toulousain n'a la même plomberie. C'est pourquoi un diagnostic précis vaut mieux qu'une réparation à l'aveugle.",
     sections: [
@@ -322,8 +322,8 @@ export const zoneContent: Record<string, ZoneContent> = {
   },
 
   tournefeuille: {
-    title: "Plombier Tournefeuille : artisan expérimenté 24h/24",
-    description: "Plombier à Tournefeuille : Nino Plomberie y intervient déjà. Plus de 20 ans d'expérience, devis gratuit, garantie 2 ans. 06 50 57 96 20.",
+    title: "Plombier Tournefeuille : dépannage 24h/24, devis gratuit | Nino",
+    description: "Plombier à Tournefeuille : dépannage 24h/24, fuite d'eau, débouchage, chauffage. Nino Plomberie, artisan de Muret, devis gratuit. 06 50 57 96 20.",
     h1: "Tournefeuille : un plombier qui connaît déjà le secteur",
     intro: "Nino Plomberie a déjà réalisé des chantiers à Tournefeuille, une commune de l'ouest toulousain où l'on trouve des maisons récentes et des résidences plus anciennes.",
     sections: [
@@ -419,8 +419,8 @@ export const zoneContent: Record<string, ZoneContent> = {
   },
 
   balma: {
-    title: "Plombier Balma : rendez-vous rapide, devis gratuit",
-    description: "Plombier à Balma : Nino Plomberie vous propose un créneau rapide. Dépannage, chauffe-eau, salle de bain. Devis gratuit. 06 50 57 96 20.",
+    title: "Plombier Balma : dépannage 24h/24, chauffagiste | Nino",
+    description: "Plombier et chauffagiste à Balma : dépannage 24h/24, fuite d'eau, débouchage, chauffe-eau. Nino Plomberie, artisan de Muret, devis gratuit. 06 50 57 96 20.",
     h1: "Balma : un créneau de plombier sans courir après les rappels",
     intro: "Balma, desservie par le métro et bien connectée à Toulouse, est une commune où beaucoup d'habitants ont peu de temps libre. Prendre rendez-vous en ligne leur épargne des appels.",
     sections: [
@@ -444,8 +444,8 @@ export const zoneContent: Record<string, ZoneContent> = {
   },
 
   colomiers: {
-    title: "Plombier Colomiers : artisan fiable, garantie 2 ans",
-    description: "Plombier à Colomiers : Nino Plomberie y est déjà intervenu. Plus de 20 ans d'expérience, 4,4/5 sur Google, devis gratuit. 06 50 57 96 20.",
+    title: "Plombier Colomiers : dépannage 24h/24, débouchage | Nino",
+    description: "Plombier à Colomiers : dépannage 24h/24, débouchage de canalisation, fuite d'eau, chauffe-eau. Nino Plomberie, devis gratuit, garantie 2 ans. 06 50 57 96 20.",
     h1: "Colomiers : un plombier recommandé, connu de la commune",
     intro: "Ville dynamique de l'ouest toulousain, Colomiers compte de nombreux logements récents et des résidences plus anciennes. Nino Plomberie y a déjà réalisé des chantiers.",
     sections: [

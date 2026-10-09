@@ -13,10 +13,17 @@ import { Gallery } from "../components/Gallery"
 import { SITE_URL, BUSINESS, BUSINESS_ID, ldScript, breadcrumbJsonLd, faqJsonLd } from "../lib/site"
 
 const COMMUNES_PROCHES = [
-  { slug: "muret", nom: "Muret" },
   { slug: "toulouse", nom: "Toulouse" },
-  { slug: "portet-sur-garonne", nom: "Portet-sur-Garonne" },
+  { slug: "blagnac", nom: "Blagnac" },
+  { slug: "balma", nom: "Balma" },
+  { slug: "colomiers", nom: "Colomiers" },
+  { slug: "tournefeuille", nom: "Tournefeuille" },
   { slug: "cugnaux", nom: "Cugnaux" },
+  { slug: "muret", nom: "Muret" },
+  { slug: "ramonville-saint-agne", nom: "Ramonville-Saint-Agne" },
+  { slug: "portet-sur-garonne", nom: "Portet-sur-Garonne" },
+  { slug: "plaisance-du-touch", nom: "Plaisance-du-Touch" },
+  { slug: "fonsorbes", nom: "Fonsorbes" },
   { slug: "seysses", nom: "Seysses" },
   { slug: "frouzins", nom: "Frouzins" },
   { slug: "roques", nom: "Roques" },
@@ -24,11 +31,6 @@ const COMMUNES_PROCHES = [
   { slug: "labarthe-sur-leze", nom: "Labarthe-sur-Lèze" },
   { slug: "eaunes", nom: "Eaunes" },
   { slug: "villeneuve-tolosane", nom: "Villeneuve-Tolosane" },
-  { slug: "fonsorbes", nom: "Fonsorbes" },
-  { slug: "plaisance-du-touch", nom: "Plaisance-du-Touch" },
-  { slug: "tournefeuille", nom: "Tournefeuille" },
-  { slug: "colomiers", nom: "Colomiers" },
-  { slug: "blagnac", nom: "Blagnac" },
 ]
 
 export const Route = createFileRoute("/services/$slug")({
@@ -219,9 +221,9 @@ function ServiceDetailPage() {
                   Basé à Muret, Nino Plomberie intervient pour ce service dans toute la Haute-Garonne, notamment :
                 </p>
                 <div style={{ display: "flex", flexWrap: "wrap", gap: "8px" }}>
-                  {COMMUNES_PROCHES.map((c) => (
+                  {COMMUNES_PROCHES.map((c, i) => (
                     <Link key={c.slug} to="/intervention/$ville" params={{ ville: c.slug }} className="svc-commune">
-                      <MapPin size={12} aria-hidden="true" /> {c.nom}
+                      <MapPin size={12} aria-hidden="true" /> {i < 6 ? `Plombier ${c.nom}` : c.nom}
                     </Link>
                   ))}
                   <Link to="/zones" className="svc-commune" style={{ fontWeight: 700, color: "var(--brand-600)" }}>
