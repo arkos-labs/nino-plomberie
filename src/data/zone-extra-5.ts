@@ -265,4 +265,100 @@ export const zoneExtra5: Record<string, ZoneExtra> = {
       { q: "Le devis est-il gratuit ?", a: "Oui, et le prix est annoncé avant les travaux." },
     ],
   },
+  "toulouse-capitole": {
+    sections: [
+      { h2: "Où se situe Capitole", text: "Capitole est un quartier de Toulouse (31000), à environ 18 km à vol d'oiseau de Muret, où Nino Plomberie est installé. Nino intervient dans tout Toulouse, quartier par quartier." },
+      { h2: "Les pannes fréquentes dans un immeuble ancien", bullets: ["Fuite sur une colonne ou un raccord vieillissant", "Évacuation qui se bouche à cause de canalisations anciennes", "Chauffe-eau électrique qui chauffe moins bien", "Robinetterie usée qui goutte"] },
+      { h2: "Avant l'arrivée de l'artisan", text: "Repérez le robinet d'arrêt général, protégez les meubles et les appareils proches de la fuite, et prenez quelques photos. Elles aident à préparer le devis et, si besoin, à la déclaration à l'assurance." },
+    ],
+    faq: [
+      { q: "Intervenez-vous au Capitole le week-end ?", a: "Oui, la ligne est ouverte 24h/24 et 7j/7 au 06 50 57 96 20." },
+      { q: "Le devis est-il gratuit en centre-ville ?", a: "Oui, et le prix est annoncé avant les travaux." },
+      { q: "Les réparations sont-elles garanties ?", a: "Oui, 2 ans, pièces et main-d'œuvre." },
+    ],
+  },
+  "toulouse-saint-cyprien": {
+    sections: [
+      { h2: "Où se situe Saint-Cyprien", text: "Saint-Cyprien est un quartier de Toulouse (31300), à environ 17 km à vol d'oiseau de Muret, où Nino Plomberie est installé. Nino intervient dans tout Toulouse, quartier par quartier." },
+      { h2: "Préparer la rénovation d'un appartement ancien", bullets: ["Faire vérifier l'état des canalisations avant de refaire les murs", "Prévoir l'emplacement final de l'évier, de la douche et des WC", "Anticiper l'accès aux colonnes communes", "Demander un devis détaillé, poste par poste"] },
+      { h2: "Plomberie et finitions", text: "Pour une salle de bain, Nino traite la plomberie et s'appuie sur un second professionnel pour les finitions. Vous avez un interlocuteur unique et un devis d'ensemble." },
+    ],
+    faq: [
+      { q: "Faites-vous la rénovation de plomberie complète d'un appartement ?", a: "Oui, après visite et devis gratuit." },
+      { q: "Peut-on déplacer une douche ou un évier ?", a: "Souvent oui, après étude des évacuations." },
+      { q: "Les travaux sont-ils garantis ?", a: "Oui, 2 ans, pièces et main-d'œuvre." },
+    ],
+  },
+  "toulouse-carmes": {
+    sections: [
+      { h2: "Où se situe Carmes", text: "Carmes est un quartier de Toulouse (31000), à environ 18 km à vol d'oiseau de Muret, où Nino Plomberie est installé. Nino intervient dans tout Toulouse, quartier par quartier." },
+      { h2: "Idées pour optimiser un petit espace", bullets: ["Remplacer la baignoire par une douche à l'italienne", "Choisir un WC suspendu pour dégager le sol", "Installer un meuble vasque peu profond", "Prévoir des rangements au-dessus du lave-linge"] },
+      { h2: "Ce que vous devez préciser pour un devis", text: "Dimensions de la pièce, emplacement des arrivées d'eau et des évacuations, équipements souhaités : plus la description est complète, plus le devis est précis et gratuit." },
+    ],
+    faq: [
+      { q: "Peut-on installer une douche à l'italienne dans une petite pièce ?", a: "Souvent oui, selon l'évacuation et le plancher. Un devis gratuit étudie la faisabilité." },
+      { q: "Faut-il un bâti-support pour un WC suspendu ?", a: "Oui, il se loge dans la cloison." },
+      { q: "Intervenez-vous en urgence aux Carmes ?", a: "Oui, 24h/24 et 7j/7 au 06 50 57 96 20." },
+    ],
+  },
+  "toulouse-jean-jaures": {
+    sections: [
+      { h2: "Où se situe Jean-Jaurès", text: "Jean-Jaurès est un quartier de Toulouse (31000), à environ 19 km à vol d'oiseau de Muret, où Nino Plomberie est installé. Nino intervient dans tout Toulouse, quartier par quartier." },
+      { h2: "Les causes fréquentes d'une fuite en appartement", bullets: ["Joint ou flexible de lave-linge ou de lave-vaisselle", "Siphon ou évacuation de douche qui fuit", "Robinet ou chasse d'eau défectueux", "Canalisation vieillissante dans la gaine"] },
+      { h2: "Constat amiable et assurance", text: "En cas de dégât des eaux entre voisins, un constat amiable est rempli et envoyé à son assurance. Savoir précisément d'où vient la fuite évite les discussions sur les responsabilités." },
+    ],
+    faq: [
+      { q: "Que faire d'abord en cas de fuite ?", a: "Fermer le robinet d'arrêt général, puis appeler un plombier." },
+      { q: "Quand déclarer un dégât des eaux ?", a: "En général dans les 5 jours ouvrés auprès de son assurance." },
+      { q: "Intervenez-vous la nuit ?", a: "Oui, 24h/24 et 7j/7 au 06 50 57 96 20." },
+    ],
+  },
+  "toulouse-minimes": {
+    sections: [
+      { h2: "Où se situe Minimes", text: "Minimes est un quartier de Toulouse (31200), à environ 20 km à vol d'oiseau de Muret, où Nino Plomberie est installé. Nino intervient dans tout Toulouse, quartier par quartier." },
+      { h2: "Les étapes d'une rénovation de salle de bain", bullets: ["Visite et relevé des dimensions", "Devis gratuit détaillé", "Dépose de l'existant", "Plomberie, évacuations et pose des équipements", "Finitions et contrôle d'étanchéité"] },
+      { h2: "Préparer son projet", text: "Choisissez d'abord le type de douche (italienne ou receveur), puis le meuble et le WC. Cette liste permet à Nino de prévoir les raccordements et de chiffrer précisément." },
+    ],
+    faq: [
+      { q: "Combien de temps dure une rénovation de salle de bain ?", a: "Cela dépend de l'ampleur. Le devis gratuit précise le calendrier." },
+      { q: "Qui fait les finitions ?", a: "Un second professionnel travaille avec Nino. Vous gardez un seul devis." },
+      { q: "Le chantier est-il garanti ?", a: "Oui, 2 ans, pièces et main-d'œuvre." },
+    ],
+  },
+  "toulouse-purpan": {
+    sections: [
+      { h2: "Où se situe Purpan", text: "Purpan est un quartier de Toulouse (31300), à environ 17 km à vol d'oiseau de Muret, où Nino Plomberie est installé. Nino intervient dans tout Toulouse, quartier par quartier." },
+      { h2: "Les signes d'un chauffe-eau à surveiller", bullets: ["Eau moins chaude ou qui se vide trop vite", "Bruits de cognement ou de bouillonnement", "Écoulement d'eau au pied du ballon", "Groupe de sécurité qui goutte en continu"] },
+      { h2: "Réparer ou remplacer ?", text: "Un ballon de plus de dix ans, qui tombe en panne régulièrement, mérite souvent d'être remplacé. Le devis gratuit compare la réparation et le remplacement pour que vous décidiez en connaissance de cause." },
+    ],
+    faq: [
+      { q: "Combien de temps pour remplacer un chauffe-eau ?", a: "En général une demi-journée à une journée." },
+      { q: "Le devis est-il gratuit ?", a: "Oui, et le prix est annoncé avant les travaux." },
+      { q: "Intervenez-vous le week-end ?", a: "Oui, 24h/24 et 7j/7 au 06 50 57 96 20." },
+    ],
+  },
+  "toulouse-rangueil": {
+    sections: [
+      { h2: "Où se situe Rangueil", text: "Rangueil est un quartier de Toulouse (31400), à environ 15 km à vol d'oiseau de Muret, où Nino Plomberie est installé. Nino intervient dans tout Toulouse, quartier par quartier." },
+      { h2: "Pannes courantes dans un logement loué", bullets: ["Évier ou douche qui s'évacue lentement", "Robinet ou chasse d'eau qui fuit", "Chauffe-eau en panne", "Joints de baignoire ou de douche à refaire"] },
+      { h2: "Mieux vaut un justificatif écrit", text: "Un devis ou une facture qui décrit la cause de la panne aide à régler la question entre locataire et propriétaire. Gardez-en une trace avant de commencer les travaux." },
+    ],
+    faq: [
+      { q: "Qui paie un débouchage en location ?", a: "En général l'entretien courant revient au locataire, sauf cause liée à la vétusté." },
+      { q: "Peut-on obtenir un devis avant d'intervenir ?", a: "Oui, le devis est gratuit." },
+      { q: "Intervenez-vous à toute heure ?", a: "Oui, 24h/24 et 7j/7 au 06 50 57 96 20." },
+    ],
+  },
+  "toulouse-arenes": {
+    sections: [
+      { h2: "Où se situe Arènes", text: "Arènes est un quartier de Toulouse (31300), à environ 16 km à vol d'oiseau de Muret, où Nino Plomberie est installé. Nino intervient dans tout Toulouse, quartier par quartier." },
+      { h2: "Les pannes de chauffage les plus fréquentes", bullets: ["Radiateur froid en haut : de l'air à purger", "Pression de chaudière qui chute", "Robinet thermostatique bloqué", "Radiateurs éloignés qui chauffent mal"] },
+      { h2: "Premiers gestes avant d'appeler", text: "Vérifiez que la chaudière est alimentée et que la pression est correcte, puis purgez les radiateurs froids en haut. Si le problème persiste, un diagnostic évite de remettre de l'eau sans cesse." },
+    ],
+    faq: [
+      { q: "Faites-vous le dépannage de chaudière ?", a: "Oui, Nino est plombier-chauffagiste. Le devis est gratuit." },
+      { q: "Peut-on faire contrôler son chauffage avant l'hiver ?", a: "Oui, sur rendez-vous." },
+      { q: "Intervenez-vous en urgence ?", a: "Oui, 24h/24 et 7j/7 au 06 50 57 96 20." },
+    ],
+  },
 }

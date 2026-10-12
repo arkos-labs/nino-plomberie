@@ -170,4 +170,36 @@ export const zoneExtra7: Record<string, ZoneExtra> = {
     sections: [{ h2: "Purger un radiateur avant l'hiver", text: "Un radiateur froid en haut et chaud en bas contient de l'air. Chauffage en marche, ouvrez doucement la purge avec la clé adaptée jusqu'à ce que l'eau s'écoule, puis refermez. Contrôlez ensuite la pression de la chaudière et complétez-la si nécessaire." }],
     faq: [{ q: "À quelle fréquence purger les radiateurs ?", a: "Au moins une fois par an, en début de saison de chauffe." }],
   },
+  "toulouse-capitole": {
+    sections: [{ h2: "Siphon d'évier : mauvaise odeur", text: "Une odeur persistante sous l'évier vient souvent d'un siphon encrassé ou d'un siphon à sec. Démontez-le, nettoyez-le, puis remontez-le avec un joint en bon état. Si l'odeur revient, la cause peut se trouver plus loin dans l'évacuation." }],
+    faq: [{ q: "D'où vient une odeur sous mon évier ?", a: "Souvent d'un siphon encrassé. Un nettoyage règle la plupart des cas." }],
+  },
+  "toulouse-saint-cyprien": {
+    sections: [{ h2: "Chasse d'eau qui coule en continu", text: "Une chasse d'eau qui coule gaspille de l'eau en continu. La cause est souvent un flotteur mal réglé, un joint de clapet usé ou un mécanisme entartré. Remplacer le mécanisme complet règle le problème durablement." }],
+    faq: [{ q: "Pourquoi ma chasse d'eau coule-t-elle ?", a: "Flotteur déréglé, joint de clapet usé ou mécanisme entartré, le plus souvent." }],
+  },
+  "toulouse-carmes": {
+    sections: [{ h2: "Brancher un lave-linge : alimentation et évacuation", text: "Un lave-linge se raccorde à une arrivée d'eau froide avec un robinet d'arrêt et à une évacuation avec siphon dédié. Utilisez des flexibles en bon état et laissez l'accès au robinet pour pouvoir couper l'eau en cas de problème." }],
+    faq: [{ q: "Que faut-il pour raccorder un lave-linge ?", a: "Une arrivée d'eau avec robinet d'arrêt et une évacuation avec siphon." }],
+  },
+  "toulouse-jean-jaures": {
+    sections: [{ h2: "Pression d'eau trop faible : les causes", text: "Une faible pression peut venir d'un robinet d'arrêt partiellement fermé, d'un réducteur de pression mal réglé, d'un filtre entartré ou d'une fuite. Vérifiez si le problème touche tous les points d'eau ou un seul : cela oriente le diagnostic." }],
+    faq: [{ q: "Pourquoi ma pression d'eau est-elle faible ?", a: "Robinet d'arrêt, réducteur, calcaire ou fuite sont les causes courantes." }],
+  },
+  "toulouse-minimes": {
+    sections: [{ h2: "Pente d'évacuation d'une douche à l'italienne", text: "Dans une douche à l'italienne, le sol doit être incliné vers la bonde, de l'ordre de 1 à 2 %, pour que l'eau s'écoule sans stagner. Une pente insuffisante provoque des flaques et des odeurs, d'où l'importance de soigner la préparation du sol." }],
+    faq: [{ q: "Quelle pente pour une douche italienne ?", a: "De l'ordre de 1 à 2 % vers la bonde." }],
+  },
+  "toulouse-purpan": {
+    sections: [{ h2: "Détartrer un chauffe-eau : pourquoi et quand", text: "Le calcaire se dépose au fond du ballon et sur la résistance, ce qui réduit le rendement et peut provoquer des bruits. Une vidange régulière limite l'entartrage, particulièrement dans les régions où l'eau est calcaire." }],
+    faq: [{ q: "Faut-il détartrer un chauffe-eau ?", a: "Une vidange régulière limite l'entartrage et prolonge sa durée de vie." }],
+  },
+  "toulouse-rangueil": {
+    sections: [{ h2: "Évier bouché : agir sans produit agressif", text: "Avant d'utiliser un produit chimique, essayez la ventouse puis le démontage du siphon. Les produits agressifs abîment les canalisations anciennes et ne suppriment pas toujours le bouchon. Un débouchage mécanique est plus fiable." }],
+    faq: [{ q: "Comment déboucher un évier sans produit agressif ?", a: "Ventouse, puis démontage du siphon, puis débouchage mécanique." }],
+  },
+  "toulouse-arenes": {
+    sections: [{ h2: "Pression de chaudière : lire le manomètre", text: "Une chaudière murale fonctionne en général entre 1 et 2 bars à froid. En dessous, remettez prudemment de la pression selon la notice. Si la pression baisse de nouveau, il y a probablement une fuite ou un composant à contrôler." }],
+    faq: [{ q: "Quelle pression pour une chaudière ?", a: "En général entre 1 et 2 bars à froid." }],
+  },
 }

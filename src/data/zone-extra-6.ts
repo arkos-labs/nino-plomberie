@@ -210,4 +210,36 @@ export const zoneExtra6: Record<string, ZoneExtra> = {
     sections: [{ h2: "WC suspendu ou WC posé : lequel choisir", text: "Un WC suspendu libère le sol, facilite le nettoyage et s'intègre bien à une salle de bain rénovée, mais il nécessite un bâti-support dans la cloison. Un WC posé se remplace plus simplement, sans modifier le mur. Le choix dépend de l'état de la pièce et du budget ; le devis gratuit détaille chaque option." }],
     faq: [{ q: "Peut-on remplacer un WC posé par un WC suspendu ?", a: "Oui, à condition d'installer un bâti-support. Un devis gratuit précise les travaux." }],
   },
+  "toulouse-capitole": {
+    sections: [{ h2: "Robinet qui goutte : joint ou cartouche ?", text: "Un robinet qui goutte vient le plus souvent d'un joint usé ou, sur un mitigeur, d'une cartouche fatiguée. Fermez l'arrivée d'eau, démontez le robinet et examinez l'élément qui fuit. Si le corps du robinet est entartré ou abîmé, le remplacer complet est plus durable." }],
+    faq: [{ q: "Un robinet qui goutte, c'est un joint ou une cartouche ?", a: "Le plus souvent l'un des deux. Un diagnostic permet de trancher." }],
+  },
+  "toulouse-saint-cyprien": {
+    sections: [{ h2: "Remplacer un mitigeur de douche", text: "Le mitigeur de douche se remplace en coupant l'eau, en déposant l'ancien appareil et en posant le nouveau avec des joints neufs. Vérifiez l'entraxe des raccords pour que le modèle choisi s'adapte sans reprendre la tuyauterie." }],
+    faq: [{ q: "Peut-on changer un mitigeur de douche sans refaire la tuyauterie ?", a: "Oui, si l'entraxe des raccords correspond." }],
+  },
+  "toulouse-carmes": {
+    sections: [{ h2: "Choisir un meuble vasque pour une petite pièce", text: "Dans une petite salle de bain, privilégiez un meuble de profondeur réduite, suspendu si possible pour libérer le sol. Vérifiez la position des arrivées d'eau et de l'évacuation avant d'acheter, et prévoyez l'accès au siphon." }],
+    faq: [{ q: "Quel meuble vasque pour un petit espace ?", a: "Un modèle peu profond, de préférence suspendu." }],
+  },
+  "toulouse-jean-jaures": {
+    sections: [{ h2: "Gel des canalisations : prévenir et réagir", text: "Par grand froid, protégez les robinets extérieurs et les canalisations exposées. Si l'eau ne sort plus, ne chauffez pas brutalement le tuyau et coupez l'arrivée d'eau pour éviter une fuite au dégel." }],
+    faq: [{ q: "Que faire si une canalisation gèle ?", a: "Couper l'eau et dégeler progressivement, sans flamme." }],
+  },
+  "toulouse-minimes": {
+    sections: [{ h2: "Choisir un receveur de douche", text: "Le receveur peut être en résine, en céramique ou en acrylique, plat ou extra-plat. Le choix dépend de l'état du sol, de la hauteur d'évacuation disponible et de l'esthétique recherchée. Un receveur extra-plat demande une évacuation bien positionnée." }],
+    faq: [{ q: "Quel receveur choisir ?", a: "Selon le sol et la hauteur d'évacuation. Le devis gratuit conseille." }],
+  },
+  "toulouse-purpan": {
+    sections: [{ h2: "Le groupe de sécurité du chauffe-eau", text: "Le groupe de sécurité protège le ballon contre les surpressions. Actionnez sa manette environ une fois par mois pour éviter qu'il s'entartre. S'il goutte en permanence, il est peut-être usé et doit être remplacé." }],
+    faq: [{ q: "À quoi sert le groupe de sécurité ?", a: "À protéger le chauffe-eau des surpressions." }],
+  },
+  "toulouse-rangueil": {
+    sections: [{ h2: "Colocation : prévenir les fuites dans un logement partagé", text: "Dans un logement partagé, on repère rarement une petite fuite à temps. Un point rapide chaque mois suffit : regarder sous l'évier, autour du lave-linge et derrière les toilettes, et signaler aussitôt tout suintement." }],
+    faq: [{ q: "Comment repérer une petite fuite ?", a: "En vérifiant régulièrement sous l'évier, le lave-linge et les toilettes." }],
+  },
+  "toulouse-arenes": {
+    sections: [{ h2: "Robinet thermostatique de radiateur : à quoi sert-il ?", text: "Le robinet thermostatique règle le débit d'eau chaude selon la température de la pièce. Il évite de surchauffer et fait baisser la consommation. S'il reste bloqué, le radiateur chauffe mal ou pas du tout : un entretien ou un remplacement le remet en état." }],
+    faq: [{ q: "Pourquoi mon radiateur ne chauffe-t-il pas ?", a: "Un robinet thermostatique bloqué est une cause fréquente." }],
+  },
 }

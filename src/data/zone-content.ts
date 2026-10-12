@@ -37,6 +37,7 @@ export const zoneContent: Record<string, ZoneContent> = {
     sections: [
       { h2: "Dépannage plomberie à Toulouse, quel que soit le quartier", text: "Fuite sous un évier, dégât des eaux chez le voisin du dessous, chauffe-eau qui ne chauffe plus : Nino Plomberie se déplace de Muret par l'A64 ou la RD820 et intervient 24h/24, week-ends et jours fériés compris. Le prix est annoncé avant le début des travaux." },
       { h2: "Anciennes canalisations, copropriétés : ce qui change vraiment", bullets: ["Colonnes et réseaux vieillissants : repérer l'origine exacte d'une fuite avant d'ouvrir un mur", "Appartements en étage : limiter les dégâts et préserver les parties communes", "Salle de bain à refaire : plomberie, évacuations, remplacement des équipements"], text: "Plus de 20 ans de métier, et des réparations garanties 2 ans, pièces et main-d'œuvre." },
+      { h2: "Tous les quartiers de Toulouse", bullets: ["Capitole", "Les Carmes", "Saint-Cyprien", "Saint-Étienne", "Saint-Michel", "Jean-Jaurès", "Compans-Caffarelli", "Les Minimes", "Barrière de Paris", "Borderouge", "Croix-Daurade", "Les Izards", "La Roseraie", "Jolimont", "Côte Pavée", "Busca", "Les Arènes", "Patte d'Oie", "Casselardit", "Empalot", "Pont-des-Demoiselles", "Rangueil", "Saint-Agne", "Lardenne", "Purpan", "Saint-Martin-du-Touch", "Basso Cambo", "Bellefontaine", "Reynerie", "Lalande", "Saint-Simon", "Soupetard", "Montaudran", "Lafourguette", "Bagatelle", "Papus", "Faourette", "Bonnefoy", "Marengo", "Sept Deniers", "Ponts-Jumeaux", "Sesquières"] },
     ],
     cta: { label: "Décrivez votre problème en une photo via le formulaire, ou appelez le 06 50 57 96 20.", kind: "form" },
   },
@@ -657,6 +658,102 @@ export const zoneContent: Record<string, ZoneContent> = {
       { h2: "Chantiers : une distance courte depuis Muret", text: "Pour une rénovation de salle de bain ou une pose de cuisine, la distance depuis Muret reste courte, ce qui facilite les visites de chantier. Devis gratuit, réparations garanties 2 ans." },
     ],
     cta: { label: "Appelez le 06 50 57 96 20 pour une intervention à Pinsaguel.", kind: "tel" },
+  },
+
+  "toulouse-capitole": {
+    title: "Plombier Toulouse Capitole : centre-ville, devis gratuit | Nino",
+    description: "Plombier au Capitole à Toulouse : fuite, débouchage, chauffe-eau dans les immeubles anciens du centre. Nino Plomberie, devis gratuit. 06 50 57 96 20.",
+    h1: "Plomberie au Capitole : intervenir dans les immeubles anciens du centre",
+    intro: "Autour de la place du Capitole, les immeubles sont souvent anciens et les installations ont été modifiées au fil des décennies. Un diagnostic précis vaut mieux qu'une réparation à l'aveugle.",
+    sections: [
+      { h2: "Dépannage dans le centre historique", text: "Fuite sous un évier, canalisation bouchée, chauffe-eau en panne : Nino Plomberie se déplace de Muret et répond 24h/24, 7j/7. Le prix est annoncé avant l'intervention, le devis est gratuit." },
+      { h2: "Immeubles anciens : ce qu'il faut anticiper", text: "Dans un immeuble ancien, l'accès aux colonnes, au compteur ou aux parties communes demande souvent de prévenir le syndic ou le voisinage. Nino repère l'origine exacte d'une fuite avant d'ouvrir un mur, pour limiter les dégâts." },
+    ],
+    cta: { label: "Décrivez votre problème en photo via le formulaire, ou appelez le 06 50 57 96 20.", kind: "form" },
+  },
+
+  "toulouse-saint-cyprien": {
+    title: "Plombier Toulouse Saint-Cyprien : rénovation, dépannage | Nino",
+    description: "Plombier à Saint-Cyprien, Toulouse : rénovation de plomberie d'appartement ancien, fuite, débouchage. Nino Plomberie, devis gratuit. 06 50 57 96 20.",
+    h1: "Saint-Cyprien : rénover la plomberie d'un appartement ancien",
+    intro: "Sur la rive gauche de la Garonne, Saint-Cyprien mêle logements anciens et résidences plus récentes. Quand un appartement est à rénover, la plomberie est souvent la première à reprendre.",
+    sections: [
+      { h2: "Rénover l'eau et les évacuations", text: "Remplacement de tuyauteries vieillissantes, déplacement d'un point d'eau, création d'une salle d'eau : Nino Plomberie étudie le chantier avant de chiffrer, avec un devis gratuit et un prix validé avec vous." },
+      { h2: "Dépannage entre deux travaux", text: "Une fuite ou une évacuation bouchée ne s'annonce pas. La ligne reste ouverte 24h/24 et 7j/7 pour les urgences, et les réparations sont garanties 2 ans." },
+    ],
+    cta: { label: "Envoyez votre projet de rénovation via le formulaire, devis gratuit.", kind: "form" },
+  },
+
+  "toulouse-carmes": {
+    title: "Plombier Toulouse Les Carmes : petits espaces, devis | Nino",
+    description: "Plombier aux Carmes, Toulouse : salle de bain en petit espace, WC suspendu, meuble vasque, dépannage. Nino Plomberie, devis gratuit. 06 50 57 96 20.",
+    h1: "Les Carmes : bien aménager une petite salle de bain",
+    intro: "Aux Carmes, les logements sont souvent compacts. Chaque centimètre compte, et la plomberie doit s'adapter à la pièce plutôt que l'inverse.",
+    sections: [
+      { h2: "Gagner de la place sans perdre en confort", text: "WC suspendu, douche à l'italienne, meuble vasque de faible profondeur : Nino Plomberie propose des solutions adaptées aux petites pièces, avec un devis gratuit et un prix annoncé avant travaux." },
+      { h2: "Un seul interlocuteur pour la salle de bain", text: "Nino traite la plomberie et travaille avec un second professionnel pour les finitions. Les réparations restent garanties 2 ans, et la ligne d'urgence est ouverte 24h/24." },
+    ],
+    cta: { label: "Prenez rendez-vous en ligne pour parler de votre projet.", kind: "rdv" },
+  },
+
+  "toulouse-jean-jaures": {
+    title: "Plombier Toulouse Jean-Jaurès : dégât des eaux, fuite | Nino",
+    description: "Plombier à Jean-Jaurès, Toulouse : fuite, dégât des eaux en immeuble, constat pour l'assurance. Nino Plomberie, devis gratuit. 06 50 57 96 20.",
+    h1: "Jean-Jaurès : agir vite en cas de dégât des eaux dans un immeuble",
+    intro: "Entre le centre et la gare Matabiau, le quartier de Jean-Jaurès compte de nombreux immeubles. Une fuite chez soi touche vite le voisin du dessous : la rapidité d'intervention compte.",
+    sections: [
+      { h2: "Stopper la fuite, comprendre l'origine", text: "Nino Plomberie intervient 24h/24 et 7j/7 pour couper la fuite, trouver son origine et réparer. Le devis est gratuit et le prix annoncé avant les travaux." },
+      { h2: "Dégât des eaux : les bons réflexes", text: "Fermez l'arrivée d'eau, prévenez le voisin et le syndic si besoin, photographiez les dégâts. L'assurance se déclare dans les 5 jours ouvrés, et un compte rendu de plombier sur l'origine de la fuite facilite le dossier." },
+    ],
+    cta: { label: "Appelez le 06 50 57 96 20 : on coupe la fuite d'abord.", kind: "tel" },
+  },
+
+  "toulouse-minimes": {
+    title: "Plombier Toulouse Minimes : salle de bain, dépannage | Nino",
+    description: "Plombier aux Minimes, Toulouse : rénovation de salle de bain, douche, dépannage plomberie 24h/24. Nino Plomberie, devis gratuit. 06 50 57 96 20.",
+    h1: "Minimes : refaire sa salle de bain, étape par étape",
+    intro: "Au nord du centre de Toulouse, le quartier des Minimes compte une grande variété de logements. Pour une salle de bain à rénover, un chantier bien organisé évite les mauvaises surprises.",
+    sections: [
+      { h2: "Une rénovation de A à Z", text: "Dépose de l'ancienne installation, reprise des arrivées d'eau et des évacuations, pose de la douche, du WC et du meuble vasque : Nino Plomberie traite la plomberie et s'appuie sur un second professionnel pour les finitions." },
+      { h2: "Devis clair, travaux garantis", text: "Le devis est gratuit et le prix annoncé avant le début du chantier. Les réparations sont garanties 2 ans, et la ligne de dépannage reste ouverte 24h/24." },
+    ],
+    cta: { label: "Envoyez les dimensions de la pièce et une photo via le formulaire.", kind: "form" },
+  },
+
+  "toulouse-purpan": {
+    title: "Plombier Toulouse Purpan : chauffe-eau, dépannage | Nino",
+    description: "Plombier à Purpan, Toulouse : entretien et remplacement de chauffe-eau, fuite, débouchage. Nino Plomberie, devis gratuit. 06 50 57 96 20.",
+    h1: "Purpan : entretenir ou remplacer son chauffe-eau",
+    intro: "À l'ouest de Toulouse, le quartier de Purpan compte aussi bien des appartements que des maisons. Dans les deux cas, le chauffe-eau est l'équipement qui tombe en panne au plus mauvais moment.",
+    sections: [
+      { h2: "Chauffe-eau : réparer ou remplacer", text: "Un ballon qui chauffe mal, fait du bruit ou fuit doit être diagnostiqué avant la panne totale. Nino Plomberie explique les options et vous laisse choisir, avec un devis gratuit." },
+      { h2: "Dépannage 24h/24", text: "Plus d'eau chaude un dimanche soir : la ligne est ouverte 24h/24, 7j/7, et les réparations sont garanties 2 ans, pièces et main-d'œuvre." },
+    ],
+    cta: { label: "Appelez le 06 50 57 96 20 pour un chauffe-eau en panne.", kind: "tel" },
+  },
+
+  "toulouse-rangueil": {
+    title: "Plombier Toulouse Rangueil : locataires, dépannage | Nino",
+    description: "Plombier à Rangueil, Toulouse : fuite, évacuation bouchée, qui paie en location. Nino Plomberie, dépannage 24h/24, devis gratuit. 06 50 57 96 20.",
+    h1: "Rangueil : locataire ou propriétaire, qui paie quoi ?",
+    intro: "Au sud-est de Toulouse, Rangueil compte beaucoup de logements loués, notamment autour du pôle universitaire et hospitalier. Une panne pose vite la question : à qui revient la réparation ?",
+    sections: [
+      { h2: "Un diagnostic qui éclaire les responsabilités", text: "En location, l'entretien courant (joints, robinetterie, débouchage de siphon) est en général à la charge du locataire, tandis que les canalisations encastrées et la vétusté relèvent du propriétaire. Nino Plomberie précise l'origine de la panne dans son devis gratuit." },
+      { h2: "Dépannage rapide, sans engagement", text: "Une fuite ou une évacuation bouchée se traite vite : la ligne est ouverte 24h/24, 7j/7, le prix est annoncé avant l'intervention et les réparations sont garanties 2 ans." },
+    ],
+    cta: { label: "Envoyez une photo du problème via le formulaire pour un devis gratuit.", kind: "form" },
+  },
+
+  "toulouse-arenes": {
+    title: "Plombier Toulouse Arènes : chauffage, radiateurs | Nino",
+    description: "Plombier et chauffagiste aux Arènes, Toulouse : radiateurs froids, pression de chaudière, dépannage. Nino Plomberie, devis gratuit. 06 50 57 96 20.",
+    h1: "Arènes : préparer son chauffage avant l'hiver",
+    intro: "À l'ouest du centre de Toulouse, le quartier des Arènes mêle appartements et maisons. À l'approche de l'hiver, mieux vaut vérifier radiateurs et chaudière avant la première vague de froid.",
+    sections: [
+      { h2: "Chaudière et radiateurs", text: "Radiateurs froids, pression qui baisse, chaudière qui se met en sécurité : Nino Plomberie, plombier-chauffagiste, diagnostique le problème et remet l'installation en état. Le devis est gratuit." },
+      { h2: "Avant la saison de chauffe", text: "Une purge des radiateurs et un contrôle de la pression suffisent souvent à éviter la panne. La ligne de dépannage est ouverte 24h/24, 7j/7, et les réparations sont garanties 2 ans." },
+    ],
+    cta: { label: "Prenez rendez-vous en ligne pour un contrôle de votre chauffage.", kind: "rdv" },
   },
 }
 
