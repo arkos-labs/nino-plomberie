@@ -1,4 +1,5 @@
 // src/components/Footer.tsx — v7 (Clean Navigation Style)
+import { Fragment } from "react"
 import { Link } from "@tanstack/react-router"
 import { communes } from "../data/communes"
 
@@ -159,8 +160,13 @@ export function Footer() {
           }}>
             <span className="seo-text">
               <strong style={{ fontWeight: 600, color: "rgba(255,255,255,0.35)" }}>Zones d'intervention (31) : </strong>
-              Toulouse, Colomiers, Tournefeuille, Blagnac, Muret, Plaisance-du-Touch, Cugnaux, Balma, Ramonville-Saint-Agne, Castanet-Tolosan, Fonsorbes, L'Union, Aucamville, Saint-Orens-de-Gameville, Saint-Jean, Portet-sur-Garonne, Castelginest, Auterive, Villeneuve-Tolosane, Pibrac, Frouzins, Seysses, Launaguet, Saint-Lys, Cornebarrieu, Aussonne, Lespinasse, Mondonville, Roques, Quint-Fonsegrives, Escalquens...
-            </span> 
+              {[...communes].sort((a, b) => a.nom.localeCompare(b.nom, "fr")).map((c, i) => (
+                <Fragment key={c.slug}>
+                  {i > 0 && " · "}
+                  <Link to="/intervention/$ville" params={{ ville: c.slug }} style={{ color: "inherit", textDecoration: "none" }}>{c.nom}</Link>
+                </Fragment>
+              ))}
+            </span>
             <Link to="/zones" style={{ color: "var(--brand-300)", textDecoration: "none", fontWeight: 600, display: "inline-block" }}>Voir nos {communes.length} communes d'intervention →</Link>
           </p>
         </div>
@@ -217,7 +223,6 @@ export function Footer() {
             gap: 24px 12px !important; 
           }
           .nav-col-zones { display: none !important; }
-          .seo-text { display: none !important; }
           .seo-container { padding: 12px 0 !important; margin-top: 0 !important; border: none !important; }
           .footer-bottom { padding: 12px 0 24px !important; gap: 8px !important; flex-direction: column; text-align: center; }
           .footer-bottom-links { justify-content: center; gap: 12px !important; }
