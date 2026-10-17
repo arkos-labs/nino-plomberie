@@ -9,7 +9,7 @@ import { track } from "../lib/track"
 export const Route = createFileRoute("/rendez-vous")({
   head: () =>
     pageHead({
-      title: "Prendre rendez-vous avec un plombier à Muret — Nino Plomberie",
+      title: "Prendre rendez-vous avec un plombier à Muret | Nino",
       description: "Réservez en ligne votre intervention de plomberie avec Nino Plomberie. Devis gratuit, intervention à Muret, Toulouse et en Haute-Garonne. Urgence : 06 50 57 96 20.",
       path: "/rendez-vous",
     }),

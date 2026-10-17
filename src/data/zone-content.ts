@@ -324,7 +324,7 @@ export const zoneContent: Record<string, ZoneContent> = {
   },
 
   tournefeuille: {
-    title: "Plombier Tournefeuille : dépannage 24h/24, devis gratuit | Nino",
+    title: "Plombier Tournefeuille : dépannage 24h/24 | Nino Plomberie",
     description: "Plombier à Tournefeuille : dépannage 24h/24, fuite d'eau, débouchage, chauffage. Nino Plomberie, artisan de Muret, devis gratuit. 06 50 57 96 20.",
     h1: "Plombier à Tournefeuille : un plombier qui connaît déjà le secteur",
     intro: "Nino Plomberie a déjà réalisé des chantiers à Tournefeuille, une commune de l'ouest toulousain où l'on trouve des maisons récentes et des résidences plus anciennes.",
@@ -336,7 +336,7 @@ export const zoneContent: Record<string, ZoneContent> = {
   },
 
   fonsorbes: {
-    title: "Plombier Fonsorbes : débouchage, chauffe-eau | Nino Plomberie",
+    title: "Plombier Fonsorbes : débouchage, chauffe-eau | Nino",
     description: "Plombier à Fonsorbes : débouchage de WC, évier et canalisation, chauffe-eau, salle de bain. Nino Plomberie, artisan de Muret. Devis gratuit. 06 50 57 96 20.",
     h1: "Plombier à Fonsorbes : donner une seconde vie à la plomberie de votre maison",
     intro: "Fonsorbes a beaucoup grandi, avec des lotissements de différentes époques. Les installations qui avaient tout juste dix ans commencent déjà à demander de l'entretien.",
@@ -666,7 +666,7 @@ export const zoneContent: Record<string, ZoneContent> = {
   },
 
   "toulouse-capitole": {
-    title: "Plombier Toulouse Capitole : centre-ville, devis gratuit | Nino",
+    title: "Plombier Toulouse Capitole : centre-ville, devis | Nino",
     description: "Plombier au Capitole à Toulouse : fuite, débouchage, chauffe-eau dans les immeubles anciens du centre. Nino Plomberie, devis gratuit. 06 50 57 96 20.",
     h1: "Plomberie au Capitole : intervenir dans les immeubles anciens du centre",
     intro: "Autour de la place du Capitole, les immeubles sont souvent anciens et les installations ont été modifiées au fil des décennies. Un diagnostic précis vaut mieux qu'une réparation à l'aveugle.",
@@ -678,7 +678,7 @@ export const zoneContent: Record<string, ZoneContent> = {
   },
 
   "toulouse-saint-cyprien": {
-    title: "Plombier Toulouse Saint-Cyprien : rénovation, dépannage | Nino",
+    title: "Plombier Toulouse Saint-Cyprien : rénovation, devis | Nino",
     description: "Plombier à Saint-Cyprien, Toulouse : rénovation de plomberie d'appartement ancien, fuite, débouchage. Nino Plomberie, devis gratuit. 06 50 57 96 20.",
     h1: "Saint-Cyprien : rénover la plomberie d'un appartement ancien",
     intro: "Sur la rive gauche de la Garonne, Saint-Cyprien mêle logements anciens et résidences plus récentes. Quand un appartement est à rénover, la plomberie est souvent la première à reprendre.",

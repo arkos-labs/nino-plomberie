@@ -8,7 +8,7 @@ import { pageHead, ldScript, breadcrumbJsonLd, type Faq } from "../lib/site"
 export const Route = createFileRoute("/tarifs")({
   head: () => ({
     ...pageHead({
-      title: "Tarifs plombier Muret & Toulouse — Devis gratuit | Nino Plomberie",
+      title: "Tarifs plombier Muret & Toulouse — Devis gratuit | Nino",
       description:
         "Prix indicatifs d'un plombier à Muret et Toulouse : fuite d'eau, débouchage, chauffe-eau, robinetterie, chauffage. Devis gratuit et prix validé avant intervention. ☎ 06 50 57 96 20",
       path: "/tarifs",

@@ -80,7 +80,7 @@ export const services: ServiceFiche[] = [
     slug: "debouchage",
     titre: "Débouchage canalisation",
     sousTitre: "Débouchage WC, évier, douche, baignoire et canalisation",
-    metaTitle: "Débouchage canalisation & WC à Toulouse et Muret | Nino Plomberie",
+    metaTitle: "Débouchage canalisation & WC Toulouse, Muret | Nino",
     enBref:
       "Nino Plomberie débouche WC, éviers, lavabos, douches, baignoires et canalisations à Muret, Toulouse et en Haute-Garonne, 24h/24 et 7j/7. L'intervention se fait avec des outils professionnels, sans produit chimique agressif, et le devis est gratuit.",
     metaDescription:
@@ -229,6 +229,7 @@ export const services: ServiceFiche[] = [
     slug: "robinetterie-sanitaires",
     titre: "Robinetterie & Sanitaires",
     sousTitre: "Robinets, mitigeurs, douches, WC et vasques",
+    metaTitle: "Robinetterie & Sanitaires Muret et Toulouse | Nino",
     enBref:
       "Nino Plomberie remplace et installe robinets, mitigeurs, colonnes de douche, WC suspendus ou à poser, vasques et meubles de salle de bain à Muret, Toulouse et en Haute-Garonne. Vous pouvez fournir votre matériel ou laisser Nino s'en occuper. Le devis est gratuit.",
     metaDescription:

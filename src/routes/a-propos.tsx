@@ -11,7 +11,7 @@ import { SITE_URL, BUSINESS_ID, pageHead, ldScript, breadcrumbJsonLd, type Faq }
 export const Route = createFileRoute("/a-propos")({
   head: () => ({
     ...pageHead({
-      title: "À propos — Nino Plomberie, artisan plombier à Muret depuis 20 ans",
+      title: "À propos de Nino Plomberie, plombier à Muret depuis 20 ans",
       description:
         "Nino Plomberie est un artisan plombier-chauffagiste basé à Muret (31) avec plus de 20 ans d'expérience. Dépannage 24h/24, salles de bain, cuisines. Devis gratuit, garantie 2 ans.",
       path: "/a-propos",
