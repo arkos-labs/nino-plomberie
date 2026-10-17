@@ -2,6 +2,7 @@
 import { createFileRoute, Link, notFound } from "@tanstack/react-router"
 import { getCommuneBySlug, communes } from "../data/communes"
 import { getZoneContent, type ZoneCta } from "../data/zone-content"
+import { realisations } from "../data/realisations"
 import { Phone, MapPin, Calendar, ArrowUpRight, Star, Mail } from "lucide-react"
 import { PageHero } from "../components/PageHero"
 import { SITE_URL, BUSINESS, BUSINESS_ID, pageHead, ldScript, breadcrumbJsonLd, faqJsonLd } from "../lib/site"
@@ -156,6 +157,31 @@ function VillePage() {
           </dl>
         </div>
       </section>
+
+      {(() => {
+        // Photo réelle d'un chantier dont la commune a été confirmée par Nino (data/realisations.ts)
+        const chantier = realisations.find((r) => r.ville === commune.slug)
+        if (!chantier) return null
+        return (
+          <section style={{ background: "white", padding: "48px 0 8px" }} aria-label={`Chantier réalisé à ${commune.nom}`}>
+            <div className="section-container" style={{ maxWidth: "860px" }}>
+              <h2 className="section-title" style={{ marginBottom: "18px" }}>Un chantier réalisé à {commune.nom}</h2>
+              <figure style={{ margin: 0 }}>
+                <img
+                  src={chantier.src}
+                  alt={`${chantier.titre}, chantier réalisé à ${commune.nom} par Nino Plomberie`}
+                  loading="lazy"
+                  style={{ width: "100%", maxWidth: "720px", height: "auto", borderRadius: "12px", display: "block" }}
+                />
+                <figcaption style={{ ...textStyle, marginTop: "10px", fontSize: "0.95rem" }}>
+                  {chantier.titre} — réalisation de Nino Plomberie à {commune.nom}.{" "}
+                  <Link to="/realisations" style={{ fontWeight: 600 }}>Voir toutes nos réalisations</Link>
+                </figcaption>
+              </figure>
+            </div>
+          </section>
+        )
+      })()}
 
       {content.sections.map((section, i) => {
         const List = section.numbered ? "ol" : "ul"
