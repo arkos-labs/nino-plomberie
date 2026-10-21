@@ -1,278 +1,195 @@
+// Contenu : conseils généraux uniquement. Aucune affirmation sur Nino hors faits vérifiés (24h/24, devis gratuit, Muret).
 export interface BlogArticle {
-  id: string
   slug: string
   title: string
+  metaTitle: string
   excerpt: string
   content: string
-  author: string
   publishedAt: string
   updatedAt?: string
-  category: 'conseils' | 'maintenance' | 'urgence' | 'actualites'
+  category: "Conseils" | "Entretien" | "Urgence"
   readTime: number
-  image?: string
-  seoKeywords: string[]
+  service: { slug: string; label: string }
 }
 
 export const blogArticles: BlogArticle[] = [
   {
-    id: '1',
-    slug: 'detecter-fuite-eau',
-    title: 'Comment détecter une fuite d\'eau à Muret et alentours',
-    excerpt: 'Les fuites d\'eau peuvent causer des dégâts importants. Découvrez comment identifier rapidement une fuite avant qu\'elle n\'empire.',
-    author: 'Nino Plomberie',
-    publishedAt: '2026-10-15',
-    category: 'conseils',
-    readTime: 5,
-    seoKeywords: ['fuite d\'eau', 'détection', 'Muret', 'plombier'],
-    image: '/blog/fuite-eau.jpg',
-    content: `## Comment détecter une fuite d'eau
+    slug: "detecter-fuite-eau",
+    title: "Comment détecter une fuite d'eau chez soi",
+    metaTitle: "Détecter une fuite d'eau : signes et méthode simple",
+    excerpt:
+      "Facture qui grimpe, tache d'humidité, compteur qui tourne : les signes qui doivent alerter et la méthode du compteur pour confirmer une fuite.",
+    publishedAt: "2026-10-21",
+    category: "Conseils",
+    readTime: 4,
+    service: { slug: "fuite-d-eau", label: "Fuite d'eau" },
+    content: `Une fuite d'eau non traitée abîme les murs, les sols et fait grimper la facture. Plus elle est repérée tôt, plus la réparation est simple.
 
-Les fuites d'eau sont l'un des problèmes plomberie les plus courants. À Muret et alentours, les variations de température et la qualité de l'eau peuvent accélérer l'usure des tuyauteries.
+## Les signes qui doivent alerter
 
-### Signes avant-coureurs d'une fuite
+- **Une facture d'eau qui augmente** sans changement dans vos habitudes.
+- **Des taches d'humidité** sur un mur, un plafond ou autour d'un sanitaire.
+- **Un bruit d'écoulement** alors qu'aucun robinet n'est ouvert.
+- **Une odeur de moisi** persistante dans une pièce.
+- **Une baisse de pression** au robinet.
 
-1. **Augmentation inexplicable de la facture d'eau** - Si votre consommation a subitement augmenté sans changement d'utilisation, c'est souvent le premier signe.
+## La méthode du compteur
 
-2. **Taches d'humidité** - Consultez les murs, plafonds et sols. Des taches d'eau marron ou verdâtre indiquent une fuite.
+1. Fermez tous les robinets et n'utilisez aucun appareil (lave-linge, lave-vaisselle).
+2. Relevez l'index du compteur d'eau.
+3. Attendez une à deux heures sans utiliser d'eau.
+4. Relevez à nouveau l'index : s'il a bougé, il y a une fuite quelque part après le compteur.
 
-3. **Bruits suspects** - Écoutez des bruits d'eau qui coule derrière les murs ou sous les planchers.
+## Les fuites les plus fréquentes
 
-4. **Odeurs de moisi** - Une odeur persistante de moisi peut signaler une accumulation d'humidité due à une fuite cachée.
+- **La chasse d'eau** qui coule en continu dans la cuvette.
+- **Le groupe de sécurité du chauffe-eau** qui goutte en permanence.
+- **Un raccord** sous l'évier ou derrière le lave-linge.
+- **Un joint de robinet** usé.
 
-5. **Pression d'eau faible** - Si votre pression baisse progressivement, une fuite peut être en cause.
+## Quand appeler un plombier
 
-### Comment localiser la fuite
-
-**Cas de fuite visible** : Videz les zones sous les tuyaux et la tuyauterie exposée pour identifier le point d'origine.
-
-**Cas de fuite cachée** :
-- Fermez tous les robinets
-- Relevez le compteur d'eau
-- Attendez 1-2 heures sans utiliser l'eau
-- Vérifiez si le compteur a augmenté
-
-### Quand appeler un plombier
-
-Ne pas intervenir sur une fuite cachée soi-même. Les professionnels de Nino Plomberie disposent d'équipement de détection spécialisé pour localiser rapidement les fuites sans intervention destructive.
-
-**Ne pas attendre** : Plus vite la fuite est réparée, moins le dégâtre des eaux augmentera et moins vos factures s'alourdiront.
-
-Contactez Nino Plomberie pour une intervention rapide et efficace à Muret, Toulouse et alentours.`,
+Si la fuite est cachée dans un mur ou sous un sol, si l'eau coule fort ou si vous ne trouvez pas son origine, coupez l'arrivée d'eau générale et appelez un professionnel. Nino Plomberie intervient 24h/24 à Muret, Toulouse et en Haute-Garonne.`,
   },
   {
-    id: '2',
-    slug: 'entretien-chauffe-eau',
-    title: 'Entretien du chauffe-eau : nos conseils pour l\'hiver',
-    excerpt: 'L\'hiver approche. Préparez votre chauffe-eau pour éviter les pannes au pire moment.',
-    author: 'Nino Plomberie',
-    publishedAt: '2026-10-10',
-    category: 'maintenance',
-    readTime: 6,
-    seoKeywords: ['chauffe-eau', 'entretien', 'hiver', 'maintenance'],
-    image: '/blog/chauffe-eau.jpg',
-    content: `## Entretien du chauffe-eau : préparation pour l'hiver
+    slug: "entretien-chauffe-eau",
+    title: "Entretenir son chauffe-eau avant l'hiver",
+    metaTitle: "Entretien du chauffe-eau : les gestes avant l'hiver",
+    excerpt:
+      "Groupe de sécurité, température, calcaire : les vérifications simples qui évitent de se retrouver sans eau chaude en plein hiver.",
+    publishedAt: "2026-10-21",
+    category: "Entretien",
+    readTime: 4,
+    service: { slug: "chauffe-eau", label: "Chauffe-eau & Cumulus" },
+    content: `En hiver, le chauffe-eau travaille davantage. Quelques vérifications simples limitent le risque de panne.
 
-L'hiver est une période où le chauffe-eau fonctionne à plein régime. Un entretien régulier peut vous éviter une panne coûteuse au moment où vous en avez le plus besoin.
+## Manœuvrer le groupe de sécurité
 
-### Pourquoi entretenir son chauffe-eau
+Le groupe de sécurité protège le ballon contre la surpression. Une fois par mois, actionnez sa manette quelques secondes : de l'eau doit s'écouler vers l'évacuation. S'il goutte en permanence ou ne laisse plus rien passer, il doit être vérifié.
 
-Un chauffe-eau bien entretenu :
-- Consomme moins d'énergie
-- Chauffe l'eau plus rapidement
-- Dure plus longtemps
-- Fonctionne de manière plus sécuritaire
+## Régler la bonne température
 
-### L'entretien annuel essentiel
+Une température autour de 55 à 60 °C limite le développement des bactéries tout en évitant de surchauffer l'eau inutilement.
 
-**Détartrage** : Le calcaire s'accumule dans le réservoir et réduit l'efficacité. Un détartrage annuel peut augmenter la durée de vie de 5 à 10 ans.
+## Surveiller le calcaire
 
-**Vérification de la résistance** : Une résistance encrassée consomme plus d'électricité. Un professionnel peut la nettoyer ou la remplacer.
+Le calcaire se dépose sur la résistance et au fond de la cuve. Il ralentit la chauffe et augmente la consommation. Dans les zones où l'eau est calcaire, un détartrage régulier par un professionnel prolonge la vie de l'appareil.
 
-**Inspection du thermostat** : Assurez-vous qu'il maintient la bonne température (généralement 55-60°C).
+## Les signes d'un chauffe-eau qui fatigue
 
-**Contrôle de la tuyauterie** : Vérifiez l'absence de fuites, de corrosion ou de fissures.
+- L'eau chaude met de plus en plus de temps à arriver ou s'épuise vite.
+- Le ballon émet des crépitements ou des claquements.
+- L'eau sort trouble ou colorée.
+- Une fuite apparaît sous la cuve ou autour des raccords.
 
-### Signes d'un chauffe-eau défaillant
+## Réparer ou remplacer ?
 
-- L'eau devient tiède ou froide anormalement vite
-- Des bruits de crépitement proviennent du réservoir
-- Eau rouillée ou trouble
-- Fuites autour du réservoir
-
-### Quand appeler un professionnel
-
-Nino Plomberie propose des services d'entretien et de maintenance à Muret et région toulousaine. Nous recommandons un détartrage tous les 1-2 ans selon la dureté de votre eau.`,
+Selon l'âge de l'appareil et la panne, une réparation peut suffire ou un remplacement sera plus raisonnable. Nino Plomberie établit un devis gratuit avant toute intervention.`,
   },
   {
-    id: '3',
-    slug: 'debouchage-canalisation',
-    title: 'Débouchage de canalisation : quand faire appel à un professionnel',
-    excerpt: 'Les canalisations bouchées sont désagréables. Découvrez quand et pourquoi faire appel à un plombier professionnel.',
-    author: 'Nino Plomberie',
-    publishedAt: '2026-09-25',
-    category: 'conseils',
-    readTime: 7,
-    seoKeywords: ['débouchage', 'canalisation', 'bouchon', 'plombier'],
-    image: '/blog/debouchage.jpg',
-    content: `## Débouchage de canalisation : guide complet
+    slug: "canalisation-bouchee",
+    title: "Canalisation bouchée : que faire avant d'appeler un plombier",
+    metaTitle: "Canalisation bouchée : solutions et quand appeler",
+    excerpt:
+      "Ventouse, eau chaude, bicarbonate : les gestes à essayer sur un évier ou une douche bouchés, et les signes qu'il faut passer la main.",
+    publishedAt: "2026-10-21",
+    category: "Conseils",
+    readTime: 4,
+    service: { slug: "debouchage", label: "Débouchage" },
+    content: `Un évier, une douche ou des WC qui ne s'écoulent plus, c'est l'un des problèmes les plus courants. Voici quoi essayer, et quand s'arrêter.
 
-Un bouchon dans la canalisation peut transformer votre quotidien en cauchemar. Voici comment réagir efficacement.
+## Les causes les plus fréquentes
 
-### Causes courantes de bouchons
+- **Cheveux et savon** dans les douches et lavabos.
+- **Graisses et restes alimentaires** dans l'évier de cuisine.
+- **Lingettes et excès de papier** dans les WC, même les lingettes dites « jetables ».
+- **Calcaire** qui réduit peu à peu le diamètre des tuyaux.
 
-**Cheveux et savons** : La cause la plus fréquente dans les salles de bain.
+## Les gestes à essayer
 
-**Résidus alimentaires** : Graisse solidifiée, marc de café, restes de nourriture.
+1. **La ventouse** : efficace sur un bouchon proche de la bonde.
+2. **Démonter le siphon** sous l'évier ou le lavabo, avec une bassine dessous, et le nettoyer.
+3. **Le bicarbonate et le vinaigre blanc** : versez-les, laissez agir une demi-heure, puis rincez à l'eau chaude.
 
-**Papier toilette** : Un excès de papier ou un papier de mauvaise qualité.
+Évitez les déboucheurs chimiques agressifs : ils abîment les canalisations et sont dangereux si un plombier doit ensuite intervenir.
 
-**Calcaire** : L'accumulation de minéraux réduit le diamètre des conduites.
+## Quand appeler un plombier
 
-**Objets étrangers** : Jouets d'enfants, lingettes (même "flushables").
+- Le bouchon revient régulièrement.
+- Plusieurs évacuations sont bouchées en même temps.
+- L'eau remonte dans la douche quand vous tirez la chasse.
+- Une mauvaise odeur persiste malgré le nettoyage.
 
-### Solutions rapides à essayer
-
-**Le bon vieux plongeur** : Efficace pour les bouchons proches de la surface.
-
-**Eau chaude** : Versez de l'eau bouillante pour dissoudre savons et graisses.
-
-**Bicarbonate et vinaigre** : Versez du bicarbonate puis du vinaigre. Laissez reposer 30 minutes.
-
-### Quand appeler un professionnel
-
-Appelez Nino Plomberie si :
-- Les bouchons reviennent régulièrement
-- Plusieurs points de drainage sont affectés simultanément
-- Les solutions simples n'ont pas marché
-- Vous entendez des bruits suspects ou sentez des odeurs fétides
-
-### Notre approche professionnelle
-
-Nino Plomberie utilise :
-- **Déboucheurs mécaniques** (flexibles haute pression)
-- **Caméra d'inspection** (pour identifier le problème)
-- **Nettoyage haute pression** (pour un débouchage en profondeur)
-
-Intervention rapide à Muret, Toulouse et environs.`,
+Ces signes indiquent souvent un problème plus loin dans le réseau. Nino Plomberie intervient pour les débouchages à Muret, Toulouse et en Haute-Garonne, en urgence 24h/24.`,
   },
   {
-    id: '4',
-    slug: 'urgence-plomberie-la-nuit',
-    title: 'Urgence plomberie la nuit : comment réagir rapidement',
-    excerpt: 'Un dégâtre d\'eau la nuit ? Voici comment minimiser les dégâts avant l\'arrivée d\'un plombier.',
-    author: 'Nino Plomberie',
-    publishedAt: '2026-09-15',
-    category: 'urgence',
-    readTime: 5,
-    seoKeywords: ['urgence', 'plomberie', 'nuit', 'dégâtre d\'eau'],
-    image: '/blog/urgence-nuit.jpg',
-    content: `## Urgence plomberie la nuit : premiers gestes essentiels
+    slug: "fuite-eau-urgence-premiers-gestes",
+    title: "Fuite d'eau en urgence : les premiers gestes",
+    metaTitle: "Fuite d'eau urgente : les premiers gestes à faire",
+    excerpt:
+      "Couper l'eau, couper l'électricité si besoin, protéger et prévenir : ce qu'il faut faire tout de suite en cas de fuite importante.",
+    publishedAt: "2026-10-21",
+    category: "Urgence",
+    readTime: 3,
+    service: { slug: "fuite-d-eau", label: "Fuite d'eau" },
+    content: `Une fuite importante peut causer beaucoup de dégâts en peu de temps. Les bons réflexes limitent les dommages en attendant le plombier.
 
-Une fuite d'eau la nuit peut causer des dégâts considérables en quelques heures. Voici comment réagir rapidement.
+## Les gestes immédiats
 
-### Premiers gestes (avant d'appeler le plombier)
+1. **Coupez l'arrivée d'eau générale.** Le robinet se trouve en général près du compteur, sous l'évier ou dans le garage. Repérez-le dès aujourd'hui.
+2. **Coupez l'électricité** de la pièce si l'eau approche des prises ou d'appareils électriques.
+3. **Protégez vos biens** : déplacez les meubles et objets de valeur hors de l'eau.
+4. **Épongez** l'eau au sol avec serpillières et seaux.
+5. **Prévenez vos voisins** du dessous si vous êtes en appartement.
 
-**1. Fermez l'arrivée d'eau** : Localisez le robinet d'arrêt principal (généralement sous l'évier de la cuisine ou près du compteur) et fermez-le immédiatement.
+## Après l'intervention
 
-**2. Dégagez la zone** : Déplacez meubles, tapis et objets de valeur loin de la zone inondée.
+- **Prenez des photos** des dégâts pour votre assurance.
+- **Aérez** la pièce pour faire sécher murs et sols.
+- **Déclarez le sinistre** à votre assureur dans les délais prévus par votre contrat.
 
-**3. Drainage** : Ouvrez les robinets pour vidanger les tuyaux.
+## Prévenir plutôt que guérir
 
-**4. Aération** : Ouvrez portes et fenêtres pour limiter l'humidité.
+- Sachez où est votre robinet d'arrêt et vérifiez qu'il tourne bien.
+- Surveillez les flexibles du lave-linge et du lave-vaisselle.
+- Protégez du gel les tuyaux situés dans les pièces non chauffées.
 
-**5. Nettoyage** : Avec des serviettes et une vadrouille, absorbez l'eau accumulée.
-
-### Nino Plomberie disponible 24h/24
-
-Nous offrons un service d'urgence 24h/24 à Muret et région toulousaine. Appelez immédiatement pour une intervention dans l'heure.
-
-**Numéro d'urgence** : Consultez notre page contact pour les coordonnées.
-
-### À ne pas faire
-
-- Ne pas laisser courir l'eau
-- Ne pas utiliser d'appareils électriques
-- Ne pas ignorer l'odeur d'humidité
-- Ne pas différer les réparations
-
-### Prévention pour la nuit
-
-- Contrôlez régulièrement les tuyaux
-- Isolez les conduites exposées au froid
-- Installez un détecteur de fuite d'eau
-- Connaissez l'emplacement du robinet d'arrêt`,
+Nino Plomberie répond 24h/24 et 7j/7 au 06 50 57 96 20 pour les urgences à Muret, Toulouse et en Haute-Garonne.`,
   },
   {
-    id: '5',
-    slug: 'installation-radiateur',
-    title: 'Installation ou remplacement de radiateur à Muret',
-    excerpt: 'Besoin de changer un radiateur ? Notre guide explique le processus et pourquoi faire appel à un professionnel.',
-    author: 'Nino Plomberie',
-    publishedAt: '2026-09-05',
-    category: 'maintenance',
-    readTime: 8,
-    seoKeywords: ['radiateur', 'installation', 'remplacement', 'chauffage'],
-    image: '/blog/radiateur.jpg',
-    content: `## Installation et remplacement de radiateur
+    slug: "radiateur-froid-purge",
+    title: "Radiateur froid en haut : comment le purger",
+    metaTitle: "Radiateur froid en haut : purger son radiateur",
+    excerpt:
+      "Un radiateur tiède en haut et chaud en bas contient de l'air. La purge se fait en quelques minutes, voici comment.",
+    publishedAt: "2026-10-21",
+    category: "Entretien",
+    readTime: 3,
+    service: { slug: "chauffage-chaudiere", label: "Chauffage & Chaudière" },
+    content: `Au redémarrage du chauffage, il arrive qu'un radiateur reste froid en haut et chaud en bas. C'est le signe que de l'air s'est accumulé dans le circuit.
 
-Que ce soit pour améliorer votre confort thermique ou remplacer un radiateur défaillant, voici ce que vous devez savoir.
+## Purger un radiateur
 
-### Signes qu'il est temps de remplacer
+1. Allumez le chauffage et attendez que les radiateurs chauffent.
+2. Placez un chiffon et un petit récipient sous la vis de purge, en haut du radiateur.
+3. Ouvrez doucement la vis avec une clé de purge ou un tournevis : l'air s'échappe en sifflant.
+4. Refermez dès que de l'eau sort sans bulles.
+5. Recommencez sur les autres radiateurs, en commençant par le plus bas de la maison.
 
-- Le radiateur ne chauffe plus correctement
-- Bruits bizarres ou fuites
-- Rouille ou corrosion visible
-- Perte d'efficacité énergétique
-- Consommation de chauffage anormalement élevée
+## Vérifier la pression
 
-### Types de radiateurs modernes
+Après une purge, la pression du circuit baisse. Contrôlez le manomètre de la chaudière : sur une installation domestique, elle se situe en général entre 1 et 2 bars à froid. Si elle est trop basse, complétez selon la notice de votre chaudière.
 
-**Radiateurs en acier** : Légers, efficaces, économiques. Parfaits pour la plupart des installations.
+## Quand faire appel à un professionnel
 
-**Radiateurs en fonte** : Plus lourds mais excellent inertie thermique. Idéaux pour les vieilles installations.
+- Le radiateur reste froid malgré la purge.
+- La pression chute régulièrement.
+- La chaudière se met en sécurité ou affiche un code d'erreur.
 
-**Radiateurs en aluminium** : Très efficaces, rapide à chauffer. Plus coûteux.
-
-### Processus d'installation
-
-1. **Évaluation** : Prise des mesures et calcul des besoins thermiques
-2. **Dépose ancien radiateur** : Vidange et débranchement
-3. **Préparation** : Installation des supports et tuyauterie
-4. **Installation** : Fixation et raccordement du nouveau radiateur
-5. **Mise en service** : Remplissage et test du système
-
-### Pourquoi faire appel à un professionnel
-
-- Calcul exact de la puissance thermique
-- Installation conforme aux normes
-- Vérification du circuit de chauffage
-- Garance de la prestation
-- Possibilité d'optimiser tout le système
-
-Nino Plomberie propose installation et remplacement de radiateurs à Muret et région toulousaine. Devis gratuit sur demande.`,
+Ces situations peuvent cacher une fuite sur le circuit ou un problème de chaudière. Nino Plomberie intervient pour le dépannage chauffage à Muret, Toulouse et en Haute-Garonne.`,
   },
 ]
 
 export function getBlogArticle(slug: string): BlogArticle | undefined {
-  return blogArticles.find((article) => article.slug === slug)
-}
-
-export function getBlogArticlesByCategory(
-  category: BlogArticle['category']
-): BlogArticle[] {
-  return blogArticles
-    .filter((article) => article.category === category)
-    .sort(
-      (a, b) =>
-        new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime()
-    )
-}
-
-export function getLatestBlogArticles(limit = 5): BlogArticle[] {
-  return [...blogArticles]
-    .sort(
-      (a, b) =>
-        new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime()
-    )
-    .slice(0, limit)
+  return blogArticles.find((a) => a.slug === slug)
 }

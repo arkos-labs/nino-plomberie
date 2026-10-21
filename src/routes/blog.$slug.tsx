@@ -1,335 +1,182 @@
-import { createFileRoute, Link, notFound } from '@tanstack/react-router'
-import { getBlogArticle, blogArticles, type BlogArticle } from '#/data/blog-articles'
-import { formatDate } from '#/lib/utils'
+import { createFileRoute, Link, notFound } from "@tanstack/react-router"
+import type { ReactNode } from "react"
+import { Phone, ArrowRight, ArrowUpRight, ChevronRight } from "lucide-react"
+import { blogArticles, getBlogArticle, type BlogArticle } from "../data/blog-articles"
+import { PageHero } from "../components/PageHero"
+import { formatDate } from "../lib/utils"
+import { SITE_URL, BUSINESS, BUSINESS_ID, pageHead, ldScript, breadcrumbJsonLd } from "../lib/site"
 
-export const Route = createFileRoute('/blog/$slug')({
-  component: BlogArticle,
+export const Route = createFileRoute("/blog/$slug")({
   head: ({ params }) => {
     const article = getBlogArticle(params.slug)
-    if (!article)
-      return { meta: [{ title: 'Article non trouvé' }] }
-
+    if (!article) return { meta: [{ title: "Article introuvable" }, { name: "robots", content: "noindex" }] }
+    const path = `/blog/${article.slug}`
+    const head = pageHead({ title: article.metaTitle, description: article.excerpt, path })
     return {
-      meta: [
-        { title: `${article.title} - Blog Nino Plomberie` },
-        {
-          name: 'description',
-          content: article.excerpt,
-        },
-        { name: 'og:title', content: article.title },
-        { name: 'og:description', content: article.excerpt },
-        {
-          name: 'keywords',
-          content: article.seoKeywords.join(', '),
-        },
+      ...head,
+      meta: [...head.meta, { property: "og:type", content: "article" }],
+      scripts: [
+        ldScript({
+          "@context": "https://schema.org",
+          "@type": "BlogPosting",
+          headline: article.title,
+          description: article.excerpt,
+          datePublished: article.publishedAt,
+          dateModified: article.updatedAt ?? article.publishedAt,
+          mainEntityOfPage: `${SITE_URL}${path}`,
+          inLanguage: "fr-FR",
+          author: { "@id": BUSINESS_ID },
+          publisher: { "@id": BUSINESS_ID },
+        }),
+        ldScript(breadcrumbJsonLd([
+          { name: "Accueil", path: "/" },
+          { name: "Blog", path: "/blog" },
+          { name: article.title, path },
+        ])),
       ],
     }
   },
   loader: ({ params }): { article: BlogArticle } => {
     const article = getBlogArticle(params.slug)
-    if (!article) {
-      throw notFound()
-    }
+    if (!article) throw notFound()
     return { article }
   },
+  component: BlogArticlePage,
   notFoundComponent: () => (
-    <div className="min-h-screen flex items-center justify-center bg-gray-50">
-      <div className="text-center px-4">
-        <h1 className="text-4xl font-bold text-gray-800 mb-4">
-          Article non trouvé
-        </h1>
-        <p className="text-gray-600 mb-8">
-          L'article que vous recherchez n'existe pas ou a été supprimé.
-        </p>
-        <Link
-          to="/blog"
-          className="inline-block bg-blue-700 text-white px-6 py-3 rounded-lg hover:bg-blue-800 transition"
-        >
-          Retour au blog
-        </Link>
-      </div>
+    <div style={{ padding: "80px 24px", textAlign: "center" }}>
+      <h1 style={{ fontFamily: "var(--font-display)", color: "var(--ink-950)", marginBottom: "16px" }}>Article introuvable</h1>
+      <Link to="/blog" className="btn-cta">Retour au blog</Link>
     </div>
   ),
 })
 
-export default function BlogArticle() {
+function BlogArticlePage() {
   const { article } = Route.useLoaderData() as { article: BlogArticle }
-
-  const relatedArticles = blogArticles
-    .filter((a) => a.category === article.category && a.id !== article.id)
-    .slice(0, 3)
+  const others = blogArticles.filter((a) => a.slug !== article.slug).slice(0, 3)
 
   return (
-    <div className="min-h-screen bg-white">
-      {/* Article Header */}
-      <div className="bg-gradient-to-br from-blue-600 to-blue-800 text-white">
-        <div className="max-w-3xl mx-auto px-4 py-12">
-          <Link
-            to="/blog"
-            className="text-blue-100 hover:text-white transition mb-4 inline-block"
-          >
-            ← Retour au blog
-          </Link>
+    <div style={{ background: "var(--sand-50)", minHeight: "100vh" }}>
+      <PageHero
+        breadcrumb={
+          <nav className="blog-crumb" aria-label="Fil d'Ariane">
+            <Link to="/">Accueil</Link>
+            <ChevronRight size={14} aria-hidden="true" />
+            <Link to="/blog">Blog</Link>
+          </nav>
+        }
+        kicker={`${article.category} · ${formatDate(article.publishedAt)} · ${article.readTime} min de lecture`}
+        title={article.title}
+        lead={article.excerpt}
+        image="/realisations/photo-01.jpg"
+      />
 
-          <h1 className="text-4xl md:text-5xl font-bold mb-4">
-            {article.title}
-          </h1>
+      <section style={{ padding: "64px 0" }}>
+        <div className="section-container" style={{ maxWidth: "760px" }}>
+          <article className="blog-body">
+            <Markdown content={article.content} />
+          </article>
 
-          <div className="flex flex-wrap items-center gap-6 text-blue-100">
-            <span>{formatDate(article.publishedAt)}</span>
-            <span>•</span>
-            <span>{article.readTime} min de lecture</span>
-            {article.updatedAt && (
-              <>
-                <span>•</span>
-                <span>Mis à jour le {formatDate(article.updatedAt)}</span>
-              </>
-            )}
-          </div>
-        </div>
-      </div>
-
-      {/* Article Content */}
-      <article className="max-w-3xl mx-auto px-4 py-12">
-        <div className="prose prose-blue max-w-none">
-          <MarkdownContent content={article.content} />
-        </div>
-
-        {/* Article Footer */}
-        <div className="mt-12 pt-8 border-t border-gray-200">
-          <div className="bg-blue-50 p-6 rounded-lg">
-            <h3 className="text-lg font-bold text-gray-800 mb-2">
-              À propos de Nino Plomberie
-            </h3>
-            <p className="text-gray-700 mb-4">
-              Artisan plombier-chauffagiste basé à Muret, nous intervenons sur
-              toute la région toulousaine pour vos besoins en plomberie,
-              chauffage et urgences 24h/24.
-            </p>
-            <Link
-              to="/contact"
-              className="inline-block bg-blue-700 text-white px-6 py-2 rounded-lg hover:bg-blue-800 transition"
-            >
-              Nous contacter
+          <aside className="blog-service">
+            <p>Besoin d'un professionnel ?</p>
+            <Link to="/services/$slug" params={{ slug: article.service.slug }}>
+              Voir notre service {article.service.label} <ArrowRight size={15} aria-hidden="true" />
             </Link>
-          </div>
+          </aside>
         </div>
+      </section>
 
-        {/* Keywords */}
-        <div className="mt-8 pt-8 border-t border-gray-200">
-          <h3 className="text-sm font-semibold text-gray-600 mb-3">
-            Mots-clés
-          </h3>
-          <div className="flex flex-wrap gap-2">
-            {article.seoKeywords.map((keyword: string) => (
-              <span
-                key={keyword}
-                className="bg-gray-100 text-gray-700 px-3 py-1 rounded-full text-sm"
-              >
-                {keyword}
-              </span>
-            ))}
-          </div>
-        </div>
-      </article>
-
-      {/* Related Articles */}
-      {relatedArticles.length > 0 && (
-        <div className="bg-gray-50 mt-12 py-12 px-4">
-          <div className="max-w-3xl mx-auto">
-            <h2 className="text-3xl font-bold text-gray-800 mb-8">
-              Articles similaires
-            </h2>
-            <div className="grid md:grid-cols-3 gap-6">
-              {relatedArticles.map((relArticle) => (
-                <Link
-                  key={relArticle.id}
-                  to="/blog/$slug"
-                  params={{ slug: relArticle.slug }}
-                  className="bg-white p-6 rounded-lg shadow hover:shadow-lg transition"
-                >
-                  <h3 className="font-bold text-gray-800 mb-2 hover:text-blue-700">
-                    {relArticle.title}
-                  </h3>
-                  <p className="text-sm text-gray-600">{relArticle.excerpt}</p>
-                  <span className="text-xs text-gray-500 mt-4 block">
-                    {formatDate(relArticle.publishedAt)}
-                  </span>
+      {others.length > 0 && (
+        <section style={{ background: "white", padding: "64px 0" }}>
+          <div className="section-container" style={{ maxWidth: "1140px" }}>
+            <h2 className="section-title" style={{ marginBottom: "28px" }}>À lire aussi</h2>
+            <div className="feature-grid">
+              {others.map((a) => (
+                <Link key={a.slug} to="/blog/$slug" params={{ slug: a.slug }} className="feature-card">
+                  <div className="feature-card-top">
+                    <span className="feature-card-tag">{a.category}</span>
+                  </div>
+                  <h3>{a.title}</h3>
+                  <p>{a.excerpt}</p>
+                  <span className="feature-card-btn">Lire l'article <ArrowUpRight size={14} aria-hidden="true" /></span>
                 </Link>
               ))}
             </div>
           </div>
-        </div>
+        </section>
       )}
 
-      {/* CTA Section */}
-      <div className="bg-blue-900 text-white py-12 px-4 mt-12">
-        <div className="max-w-2xl mx-auto text-center">
-          <h2 className="text-3xl font-bold mb-4">Besoin d'une intervention ?</h2>
-          <p className="text-blue-100 mb-6">
-            Contactez-nous pour une intervention à Muret et région toulousaine.
-            Disponibles 24h/24 pour les urgences.
+      <section style={{ background: "linear-gradient(135deg, var(--brand-600) 0%, var(--brand-500) 60%, var(--brand-400) 100%)", padding: "64px 0" }}>
+        <div className="section-container" style={{ maxWidth: "640px", textAlign: "center" }}>
+          <h2 style={{ fontFamily: "var(--font-display)", fontWeight: 800, fontSize: "clamp(1.5rem, 3vw, 2rem)", color: "white", letterSpacing: "-0.03em", marginBottom: "12px" }}>
+            Une urgence ou un devis ?
+          </h2>
+          <p style={{ color: "rgba(255,255,255,0.82)", fontSize: "1.1rem", marginBottom: "32px", lineHeight: 1.7 }}>
+            Nino Plomberie intervient à Muret, Toulouse et en Haute-Garonne. La ligne est ouverte 24h/24.
           </p>
-          <Link
-            to="/contact"
-            className="inline-block bg-white text-blue-900 px-8 py-3 rounded-lg font-bold hover:bg-blue-50 transition"
-          >
-            Nous contacter
-          </Link>
+          <div style={{ display: "flex", gap: "12px", justifyContent: "center", flexWrap: "wrap" }}>
+            <a href={`tel:${BUSINESS.phoneIntl}`} className="btn-cta">
+              <Phone size={16} />
+              {BUSINESS.phone}
+            </a>
+            <Link to="/contact" className="btn-ghost">
+              Demander un devis <ArrowRight size={14} />
+            </Link>
+          </div>
         </div>
-      </div>
+      </section>
+
+      <style>{`
+        .blog-crumb { display: flex; align-items: center; gap: 6px; font-size: 0.85rem; margin-bottom: 14px; color: rgba(255,255,255,0.75); }
+        .blog-crumb a { color: rgba(255,255,255,0.9); text-decoration: none; }
+        .blog-crumb a:hover { text-decoration: underline; }
+        .blog-body { background: white; border-radius: var(--radius-sm); padding: 40px; box-shadow: 0 1px 3px rgba(0,0,0,0.06); color: var(--ink-700); font-size: 1.05rem; line-height: 1.75; }
+        .blog-body > :first-child { margin-top: 0; }
+        .blog-body h2 { font-family: var(--font-display); font-weight: 800; font-size: 1.45rem; color: var(--ink-950); letter-spacing: -0.02em; margin: 36px 0 14px; }
+        .blog-body p { margin: 0 0 16px; }
+        .blog-body ul, .blog-body ol { margin: 0 0 20px; padding-left: 24px; }
+        .blog-body ul { list-style: disc; }
+        .blog-body ol { list-style: decimal; }
+        .blog-body li { margin-bottom: 8px; padding-left: 4px; }
+        .blog-body li::marker { color: var(--brand-600); font-weight: 700; }
+        .blog-body strong { color: var(--ink-950); }
+        .blog-service { margin-top: 24px; padding: 24px 28px; border-radius: var(--radius-sm); background: var(--sand-100); display: flex; align-items: center; justify-content: space-between; gap: 16px; flex-wrap: wrap; }
+        .blog-service p { margin: 0; font-weight: 700; color: var(--ink-950); }
+        .blog-service a { display: inline-flex; align-items: center; gap: 6px; color: var(--brand-600); font-weight: 700; text-decoration: none; }
+        .blog-service a:hover { text-decoration: underline; }
+        @media (max-width: 640px) { .blog-body { padding: 24px 20px; font-size: 1rem; } }
+      `}</style>
     </div>
   )
 }
 
-interface MarkdownContentProps {
-  content: string
+function inline(text: string): ReactNode[] {
+  return text.split(/(\*\*[^*]+\*\*)/g).map((part, i) =>
+    part.startsWith("**") && part.endsWith("**") ? <strong key={i}>{part.slice(2, -2)}</strong> : part,
+  )
 }
 
-function MarkdownContent({ content }: MarkdownContentProps) {
-  const lines = content.split('\n')
-  const elements: React.ReactNode[] = []
-
-  for (let i = 0; i < lines.length; i++) {
-    const line = lines[i]
-
-    if (!line.trim()) {
-      continue
-    }
-
-    if (line.startsWith('## ')) {
-      elements.push(
-        <h2
-          key={`h2-${i}`}
-          className="text-2xl font-bold text-gray-800 mt-8 mb-4"
-        >
-          {line.replace('## ', '')}
-        </h2>
-      )
-    } else if (line.startsWith('### ')) {
-      elements.push(
-        <h3
-          key={`h3-${i}`}
-          className="text-xl font-bold text-gray-700 mt-6 mb-3"
-        >
-          {line.replace('### ', '')}
-        </h3>
-      )
-    } else if (line.startsWith('- ')) {
-      // Collect consecutive list items
-      const listItems = []
-      let j = i
-      while (j < lines.length && lines[j].startsWith('- ')) {
-        listItems.push(
-          <li key={`li-${j}`} className="text-gray-700 ml-4">
-            {lines[j].replace('- ', '')}
-          </li>
-        )
-        j++
+function Markdown({ content }: { content: string }) {
+  const blocks: ReactNode[] = []
+  const lines = content.split("\n")
+  let i = 0
+  while (i < lines.length) {
+    const line = lines[i].trim()
+    if (!line) { i++; continue }
+    if (line.startsWith("## ")) {
+      blocks.push(<h2 key={i}>{line.slice(3)}</h2>)
+      i++
+    } else if (/^(- |\d+\. )/.test(line)) {
+      const ordered = /^\d+\. /.test(line)
+      const items: ReactNode[] = []
+      while (i < lines.length && /^(- |\d+\. )/.test(lines[i].trim())) {
+        items.push(<li key={i}>{inline(lines[i].trim().replace(/^(- |\d+\. )/, ""))}</li>)
+        i++
       }
-      elements.push(
-        <ul key={`ul-${i}`} className="list-disc ml-6 my-4">
-          {listItems}
-        </ul>
-      )
-      i = j - 1
-    } else if (line.startsWith('**') && line.endsWith('**')) {
-      elements.push(
-        <p key={`p-bold-${i}`} className="text-gray-700 my-4 font-semibold">
-          {line.replace(/\*\*/g, '')}
-        </p>
-      )
+      blocks.push(ordered ? <ol key={`l${i}`}>{items}</ol> : <ul key={`l${i}`}>{items}</ul>)
     } else {
-      elements.push(
-        <p key={`p-${i}`} className="text-gray-700 my-4 leading-relaxed">
-          {parseInlineMarkdown(line)}
-        </p>
-      )
+      blocks.push(<p key={i}>{inline(line)}</p>)
+      i++
     }
   }
-
-  return <>{elements}</>
-}
-
-function parseInlineMarkdown(text: string) {
-  const parts: React.ReactNode[] = []
-  let lastIndex = 0
-  const boldRegex = /\*\*(.*?)\*\*/g
-  const italicRegex = /\*(.*?)\*/g
-  const linkRegex = /\[(.*?)\]\((.*?)\)/g
-
-  let match
-  const matches: Array<{
-    type: 'bold' | 'italic' | 'link'
-    start: number
-    end: number
-    content: string
-    href?: string
-  }> = []
-
-  while ((match = boldRegex.exec(text)) !== null) {
-    matches.push({
-      type: 'bold',
-      start: match.index,
-      end: match.index + match[0].length,
-      content: match[1],
-    })
-  }
-
-  while ((match = italicRegex.exec(text)) !== null) {
-    matches.push({
-      type: 'italic',
-      start: match.index,
-      end: match.index + match[0].length,
-      content: match[1],
-    })
-  }
-
-  while ((match = linkRegex.exec(text)) !== null) {
-    matches.push({
-      type: 'link',
-      start: match.index,
-      end: match.index + match[0].length,
-      content: match[1],
-      href: match[2],
-    })
-  }
-
-  matches.sort((a, b) => a.start - b.start)
-
-  for (const match of matches) {
-    if (match.start > lastIndex) {
-      parts.push(text.substring(lastIndex, match.start))
-    }
-
-    if (match.type === 'bold') {
-      parts.push(
-        <strong key={`${match.type}-${match.start}`}>{match.content}</strong>
-      )
-    } else if (match.type === 'italic') {
-      parts.push(
-        <em key={`${match.type}-${match.start}`}>{match.content}</em>
-      )
-    } else if (match.type === 'link' && match.href) {
-      parts.push(
-        <a
-          key={`${match.type}-${match.start}`}
-          href={match.href}
-          className="text-blue-700 hover:underline"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          {match.content}
-        </a>
-      )
-    }
-
-    lastIndex = match.end
-  }
-
-  if (lastIndex < text.length) {
-    parts.push(text.substring(lastIndex))
-  }
-
-  return parts.length > 0 ? parts : text
+  return <>{blocks}</>
 }

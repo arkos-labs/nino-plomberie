@@ -2,6 +2,7 @@
 import { createFileRoute } from "@tanstack/react-router"
 import { communes } from "../data/communes"
 import { services } from "../data/services"
+import { blogArticles } from "../data/blog-articles"
 import { SITE_URL } from "../lib/site"
 
 // Dates de dernière modification réelles (à mettre à jour quand le contenu change), pas la date du build
@@ -10,6 +11,7 @@ const LASTMOD = {
   pages: "2026-10-05",
   services: "2026-10-04",
   communes: "2026-10-05",
+  blog: "2026-10-21",
 }
 
 function url(loc: string, lastmod: string, priority = "0.5", changefreq = "monthly") {
@@ -35,6 +37,8 @@ export const Route = createFileRoute("/sitemap.xml")({
           url("/a-propos", LASTMOD.pages, "0.7"),
           url("/contact", LASTMOD.pages, "0.7"),
           url("/rendez-vous", LASTMOD.pages, "0.6"),
+          url("/blog", LASTMOD.blog, "0.6", "weekly"),
+          ...blogArticles.map((a) => url(`/blog/${a.slug}`, a.updatedAt ?? a.publishedAt, "0.5")),
           ...services.map((s) => url(`/services/${s.slug}`, LASTMOD.services, "0.85")),
           ...communes.map((c) => url(`/intervention/${c.slug}`, LASTMOD.communes, "0.6")),
         ]
