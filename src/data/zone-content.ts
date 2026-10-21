@@ -787,6 +787,126 @@ export const zoneContent: Record<string, ZoneContent> = {
     ],
     cta: { label: "Prenez rendez-vous en ligne pour un contrôle de votre chauffage.", kind: "rdv" },
   },
+
+  "lasserre-pradere": {
+    title: "Plombier Lasserre-Pradère : devis gratuit, artisan de Muret",
+    description: "Plombier à Lasserre-Pradère : Nino Plomberie traite fuite, chauffe-eau, débouchage. Devis gratuit, garantie 2 ans. 06 50 57 96 20.",
+    h1: "Plombier à Lasserre-Pradère : un artisan du Muretain",
+    intro: "Lasserre-Pradère, commune rurale de Haute-Garonne, bénéficie de la proximité de Muret où est basé Nino Plomberie. Pour une urgence ou un chantier, l'artisan se déplace et intervient rapidement.",
+    sections: [
+      { h2: "Dépannage et travaux", text: "Fuite d'eau, chauffe-eau défaillant, canalisation bouchée, ou rénovation de salle de bain : Nino Plomberie traite tous les types de demande. Devis gratuit, prix annoncé avant les travaux, garantie 2 ans." },
+      { h2: "Une ligne toujours ouverte", text: "24h/24, 7j/7, vous pouvez joindre l'artisan au 06 50 57 96 20 pour une urgence ou prendre rendez-vous pour un projet." },
+    ],
+    cta: { label: "Appelez le 06 50 57 96 20 pour un devis gratuit.", kind: "tel" },
+  },
+
+  "puydaniel": {
+    title: "Plombier Puydaniel : urgences 24h/24 | Nino",
+    description: "Plombier à Puydaniel : Nino Plomberie, artisan de Muret, intervient 24h/24. Fuite, chauffe-eau, débouchage. Devis gratuit. 06 50 57 96 20.",
+    h1: "Plombier à Puydaniel : l'artisan de Muret à côté",
+    intro: "Puydaniel est une petite commune où l'artisan plombier doit être joignable à toute heure. Nino Plomberie répond 24h/24, 7j/7.",
+    sections: [
+      { h2: "Urgence plomberie", text: "Une fuite, une évacuation bouchée, un chauffe-eau qui lâche : appelez le 06 50 57 96 20, quelle que soit l'heure. Un diagnostic et un devis gratuit vous attendent avant toute intervention." },
+      { h2: "Garantie et transparence", text: "Prix annoncé avant les travaux, réparations garanties 2 ans, pièces et main-d'œuvre." },
+    ],
+    cta: { label: "Appelez le 06 50 57 96 20 pour une urgence.", kind: "tel" },
+  },
+
+  "fonbeauzard": {
+    title: "Plombier Fonbeauzard : artisan local, devis gratuit",
+    description: "Plombier à Fonbeauzard : Nino Plomberie traite fuite, chauffe-eau, débouchage. Artisan de Muret. Devis gratuit, garantie 2 ans. 06 50 57 96 20.",
+    h1: "Plombier à Fonbeauzard : un artisan de confiance",
+    intro: "Fonbeauzard, commune paisible de la région, mérite un plombier fiable et disponible. Nino Plomberie, basé à Muret, intervient à Fonbeauzard sans délai.",
+    sections: [
+      { h2: "Dépannage rapide", text: "Qu'il s'agisse d'une petite réparation ou d'un travail plus important, un seul interlocuteur vous accompagne du diagnostic à la fin des travaux." },
+      { h2: "Ce qui est garanti", text: "Devis gratuit, prix annoncé, réparations garanties 2 ans." },
+    ],
+    cta: { label: "Décrivez votre problème via le formulaire, devis gratuit.", kind: "form" },
+  },
+
+  "pin-balma": {
+    title: "Plombier Pin-Balma : dépannage 24h/24 | Nino",
+    description: "Plombier à Pin-Balma : Nino Plomberie, artisan de Muret, intervient 24h/24. Fuite, chauffe-eau, débouchage. Devis gratuit. 06 50 57 96 20.",
+    h1: "Plombier à Pin-Balma : joignable à toute heure",
+    intro: "Pin-Balma est une commune résidentielle où l'on a besoin d'un plombier disponible. Nino Plomberie répond 24h/24, 7j/7.",
+    sections: [
+      { h2: "Pannes fréquentes", text: "Robinetterie usée, ballon d'eau chaude entartré, siphon bouché, chauffage qui ne fonctionne pas : des pannes que nous traitons rapidement avec un devis gratuit." },
+      { h2: "Une garantie de 2 ans", text: "Réparations garanties 2 ans, pièces et main-d'œuvre." },
+    ],
+    cta: { label: "Appelez le 06 50 57 96 20 pour un devis.", kind: "tel" },
+  },
+
+  "marignac-lasclares": {
+    title: "Plombier Marignac-Lasclarès : devis gratuit | Nino",
+    description: "Plombier à Marignac-Lasclarès : Nino Plomberie traite fuite, chauffe-eau, chauffage. Devis gratuit, garantie 2 ans. 06 50 57 96 20.",
+    h1: "Plombier à Marignac-Lasclarès : un artisan de proximité",
+    intro: "Marignac-Lasclarès, commune du Muretain, bénéficie de la proximité de Muret où Nino Plomberie est installé. Dépannage et travaux planifiés, tout sur place.",
+    sections: [
+      { h2: "Diagnostic clair", text: "Avant toute réparation, un diagnostic précis vous aide à comprendre la situation et à prendre la bonne décision." },
+      { h2: "Prix annoncé, travaux garantis", text: "Devis gratuit, prix avant intervention, garantie 2 ans." },
+    ],
+    cta: { label: "Prenez rendez-vous en ligne pour un diagnostic.", kind: "rdv" },
+  },
+
+  "varennes": {
+    title: "Plombier Varennes : artisan de Muret, devis gratuit",
+    description: "Plombier à Varennes : Nino Plomberie traite fuite, chauffe-eau, débouchage. Devis gratuit, garantie 2 ans. 06 50 57 96 20.",
+    h1: "Plombier à Varennes : dépannage sans attendre",
+    intro: "Varennes est une commune où Nino Plomberie, basé à Muret, intervient sans délai pour tous types de dépannage ou travaux.",
+    sections: [
+      { h2: "Disponible 24h/24", text: "Une urgence le soir ou le week-end ? Appelez le 06 50 57 96 20, la ligne est toujours ouverte." },
+      { h2: "Transparence et garantie", text: "Devis gratuit, prix annoncé, réparations garanties 2 ans, pièces et main-d'œuvre." },
+    ],
+    cta: { label: "Appelez le 06 50 57 96 20 pour une intervention rapide.", kind: "tel" },
+  },
+
+  "lespinasse": {
+    title: "Plombier L'Espinasse : artisan local, devis gratuit",
+    description: "Plombier à L'Espinasse : Nino Plomberie, artisan de Muret, traite fuite, chauffe-eau, débouchage. Devis gratuit. 06 50 57 96 20.",
+    h1: "Plombier à L'Espinasse : un artisan fiable",
+    intro: "L'Espinasse, petite commune tranquille, mérite un plombier disponible et transparent. Nino Plomberie couvre le secteur depuis Muret.",
+    sections: [
+      { h2: "Tous les types de dépannage", text: "Fuite d'eau, chauffe-eau, débouchage, chauffage : nous traitons tous les types de panne et de projet." },
+      { h2: "Devis gratuit et garantie", text: "Avant d'intervenir, un devis gratuit. Après intervention, une garantie de 2 ans." },
+    ],
+    cta: { label: "Décrivez votre problème, devis gratuit.", kind: "form" },
+  },
+
+  "mauvaisin": {
+    title: "Plombier Mauvaisin : urgences 24h/24 | Nino",
+    description: "Plombier à Mauvaisin : Nino Plomberie, artisan de Muret, intervient 24h/24. Fuite, chauffe-eau. Devis gratuit. 06 50 57 96 20.",
+    h1: "Plombier à Mauvaisin : joignable à toute heure",
+    intro: "Mauvaisin est une commune où Nino Plomberie intervient sans délai pour tous vos besoins en plomberie et chauffage.",
+    sections: [
+      { h2: "Urgence plomberie", text: "24h/24 et 7j/7, un plombier dépanne votre logement. Le diagnostic est gratuit, le prix annoncé avant l'intervention." },
+      { h2: "Garantie de 2 ans", text: "Toutes les réparations sont garanties 2 ans, pièces et main-d'œuvre." },
+    ],
+    cta: { label: "Appelez le 06 50 57 96 20 pour une urgence.", kind: "tel" },
+  },
+
+  "gratens": {
+    title: "Plombier Gratens : devis gratuit, artisan de Muret",
+    description: "Plombier à Gratens : Nino Plomberie traite fuite, chauffe-eau, débouchage. Devis gratuit, garantie 2 ans. 06 50 57 96 20.",
+    h1: "Plombier à Gratens : un artisan disponible",
+    intro: "Gratens, commune du secteur Muret, bénéficie de la proximité de Nino Plomberie pour tous types de dépannage et travaux.",
+    sections: [
+      { h2: "Dépannage et travaux", text: "Fuite, chauffe-eau, chauffage, salle de bain : nous prenons en charge tous les projets avec un devis gratuit et une garantie 2 ans." },
+      { h2: "Une ligne ouverte", text: "Joignable 24h/24, 7j/7, pour une urgence ou pour prendre rendez-vous." },
+    ],
+    cta: { label: "Appelez le 06 50 57 96 20 pour un devis.", kind: "tel" },
+  },
+
+  "sabonneres": {
+    title: "Plombier Sabonnères : artisan local, devis gratuit",
+    description: "Plombier à Sabonnères : Nino Plomberie traite fuite, chauffe-eau, débouchage. Devis gratuit, garantie 2 ans. 06 50 57 96 20.",
+    h1: "Plombier à Sabonnères : dépannage sans délai",
+    intro: "Sabonnères, commune rurale, bénéficie de la disponibilité de Nino Plomberie pour tous ses besoins en plomberie et chauffage.",
+    sections: [
+      { h2: "Disponibilité et transparence", text: "Un artisan disponible à toute heure, avec un devis gratuit et un prix annoncé avant l'intervention." },
+      { h2: "Garantie de 2 ans", text: "Toutes réparations garanties 2 ans, pièces et main-d'œuvre." },
+    ],
+    cta: { label: "Prenez rendez-vous en ligne ou appelez le 06 50 57 96 20.", kind: "rdv" },
+  },
 }
 
 export const zoneSlugs = Object.keys(zoneContent)
