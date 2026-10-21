@@ -487,6 +487,86 @@ export const communes: Commune[] = [
     "lat": 43.595,
     "lng": 1.415,
     "description": "Quartier des Arènes, à l'ouest du centre de Toulouse."
+  },
+  {
+    "slug": "lasserre-pradere",
+    "nom": "Lasserre-Pradère",
+    "codePostal": "31260",
+    "lat": 43.2983,
+    "lng": 1.0947,
+    "description": "Commune de Haute-Garonne, intervention plomberie et chauffage."
+  },
+  {
+    "slug": "puydaniel",
+    "nom": "Puydaniel",
+    "codePostal": "31250",
+    "lat": 43.1433,
+    "lng": 1.2267,
+    "description": "Commune de Haute-Garonne, intervention plomberie et chauffage."
+  },
+  {
+    "slug": "fonbeauzard",
+    "nom": "Fonbeauzard",
+    "codePostal": "31140",
+    "lat": 43.3917,
+    "lng": 1.1583,
+    "description": "Commune de Haute-Garonne, intervention plomberie et chauffage."
+  },
+  {
+    "slug": "pin-balma",
+    "nom": "Pin-Balma",
+    "codePostal": "31570",
+    "lat": 43.5267,
+    "lng": 1.5417,
+    "description": "Commune de Toulouse Métropole, intervention plomberie et chauffage."
+  },
+  {
+    "slug": "marignac-lasclares",
+    "nom": "Marignac-Lasclarès",
+    "codePostal": "31800",
+    "lat": 43.4133,
+    "lng": 1.1683,
+    "description": "Commune du Muretain, intervention plomberie et chauffage."
+  },
+  {
+    "slug": "varennes",
+    "nom": "Varennes",
+    "codePostal": "31760",
+    "lat": 43.3383,
+    "lng": 1.3433,
+    "description": "Commune de Haute-Garonne, intervention plomberie et chauffage."
+  },
+  {
+    "slug": "lespinasse",
+    "nom": "L'Espinasse",
+    "codePostal": "31260",
+    "lat": 43.2550,
+    "lng": 1.0650,
+    "description": "Commune de Haute-Garonne, intervention plomberie et chauffage."
+  },
+  {
+    "slug": "mauvaisin",
+    "nom": "Mauvaisin",
+    "codePostal": "31140",
+    "lat": 43.3650,
+    "lng": 1.1417,
+    "description": "Commune de Haute-Garonne, intervention plomberie et chauffage."
+  },
+  {
+    "slug": "gratens",
+    "nom": "Gratens",
+    "codePostal": "31160",
+    "lat": 43.3267,
+    "lng": 1.2583,
+    "description": "Commune de Haute-Garonne, intervention plomberie et chauffage."
+  },
+  {
+    "slug": "sabonneres",
+    "nom": "Sabonnères",
+    "codePostal": "31600",
+    "lat": 43.3450,
+    "lng": 1.2667,
+    "description": "Commune de Haute-Garonne, intervention plomberie et chauffage."
   }
 ]
 
