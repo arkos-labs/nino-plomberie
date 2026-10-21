@@ -26,6 +26,8 @@ import { Route as ApiContactRouteImport } from './routes/api/contact'
 import { Route as ApiContactUrgenceRouteImport } from './routes/api/contact-urgence'
 import { Route as ApiDiagnosticRouteImport } from './routes/api/diagnostic'
 import { Route as ApiTrackRouteImport } from './routes/api/track'
+import { Route as BlogIndexRouteImport } from './routes/blog.index'
+import { Route as BlogSlugRouteImport } from './routes/blog.$slug'
 import { Route as InterventionVilleRouteImport } from './routes/intervention.$ville'
 import { Route as LiveTrackingIdRouteImport } from './routes/live-tracking.$id'
 import { Route as LocalitesIndexRouteImport } from './routes/localites/index'
@@ -120,6 +122,16 @@ const ApiTrackRoute = ApiTrackRouteImport.update({
   path: '/api/track',
   getParentRoute: () => rootRouteImport,
 } as any)
+const BlogIndexRoute = BlogIndexRouteImport.update({
+  id: '/blog/',
+  path: '/blog/',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const BlogSlugRoute = BlogSlugRouteImport.update({
+  id: '/blog/$slug',
+  path: '/blog/$slug',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const InterventionVilleRoute = InterventionVilleRouteImport.update({
   id: '/intervention/$ville',
   path: '/intervention/$ville',
@@ -174,10 +186,12 @@ export interface FileRoutesByFullPath {
   '/api/contact-urgence': typeof ApiContactUrgenceRoute
   '/api/diagnostic': typeof ApiDiagnosticRoute
   '/api/track': typeof ApiTrackRoute
+  '/blog/$slug': typeof BlogSlugRoute
   '/intervention/$ville': typeof InterventionVilleRoute
   '/live-tracking/$id': typeof LiveTrackingIdRoute
   '/localites/$slug': typeof LocalitesSlugRoute
   '/services/$slug': typeof ServicesSlugRoute
+  '/blog/': typeof BlogIndexRoute
   '/localites/': typeof LocalitesIndexRoute
   '/services/': typeof ServicesIndexRoute
   '/services/$service/$locality': typeof ServicesServiceLocalityRoute
@@ -199,10 +213,12 @@ export interface FileRoutesByTo {
   '/api/contact-urgence': typeof ApiContactUrgenceRoute
   '/api/diagnostic': typeof ApiDiagnosticRoute
   '/api/track': typeof ApiTrackRoute
+  '/blog/$slug': typeof BlogSlugRoute
   '/intervention/$ville': typeof InterventionVilleRoute
   '/live-tracking/$id': typeof LiveTrackingIdRoute
   '/localites/$slug': typeof LocalitesSlugRoute
   '/services/$slug': typeof ServicesSlugRoute
+  '/blog': typeof BlogIndexRoute
   '/localites': typeof LocalitesIndexRoute
   '/services': typeof ServicesIndexRoute
   '/services/$service/$locality': typeof ServicesServiceLocalityRoute
@@ -226,10 +242,12 @@ export interface FileRoutesById {
   '/api/contact-urgence': typeof ApiContactUrgenceRoute
   '/api/diagnostic': typeof ApiDiagnosticRoute
   '/api/track': typeof ApiTrackRoute
+  '/blog/$slug': typeof BlogSlugRoute
   '/intervention/$ville': typeof InterventionVilleRoute
   '/live-tracking/$id': typeof LiveTrackingIdRoute
   '/localites/$slug': typeof LocalitesSlugRoute
   '/services/$slug': typeof ServicesSlugRoute
+  '/blog/': typeof BlogIndexRoute
   '/localites/': typeof LocalitesIndexRoute
   '/services/': typeof ServicesIndexRoute
   '/services/$service/$locality': typeof ServicesServiceLocalityRoute
@@ -254,10 +272,12 @@ export interface FileRouteTypes {
     | '/api/contact-urgence'
     | '/api/diagnostic'
     | '/api/track'
+    | '/blog/$slug'
     | '/intervention/$ville'
     | '/live-tracking/$id'
     | '/localites/$slug'
     | '/services/$slug'
+    | '/blog/'
     | '/localites/'
     | '/services/'
     | '/services/$service/$locality'
@@ -279,10 +299,12 @@ export interface FileRouteTypes {
     | '/api/contact-urgence'
     | '/api/diagnostic'
     | '/api/track'
+    | '/blog/$slug'
     | '/intervention/$ville'
     | '/live-tracking/$id'
     | '/localites/$slug'
     | '/services/$slug'
+    | '/blog'
     | '/localites'
     | '/services'
     | '/services/$service/$locality'
@@ -305,10 +327,12 @@ export interface FileRouteTypes {
     | '/api/contact-urgence'
     | '/api/diagnostic'
     | '/api/track'
+    | '/blog/$slug'
     | '/intervention/$ville'
     | '/live-tracking/$id'
     | '/localites/$slug'
     | '/services/$slug'
+    | '/blog/'
     | '/localites/'
     | '/services/'
     | '/services/$service/$locality'
@@ -332,9 +356,11 @@ export interface RootRouteChildren {
   ApiContactUrgenceRoute: typeof ApiContactUrgenceRoute
   ApiDiagnosticRoute: typeof ApiDiagnosticRoute
   ApiTrackRoute: typeof ApiTrackRoute
+  BlogSlugRoute: typeof BlogSlugRoute
   InterventionVilleRoute: typeof InterventionVilleRoute
   LiveTrackingIdRoute: typeof LiveTrackingIdRoute
   LocalitesSlugRoute: typeof LocalitesSlugRoute
+  BlogIndexRoute: typeof BlogIndexRoute
   LocalitesIndexRoute: typeof LocalitesIndexRoute
 }
 
@@ -459,6 +485,20 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof ApiTrackRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/blog/': {
+      id: '/blog/'
+      path: '/blog'
+      fullPath: '/blog/'
+      preLoaderRoute: typeof BlogIndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/blog/$slug': {
+      id: '/blog/$slug'
+      path: '/blog/$slug'
+      fullPath: '/blog/$slug'
+      preLoaderRoute: typeof BlogSlugRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/intervention/$ville': {
       id: '/intervention/$ville'
       path: '/intervention/$ville'
@@ -545,9 +585,11 @@ const rootRouteChildren: RootRouteChildren = {
   ApiContactUrgenceRoute: ApiContactUrgenceRoute,
   ApiDiagnosticRoute: ApiDiagnosticRoute,
   ApiTrackRoute: ApiTrackRoute,
+  BlogSlugRoute: BlogSlugRoute,
   InterventionVilleRoute: InterventionVilleRoute,
   LiveTrackingIdRoute: LiveTrackingIdRoute,
   LocalitesSlugRoute: LocalitesSlugRoute,
+  BlogIndexRoute: BlogIndexRoute,
   LocalitesIndexRoute: LocalitesIndexRoute,
 }
 export const routeTree = rootRouteImport
