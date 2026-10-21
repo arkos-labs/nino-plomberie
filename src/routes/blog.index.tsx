@@ -8,9 +8,9 @@ import { SITE_URL, BUSINESS, pageHead, ldScript, breadcrumbJsonLd } from "../lib
 export const Route = createFileRoute("/blog/")({
   head: () => ({
     ...pageHead({
-      title: "Conseils plomberie et chauffage — Blog Nino Plomberie",
+      title: "Blog plomberie Toulouse : conseils | Nino Plomberie",
       description:
-        "Fuite d'eau, canalisation bouchée, chauffe-eau, radiateurs : conseils pratiques de Nino Plomberie, plombier à Muret, pour entretenir vos installations et réagir en cas d'urgence.",
+        "Fuite d'eau, dégât des eaux en appartement, échoppe à rénover, chauffe-eau, chauffage : les conseils de Nino Plomberie pour les habitants de Toulouse et de la Haute-Garonne.",
       path: "/blog",
     }),
     scripts: [
@@ -38,23 +38,26 @@ function BlogIndex() {
   return (
     <div style={{ background: "var(--sand-50)", minHeight: "100vh" }}>
       <PageHero
-        kicker="Conseils · Entretien · Urgences"
-        title={<>Le <em>blog</em> de Nino Plomberie</>}
-        lead="Des conseils concrets pour entretenir vos installations, repérer une panne à temps et savoir quoi faire en cas d'urgence."
+        kicker="Plombier Toulouse · Conseils · Urgences"
+        title={<>Conseils plomberie à <em>Toulouse</em></>}
+        lead="Appartement en copropriété, échoppe ancienne ou maison de la métropole : des conseils concrets pour entretenir vos installations et savoir quoi faire en cas d'urgence."
         actions={
           <a href={`tel:${BUSINESS.phoneIntl}`} className="btn-cta">
             <Phone size={18} />
             Urgence 24h/24
           </a>
         }
-        image="/realisations/photo-01.jpg"
+        image="/realisations/photo-09.jpg"
       />
 
       <section style={{ padding: "72px 0 80px" }}>
         <div className="section-container" style={{ maxWidth: "1140px" }}>
           <div style={{ marginBottom: "32px" }}>
             <h2 className="section-title" style={{ marginBottom: "8px" }}>Derniers articles</h2>
-            <p className="section-subtitle">Plomberie et chauffage, expliqués simplement.</p>
+            <p className="section-subtitle">
+              Plomberie et chauffage expliqués simplement, par un artisan qui intervient à{" "}
+              <Link to="/intervention/$ville" params={{ ville: "toulouse" }}>Toulouse</Link> et en Haute-Garonne.
+            </p>
           </div>
           <div className="feature-grid">
             {articles.map((a) => (

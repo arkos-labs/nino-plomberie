@@ -67,7 +67,7 @@ function BlogArticlePage() {
         kicker={`${article.category} · ${formatDate(article.publishedAt)} · ${article.readTime} min de lecture`}
         title={article.title}
         lead={article.excerpt}
-        image="/realisations/photo-01.jpg"
+        image="/realisations/photo-09.jpg"
       />
 
       <section style={{ padding: "64px 0" }}>
@@ -77,10 +77,15 @@ function BlogArticlePage() {
           </article>
 
           <aside className="blog-service">
-            <p>Besoin d'un professionnel ?</p>
-            <Link to="/services/$slug" params={{ slug: article.service.slug }}>
-              Voir notre service {article.service.label} <ArrowRight size={15} aria-hidden="true" />
-            </Link>
+            <p>Besoin d'un plombier à Toulouse ?</p>
+            <div className="blog-service-links">
+              <Link to="/services/$slug" params={{ slug: article.service.slug }}>
+                Service {article.service.label} <ArrowRight size={15} aria-hidden="true" />
+              </Link>
+              <Link to="/intervention/$ville" params={{ ville: "toulouse" }}>
+                Plombier à Toulouse <ArrowRight size={15} aria-hidden="true" />
+              </Link>
+            </div>
           </aside>
         </div>
       </section>
@@ -111,7 +116,7 @@ function BlogArticlePage() {
             Une urgence ou un devis ?
           </h2>
           <p style={{ color: "rgba(255,255,255,0.82)", fontSize: "1.1rem", marginBottom: "32px", lineHeight: 1.7 }}>
-            Nino Plomberie intervient à Muret, Toulouse et en Haute-Garonne. La ligne est ouverte 24h/24.
+            Nino Plomberie intervient à Toulouse, Muret et dans toute la Haute-Garonne. La ligne est ouverte 24h/24.
           </p>
           <div style={{ display: "flex", gap: "12px", justifyContent: "center", flexWrap: "wrap" }}>
             <a href={`tel:${BUSINESS.phoneIntl}`} className="btn-cta">
@@ -141,6 +146,7 @@ function BlogArticlePage() {
         .blog-body strong { color: var(--ink-950); }
         .blog-service { margin-top: 24px; padding: 24px 28px; border-radius: var(--radius-sm); background: var(--sand-100); display: flex; align-items: center; justify-content: space-between; gap: 16px; flex-wrap: wrap; }
         .blog-service p { margin: 0; font-weight: 700; color: var(--ink-950); }
+        .blog-service-links { display: flex; gap: 20px; flex-wrap: wrap; }
         .blog-service a { display: inline-flex; align-items: center; gap: 6px; color: var(--brand-600); font-weight: 700; text-decoration: none; }
         .blog-service a:hover { text-decoration: underline; }
         @media (max-width: 640px) { .blog-body { padding: 24px 20px; font-size: 1rem; } }
