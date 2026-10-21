@@ -15,6 +15,55 @@ export interface BlogArticle {
 
 export const blogArticles: BlogArticle[] = [
   {
+    slug: "wc-qui-fuit-chasse-d-eau-toulouse",
+    title: "WC qui fuit ou chasse d'eau qui coule à Toulouse : diagnostic et solutions",
+    metaTitle: "Chasse d'eau qui coule à Toulouse : que faire",
+    excerpt:
+      "Un filet d'eau dans la cuvette, un bruit de remplissage sans fin ou une flaque au pied des WC : comment trouver l'origine du problème et savoir quand appeler un plombier.",
+    publishedAt: "2026-10-21",
+    category: "Conseils",
+    readTime: 4,
+    service: { slug: "robinetterie-sanitaires", label: "Robinetterie & Sanitaires" },
+    content: `Dans un appartement en copropriété comme dans une maison ancienne de Toulouse, un WC qui fuit passe souvent inaperçu pendant des semaines. Le bruit devient familier, la facture d'eau monte doucement. Pourtant, un mécanisme de chasse d'eau défaillant fait perdre de l'eau jour et nuit, et une fuite à la base de la cuvette peut abîmer le sol et gêner les voisins du dessous.
+
+## Repérer l'origine du problème
+
+Avant de démonter quoi que ce soit, identifiez d'où vient l'eau :
+
+- **Un filet d'eau dans la cuvette** ou un bruit de remplissage qui revient régulièrement : le problème vient du réservoir.
+- **Une flaque au pied des WC** : le joint entre la cuvette et l'évacuation, ou le raccord d'arrivée d'eau, est en cause.
+- **De l'eau sur les parois extérieures du réservoir** : ce peut être de la condensation, surtout en été quand l'eau du réseau est fraîche, ou une fuite à la jonction réservoir-cuvette.
+
+Pour confirmer une fuite dans la cuvette, versez quelques gouttes de colorant alimentaire dans le réservoir sans tirer la chasse. Si la couleur apparaît dans la cuvette au bout d'un quart d'heure, le clapet ne ferme pas correctement.
+
+## Les pannes courantes du réservoir
+
+1. **Le flotteur est mal réglé** : l'eau monte trop haut et s'écoule par le trop-plein. Ajustez la hauteur du flotteur pour que le niveau reste sous le trop-plein.
+2. **Le joint du clapet est usé ou entartré** : il ne ferme plus l'écoulement. Nettoyez-le ou remplacez-le.
+3. **Le robinet flotteur est défectueux** : il ne coupe plus l'arrivée d'eau et le remplissage ne s'arrête pas. Le remplacer suffit généralement.
+
+Avant toute intervention, fermez le petit robinet d'arrêt situé sous le réservoir ou sur l'arrivée d'eau, puis videz le réservoir en tirant la chasse. Prenez en photo le mécanisme avant de le démonter et relevez la référence de la marque : cela facilite l'achat d'une pièce compatible.
+
+## Une fuite à la base de la cuvette
+
+Si l'eau s'écoule au sol lors de chaque chasse, la pipe d'évacuation ou son joint est probablement abîmé. Dans les échoppes et les maisons anciennes, le sol et le raccordement ont parfois vieilli ensemble, ce qui rend la réparation moins simple. En appartement, une fuite répétée vers l'étage inférieur relève d'un dégât des eaux : prévenez votre voisin et votre assureur sans attendre.
+
+## Éviter que le problème revienne
+
+Le calcaire et l'usure finissent par fatiguer les joints et le flotteur. Tirez la chasse de temps en temps pour vérifier que le réservoir se remplit puis s'arrête, et ne laissez pas un léger écoulement durer : il s'aggrave rarement tout seul.
+
+## Quand appeler un professionnel
+
+- Le réglage et le changement des joints n'ont rien résolu.
+- L'eau coule à la base de la cuvette ou au raccord du mur.
+- Le réservoir est fissuré ou le mécanisme n'est plus disponible.
+- Vous souhaitez remplacer le WC entier, par exemple par un modèle suspendu.
+
+En attendant l'intervention, fermez l'arrêt d'eau du WC et utilisez un seau pour la chasse si besoin.
+
+Nino Plomberie intervient à Toulouse, Muret et dans toute la Haute-Garonne pour réparer ou remplacer vos sanitaires, avec un devis gratuit avant les travaux.`,
+  },
+  {
     slug: "fuite-eau-toulouse",
     title: "Fuite d'eau à Toulouse : comment la détecter et que faire",
     metaTitle: "Fuite d'eau à Toulouse : détecter et réagir vite",
