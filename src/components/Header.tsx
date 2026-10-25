@@ -107,6 +107,21 @@ export function Header() {
         Urgence 24h/7j
       </a>
 
+      {/* ── Barre d'appel fixe (mobile uniquement) ── */}
+      <nav className="call-bar show-mobile" aria-label="Appel rapide">
+        <a
+          href={`tel:${BUSINESS.phoneIntl}`}
+          className="call-bar-btn call-bar-call"
+          aria-label="Appel urgence plomberie 24h/7j"
+        >
+          <Phone size={18} aria-hidden="true" />
+          Appeler {BUSINESS.phone}
+        </a>
+        <Link to="/contact" className="call-bar-btn call-bar-devis">
+          Devis gratuit
+        </Link>
+      </nav>
+
       <style>{`
         .hdr {
           position: sticky; top: 0; z-index: 1000;

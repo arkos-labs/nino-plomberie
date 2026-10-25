@@ -700,6 +700,45 @@ a.page-hero-kicker:hover { color: var(--white); }
   .hidden-mobile { display: none !important; }
   .show-mobile { display: flex !important; }
   .section-container { padding: 0 var(--space-4); }
+  /* Sur mobile, la barre d'appel remplace la pastille flottante */
+  .float-cta { display: none; }
+  body { padding-bottom: 72px; }
+}
+
+/* ─── Barre d'appel mobile ───────────────────────────────────────────────── */
+.call-bar {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 9999;
+  gap: 8px;
+  padding: 10px 12px calc(10px + env(safe-area-inset-bottom));
+  background: var(--white);
+  border-top: 1px solid var(--gray-200);
+  box-shadow: 0 -8px 24px rgba(0, 0, 0, 0.1);
+}
+.call-bar-btn {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 13px 10px;
+  border-radius: var(--radius-sm);
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 0.95rem;
+  text-decoration: none;
+  white-space: nowrap;
+}
+.call-bar-call {
+  background: var(--cta-500);
+  color: var(--white);
+}
+.call-bar-devis {
+  background: var(--brand-600);
+  color: var(--white);
 }
 @media (min-width: 769px) {
   .show-mobile { display: none !important; }
