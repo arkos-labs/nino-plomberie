@@ -15,6 +15,63 @@ export interface BlogArticle {
 
 export const blogArticles: BlogArticle[] = [
   {
+    slug: "mauvaises-odeurs-canalisation-toulouse",
+    title: "Mauvaises odeurs de canalisation à Toulouse : d'où viennent-elles et comment les éliminer",
+    metaTitle: "Odeur de canalisation à Toulouse : causes et solutions",
+    excerpt:
+      "Odeur d'égout dans la salle de bain, la cuisine ou les WC : les causes les plus courantes en appartement comme en maison ancienne, et les gestes pour les faire disparaître.",
+    publishedAt: "2026-10-27",
+    category: "Entretien",
+    readTime: 4,
+    service: { slug: "debouchage", label: "Débouchage" },
+    content: `Une odeur d'égout qui flotte dans la salle de bain ou sous l'évier n'est jamais agréable, et elle revient souvent malgré l'aération. Dans un appartement toulousain en copropriété comme dans une échoppe en brique, la cause est le plus souvent simple à repérer : une évacuation qui ne joue plus son rôle de barrière contre les remontées d'air du réseau.
+
+## Comprendre d'où vient l'odeur
+
+Chaque appareil sanitaire (lavabo, douche, évier, WC) est relié à l'évacuation par un siphon. Sa forme en U retient un peu d'eau qui bloque le passage des odeurs. Si cette eau disparaît, si le siphon est sale ou si l'évacuation est mal ventilée, l'air du réseau remonte dans la pièce.
+
+Pour localiser la source, sentez successivement chaque évacuation de la pièce, bonde et trop-plein compris. L'odeur est en général plus forte à l'endroit fautif.
+
+## Les causes les plus fréquentes
+
+- **Un siphon qui s'est vidé** : une salle de bain ou une douche peu utilisée, une résidence secondaire fermée pendant les vacances d'été, ou une chaleur qui fait s'évaporer l'eau du siphon.
+- **Des dépôts accumulés** : graisses à la cuisine, savon et cheveux à la salle de bain forment une couche qui fermente dans le siphon et la bonde.
+- **Un siphon ou un joint défectueux** : un raccord mal serré laisse passer l'air même si le siphon est plein.
+- **Un joint de WC fatigué** à la base de la cuvette.
+- **Un défaut de ventilation** de la colonne d'évacuation, qui provoque un effet d'aspiration de l'eau des siphons quand un voisin vide sa baignoire ou tire la chasse.
+- **Une évacuation vieillissante** : dans les maisons anciennes, des canalisations fissurées ou partiellement obstruées peuvent laisser remonter des odeurs.
+
+## Les gestes à essayer chez vous
+
+1. **Remettre de l'eau** : faites couler l'eau quelques instants dans les appareils peu utilisés pour reconstituer la garde d'eau du siphon.
+2. **Nettoyer la bonde et le siphon** : retirez la grille, enlevez les cheveux et les dépôts, puis démontez le siphon avec une bassine dessous pour le rincer à l'eau chaude et au liquide vaisselle.
+3. **Vérifier le remontage** : le joint doit être bien en place et l'écrou serré à la main, sans forcer.
+4. **Rincer à l'eau chaude** les évacuations de cuisine pour entraîner les graisses.
+5. **Aérer** la pièce et vérifier que les grilles de ventilation ne sont pas obstruées.
+
+Évitez de mélanger plusieurs produits d'entretien ou de déboucheurs entre eux : certains mélanges dégagent des vapeurs dangereuses. Utilisez un seul produit à la fois, en suivant le mode d'emploi, et aérez.
+
+## Les odeurs qui reviennent malgré tout
+
+Si l'odeur persiste après le nettoyage, le problème est probablement plus en amont. Plusieurs indices doivent vous mettre sur la piste :
+
+- Plusieurs appareils sentent mauvais en même temps.
+- L'eau s'évacue lentement ou fait des gargouillis.
+- L'odeur apparaît surtout quand un voisin utilise ses sanitaires.
+- Des traces d'humidité apparaissent près d'une évacuation ou d'une colonne.
+
+Dans ce cas, il peut s'agir d'une canalisation partiellement bouchée, d'un défaut de ventilation ou d'une évacuation endommagée. En copropriété, une colonne commune relève du syndic : signalez-lui le problème si plusieurs logements sont touchés.
+
+## Quand appeler un professionnel
+
+- L'odeur persiste après nettoyage et remise en eau des siphons.
+- L'évacuation est lente ou régulièrement bouchée.
+- Vous constatez de l'humidité ou une fuite près des raccords.
+- Vous sentez une odeur de gaz, qui est différente d'une odeur d'égout : n'actionnez aucun interrupteur, ouvrez les fenêtres et quittez le logement avant d'appeler les secours.
+
+Nino Plomberie intervient à Toulouse, Muret et dans toute la Haute-Garonne pour déboucher, réparer ou remplacer vos évacuations, avec un devis gratuit avant les travaux.`,
+  },
+  {
     slug: "wc-qui-fuit-chasse-d-eau-toulouse",
     title: "WC qui fuit ou chasse d'eau qui coule à Toulouse : diagnostic et solutions",
     metaTitle: "Chasse d'eau qui coule à Toulouse : que faire",
