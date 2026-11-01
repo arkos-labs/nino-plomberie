@@ -35,14 +35,20 @@ export const zoneContent: Record<string, ZoneContent> = {
   toulouse: {
     title: "Plombier Toulouse : dépannage 24h/24, chauffagiste | Nino",
     description: "Plombier et chauffagiste à Toulouse : dépannage 24h/24, fuite d'eau, débouchage, chauffe-eau. Nino Plomberie, artisan de Muret, devis gratuit. 06 50 57 96 20.",
-    h1: "Plombier à Toulouse : un artisan pour les immeubles anciens comme pour les appartements récents",
+    h1: "Plombier à Toulouse : dépannage 24h/24 et chauffagiste",
     intro: "Entre les immeubles en briques du centre, les copropriétés de Saint-Cyprien ou des Minimes et les résidences près de la rocade, aucun logement toulousain n'a la même plomberie. C'est pourquoi un diagnostic précis vaut mieux qu'une réparation à l'aveugle.",
     sections: [
-      { h2: "Dépannage plomberie à Toulouse, quel que soit le quartier", text: "Fuite sous un évier, dégât des eaux chez le voisin du dessous, chauffe-eau qui ne chauffe plus : Nino Plomberie se déplace de Muret par l'A64 ou la RD820 et intervient 24h/24, week-ends et jours fériés compris. Le prix est annoncé avant le début des travaux. À Toulouse, nous avons réalisé plus de 150 interventions au cours des trois dernières années, du centre historique jusqu'à la périphérie. Chaque quartier a ses spécificités : le bâti ancien du centre a besoin de diagnostics thermographiques, les copropriétés demandent une coordination avec le syndic, les appartements en étage exigent une intervention rapide pour limiter les dégâts aux voisins." },
+      { h2: "Dépannage plomberie à Toulouse, quel que soit le quartier", text: "Fuite sous un évier, dégât des eaux chez le voisin du dessous, chauffe-eau qui ne chauffe plus : Nino Plomberie se déplace de Muret par l'A64 ou la RD820 et intervient 24h/24, week-ends et jours fériés compris. Le prix est annoncé avant le début des travaux, y compris quand vous appelez un [plombier urgence à Toulouse](/services/urgence-plombier-toulouse). À Toulouse, nous avons réalisé plus de 150 interventions au cours des trois dernières années, du centre historique jusqu'à la périphérie. Chaque quartier a ses spécificités : le bâti ancien du centre a besoin de diagnostics thermographiques, les copropriétés demandent une coordination avec le syndic, les appartements en étage exigent une intervention rapide pour limiter les dégâts aux voisins." },
+      { h2: "Plombier urgence à Toulouse : ce qui déclenche un appel", text: "Quatre situations qui n'attendent pas le lendemain :", bullets: [
+        "**Fuite sous évier** : l'eau gagne le meuble, le sol, puis le plafond du voisin. Fermez le robinet d'arrêt avant tout.",
+        "**WC bouché** : la cuvette monte au lieu de se vider. Ne tirez plus la chasse.",
+        "**Chaudière en sécurité** : plus de chauffage ni d'eau chaude. Notez le code affiché, il aide au diagnostic.",
+        "**Radiateur qui fuit** : l'eau du circuit tache les sols et la pression chute. Un [plombier chauffagiste à Toulouse](/services/plombier-chauffagiste-toulouse) traite le circuit et la chaudière.",
+      ] },
       { h2: "Comment on diagnostique une fuite à Toulouse", text: "À Toulouse, les fuites cachées dans les murs sont courantes. Avant d'ouvrir une cloison, nous utilisons des techniques non-invasives : thermographie infrarouge, détecteur d'humidité, mesure de la pression. Cela évite des travaux inutiles et permet de cibler précisément la réparation. En copropriété, cette approche protège aussi les parties communes et préserve les droits des autres copropriétaires." },
       { h2: "Cas réels traités à Toulouse", bullets: ["Dégât des eaux à Saint-Cyprien : fuite de colonne touchant 3 étages, diagnostic thermique et réparation en 48h", "Chauffe-eau défaillant aux Minimes : remplacement et mise en conformité de l'installation", "Débouchage canalisation principale au centre-ville : évite un refoulement en immeuble", "Travaux de salle de bain à Rangueil : replomberie complète et évacuations refaites"] },
       { h2: "Anciennes canalisations, copropriétés : ce qui change vraiment", bullets: ["Colonnes et réseaux vieillissants : repérer l'origine exacte d'une fuite avant d'ouvrir un mur", "Appartements en étage : limiter les dégâts et préserver les parties communes", "Salle de bain à refaire : plomberie, évacuations, remplacement des équipements"], text: "Plus de 20 ans de métier, et des réparations garanties 2 ans, pièces et main-d'œuvre." },
-      { h2: "Tous les quartiers de Toulouse", bullets: ["Capitole", "Les Carmes", "Saint-Cyprien", "Saint-Étienne", "Saint-Michel", "Jean-Jaurès", "Compans-Caffarelli", "Les Minimes", "Barrière de Paris", "Borderouge", "Croix-Daurade", "Les Izards", "La Roseraie", "Jolimont", "Côte Pavée", "Busca", "Les Arènes", "Patte d'Oie", "Casselardit", "Empalot", "Pont-des-Demoiselles", "Rangueil", "Saint-Agne", "Lardenne", "Purpan", "Saint-Martin-du-Touch", "Basso Cambo", "Bellefontaine", "Reynerie", "Lalande", "Saint-Simon", "Soupetard", "Montaudran", "Lafourguette", "Bagatelle", "Papus", "Faourette", "Bonnefoy", "Marengo", "Sept Deniers", "Ponts-Jumeaux", "Sesquières"] },
+      { h2: "Tous les quartiers de Toulouse", text: "Du centre historique à la rocade, Nino intervient partout. Pour la [plomberie au Capitole](/intervention/toulouse-capitole) et ses immeubles anciens, une page dédiée détaille les cas courants.", bullets: ["Capitole",  "Les Carmes", "Saint-Cyprien", "Saint-Étienne", "Saint-Michel", "Jean-Jaurès", "Compans-Caffarelli", "Les Minimes", "Barrière de Paris", "Borderouge", "Croix-Daurade", "Les Izards", "La Roseraie", "Jolimont", "Côte Pavée", "Busca", "Les Arènes", "Patte d'Oie", "Casselardit", "Empalot", "Pont-des-Demoiselles", "Rangueil", "Saint-Agne", "Lardenne", "Purpan", "Saint-Martin-du-Touch", "Basso Cambo", "Bellefontaine", "Reynerie", "Lalande", "Saint-Simon", "Soupetard", "Montaudran", "Lafourguette", "Bagatelle", "Papus", "Faourette", "Bonnefoy", "Marengo", "Sept Deniers", "Ponts-Jumeaux", "Sesquières"] },
       { h2: "Questions fréquentes à Toulouse", faq: [
         { q: "Comment joindre un plombier à Toulouse en urgence ?", a: "Appelez le 06 50 57 96 20 : la ligne est ouverte 24h/24 et 7j/7, week-ends et jours fériés compris. Un artisan se déplace depuis Muret dans l'heure qui suit." },
         { q: "Intervenez-vous dans les copropriétés toulousaines ?", a: "Oui, pour les parties privatives (appartement, cave, parking) comme pour les petites interventions sur les colonnes (débouchage, réparation). Pour les travaux sur les canalisations communes, nous coordonnons avec le syndic." },
@@ -54,14 +60,15 @@ export const zoneContent: Record<string, ZoneContent> = {
   },
 
   muret: {
-    title: "Plombier Muret : artisan local, urgences 24h/24",
-    description: "Nino Plomberie est installé à Muret, rue François Arago. Fuite, chauffe-eau, salle de bain : devis gratuit, garantie 2 ans. 06 50 57 96 20.",
+    title: "Plombier Muret : artisan local, urgence 24h/24 | Nino",
+    description: "Plombier à Muret depuis plus de 20 ans : dépannage 24h/24, débouchage, chauffage. Devis gratuit avant travaux, garantie 2 ans.",
     h1: "Votre plombier est à Muret, pas à l'autre bout de Toulouse",
     intro: "Nino Plomberie est établi au 11 rue François Arago, à Muret. Ici, quand vous appelez, vous parlez à l'artisan qui se déplacera chez vous.",
     sections: [
       { h2: "Plombier dans le centre ancien et les quartiers pavillonnaires de Muret", text: "Maisons de ville près de la Garonne, lotissements des quartiers résidentiels, appartements proches de la gare : les situations sont variées, les problèmes aussi (robinetterie fatiguée, ballon d'eau chaude entartré, évacuation lente). À Muret, nous intervenons depuis plus de 20 ans. Les clients connaissent le trajet, savent que l'artisan arrive rapidement, et reconnaissent la plaque de notre véhicule dans la rue. C'est une différence réelle avec les grandes structures : pas de centre d'appels, pas de sous-traitants, vous parlez à celui qui interviendra." },
       { h2: "Comment on diagnostique une panne à Muret", text: "Qu'il s'agisse d'un joint usé, d'une canalisation bouchée ou d'un ballon vieillissant, un diagnostic clur vous épargne une réparation inutile. À Muret, nous posons d'abord les questions : depuis quand ? sous quelles conditions ? Cela aide à comprendre si c'est un dépannage d'urgence ou un remplacement programmé." },
       { h2: "Ce que Nino fait à Muret", text: "Dépannage, débouchage, chauffe-eau, chauffage et chaudière, salle de bain, pose de cuisine. Nous nous chargeons de l'estimation, de l'approvisionnement des matériaux et de la pose. La garantie de 2 ans s'étend à tout ce qui est réparé ou posé." },
+      { h2: "Plombier chauffagiste à Muret", text: "Chaudière qui se met en sécurité, radiateurs froids, pression qui chute : le chauffage tombe rarement en panne au bon moment. Nino Plomberie est aussi chauffagiste. Votre [plombier chauffagiste à Muret](/services/chauffage-chaudiere) assure l'entretien annuel de la chaudière, obligatoire, et le dépannage du circuit : purge, équilibrage, remplacement de vannes ou de radiateurs. Un seul artisan pour l'eau et le chauffage, c'est un seul devis gratuit et une seule garantie de 2 ans. Premier pas : un appel." },
       { h2: "Questions fréquentes à Muret", faq: [
         { q: "Vous êtes vraiment basé à Muret ?", a: "Oui, l'adresse figure dans les mentions légales : 11 rue François Arago, 31600 Muret. C'est notre siège, notre lieu de stockage des pièces et d'où partent tous nos déplacements." },
         { q: "Intervenez-vous la nuit et le week-end à Muret ?", a: "Oui, 24h/24 et 7j/7, jours fériés compris. Une fuite le dimanche à 22 h se traite comme une urgence de lundi matin." },
@@ -69,7 +76,7 @@ export const zoneContent: Record<string, ZoneContent> = {
         { q: "Travaillez-vous avec d'autres fournisseurs pour les finitions ?", a: "Pour les rénovations complètes (salle de bain, pose de cuisine), nous coordonnons avec un carreleur ou menuisier de confiance. Vous gardez un seul point de contact." },
       ] },
     ],
-    cta: { label: "Passez nous voir au 11 rue François Arago ou appelez le 06 50 57 96 20.", kind: "tel" },
+    cta: { label: "Passez nous voir au 11 rue François Arago ou appelez le 06 50 57 96 20 pour un [dépannage 24h/24](/services/urgence-plombier-toulouse).", kind: "tel" },
   },
 
   saubens: {
@@ -473,10 +480,11 @@ export const zoneContent: Record<string, ZoneContent> = {
   colomiers: {
     title: "Plombier Colomiers : dépannage 24h/24, débouchage | Nino",
     description: "Plombier à Colomiers : dépannage 24h/24, débouchage de canalisation, fuite d'eau, chauffe-eau. Nino Plomberie, devis gratuit, garantie 2 ans. 06 50 57 96 20.",
-    h1: "Plombier à Colomiers : un plombier recommandé, connu de la commune",
+    h1: "Plombier à Colomiers : dépannage 24h/24 et débouchage",
     intro: "Ville dynamique de l'ouest toulousain, Colomiers compte de nombreux logements récents et des résidences plus anciennes. Nino Plomberie y a déjà réalisé des chantiers.",
     sections: [
       { h2: "Un artisan noté 4,4/5 sur Google", text: "79 avis consultables sur la fiche de l'entreprise. Ces avis témoignent d'une fiabilité éprouvée : diagnostic clair, prix honnête, réparations qui durent." },
+      { h2: "Un plombier qui connaît Colomiers", text: "De Plein Centre à En Jacca, Colomiers mêle immeubles collectifs, lotissements et quartiers récents. Les pannes changent d'un logement à l'autre : colonne ou joint en résidence, chauffe-eau ou arrivée d'eau en maison. Un [débouchage canalisation](/services/debouchage) dans un immeuble ne se traite pas comme un évier bouché en pavillon. Nino Plomberie a déjà réalisé des chantiers à Colomiers et adapte le diagnostic au logement. Devis gratuit, garantie 2 ans." },
       { h2: "Comment on diagnostique à Colomiers", text: "À Colomiers, les problèmes varient selon le type de logement : dans les immeubles collectifs, c'est souvent une colonne ou un joint, dans les maisons, c'est plus souvent un chauffe-eau ou une arrivée d'eau. Dans les deux cas, nous expliquons ce qui s'est passé avant d'intervenir." },
       { h2: "Cas réels à Colomiers", bullets: ["Débouchage canalisation principale : fuite qui remontait sous le bâtiment", "Chauffe-eau défaillant : remplacement avec pose de groupe de sécurité neuf", "Fuite de colonne en résidence : 5 étages touchés, réparation en urgence", "Rénovation salle de bain : replomberie, évacuations et pose complète"] },
       { h2: "Dépannage et travaux", bullets: ["Fuites, chauffe-eau, débouchage", "Chauffage et chaudière", "Salle de bain et plomberie neuve"] },
@@ -703,8 +711,16 @@ export const zoneContent: Record<string, ZoneContent> = {
     sections: [
       { h2: "Dépannage dans le centre historique", text: "Fuite sous un évier, canalisation bouchée, chauffe-eau en panne : Nino Plomberie se déplace de Muret et répond 24h/24, 7j/7. Le prix est annoncé avant l'intervention, le devis est gratuit." },
       { h2: "Immeubles anciens : ce qu'il faut anticiper", text: "Dans un immeuble ancien, l'accès aux colonnes, au compteur ou aux parties communes demande souvent de prévenir le syndic ou le voisinage. Nino repère l'origine exacte d'une fuite avant d'ouvrir un mur, pour limiter les dégâts." },
+      { h2: "Plomberie des immeubles anciens du centre : ce qu'on trouve dans les murs", text: "Derrière les façades de brique autour du Capitole, les réseaux d'eau ont souvent été repris par morceaux, au fil des propriétaires. Avant de réparer, il faut savoir ce qu'on a en face :", bullets: [
+        "**Canalisations en plomb** : interdites pour l'eau potable depuis 1995, elles subsistent dans certains immeubles anciens. Le plomb peut passer dans l'eau, et le seuil réglementaire est de 10 microgrammes par litre.",
+        "**Colonnes vétustes** : une colonne montante fatiguée fuit aux raccords et touche plusieurs étages. Une [recherche de fuite](/services/fuite-d-eau) localise l'origine avant d'ouvrir.",
+        "**Pression insuffisante en étage** : réseau entartré, tuyaux de faible section, vanne à moitié fermée. Le débit chute dès que deux points d'eau coulent.",
+        "**Évacuation en fonte** : solide, mais corrodée avec le temps. Elle se bouche et suinte aux joints.",
+      ] },
+      { h2: "Remplacer les anciens réseaux : par où commencer", text: "Ces reprises se préparent souvent avec une [rénovation de salle de bain](/services/renovation-salle-de-bain) : l'alimentation et l'évacuation sont refaites en même temps que les équipements. Pour une colonne commune, l'accord du syndic est nécessaire. Le devis gratuit distingue ce qui relève de votre logement et ce qui relève de la copropriété." },
     ],
     cta: { label: "Décrivez votre problème en photo via le formulaire, ou appelez le 06 50 57 96 20.", kind: "form" },
+    retour: "Les autres quartiers sont sur la page [plombier à Toulouse](/intervention/toulouse).",
   },
 
   "toulouse-saint-cyprien": {

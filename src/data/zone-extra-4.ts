@@ -51,7 +51,7 @@ export const zoneExtra4: Record<string, ZoneExtra> = {
     sections: [
       {
         h2: "Balma, à l'est de Toulouse",
-        text: "Balma est desservie par le métro et très liée à Toulouse. Beaucoup de ses habitants ont des emplois du temps chargés, et prennent rendez-vous avec un artisan en fonction de leurs horaires de travail. La possibilité de choisir un créneau en ligne leur évite de multiplier les appels.",
+        text: "Nino Plomberie intervient comme plombier à Balma pour les fuites, débouchages, chauffe-eau et chaudières. Balma est desservie par le métro et très liée à Toulouse. Beaucoup de ses habitants ont des emplois du temps chargés, et prennent rendez-vous avec un artisan en fonction de leurs horaires de travail. La possibilité de choisir un créneau en ligne leur évite de multiplier les appels.",
       },
       {
         h2: "Comment se déroule le rendez-vous",
