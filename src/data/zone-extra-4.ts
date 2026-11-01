@@ -77,8 +77,8 @@ export const zoneExtra4: Record<string, ZoneExtra> = {
         text: "Avec l'aéroport et le pôle aéronautique, Blagnac est une ville où les horaires de travail sont variés. Un artisan joignable en dehors des heures de bureau y est particulièrement utile : une panne le soir ou tôt le matin ne doit pas attendre le lendemain.",
       },
       {
-        h2: "Un artisan qui connaît déjà Blagnac",
-        text: "Nino Plomberie a déjà réalisé des chantiers à Blagnac. La commune compte à la fois des pavillons, des résidences et des logements récents. Chaque type de logement a ses particularités : accès à la vanne d'arrêt, compteur individuel ou collectif, gaines techniques.",
+        h2: "Blagnac : les quartiers où on intervient",
+        text: "Nino Plomberie a déjà réalisé des chantiers à Blagnac. La commune compte à la fois des pavillons, des résidences et des logements récents. Chaque type de logement a ses particularités : accès à la vanne d'arrêt, compteur individuel ou collectif, gaines techniques. Fuite, débouchage ou [entretien de chaudière](/services/chauffage-chaudiere) : le devis est gratuit.",
       },
       {
         h2: "Prestations",

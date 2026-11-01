@@ -25,7 +25,6 @@ export const zoneExtra1: Record<string, ZoneExtra> = {
     ],
     faq: [
       { q: "Comment joindre un plombier à Toulouse en pleine nuit ?", a: "Appelez le 06 50 57 96 20 : la ligne est ouverte 24h/24 et 7j/7, week-ends et jours fériés compris. Décrivez la situation, Nino vous indique les gestes à faire en attendant et organise le déplacement depuis Muret." },
-      { q: "Intervenez-vous dans les copropriétés toulousaines ?", a: "Oui, pour les parties privatives (appartement, cave, parking) comme pour les petites interventions demandées par un syndic ou un gestionnaire. Pour une colonne montante commune, il faut l'accord du syndic." },
       { q: "Le devis est-il payant ?", a: "Non, le devis est gratuit et le prix vous est annoncé avant le début des travaux. Les réparations sont garanties 2 ans, pièces et main-d'œuvre." },
     ],
   },

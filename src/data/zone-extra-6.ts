@@ -4,7 +4,7 @@ import type { ZoneExtra } from "./zone-content"
 export const zoneExtra6: Record<string, ZoneExtra> = {
   toulouse: {
     sections: [{ h2: "Coups de bélier et bruits dans les colonnes", text: "Dans les immeubles toulousains, un claquement sec à la fermeture d'un robinet ou des vibrations dans les murs signalent souvent un coup de bélier : une onde de pression provoquée par une fermeture brusque, aggravée par des canalisations mal fixées ou une pression trop élevée. À la longue, ce phénomène fatigue les raccords et peut provoquer des fuites. Un réducteur de pression, un anti-bélier ou une simple fixation des tuyaux règlent le problème." }],
-    faq: [{ q: "Mon voisin du dessous se plaint d'une fuite, que faire ?", a: "Fermez l'eau de votre logement, contactez-nous pour localiser l'origine, et déclarez le sinistre à votre assurance avec un constat amiable dans les 5 jours ouvrés." }],
+    faq: [],
   },
   muret: {
     sections: [{ h2: "Partir en vacances sans mauvaise surprise", text: "Avant une absence de plusieurs jours, fermez l'arrivée d'eau générale, coupez l'alimentation du chauffe-eau ou passez-le en mode hors-gel, et vérifiez que rien ne goutte. Un dégât des eaux découvert au retour d'une semaine de vacances coûte beaucoup plus cher qu'une fuite repérée dans la journée. Pour les maisons de Muret laissées vides plusieurs semaines, une vérification rapide des flexibles est un bon réflexe." }],
