@@ -19,7 +19,10 @@ export type ZoneContent = {
   intro: string
   sections: ZoneSection[]
   cta: { label: string; kind: ZoneCta }
+  /** Ligne de renvoi vers la page parente, en fin de page (texte enrichi) */
+  retour?: string
 }
+// Texte des sections, puces et cta.label : **gras** et [ancre](/chemin) acceptés (components/RichText)
 
 export type ZoneExtra = {
   sections: ZoneSection[]

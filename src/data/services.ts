@@ -18,6 +18,27 @@ export interface ServiceFiche {
   icon: string
   faq: Array<{ question: string; reponse: string }>
   seoContent?: string[]
+  /** H1 si différent de « {titre} à Muret et Toulouse » (la partie avant « : » est mise en avant) */
+  h1?: string
+  /** serviceType du JSON-LD Service (par défaut : titre) */
+  serviceType?: string
+  /** Communes du JSON-LD areaServed (par défaut : liste commune des pages services) */
+  areaServed?: string[]
+  /** Sections éditoriales supplémentaires. Texte enrichi : **gras** et [ancre](/chemin) */
+  sections?: ServiceSection[]
+  /** Encart « À lire aussi » + bloc de clôture « Une urgence ou un devis ? » */
+  aLireAussi?: Array<{ label: string; to: string }>
+  /** false : page accessible et dans le sitemap, mais absente des listes de cartes services */
+  listed?: boolean
+}
+
+export interface ServiceSection {
+  h2: string
+  text?: string
+  bullets?: string[]
+  numbered?: boolean
+  /** Phrase de transition après la liste */
+  after?: string
 }
 
 const DEVIS = "Devis gratuit, prix validé avec vous avant intervention"

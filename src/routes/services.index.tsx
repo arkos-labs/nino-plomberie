@@ -1,11 +1,14 @@
 // src/routes/services.index.tsx — Listing services v2
 import { createFileRoute, Link } from "@tanstack/react-router"
-import { services } from "../data/services"
+import { services as allServices } from "../data/services"
 import { Droplets, Flame, Wind, Wrench, Bath, Building2, Thermometer, ArrowRight, ArrowUpRight, Phone, Calendar } from "lucide-react"
 import { FaqSection } from "../components/FaqSection"
 import { PageHero } from "../components/PageHero"
 import { ProcessSteps } from "../components/ProcessSteps"
 import { SITE_URL, pageHead, ldScript, breadcrumbJsonLd, type Faq } from "../lib/site"
+
+// Les pages hors catalogue (listed: false) restent accessibles mais n'apparaissent pas en carte
+const services = allServices.filter((s) => s.listed !== false)
 
 export const Route = createFileRoute("/services/")({
   head: () => ({

@@ -11,6 +11,8 @@ export interface BlogArticle {
   category: "Conseils" | "Entretien" | "Urgence"
   readTime: number
   service: { slug: string; label: string }
+  /** FAQ affichée en fin d'article (avec JSON-LD FAQPage) */
+  faq?: Array<{ q: string; a: string }>
 }
 
 export const blogArticles: BlogArticle[] = [

@@ -3,6 +3,8 @@ import type { ReactNode } from "react"
 import { Phone, ArrowRight, ArrowUpRight, ChevronRight } from "lucide-react"
 import { blogArticles, getBlogArticle, type BlogArticle } from "../data/blog-articles"
 import { PageHero } from "../components/PageHero"
+import { richText } from "../components/RichText"
+import { FaqSection } from "../components/FaqSection"
 import { formatDate } from "../lib/utils"
 import { SITE_URL, BUSINESS, BUSINESS_ID, pageHead, ldScript, breadcrumbJsonLd } from "../lib/site"
 
@@ -90,6 +92,10 @@ function BlogArticlePage() {
         </div>
       </section>
 
+      {article.faq && article.faq.length > 0 && (
+        <FaqSection faqs={article.faq} title="Questions fréquentes" background="var(--sand-50)" />
+      )}
+
       {others.length > 0 && (
         <section style={{ background: "white", padding: "64px 0" }}>
           <div className="section-container" style={{ maxWidth: "1140px" }}>
@@ -156,9 +162,7 @@ function BlogArticlePage() {
 }
 
 function inline(text: string): ReactNode[] {
-  return text.split(/(\*\*[^*]+\*\*)/g).map((part, i) =>
-    part.startsWith("**") && part.endsWith("**") ? <strong key={i}>{part.slice(2, -2)}</strong> : part,
-  )
+  return richText(text)
 }
 
 function Markdown({ content }: { content: string }) {

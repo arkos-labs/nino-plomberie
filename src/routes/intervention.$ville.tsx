@@ -5,6 +5,7 @@ import { getZoneContent, type ZoneCta } from "../data/zone-content"
 import { realisations } from "../data/realisations"
 import { Phone, MapPin, Calendar, ArrowUpRight, Star, Mail } from "lucide-react"
 import { PageHero } from "../components/PageHero"
+import { richText } from "../components/RichText"
 import { SITE_URL, BUSINESS, BUSINESS_ID, pageHead, ldScript, breadcrumbJsonLd, faqJsonLd } from "../lib/site"
 
 /** Distance à vol d'oiseau (km) entre deux points */
@@ -189,10 +190,10 @@ function VillePage() {
           <section key={section.h2} style={{ background: i % 2 === 0 ? "white" : "#f9fafb", padding: "56px 0" }}>
             <div className="section-container" style={{ maxWidth: "860px" }}>
               <h2 className="section-title" style={{ marginBottom: "18px" }}>{section.h2}</h2>
-              {section.text && <p style={{ ...textStyle, margin: "0 0 14px" }}>{section.text}</p>}
+              {section.text && <p style={{ ...textStyle, margin: "0 0 14px" }}>{richText(section.text)}</p>}
               {section.bullets && (
                 <List style={{ ...textStyle, paddingLeft: "22px", margin: "0 0 14px" }}>
-                  {section.bullets.map((b) => <li key={b}>{b}</li>)}
+                  {section.bullets.map((b) => <li key={b}>{richText(b)}</li>)}
                 </List>
               )}
             </div>
@@ -221,6 +222,7 @@ function VillePage() {
           <p style={{ color: "#475569", margin: "0 0 14px" }}>
             Dépannage, chauffe-eau, débouchage, chauffage, salle de bain : <Link to="/services" style={{ fontWeight: 600 }}>découvrez tous nos services</Link> ou consultez <Link to="/tarifs" style={{ fontWeight: 600 }}>nos tarifs</Link>.
           </p>
+          {content.retour && <p style={{ color: "#475569", margin: "0 0 14px" }}>{richText(content.retour)}</p>}
           <div style={{ display: "flex", flexWrap: "wrap", gap: "10px", justifyContent: "center" }}>
             {nearby.map((c) => (
               <Link
@@ -242,7 +244,7 @@ function VillePage() {
       <section style={{ background: "linear-gradient(135deg, #c2410c, #ea6f0b)", padding: "56px 0", textAlign: "center" }}>
         <div className="section-container">
           <p style={{ fontFamily: "var(--font-display)", fontWeight: 800, fontSize: "1.5rem", color: "white", margin: "0 auto 24px", maxWidth: "640px" }}>
-            {content.cta.label}
+            {richText(content.cta.label, "white")}
           </p>
           <div style={{ display: "flex", flexWrap: "wrap", gap: "14px", justifyContent: "center" }}>
             <CtaButtons kind={content.cta.kind} />

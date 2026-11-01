@@ -10,6 +10,7 @@ import {
 import { ProcessSteps } from "../components/ProcessSteps"
 import { PageHero } from "../components/PageHero"
 import { Gallery } from "../components/Gallery"
+import { richText } from "../components/RichText"
 import { SITE_URL, BUSINESS, BUSINESS_ID, ldScript, breadcrumbJsonLd, faqJsonLd } from "../lib/site"
 
 const COMMUNES_PROCHES = [
@@ -54,13 +55,13 @@ export const Route = createFileRoute("/services/$slug")({
           "@context": "https://schema.org",
           "@type": "Service",
           name: service.titre,
-          serviceType: service.titre,
+          serviceType: service.serviceType ?? service.titre,
           description: service.enBref,
           url,
           provider: { "@id": BUSINESS_ID },
           areaServed: [
             { "@type": "AdministrativeArea", name: "Haute-Garonne" },
-            ...COMMUNES_PROCHES.slice(0, 8).map((c) => ({ "@type": "City", name: c.nom })),
+            ...(service.areaServed ?? COMMUNES_PROCHES.slice(0, 8).map((c) => c.nom)).map((nom) => ({ "@type": "City", name: nom })),
           ],
           offers: { "@type": "Offer", description: service.prix, priceCurrency: "EUR" },
         }),
@@ -96,7 +97,8 @@ const iconMap: Record<string, React.ComponentType<{ size?: number; color?: strin
 function ServiceDetailPage() {
   const { service } = Route.useLoaderData()
 
-  const others = services.filter((s) => s.slug !== service.slug)
+  const others = services.filter((s) => s.slug !== service.slug && s.listed !== false)
+  const h1Parts = service.h1?.split(" : ")
   const serviceRealisations = realisations.filter((r) => r.services.includes(service.slug))
   const accent = "var(--brand-400)"
 
@@ -117,7 +119,11 @@ function ServiceDetailPage() {
           </nav>
         }
         kicker={service.urgence ? "Urgence 24h/24 · 7j/7" : "Muret · Toulouse · Haute-Garonne"}
-        title={<><em>{service.titre}</em> à Muret et Toulouse</>}
+        title={
+          !h1Parts ? <><em>{service.titre}</em> à Muret et Toulouse</>
+          : h1Parts.length > 1 ? <><em>{h1Parts[0]}</em> : {h1Parts.slice(1).join(" : ")}</>
+          : service.h1
+        }
         lead={service.description}
         actions={<>
           <a href={`tel:${BUSINESS.phoneIntl}`} className="btn-cta">
@@ -178,6 +184,26 @@ function ServiceDetailPage() {
                   </div>
                 </div>
               )}
+
+              {/* Sections éditoriales */}
+              {service.sections?.map((section) => {
+                const List = section.numbered ? "ol" : "ul"
+                return (
+                  <div key={section.h2} className="svc-card">
+                    <h2 className="svc-h2">
+                      <span className="svc-bar" style={{ background: accent }} />
+                      {section.h2}
+                    </h2>
+                    {section.text && <p className="svc-text">{richText(section.text)}</p>}
+                    {section.bullets && (
+                      <List className={section.numbered ? "svc-list svc-list-num" : "svc-list"}>
+                        {section.bullets.map((b) => <li key={b}>{richText(b)}</li>)}
+                      </List>
+                    )}
+                    {section.after && <p className="svc-text" style={{ marginBottom: 0 }}>{richText(section.after)}</p>}
+                  </div>
+                )
+              })}
 
               {/* Réalisations */}
               {serviceRealisations.length > 0 && (
@@ -327,7 +353,50 @@ function ServiceDetailPage() {
         </div>
       </section>
 
+      {/* ── À lire aussi + clôture ──────────────────────────────────────── */}
+      {service.aLireAussi && (
+        <>
+          <section style={{ background: "white", padding: "40px 0" }} aria-label="À lire aussi">
+            <div className="section-container" style={{ maxWidth: "1140px" }}>
+              <p style={{ margin: 0, color: "#475569", fontSize: "1rem", lineHeight: 1.8 }}>
+                <strong style={{ color: "var(--ink-950)" }}>À lire aussi :</strong>{" "}
+                {service.aLireAussi.map((l, i) => (
+                  <span key={l.to}>
+                    {i > 0 && " · "}
+                    {richText(`[${l.label}](${l.to})`)}
+                  </span>
+                ))}
+              </p>
+            </div>
+          </section>
+          <section style={{ background: "linear-gradient(135deg, var(--brand-600) 0%, var(--brand-500) 60%, var(--brand-400) 100%)", padding: "64px 0" }}>
+            <div className="section-container" style={{ maxWidth: "640px", textAlign: "center" }}>
+              <h2 style={{ fontFamily: "var(--font-display)", fontWeight: 800, fontSize: "clamp(1.5rem, 3vw, 2rem)", color: "white", letterSpacing: "-0.03em", marginBottom: "12px" }}>
+                Une urgence ou un devis ?
+              </h2>
+              <p style={{ color: "rgba(255,255,255,0.82)", fontSize: "1.1rem", marginBottom: "32px", lineHeight: 1.7 }}>
+                Plombier 24h/24 et 7j/7 à Muret, Toulouse et dans le 31. Devis gratuit validé avant travaux. Garantie 2 ans.
+              </p>
+              <div style={{ display: "flex", gap: "12px", justifyContent: "center", flexWrap: "wrap" }}>
+                <a href={`tel:${BUSINESS.phoneIntl}`} className="btn-cta">
+                  <Phone size={16} /> {BUSINESS.phone}
+                </a>
+                <Link to="/contact" className="btn-ghost">
+                  Demander un devis <ArrowRight size={14} />
+                </Link>
+              </div>
+            </div>
+          </section>
+        </>
+      )}
+
       <style>{`
+        .svc-text { color: #475569; font-size: 1.03rem; line-height: 1.8; margin: 0 0 14px; }
+        .svc-list { color: #475569; font-size: 1.03rem; line-height: 1.75; margin: 0 0 14px; padding-left: 22px; list-style: disc; }
+        .svc-list-num { list-style: decimal; }
+        .svc-list li { margin-bottom: 8px; padding-left: 2px; }
+        .svc-list li::marker { color: var(--brand-600); font-weight: 700; }
+        .svc-list strong { color: var(--ink-950); }
         .svc-layout { display: grid; grid-template-columns: 1fr 340px; gap: 40px; align-items: start; }
         .svc-sidebar { display: flex; flex-direction: column; gap: 16px; position: sticky; top: 90px; }
         .svc-card { background: white; border-radius: var(--radius-sm); padding: 32px; margin-bottom: 20px; border: 1px solid #eef2f6; }
