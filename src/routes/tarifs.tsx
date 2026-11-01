@@ -139,6 +139,9 @@ function TarifsPage() {
               </div>
             ))}
           </div>
+          <p style={{ textAlign: "center", color: "var(--gray-600)", fontSize: "1rem", lineHeight: 1.7, margin: "28px auto 0", maxWidth: "720px" }}>
+            Chez Nino Plomberie, le devis est toujours gratuit et validé avec vous avant les travaux, en urgence comme sur rendez-vous.
+          </p>
         </div>
       </section>
 

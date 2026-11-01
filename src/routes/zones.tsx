@@ -44,7 +44,12 @@ function ZonesComponent() {
       {/* ── Liste des communes ── */}
       <section style={{ padding: "60px 0 100px" }}>
         <div className="section-container">
-          
+          <p style={{ textAlign: "center", color: "var(--gray-600)", fontSize: "1.02rem", lineHeight: 1.7, margin: "0 auto 32px", maxWidth: "720px" }}>
+            Fuite, WC bouché, chaudière en panne ? Pour une{" "}
+            <Link to="/services/$slug" params={{ slug: "urgence-plombier-toulouse" }} style={{ color: "var(--brand-600)", fontWeight: 600 }}>urgence plombier dans le 31</Link>,
+            la ligne est ouverte 24h/24 et 7j/7.
+          </p>
+
           {/* Index alphabétique rapide (Sticky) */}
           <div style={{ 
             display: "flex", 

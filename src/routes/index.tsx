@@ -513,6 +513,13 @@ function HomePage() {
             <Link to="/services/$slug" params={{ slug: "installation-plomberie-neuve" }} style={{ color: "var(--brand-600)", fontWeight: 600 }}>plomberie neuve</Link>{" "}
             et pose de cuisine.
           </p>
+          <p style={{ marginTop: "12px", textAlign: "center", color: "var(--gray-600)", fontSize: "1rem", lineHeight: 1.7 }}>
+            Plombier chauffagiste à Toulouse et Muret, Nino entretient et dépanne aussi votre chaudière : voir la page{" "}
+            <Link to="/services/$slug" params={{ slug: "chauffage-chaudiere" }} style={{ color: "var(--brand-600)", fontWeight: 600 }}>chauffagiste à Muret et Toulouse</Link>.
+            Besoin d'un{" "}
+            <Link to="/services/$slug" params={{ slug: "urgence-plombier-toulouse" }} style={{ color: "var(--brand-600)", fontWeight: 600 }}>plombier en urgence à Toulouse</Link>{" "}
+            ? La ligne est ouverte 24h/24.
+          </p>
         </div>
       </section>
 

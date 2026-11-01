@@ -170,6 +170,13 @@ function ContactPage() {
 
           {/* ── Corps du formulaire ── */}
           <div className="ct-card-body">
+            {!sent && (
+              <ul className="ct-reassure">
+                <li><CheckCircle2 size={16} aria-hidden="true" /><span><strong>Devis gratuit</strong>, validé avec vous avant le début des travaux.</span></li>
+                <li><CheckCircle2 size={16} aria-hidden="true" /><span><strong>Garantie 2 ans</strong>, pièces et main-d'œuvre, sur les réparations effectuées.</span></li>
+                <li><CheckCircle2 size={16} aria-hidden="true" /><span><strong>Réponse 24h/24</strong> et 7j/7, week-ends et jours fériés compris.</span></li>
+              </ul>
+            )}
             {sent ? (
               <div className="ct-success" role="status">
                 <CheckCircle2 size={48} color="#15803d" aria-hidden="true" />
@@ -324,6 +331,10 @@ function ContactPage() {
         }
         .ct-card-head p { margin: 0; color: var(--ink-800); font-size: 1.02rem; line-height: 1.55; }
         .ct-card-head strong { color: var(--ink-950); }
+        .ct-reassure { list-style: none; margin: 0 0 22px; padding: 0 0 18px; border-bottom: 1px solid #eef2f6; display: flex; flex-direction: column; gap: 8px; }
+        .ct-reassure li { display: flex; align-items: flex-start; gap: 8px; color: var(--ink-800); font-size: 0.95rem; line-height: 1.5; }
+        .ct-reassure svg { flex-shrink: 0; margin-top: 3px; color: #15803d; }
+        .ct-reassure strong { color: var(--ink-950); }
         .ct-card-icon { flex-shrink: 0; width: 52px; height: 52px; border-radius: 10px; display: grid; place-items: center; background: var(--brand-500); color: var(--cta-400); }
 
         .ct-card-body {

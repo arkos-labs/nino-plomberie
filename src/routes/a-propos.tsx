@@ -205,10 +205,18 @@ function AProposPage() {
                 de salles de bain et pose de cuisines. Pour les salles de bain, je travaille avec un second
                 professionnel afin de tout prendre en charge, de la plomberie aux finitions.
               </p>
-              <p className="ap-p" style={{ marginBottom: 0 }}>
+              <p className="ap-p">
                 Ma règle est simple : un diagnostic clair, un devis gratuit validé avec vous avant de commencer,
                 un travail soigné et un chantier laissé propre. Mes réparations sont garanties 2 ans, pièces et
                 main-d'œuvre.
+              </p>
+              <p className="ap-p" style={{ marginBottom: 0 }}>
+                Nino Plomberie est installé à Muret, au 11 rue François Arago. Plus de 20 ans de métier, et
+                toujours le même statut : artisan indépendant, pas une enseigne. Pas de plateforme ni de centre
+                d'appels entre vous et moi. Cette proximité compte quand une fuite survient un dimanche ou qu'il
+                faut faire jouer la garantie : vous savez qui appeler et où me trouver. Les habitants de la commune
+                trouveront le détail de mes interventions sur la page{" "}
+                <Link to="/intervention/$ville" params={{ ville: "muret" }} style={{ color: "var(--brand-600)", fontWeight: 600 }}>plombier à Muret</Link>.
               </p>
             </div>
             <figure style={{ position: "relative", margin: 0, borderRadius: "14px", overflow: "hidden", boxShadow: "var(--shadow-md)" }}>
