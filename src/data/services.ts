@@ -48,10 +48,25 @@ export const services: ServiceFiche[] = [
     slug: "fuite-d-eau",
     titre: "Fuite d'eau",
     sousTitre: "Recherche et réparation de fuite à Muret et Toulouse",
+    metaTitle: "Recherche de fuite Toulouse & Muret : détection | Nino",
+    h1: "Recherche de fuite d'eau à Toulouse et Muret",
+    serviceType: "Recherche de fuite d'eau",
+    sections: [
+      {
+        h2: "Les signes qui ne trompent pas",
+        bullets: [
+          "**Facture d'eau qui augmente** : vos habitudes n'ont pas changé, mais l'eau part quelque part.",
+          "**Tache au plafond** : auréole, peinture qui cloque. La fuite vient souvent de l'étage ou d'une gaine.",
+          "**Compteur qui tourne** : tout est fermé et l'index bouge encore. La fuite est après le compteur.",
+          "**Bruit de ruissellement** : un écoulement s'entend dans un mur alors qu'aucun robinet n'est ouvert.",
+        ],
+        after: "Pour aller plus loin, lisez [les signes d'une fuite à ne pas ignorer](/blog/plombier-urgence-toulouse-quand-appeler). L'eau coule fort ? C'est une [fuite d'eau en urgence](/services/urgence-plombier-toulouse) : coupez la vanne générale et appelez.",
+      },
+    ],
     enBref:
       "Nino Plomberie répare les fuites d'eau 24h/24 et 7j/7 à Muret, Toulouse et en Haute-Garonne : robinet, joint, raccord, canalisation apparente ou encastrée, chasse d'eau, groupe de sécurité de chauffe-eau. Le devis est gratuit et la réparation garantie 2 ans pièces et main-d'œuvre.",
     metaDescription:
-      "Fuite d'eau à Muret ou Toulouse ? Nino Plomberie intervient 24h/24 et 7j/7 : robinet, joint, canalisation, chasse d'eau. Devis gratuit, réparation garantie 2 ans. ☎ 06 50 57 96 20",
+      "Recherche de fuite d'eau à Toulouse et Muret : détection sans casse, réparation, devis gratuit avant travaux. Garantie 2 ans.",
     description:
       "Une fuite d'eau non traitée peut abîmer sols, murs et plafonds en quelques heures et faire grimper la facture d'eau. Nino Plomberie localise l'origine de la fuite et la répare, de jour comme de nuit.",
     details: [
@@ -101,11 +116,29 @@ export const services: ServiceFiche[] = [
     slug: "debouchage",
     titre: "Débouchage canalisation",
     sousTitre: "Débouchage WC, évier, douche, baignoire et canalisation",
-    metaTitle: "Débouchage canalisation & WC Toulouse, Muret | Nino",
+    metaTitle: "Débouchage canalisation Toulouse & Muret, WC 24h/24 | Nino",
+    h1: "Débouchage canalisation à Toulouse et Muret, WC et éviers",
+    serviceType: "Débouchage de canalisation et de WC",
+    sections: [
+      {
+        h2: "Débouchage WC, évier, douche : les cas courants",
+        text: "Appartement du centre ou maison en périphérie : un [débouchage canalisation à Toulouse](/intervention/toulouse) commence toujours par trouver où se loge le bouchon.",
+        bullets: [
+          "**WC bouché** : l'eau monte dans la cuvette ou s'évacue au ralenti. Ne tirez plus la chasse.",
+          "**Évier qui ne s'écoule plus** : graisses et résidus figés dans le siphon ou la canalisation.",
+          "**Douche ou baignoire qui stagne** : cheveux et calcaire bloquent la bonde.",
+          "**Canalisation qui refoule** : l'eau remonte dans un autre appareil. Le bouchon est plus loin dans le réseau.",
+        ],
+      },
+      {
+        h2: "Pourquoi éviter les déboucheurs chimiques agressifs",
+        text: "Ils sont corrosifs : ils attaquent les joints et les tuyaux en PVC, et brûlent la peau à la moindre éclaboussure. Sur un bouchon compact, ils ne passent pas. Le produit stagne alors dans la canalisation et complique l'intervention. Une ventouse ou le démontage du siphon règlent déjà beaucoup de cas. Sinon, le débouchage mécanique reste la solution sûre : appelez pour un [débouchage en urgence](/services/urgence-plombier-toulouse).",
+      },
+    ],
     enBref:
       "Nino Plomberie débouche WC, éviers, lavabos, douches, baignoires et canalisations à Muret, Toulouse et en Haute-Garonne, 24h/24 et 7j/7. L'intervention se fait avec des outils professionnels, sans produit chimique agressif, et le devis est gratuit.",
     metaDescription:
-      "Débouchage de WC, évier, douche et canalisation à Toulouse, Muret et en Haute-Garonne, 24h/24 et 7j/7, sans produit agressif. Devis gratuit ☎ 06 50 57 96 20",
+      "Débouchage de canalisation et de WC à Toulouse et Muret, 24h/24. Intervention rapide, devis gratuit avant travaux, garantie 2 ans.",
     description:
       "WC qui déborde, évier qui ne s'écoule plus, douche qui stagne : Nino Plomberie trouve le bouchon et rétablit l'écoulement, puis vous conseille pour éviter que le problème ne revienne.",
     details: [
@@ -199,11 +232,42 @@ export const services: ServiceFiche[] = [
     slug: "chauffage-chaudiere",
     titre: "Chauffage & Chaudière",
     sousTitre: "Plombier chauffagiste à Muret et Toulouse",
-    metaTitle: "Entreprise de chauffage Muret & Toulouse | Nino Plomberie",
+    metaTitle: "Chauffagiste Muret & Toulouse : chaudière, entretien | Nino",
+    h1: "Chauffagiste à Muret et Toulouse : chaudière et dépannage",
+    serviceType: "Entretien et dépannage de chaudière",
+    sections: [
+      {
+        h2: "Entretien de chaudière : ce qu'on vérifie",
+        text: "L'entretien annuel est obligatoire. Votre [plombier à Muret](/intervention/muret) suit la même méthode à chaque visite, à Muret comme à Toulouse :",
+        numbered: true,
+        bullets: [
+          "**Contrôle de sécurité** : état de l'appareil, raccordements, absence de fuite d'eau ou de gaz.",
+          "**Nettoyage** : brûleur, corps de chauffe et pièces encrassées.",
+          "**Évacuation des fumées** : conduit et tirage vérifiés.",
+          "**Pression et circuit** : manomètre, vase d'expansion et soupape contrôlés, radiateurs purgés si besoin.",
+          "**Attestation d'entretien** : le document vous est remis, à conserver.",
+        ],
+        after: "Un rendez-vous suffit, et le devis est gratuit.",
+      },
+      {
+        h2: "Dépannage chauffage : les pannes qu'on rencontre",
+        bullets: [
+          "**Chaudière en sécurité** : elle s'arrête et affiche un code défaut. Ne la relancez pas en boucle : notez le code, il oriente le diagnostic.",
+          "**Radiateur froid** : froid en haut, c'est de l'air. Froid partout, c'est souvent une vanne bloquée ou un circuit mal équilibré.",
+          "**Pression à zéro** : le manomètre tombe sous 1 bar. Une remise en pression dépanne, mais si la baisse revient, une fuite est à chercher.",
+          "**Bruit de bouilloire** : sifflements et claquements signalent souvent du tartre ou des boues dans l'échangeur.",
+        ],
+        after: "Décrivez la panne au téléphone : l'artisan arrive avec les bonnes pièces.",
+      },
+      {
+        h2: "Chaudière en panne en pleine nuit ?",
+        text: "Plus de chauffage un soir d'hiver, avec des enfants ou une personne âgée à la maison : ça n'attend pas le lendemain. Votre [chaudière en panne cette nuit](/services/urgence-plombier-toulouse) ? La ligne est ouverte 24h/24 et 7j/7. En cas d'odeur de gaz, ne touchez à aucun interrupteur, aérez et sortez avant d'appeler les secours gaz. Le devis reste gratuit, même en urgence.",
+      },
+    ],
     enBref:
       "Nino Plomberie est une entreprise de plomberie et de chauffage basée à Muret. Plombier-chauffagiste, elle intervient à Toulouse et en Haute-Garonne pour l'entretien et le dépannage de chaudière, de chauffage et de radiateurs : chaudière qui se met en sécurité, pression qui chute, radiateurs froids ou circuit à purger. Le devis est gratuit.",
     metaDescription:
-      "Entreprise de chauffage et de plomberie à Muret et Toulouse : entretien et dépannage de chaudière, chauffage, radiateurs. Devis gratuit ☎ 06 50 57 96 20",
+      "Chauffagiste à Muret et Toulouse : entretien et dépannage de chaudière, dépannage chauffage 24h/24. Devis gratuit, garantie 2 ans.",
     description:
       "Plus de chauffage, chaudière qui s'arrête, radiateurs qui restent froids ou qui font du bruit : Nino Plomberie diagnostique le problème et remet votre installation en état.",
     details: [
@@ -301,6 +365,18 @@ export const services: ServiceFiche[] = [
     titre: "Rénovation salle de bain",
     sousTitre: "Création et rénovation de A à Z",
     metaTitle: "Rénovation salle de bain Toulouse & Muret | Nino Plomberie",
+    sections: [
+      {
+        h2: "Rénover sans tout casser",
+        text: "Une salle de bain fatiguée ne demande pas toujours une démolition complète. Trois chantiers ciblés changent déjà le quotidien :",
+        bullets: [
+          "**Remplacer la baignoire par une douche** : dépose de la baignoire, adaptation de l'évacuation, receveur extra-plat et paroi. La pièce gagne de la place.",
+          "**Reprendre l'étanchéité** : joints, raccords au siphon, protection sous le carrelage. Une infiltration discrète abîme la cloison et le plafond du dessous.",
+          "**Rendre la pièce plus accessible** : douche de plain-pied quand la pente d'évacuation le permet, receveur extra-plat sinon, WC suspendu posé à la bonne hauteur.",
+        ],
+        after: "Le devis gratuit détaille ce qui est conservé et ce qui est refait.",
+      },
+    ],
     enBref:
       "Nino Plomberie crée et rénove des salles de bain de A à Z à Muret, Toulouse et en Haute-Garonne : plomberie, cloisons, placo, carrelage, peinture, douche à l'italienne ou receveur extra-plat, WC suspendu, meuble vasque. Les chantiers sont réalisés à deux professionnels pour un résultat soigné dans les délais. Le devis est gratuit.",
     metaDescription:
