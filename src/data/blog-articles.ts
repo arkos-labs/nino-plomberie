@@ -123,6 +123,62 @@ En attendant l'intervention, fermez l'arrêt d'eau du WC et utilisez un seau pou
 Nino Plomberie intervient à Toulouse, Muret et dans toute la Haute-Garonne pour réparer ou remplacer vos sanitaires, avec un devis gratuit avant les travaux.`,
   },
   {
+    slug: "plombier-urgence-toulouse-quand-appeler",
+    title: "Plombier en urgence à Toulouse : quand appeler, quoi faire avant",
+    metaTitle: "Plombier en urgence à Toulouse : quand appeler ? | Nino",
+    excerpt:
+      "Fuite, WC bouché, chaudière en panne : les signes qui imposent un plombier en urgence à Toulouse, et les gestes à faire en attendant.",
+    publishedAt: "2026-11-01",
+    category: "Urgence",
+    readTime: 5,
+    service: { slug: "urgence-plombier-toulouse", label: "Urgence plombier 24h/24" },
+    content: `Facture qui grimpe, tache au plafond, compteur qui tourne : les signes qui ne trompent pas. À Toulouse, entre les appartements du centre et les maisons de la périphérie, une panne mal jugée coûte cher. Voici comment savoir s'il faut appeler tout de suite, et quoi faire en attendant.
+
+## Les 5 signes qui imposent un appel immédiat
+
+- **L'eau coule et vous ne pouvez pas l'arrêter** : fuite sous un évier, raccord qui a lâché, flexible percé. Si fermer le robinet de l'appareil ne suffit pas, c'est une urgence.
+- **Les WC débordent** : l'eau monte au lieu de descendre, ou ressort par la douche. Les eaux usées abîment vite les sols.
+- **La chaudière est en sécurité en plein hiver** : plus de chauffage ni d'eau chaude, avec des enfants ou une personne âgée à la maison.
+- **Le plafond se tache ou goutte** : l'eau vient de l'étage, d'une colonne ou d'une gaine. En appartement, le voisin du dessous est souvent touché le premier.
+- **Le compteur tourne alors que tout est fermé** : une fuite cachée coule dans un mur ou sous un sol. Une [recherche de fuite](/services/fuite-d-eau) commence justement par ce relevé.
+
+Un seul de ces signes suffit pour décrocher le téléphone.
+
+## Ce qu'il faut faire avant l'arrivée du plombier
+
+1. **Couper l'arrivée d'eau** : au robinet d'arrêt de l'appareil, ou à défaut à la vanne générale près du compteur. En appartement, elle se trouve souvent sur le palier ou dans une gaine technique.
+2. **Couper le disjoncteur si l'eau approche d'une prise** : ou d'un appareil électrique. Ne touchez à rien les pieds dans l'eau.
+3. **Ne pas verser de déboucheur chimique agressif** : il abîme les joints et les tuyaux en PVC, et complique ensuite le débouchage.
+4. **Photographier les dégâts pour l'assurance** : avant d'éponger. Les photos servent au constat amiable de dégât des eaux.
+
+Une odeur de gaz accompagne la panne de chaudière ? Ne touchez à aucun interrupteur, aérez, sortez et appelez le numéro d'urgence gaz.
+
+## Ce qui peut attendre le lendemain
+
+- **Un robinet qui goutte** : gênant, mais sans danger. Un joint ou une cartouche se changent sur rendez-vous.
+- **Un évier lent** : l'eau finit par s'écouler. Démonter et nettoyer le siphon suffit souvent.
+- **Une chasse d'eau qui coule en continu** : fermez le robinet d'arrivée du WC, la réparation peut se programmer.
+
+Tant que l'eau est coupée et que rien ne déborde, un rendez-vous en journée suffit.
+
+## Urgence ou simple réparation : la différence
+
+Une urgence, c'est une situation qui empire d'heure en heure : l'eau s'étale, les dégâts gagnent le voisin, le logement devient invivable ou dangereux. Une simple réparation, c'est une panne stable : elle gêne, mais ne s'aggrave pas une fois l'eau coupée.
+
+La question à se poser tient en une ligne : si j'attends demain matin, est-ce que ce sera pire ? Si oui, il faut [appeler un plombier en urgence](/services/urgence-plombier-toulouse). Si non, un devis sur rendez-vous laisse le temps de préparer les travaux. Dans le doute, appelez : on vous dit au téléphone si ça peut attendre.
+
+## Dans quelles communes du 31 on intervient
+
+Nino Plomberie est basé à Muret et intervient 24h/24 et 7j/7 à Toulouse et dans l'agglomération. Chaque commune a sa page : [dépannage à Toulouse](/intervention/toulouse), [plombier à Muret](/intervention/muret), [plombier à Colomiers](/intervention/colomiers) et [plombier à Blagnac](/intervention/blagnac). La liste complète est sur la page des [zones d'intervention](/zones).
+
+Le devis est gratuit et validé avec vous avant travaux, de jour comme de nuit. Les réparations sont garanties 2 ans, pièces et main-d'œuvre.`,
+    faq: [
+      { q: "Comment savoir si c'est une urgence plomberie ?", a: "Posez-vous une question : si vous attendez demain matin, la situation sera-t-elle pire ? Eau qui s'étale, WC qui débordent, plus de chauffage en hiver : appelez tout de suite." },
+      { q: "Que faire en attendant le plombier ?", a: "Coupez l'arrivée d'eau, coupez le disjoncteur si l'eau approche d'une prise, ne versez pas de déboucheur chimique et photographiez les dégâts pour l'assurance." },
+      { q: "Le devis est-il payant en urgence ?", a: "Non. Chez Nino Plomberie, le devis est gratuit et validé avec vous avant travaux, de jour comme de nuit." },
+    ],
+  },
+  {
     slug: "fuite-eau-toulouse",
     title: "Fuite d'eau à Toulouse : comment la détecter et que faire",
     metaTitle: "Fuite d'eau à Toulouse : détecter et réagir vite",

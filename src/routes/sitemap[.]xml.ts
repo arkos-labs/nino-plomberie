@@ -9,9 +9,9 @@ import { SITE_URL } from "../lib/site"
 const LASTMOD = {
   home: "2026-10-05",
   pages: "2026-10-05",
-  services: "2026-10-04",
+  services: "2026-11-01",
   communes: "2026-10-05",
-  blog: "2026-10-21",
+  blog: "2026-11-01",
 }
 
 function url(loc: string, lastmod: string, priority = "0.5", changefreq = "monthly") {

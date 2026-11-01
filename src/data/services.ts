@@ -43,7 +43,100 @@ export interface ServiceSection {
 
 const DEVIS = "Devis gratuit, prix validé avec vous avant intervention"
 
+const COMMUNES_31 = ["Toulouse", "Muret", "Colomiers", "Blagnac", "Tournefeuille", "Portet-sur-Garonne", "Cugnaux", "Balma", "Plaisance-du-Touch", "Ramonville-Saint-Agne"]
+
 export const services: ServiceFiche[] = [
+  {
+    slug: "urgence-plombier-toulouse",
+    titre: "Urgence plombier 24h/24",
+    sousTitre: "Dépannage plomberie d'urgence à Toulouse et dans le 31",
+    metaTitle: "Plombier urgence Toulouse 24h/24 : dépannage | Nino",
+    metaDescription:
+      "Plombier en urgence à Toulouse et dans le 31, 24h/24 et 7j/7. Dépannage fuite, WC bouché, chaudière en panne. Devis gratuit avant travaux.",
+    h1: "Plombier urgence à Toulouse : dépannage 24h/24 et 7j/7",
+    serviceType: "Dépannage plomberie d'urgence",
+    areaServed: COMMUNES_31,
+    enBref:
+      "Nino Plomberie assure le dépannage de plomberie en urgence à Toulouse, Muret et dans toute la Haute-Garonne, 24h/24 et 7j/7 : fuite d'eau, WC bouché, chaudière en sécurité, radiateur qui fuit. Le devis est gratuit et validé avec vous avant travaux, la réparation est garantie 2 ans.",
+    description:
+      "Un appartement à Saint-Cyprien, une maison à Muret, un local aux Minimes : quand l'eau part où elle ne devrait pas, chaque minute compte. La ligne est ouverte 24h/24 et 7j/7, week-ends et jours fériés compris, au 06 50 57 96 20. Vous parlez directement à l'artisan qui se déplace.",
+    details: [
+      "Fuite d'eau sous évier, chauffe-eau ou canalisation",
+      "WC bouché et canalisation qui déborde",
+      "Chaudière en sécurité, plus de chauffage",
+      "Radiateur ou circuit de chauffage qui fuit",
+      "Chauffe-eau en panne, groupe de sécurité qui coule",
+      "Mise en sécurité de l'installation",
+    ],
+    prix: DEVIS,
+    urgence: true,
+    icon: "Droplets",
+    sections: [
+      {
+        h2: "Quand appeler un plombier en urgence",
+        text: "Certaines pannes peuvent attendre un rendez-vous. Celles-ci, non :",
+        bullets: [
+          "**Fuite sous évier ou sous chauffe-eau** : l'eau s'étale, gagne le sol, puis le voisin du dessous. Fermez la vanne, puis appelez.",
+          "**WC bouché avec débordement** : l'eau monte et sort de la cuvette. Ne tirez plus la chasse.",
+          "**Chaudière en sécurité en plein hiver** : plus de chauffage ni d'eau chaude, et la maison refroidit vite.",
+          "**Radiateur qui fuit** : l'eau du circuit est chaude, souvent noire, et tache les sols. La pression de la chaudière chute en même temps.",
+          "**Compteur qui tourne sans usage** : tout est fermé, l'index bouge encore. Une fuite cachée coule quelque part.",
+        ],
+        after: "Un doute ? Appelez : on vous dit au téléphone si ça peut attendre le lendemain.",
+      },
+      {
+        h2: "Comment se passe un dépannage d'urgence",
+        numbered: true,
+        bullets: [
+          "**Appel et qualification** : vous décrivez la situation au 06 50 57 96 20. L'artisan vous indique les gestes à faire tout de suite et le délai d'arrivée selon votre commune.",
+          "**Devis gratuit validé avant travaux** : sur place, Nino cherche l'origine de la panne et annonce le prix. Rien ne démarre sans votre accord.",
+          "**Intervention** : réparation de la fuite, débouchage, remise en route du chauffage. Si une pièce doit être commandée, l'installation est mise en sécurité en attendant.",
+          "**Garantie 2 ans** : les réparations sont garanties 2 ans, pièces et main-d'œuvre.",
+        ],
+        after: "Vous connaissez le prix avant le premier coup de clé.",
+      },
+      {
+        h2: "Ce qu'on ne fait pas",
+        bullets: [
+          "**Pas de majoration cachée** : tout ce qui est facturé figure sur le devis, nuit et week-end compris.",
+          "**Pas de travaux sans devis signé** : vous validez le prix d'abord, l'artisan répare ensuite.",
+          "**Pas de sous-traitance à une plateforme** : l'artisan qui décroche est celui qui se déplace. Pas de centre d'appels.",
+        ],
+        after: "Un artisan indépendant, plus de 20 ans de métier.",
+      },
+      {
+        h2: "Urgence plomberie à Toulouse et dans le 31",
+        text: "Basé à Muret, Nino Plomberie couvre Toulouse et le sud-ouest toulousain. Pour un [dépannage à Toulouse](/intervention/toulouse), une fuite en appartement touche vite l'étage du dessous. Pour votre [plombier à Muret](/intervention/muret), les maisons ont souvent un chauffe-eau et des canalisations qui ont des années de service. L'artisan se déplace aussi en urgence : [plombier à Colomiers](/intervention/colomiers), [plombier à Blagnac](/intervention/blagnac), [plombier à Tournefeuille](/intervention/tournefeuille), [plombier à Portet-sur-Garonne](/intervention/portet-sur-garonne), comme dans les autres communes de la [zone d'intervention](/zones). Le délai d'arrivée dépend de votre commune : il vous est indiqué dès l'appel.",
+      },
+    ],
+    faq: [
+      {
+        question: "Intervenez-vous la nuit et le week-end ?",
+        reponse:
+          "Oui. La ligne est ouverte 24h/24 et 7j/7, week-ends et jours fériés compris. Vous parlez directement à l'artisan, qui vous indique le délai d'arrivée selon votre commune.",
+      },
+      {
+        question: "Le devis est-il payant ?",
+        reponse:
+          "Non, le devis est gratuit, même en urgence. Le prix est annoncé et validé avec vous avant le début des travaux. Les réparations sont garanties 2 ans, pièces et main-d'œuvre.",
+      },
+      {
+        question: "Que faire en attendant votre arrivée ?",
+        reponse:
+          "Coupez l'arrivée d'eau au robinet de l'appareil ou à la vanne générale. Si l'eau approche d'une prise, coupez le disjoncteur. Ne versez pas de déboucheur chimique et photographiez les dégâts pour l'assurance.",
+      },
+      {
+        question: "Quelles communes couvrez-vous ?",
+        reponse:
+          "Toulouse et ses quartiers, Muret, Colomiers, Blagnac, Tournefeuille, Portet-sur-Garonne et les autres communes de Haute-Garonne listées sur la page des zones d'intervention.",
+      },
+    ],
+    aLireAussi: [
+      { label: "Débouchage canalisation", to: "/services/debouchage" },
+      { label: "Recherche de fuite", to: "/services/fuite-d-eau" },
+      { label: "Chauffagiste Muret & Toulouse", to: "/services/chauffage-chaudiere" },
+    ],
+  },
   {
     slug: "fuite-d-eau",
     titre: "Fuite d'eau",
@@ -502,6 +595,87 @@ export const services: ServiceFiche[] = [
         reponse:
           "Oui, c'est l'intérêt de faire appel à un plombier : les arrivées d'eau et l'évacuation peuvent être modifiées pour s'adapter au nouvel agencement.",
       },
+    ],
+  },
+  {
+    slug: "plombier-chauffagiste-toulouse",
+    titre: "Plombier chauffagiste Toulouse",
+    sousTitre: "Plomberie et chauffage à Toulouse, un seul artisan",
+    listed: false,
+    metaTitle: "Plombier chauffagiste Toulouse : dépannage 24h/24 | Nino",
+    metaDescription:
+      "Plombier chauffagiste à Toulouse : dépannage, débouchage, entretien de chaudière. Artisan local basé à Muret, 24h/24. Devis gratuit, garantie 2 ans.",
+    h1: "Plombier chauffagiste à Toulouse : un artisan, pas une plateforme",
+    serviceType: "Plomberie et chauffage",
+    areaServed: COMMUNES_31,
+    enBref:
+      "Nino Plomberie est un plombier chauffagiste indépendant, basé à Muret, qui intervient à Toulouse et dans toute la Haute-Garonne : dépannage 24h/24, débouchage, recherche de fuite, chauffe-eau, entretien et dépannage de chaudière. Le devis est gratuit, la réparation garantie 2 ans.",
+    description:
+      "Échoppe des Minimes, appartement des Carmes, maison à Lardenne : à Toulouse, la plomberie et le chauffage vieillissent ensemble. Nino Plomberie est un artisan indépendant qui traite les deux, de la fuite à la chaudière. Pas de plateforme, pas de centre d'appels : vous parlez à celui qui intervient.",
+    details: [
+      "Dépannage plomberie 24h/24 et 7j/7",
+      "Débouchage de WC, évier et canalisation",
+      "Recherche et réparation de fuite",
+      "Remplacement de chauffe-eau et cumulus",
+      "Entretien et dépannage de chaudière",
+      "Purge et équilibrage des radiateurs",
+    ],
+    prix: DEVIS,
+    urgence: false,
+    icon: "Thermometer",
+    sections: [
+      {
+        h2: "Plombier ou chauffagiste : pourquoi un seul artisan pour les deux",
+        text: "Dans un logement, l'eau et le chauffage partagent les mêmes tuyaux, la même pression, parfois le même appareil. Une chaudière qui perd de la pression cache souvent une fuite sur le circuit. Un chauffe-eau qui coule abîme le sol comme une canalisation percée. Avec deux entreprises, chacune regarde sa partie. Avec un plombier chauffagiste, le diagnostic porte sur toute l'installation : on cherche l'origine de la panne sans se renvoyer la balle. Un seul devis, un seul interlocuteur, une seule garantie de 2 ans. En copropriété comme en maison, c'est aussi moins de rendez-vous à caler.",
+      },
+      {
+        h2: "Nos interventions à Toulouse",
+        bullets: [
+          "[Débouchage canalisation](/services/debouchage) : WC, évier, douche ou colonne, avec des outils mécaniques plutôt qu'un produit agressif.",
+          "[Recherche de fuite](/services/fuite-d-eau) : l'origine est cherchée avant d'ouvrir un mur, puis la canalisation est réparée.",
+          "[Chauffage et chaudière](/services/chauffage-chaudiere) : entretien annuel, chaudière en sécurité, radiateurs froids, pression qui chute.",
+          "[Chauffe-eau et cumulus](/services/chauffe-eau) : plus d'eau chaude, ballon qui fuit, groupe de sécurité qui coule.",
+          "[Robinetterie et sanitaires](/services/robinetterie-sanitaires) : mitigeur, colonne de douche, WC suspendu, chasse d'eau.",
+        ],
+        after: "Une panne précise ? Chaque service a sa page détaillée.",
+      },
+      {
+        h2: "Un artisan basé à Muret, pas à l'autre bout du département",
+        text: "Nino Plomberie est installé au 11 rue François Arago, à [Muret](/intervention/muret), au sud de Toulouse. L'A64 et la RD820 relient Muret à la ville. Plus de 20 ans de métier, une entreprise indépendante, pas une enseigne : l'artisan qui décroche est celui qui se déplace, qui chiffre et qui répare. Ça compte quand il faut rappeler pour une question ou faire jouer la garantie. Pour connaître le parcours de l'entreprise, lisez [qui est Nino Plomberie](/a-propos).",
+      },
+      {
+        h2: "Ce que comprend le devis gratuit",
+        numbered: true,
+        bullets: [
+          "**Le diagnostic** : l'origine de la panne ou l'état de l'installation, expliqués simplement.",
+          "**Le détail des travaux** : ce qui est réparé, remplacé ou conservé.",
+          "**Le prix** : main-d'œuvre et pièces, annoncés avant le début des travaux.",
+          "**La garantie** : 2 ans, pièces et main-d'œuvre, sur les réparations.",
+        ],
+        after: "Vous validez, puis l'artisan intervient. Aucun engagement avant.",
+      },
+    ],
+    faq: [
+      {
+        question: "Vous déplacez-vous dans tous les quartiers de Toulouse ?",
+        reponse:
+          "Oui, du Capitole à Borderouge, de Saint-Cyprien à Rangueil. Les quartiers desservis sont listés sur la page plombier à Toulouse. Le délai d'arrivée dépend du quartier et vous est indiqué à l'appel.",
+      },
+      {
+        question: "Le tarif est-il différent la nuit ?",
+        reponse:
+          "Le prix dépend de l'intervention. Dans tous les cas, il est annoncé dans le devis gratuit et validé avec vous avant les travaux, de jour comme de nuit.",
+      },
+      {
+        question: "Travaillez-vous avec les syndics ?",
+        reponse:
+          "Oui, pour les petites interventions demandées par un syndic ou un gestionnaire. Pour une colonne commune, les travaux se font avec l'accord du syndic. Les parties privatives se traitent directement avec vous.",
+      },
+    ],
+    aLireAussi: [
+      { label: "Plombier urgence à Toulouse", to: "/services/urgence-plombier-toulouse" },
+      { label: "Plombier en urgence : quand appeler ?", to: "/blog/plombier-urgence-toulouse-quand-appeler" },
+      { label: "Plombier à Toulouse, quartier par quartier", to: "/intervention/toulouse" },
     ],
   },
 ]
