@@ -27,6 +27,56 @@ export interface BlogArticle {
 
 export const blogArticles: BlogArticle[] = [
   {
+    slug: "proteger-canalisations-gel-toulouse",
+    title: "Protéger ses canalisations du gel à Toulouse : les gestes avant les premières gelées",
+    metaTitle: "Canalisations gelées Toulouse : les protéger du gel",
+    excerpt:
+      "Compteur, tuyaux de garage, robinet extérieur : comment protéger vos canalisations du gel à Toulouse et en Haute-Garonne, et que faire si un tuyau a déjà gelé.",
+    publishedAt: "2026-11-03",
+    category: "Conseils",
+    readTime: 4,
+    service: { slug: "fuite-d-eau", label: "Fuite d'eau" },
+    content: `À Toulouse, les hivers sont souvent doux, et c'est justement ce qui piège beaucoup de monde : on ne pense pas au gel, puis une nuit de grand froid arrive et un tuyau mal protégé cède. L'eau qui gèle prend du volume et peut faire éclater une canalisation ou un raccord. Le plus souvent, on ne le voit pas sur le moment : la fuite apparaît au dégel, quand la glace fond. Quelques gestes simples, à faire en novembre plutôt qu'en pleine gelée, évitent ce scénario.
+
+## Repérer les points fragiles de votre logement
+
+Le gel s'attaque d'abord aux canalisations exposées à l'air froid. Selon le type de logement, ce ne sont pas les mêmes endroits :
+
+- **Maison individuelle** : robinet extérieur, arrivée d'eau dans le garage ou la cave, canalisations qui longent un mur exposé au nord, local technique ou abri de jardin.
+- **Échoppe ou maison de ville en brique** : conduites passant dans un couloir, une courette ou un cellier peu chauffé, parfois sur de vieux réseaux plus fragiles.
+- **Appartement en copropriété** : le risque est plus faible, mais une cave, un palier non chauffé ou un logement vide tout l'hiver restent exposés.
+- **Résidence secondaire ou logement inoccupé** : sans chauffage, l'ensemble du réseau est vulnérable.
+
+Faites le tour de ces zones une fois, repérez les tuyaux apparents et notez où se trouve votre robinet d'arrêt général.
+
+## Les protections à installer avant l'hiver
+
+- **Isoler les canalisations apparentes** avec des manchons en mousse isolante, en veillant à bien fermer les jonctions et les coudes, qui sont les points faibles.
+- **Protéger le compteur d'eau** s'il est dans un regard extérieur ou un coffret : un couvercle bien fermé et un isolant adapté limitent le risque.
+- **Fermer et vidanger le robinet extérieur** : coupez l'arrivée depuis l'intérieur si une vanne existe, puis ouvrez le robinet extérieur pour évacuer l'eau restante. Débranchez les tuyaux d'arrosage.
+- **Boucher les courants d'air** autour des passages de tuyaux, des soupiraux et des portes de garage.
+- **Garder un chauffage minimal** dans les pièces qui contiennent des canalisations, même quand vous êtes absent.
+- **Vérifier l'isolation autour du chauffe-eau** et du groupe de sécurité s'ils sont dans un garage ou un local froid.
+
+## En cas de grand froid annoncé
+
+Si une vague de froid est prévue, faites couler un très léger filet d'eau sur un robinet du point le plus exposé pendant la nuit : une eau en mouvement gèle plus difficilement. Laissez les portes des placards sous évier ouvertes pour que l'air chaud de la pièce circule autour des tuyaux. Si vous partez plusieurs jours, vous pouvez aussi couper l'arrivée d'eau générale et vidanger le réseau, surtout si le logement n'est pas chauffé.
+
+## Un tuyau a gelé : que faire
+
+1. **Ne forcez pas** : si plus aucun robinet ne donne d'eau alors que le froid est intense, c'est probablement un tuyau gelé.
+2. **Coupez l'arrivée d'eau générale** avant que la glace ne fonde, pour limiter les dégâts si le tuyau est fissuré.
+3. **Ouvrez le robinet** le plus proche de la zone gelée, afin que l'eau puisse s'écouler au dégel.
+4. **Dégelez doucement**, avec de l'air tiède (un sèche-cheveux par exemple) en partant du robinet vers la zone gelée. N'utilisez jamais de flamme nue ni de chalumeau.
+5. **Surveillez ensuite** : si de l'eau apparaît au plafond, au mur ou au sol, ou si le compteur tourne alors que tout est fermé, vous avez une fuite.
+
+## Quand appeler un plombier
+
+Faites appel à un professionnel si le tuyau est visiblement fissuré ou éclaté, si une fuite se déclare après le dégel, si vous ne trouvez pas la zone gelée, ou si le gel touche votre chauffe-eau ou votre chaudière. Dans un logement ancien, un contrôle avant l'hiver permet aussi de repérer les tronçons trop exposés et de décider s'il vaut mieux les isoler ou les déplacer.
+
+Nino Plomberie, basé à Muret (11 Rue François Arago), intervient à Toulouse et dans toute la Haute-Garonne. Plus de 20 ans d'expérience, garantie 2 ans, devis gratuit pour vos travaux, et disponibilité 24h/24 et 7j/7 en cas d'urgence : appelez le 06 50 57 96 20.`,
+  },
+  {
     slug: "prix-debouchage-canalisation-toulouse",
     title: "Combien coûte un débouchage de canalisation à Toulouse ?",
     metaTitle: "Prix débouchage canalisation Toulouse : les ordres de prix",
