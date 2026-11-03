@@ -10,6 +10,21 @@
   ],
   "redirects": [
     {
+      "source": "/intervention/toulouse-arenes",
+      "destination": "/intervention/toulouse",
+      "statusCode": 301
+    },
+    {
+      "source": "/intervention/toulouse-carmes",
+      "destination": "/intervention/toulouse",
+      "statusCode": 301
+    },
+    {
+      "source": "/intervention/toulouse-saint-cyprien",
+      "destination": "/intervention/toulouse",
+      "statusCode": 301
+    },
+    {
       "source": "/",
       "has": [
         {

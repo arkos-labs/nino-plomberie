@@ -1,4 +1,4 @@
-// src/routes/services.$slug.tsx — v4 (contenu SEO + GEO)
+// src/routes/services.$slug.tsx — v5 (réécriture SEO complète, H2 stricts, 1re personne)
 import { createFileRoute, Link, notFound } from "@tanstack/react-router"
 import { getServiceBySlug, services } from "../data/services"
 import { realisations } from "../data/realisations"
@@ -7,7 +7,6 @@ import {
   Droplets, Flame, Wind, Wrench, Bath, Building2, Thermometer,
   ArrowRight, ArrowUpRight, Shield, Star, Clock, Calendar, MapPin,
 } from "lucide-react"
-import { ProcessSteps } from "../components/ProcessSteps"
 import { PageHero } from "../components/PageHero"
 import { Gallery } from "../components/Gallery"
 import { richText } from "../components/RichText"
@@ -99,7 +98,7 @@ function ServiceDetailPage() {
 
   const others = services.filter((s) => s.slug !== service.slug && s.listed !== false)
   const h1Parts = service.h1?.split(" : ")
-  const serviceRealisations = realisations.filter((r) => r.services.includes(service.slug))
+  const serviceRealisations = realisations.filter((r) => r.services.includes(service.galerieSlug ?? service.slug))
   const accent = "var(--brand-400)"
 
   return (
@@ -132,10 +131,10 @@ function ServiceDetailPage() {
           </a>
           <Link to="/contact" className="btn-ghost">
             <Calendar size={18} />
-            Devis gratuit
+            {service.ctaButtonLabel ?? "Demander un devis gratuit"}
           </Link>
         </>}
-        image="/realisations/photo-02.jpg"
+        image={service.heroImage ?? "/realisations/photo-02.jpg"}
       />
 
       {/* ── Contenu principal ────────────────────────────────────────────── */}
@@ -146,39 +145,29 @@ function ServiceDetailPage() {
             {/* ── Colonne principale ── */}
             <div style={{ minWidth: 0 }}>
 
-              {/* En bref */}
+              {/* En bref + prestations incluses */}
               <div className="svc-card svc-enbref">
                 <div className="svc-kicker">En bref</div>
-                <p style={{ margin: 0, color: "var(--ink-900)", fontSize: "1.08rem", lineHeight: 1.75 }}>{service.enBref}</p>
+                <p style={{ margin: 0, color: "var(--ink-900)", fontSize: "1.08rem", lineHeight: 1.75 }}>{richText(service.enBref)}</p>
+                {service.details.length > 0 && (
+                  <ul className="svc-details" style={{ marginTop: "18px" }}>
+                    {service.details.map((d) => (
+                      <li key={d}>
+                        <CheckCircle2 size={16} color={accent} style={{ flexShrink: 0, marginTop: "3px" }} aria-hidden="true" />
+                        <span>{d}</span>
+                      </li>
+                    ))}
+                  </ul>
+                )}
               </div>
 
-              {/* Ce qui est inclus */}
-              <div className="svc-card">
-                <h2 className="svc-h2">
-                  <span className="svc-bar" style={{ background: accent }} />
-                  Ce que je prends en charge
-                </h2>
-                <ul className="svc-details">
-                  {service.details.map((d) => (
-                    <li key={d}>
-                      <CheckCircle2 size={16} color={accent} style={{ flexShrink: 0, marginTop: "3px" }} aria-hidden="true" />
-                      <span>{d}</span>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-
-              {/* Contenu SEO */}
+              {/* Contenu SEO (si présent) */}
               {service.seoContent && service.seoContent.length > 0 && (
                 <div className="svc-card">
-                  <h2 className="svc-h2">
-                    <span className="svc-bar" style={{ background: accent }} />
-                    {service.titre} : ce qu'il faut savoir
-                  </h2>
                   <div style={{ display: "flex", flexDirection: "column", gap: "14px" }}>
                     {service.seoContent.map((paragraphe, idx) => (
                       <p key={idx} style={{ color: "#475569", fontSize: "1.03rem", lineHeight: 1.8, margin: 0 }}>
-                        {paragraphe}
+                        {richText(paragraphe)}
                       </p>
                     ))}
                   </div>
@@ -195,33 +184,100 @@ function ServiceDetailPage() {
                       {section.h2}
                     </h2>
                     {section.text && <p className="svc-text">{richText(section.text)}</p>}
+                    {section.table && section.table.length > 0 && (
+                      <div style={{ overflowX: "auto", margin: "14px 0 18px", border: "1px solid #e2e8f0", borderRadius: "10px" }}>
+                        <table style={{ width: "100%", borderCollapse: "collapse", textAlign: "left" }}>
+                          <thead>
+                            <tr style={{ background: "#f8fafc", borderBottom: "1px solid #e2e8f0" }}>
+                              <th style={{ padding: "12px 16px", fontSize: "0.78rem", fontWeight: 700, textTransform: "uppercase", letterSpacing: "0.06em", color: "#64748b" }}>
+                                {section.tableHeaders?.[0] ?? "Symptôme constaté"}
+                              </th>
+                              <th style={{ padding: "12px 16px", fontSize: "0.78rem", fontWeight: 700, textTransform: "uppercase", letterSpacing: "0.06em", color: "#64748b" }}>
+                                {section.tableHeaders?.[1] ?? "Action & service"}
+                              </th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            {section.table.map((row, idx) => (
+                              <tr key={idx} style={{ borderBottom: idx < section.table!.length - 1 ? "1px solid #f1f5f9" : "none" }}>
+                                <td style={{ padding: "12px 16px", fontWeight: 700, color: "#1e293b", fontSize: "0.95rem" }}>
+                                  {richText(row.col1)}
+                                </td>
+                                <td style={{ padding: "12px 16px", color: "#475569", fontSize: "0.95rem" }}>
+                                  {richText(row.col2)}
+                                </td>
+                              </tr>
+                            ))}
+                          </tbody>
+                        </table>
+                      </div>
+                    )}
                     {section.bullets && (
                       <List className={section.numbered ? "svc-list svc-list-num" : "svc-list"}>
                         {section.bullets.map((b) => <li key={b}>{richText(b)}</li>)}
                       </List>
+                    )}
+                    {section.photos && section.photos.length > 0 && (
+                      <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(220px, 1fr))", gap: "14px", margin: "16px 0" }}>
+                        {section.photos.map((photo) => (
+                          <figure key={photo.src + photo.legende} style={{ margin: 0, background: "#f8fafc", borderRadius: "10px", overflow: "hidden", border: "1px solid #e2e8f0" }}>
+                            <img src={photo.src} alt={photo.alt} width={600} height={450} loading="lazy" style={{ width: "100%", height: "180px", objectFit: "cover", display: "block" }} />
+                            <figcaption style={{ padding: "10px 12px", fontSize: "0.84rem", color: "#475569", lineHeight: 1.5 }}>
+                              {photo.legende}
+                            </figcaption>
+                          </figure>
+                        ))}
+                      </div>
                     )}
                     {section.after && <p className="svc-text" style={{ marginBottom: 0 }}>{richText(section.after)}</p>}
                   </div>
                 )
               })}
 
-              {/* Réalisations */}
-              {serviceRealisations.length > 0 && (
-                <div className="svc-card">
-                  <h2 className="svc-h2">
-                    <span className="svc-bar" style={{ background: accent }} />
-                    Mes réalisations
-                  </h2>
-                  <Gallery items={serviceRealisations} />
+              {/* Témoignage client nommé */}
+              {service.temoignage && (
+                <div className="svc-card" style={{ borderLeft: "4px solid var(--brand-500)", background: "#f8fafc" }}>
+                  <div className="svc-kicker">Avis client vérifié sur Google</div>
+                  <div style={{ display: "flex", gap: "2px", marginBottom: "8px" }} aria-hidden="true">
+                    {[...Array(5)].map((_, i) => <Star key={i} size={14} fill="#eab308" color="#eab308" />)}
+                  </div>
+                  <p style={{ margin: "0 0 10px", color: "#1e293b", fontSize: "1.02rem", lineHeight: 1.75, fontStyle: "italic" }}>
+                    « {service.temoignage.texte} »
+                  </p>
+                  <div style={{ fontSize: "0.88rem", fontWeight: 700, color: "#0f172a" }}>
+                    {service.temoignage.nom} <span style={{ fontWeight: 500, color: "#64748b" }}>· {service.temoignage.service}</span>
+                  </div>
                 </div>
               )}
+
+              {/* Photos légendées dédiées ou Galerie */}
+              {service.photos && service.photos.length > 0 ? (
+                <div className="svc-card">
+                  <div className="svc-kicker">Photos de chantiers en Haute-Garonne</div>
+                  <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(220px, 1fr))", gap: "14px" }}>
+                    {service.photos.map((photo) => (
+                      <figure key={photo.src + photo.legende} style={{ margin: 0, background: "#f8fafc", borderRadius: "10px", overflow: "hidden", border: "1px solid #e2e8f0" }}>
+                        <img src={photo.src} alt={photo.alt} width={600} height={450} loading="lazy" style={{ width: "100%", height: "180px", objectFit: "cover", display: "block" }} />
+                        <figcaption style={{ padding: "10px 12px", fontSize: "0.84rem", color: "#475569", lineHeight: 1.5 }}>
+                          {photo.legende}
+                        </figcaption>
+                      </figure>
+                    ))}
+                  </div>
+                </div>
+              ) : serviceRealisations.length > 0 ? (
+                <div className="svc-card">
+                  <div className="svc-kicker">Photos de mes chantiers</div>
+                  <Gallery items={serviceRealisations} />
+                </div>
+              ) : null}
 
               {/* FAQ */}
               {service.faq.length > 0 && (
                 <div className="svc-card">
                   <h2 className="svc-h2">
                     <span className="svc-bar" style={{ background: accent }} />
-                    Questions fréquentes : {service.titre.toLowerCase()}
+                    Questions fréquentes
                   </h2>
                   <div style={{ display: "flex", flexDirection: "column", gap: "8px" }}>
                     {service.faq.map((item) => (
@@ -230,7 +286,7 @@ function ServiceDetailPage() {
                           <h3>{item.question}</h3>
                           <ChevronDown size={18} aria-hidden="true" className="svc-faq-chevron" />
                         </summary>
-                        <p>{item.reponse}</p>
+                        <p>{richText(item.reponse)}</p>
                       </details>
                     ))}
                   </div>
@@ -239,12 +295,9 @@ function ServiceDetailPage() {
 
               {/* Zone */}
               <div className="svc-card" style={{ marginBottom: 0 }}>
-                <h2 className="svc-h2">
-                  <span className="svc-bar" style={{ background: accent }} />
-                  {service.titre} : communes desservies
-                </h2>
+                <div className="svc-kicker">Zone d'intervention en Haute-Garonne</div>
                 <p style={{ color: "#475569", fontSize: "1rem", lineHeight: 1.7, margin: "0 0 16px" }}>
-                  Basé à Muret, Nino Plomberie intervient pour ce service dans toute la Haute-Garonne, notamment :
+                  Basé au 11 rue François Arago à Muret, j'interviens pour ce service dans toute la Haute-Garonne :
                 </p>
                 <div style={{ display: "flex", flexWrap: "wrap", gap: "8px" }}>
                   {COMMUNES_PROCHES.map((c, i) => (
@@ -253,7 +306,7 @@ function ServiceDetailPage() {
                     </Link>
                   ))}
                   <Link to="/zones" className="svc-commune" style={{ fontWeight: 700, color: "var(--brand-600)" }}>
-                    Toutes les communes →
+                    Voir les 60 communes couvertes →
                   </Link>
                 </div>
               </div>
@@ -265,27 +318,27 @@ function ServiceDetailPage() {
               {/* Tarif */}
               <div style={{ background: "white", borderRadius: "var(--radius-sm)", padding: "28px", border: "1px solid #e2e8f0" }}>
                 <div style={{ fontSize: "0.7rem", fontWeight: 700, color: "var(--brand-600)", textTransform: "uppercase", letterSpacing: "0.1em", marginBottom: "8px" }}>
-                  Tarif
+                  Tarif annoncé avant travaux
                 </div>
                 <p style={{ color: "#334155", fontSize: "1rem", lineHeight: 1.7, margin: "0 0 20px" }}>{service.prix}</p>
 
                 <a href={`tel:${BUSINESS.phoneIntl}`} className="btn-cta"
                   style={{ display: "flex", width: "100%", marginBottom: "10px" }}
                 >
-                  <Phone size={16} /> {BUSINESS.phone}
+                  <Phone size={16} /> Appeler Nino · {BUSINESS.phone}
                 </a>
                 <Link
                   to="/contact"
                   className="btn-secondary"
                   style={{ display: "flex", width: "100%", fontSize: "0.92rem" }}
                 >
-                  Demander un devis gratuit <ArrowRight size={14} />
+                  {service.ctaButtonLabel ?? "Demander un devis gratuit"} <ArrowRight size={14} />
                 </Link>
                 <Link
                   to="/tarifs"
                   style={{ display: "block", textAlign: "center", marginTop: "12px", fontSize: "0.85rem", color: "var(--brand-600)", fontWeight: 600 }}
                 >
-                  Voir les tarifs indicatifs
+                  Consulter les tarifs plombier à Muret et Toulouse
                 </Link>
               </div>
 
@@ -295,10 +348,10 @@ function ServiceDetailPage() {
                   Mes engagements
                 </div>
                 {[
-                  { icon: Clock,        text: "Joignable 24h/24, 7j/7" },
-                  { icon: Star,         text: "Devis gratuit avant les travaux" },
-                  { icon: CheckCircle2, text: "Réparations garanties 2 ans" },
-                  { icon: Shield,       text: "Plus de 20 ans d'expérience" },
+                  { icon: Clock,        text: "Joignable en direct 24h/24 et 7j/7" },
+                  { icon: Star,         text: "Devis gratuit validé avant travaux" },
+                  { icon: CheckCircle2, text: "Garantie 2 ans pièces et main-d'œuvre" },
+                  { icon: Shield,       text: "Artisan à Muret depuis plus de 20 ans" },
                 ].map(({ icon: I, text }) => (
                   <div key={text} style={{ display: "flex", alignItems: "center", gap: "10px", padding: "10px 0", borderBottom: "1px solid rgba(255,255,255,0.08)" }}>
                     <I size={15} color="var(--cta-400)" style={{ flexShrink: 0 }} aria-hidden="true" />
@@ -327,14 +380,12 @@ function ServiceDetailPage() {
         </div>
       </section>
 
-      <ProcessSteps />
-
       {/* ── Autres services ──────────────────────────────────────────────── */}
       <section style={{ background: "var(--sand-50)", padding: "56px 0 64px", borderTop: "1px solid #f1f5f9" }}>
         <div className="section-container" style={{ maxWidth: "1140px" }}>
-          <h2 style={{ fontFamily: "var(--font-display)", fontWeight: 800, fontSize: "1.4rem", color: "var(--ink-950)", marginBottom: "24px" }}>
-            Autres prestations de Nino Plomberie
-          </h2>
+          <div style={{ fontFamily: "var(--font-display)", fontWeight: 800, fontSize: "1.4rem", color: "var(--ink-950)", marginBottom: "24px" }}>
+            Autres interventions de plomberie et chauffage
+          </div>
           <div className="feature-grid">
             {others.map((s) => {
               const RI = iconMap[s.icon] ?? Wrench
@@ -345,7 +396,7 @@ function ServiceDetailPage() {
                   </div>
                   <h3>{s.titre}</h3>
                   <p>{s.sousTitre}</p>
-                  <span className="feature-card-btn">En savoir plus <ArrowUpRight size={14} aria-hidden="true" /></span>
+                  <span className="feature-card-btn">Voir {s.titre.toLowerCase()} <ArrowUpRight size={14} aria-hidden="true" /></span>
                 </Link>
               )
             })}
@@ -354,41 +405,40 @@ function ServiceDetailPage() {
       </section>
 
       {/* ── À lire aussi + clôture ──────────────────────────────────────── */}
-      {service.aLireAussi && (
-        <>
-          <section style={{ background: "white", padding: "40px 0" }} aria-label="À lire aussi">
-            <div className="section-container" style={{ maxWidth: "1140px" }}>
-              <p style={{ margin: 0, color: "#475569", fontSize: "1rem", lineHeight: 1.8 }}>
-                <strong style={{ color: "var(--ink-950)" }}>À lire aussi :</strong>{" "}
-                {service.aLireAussi.map((l, i) => (
-                  <span key={l.to}>
-                    {i > 0 && " · "}
-                    {richText(`[${l.label}](${l.to})`)}
-                  </span>
-                ))}
-              </p>
-            </div>
-          </section>
-          <section style={{ background: "linear-gradient(135deg, var(--brand-600) 0%, var(--brand-500) 60%, var(--brand-400) 100%)", padding: "64px 0" }}>
-            <div className="section-container" style={{ maxWidth: "640px", textAlign: "center" }}>
-              <h2 style={{ fontFamily: "var(--font-display)", fontWeight: 800, fontSize: "clamp(1.5rem, 3vw, 2rem)", color: "white", letterSpacing: "-0.03em", marginBottom: "12px" }}>
-                Une urgence ou un devis ?
-              </h2>
-              <p style={{ color: "rgba(255,255,255,0.82)", fontSize: "1.1rem", marginBottom: "32px", lineHeight: 1.7 }}>
-                Plombier 24h/24 et 7j/7 à Muret, Toulouse et dans le 31. Devis gratuit validé avant travaux. Garantie 2 ans.
-              </p>
-              <div style={{ display: "flex", gap: "12px", justifyContent: "center", flexWrap: "wrap" }}>
-                <a href={`tel:${BUSINESS.phoneIntl}`} className="btn-cta">
-                  <Phone size={16} /> {BUSINESS.phone}
-                </a>
-                <Link to="/contact" className="btn-ghost">
-                  Demander un devis <ArrowRight size={14} />
-                </Link>
-              </div>
-            </div>
-          </section>
-        </>
+      {service.aLireAussi && service.aLireAussi.length > 0 && (
+        <section style={{ background: "white", padding: "36px 0" }} aria-label="À lire aussi">
+          <div className="section-container" style={{ maxWidth: "1140px" }}>
+            <p style={{ margin: 0, color: "#475569", fontSize: "1rem", lineHeight: 1.8 }}>
+              <strong style={{ color: "var(--ink-950)" }}>À lire aussi :</strong>{" "}
+              {service.aLireAussi.map((l, i) => (
+                <span key={l.to}>
+                  {i > 0 && " · "}
+                  {richText(`[${l.label}](${l.to})`)}
+                </span>
+              ))}
+            </p>
+          </div>
+        </section>
       )}
+
+      <section style={{ background: "linear-gradient(135deg, var(--brand-600) 0%, var(--brand-500) 60%, var(--brand-400) 100%)", padding: "64px 0" }}>
+        <div className="section-container" style={{ maxWidth: "680px", textAlign: "center" }}>
+          <h2 style={{ fontFamily: "var(--font-display)", fontWeight: 800, fontSize: "clamp(1.5rem, 3vw, 2rem)", color: "white", letterSpacing: "-0.03em", marginBottom: "12px" }}>
+            {service.ctaH2 ?? "Une urgence ou un devis ?"}
+          </h2>
+          <p style={{ color: "rgba(255,255,255,0.86)", fontSize: "1.08rem", marginBottom: "32px", lineHeight: 1.7 }}>
+            {service.ctaLead ?? "J'interviens 24h/24 et 7j/7 à Muret, Toulouse et dans toute la Haute-Garonne. Devis gratuit validé avant travaux et garantie 2 ans pièces et main-d'œuvre."}
+          </p>
+          <div style={{ display: "flex", gap: "12px", justifyContent: "center", flexWrap: "wrap" }}>
+            <a href={`tel:${BUSINESS.phoneIntl}`} className="btn-cta">
+              <Phone size={16} /> Appeler Nino · {BUSINESS.phone}
+            </a>
+            <Link to="/contact" className="btn-ghost">
+              {service.ctaButtonLabel ?? "Demander un devis gratuit"} <ArrowRight size={14} />
+            </Link>
+          </div>
+        </div>
+      </section>
 
       <style>{`
         .svc-text { color: #475569; font-size: 1.03rem; line-height: 1.8; margin: 0 0 14px; }

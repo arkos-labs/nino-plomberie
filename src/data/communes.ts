@@ -433,22 +433,6 @@ export const communes: Commune[] = [
     "description": "Centre historique de Toulouse, autour de la place du Capitole."
   },
   {
-    "slug": "toulouse-saint-cyprien",
-    "nom": "Toulouse Saint-Cyprien",
-    "codePostal": "31300",
-    "lat": 43.5995,
-    "lng": 1.431,
-    "description": "Quartier de la rive gauche de la Garonne, à Toulouse."
-  },
-  {
-    "slug": "toulouse-carmes",
-    "nom": "Toulouse Carmes",
-    "codePostal": "31000",
-    "lat": 43.5985,
-    "lng": 1.4455,
-    "description": "Quartier historique des Carmes, au cœur de Toulouse."
-  },
-  {
     "slug": "toulouse-jean-jaures",
     "nom": "Toulouse Jean-Jaurès",
     "codePostal": "31000",
@@ -479,14 +463,6 @@ export const communes: Commune[] = [
     "lat": 43.5655,
     "lng": 1.464,
     "description": "Quartier de Rangueil, au sud-est de Toulouse."
-  },
-  {
-    "slug": "toulouse-arenes",
-    "nom": "Toulouse Arènes",
-    "codePostal": "31300",
-    "lat": 43.595,
-    "lng": 1.415,
-    "description": "Quartier des Arènes, à l'ouest du centre de Toulouse."
   },
   {
     "slug": "lasserre-pradere",

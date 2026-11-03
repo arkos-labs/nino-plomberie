@@ -4,7 +4,7 @@ import { MapPin, PhoneCall } from "lucide-react"
 import { pageHead, ldScript, breadcrumbJsonLd } from "../lib/site"
 import { PageHero } from "../components/PageHero"
 
-export const Route = createFileRoute("/zones")({
+export const Route = createFileRoute("/zones/")({
   component: ZonesComponent,
   head: () => ({
     ...pageHead({
@@ -47,7 +47,7 @@ function ZonesComponent() {
           <p style={{ textAlign: "center", color: "var(--gray-600)", fontSize: "1.02rem", lineHeight: 1.7, margin: "0 auto 32px", maxWidth: "720px" }}>
             Fuite, WC bouché, chaudière en panne ? Pour une{" "}
             <Link to="/services/$slug" params={{ slug: "urgence-plombier-toulouse" }} style={{ color: "var(--brand-600)", fontWeight: 600 }}>urgence plombier dans le 31</Link>,
-            la ligne est ouverte 24h/24 et 7j/7.
+            la ligne est ouverte 24h/24 et 7j/7. Autour de Muret : <Link to="/zones/muretain" style={{ color: "var(--brand-600)", fontWeight: 600 }}>plombier dans le Muretain</Link>.
           </p>
 
           {/* Index alphabétique rapide (Sticky) */}

@@ -277,30 +277,6 @@ export const zoneExtra5: Record<string, ZoneExtra> = {
       { q: "Les réparations sont-elles garanties ?", a: "Oui, 2 ans, pièces et main-d'œuvre." },
     ],
   },
-  "toulouse-saint-cyprien": {
-    sections: [
-      { h2: "Où se situe Saint-Cyprien", text: "Saint-Cyprien est un quartier de Toulouse (31300), à environ 17 km à vol d'oiseau de Muret, où Nino Plomberie est installé. Nino intervient dans tout Toulouse, quartier par quartier." },
-      { h2: "Préparer la rénovation d'un appartement ancien", bullets: ["Faire vérifier l'état des canalisations avant de refaire les murs", "Prévoir l'emplacement final de l'évier, de la douche et des WC", "Anticiper l'accès aux colonnes communes", "Demander un devis détaillé, poste par poste"] },
-      { h2: "Plomberie et finitions", text: "Pour une salle de bain, Nino traite la plomberie et s'appuie sur un second professionnel pour les finitions. Vous avez un interlocuteur unique et un devis d'ensemble." },
-    ],
-    faq: [
-      { q: "Faites-vous la rénovation de plomberie complète d'un appartement ?", a: "Oui, après visite et devis gratuit." },
-      { q: "Peut-on déplacer une douche ou un évier ?", a: "Souvent oui, après étude des évacuations." },
-      { q: "Les travaux sont-ils garantis ?", a: "Oui, 2 ans, pièces et main-d'œuvre." },
-    ],
-  },
-  "toulouse-carmes": {
-    sections: [
-      { h2: "Où se situe Carmes", text: "Carmes est un quartier de Toulouse (31000), à environ 18 km à vol d'oiseau de Muret, où Nino Plomberie est installé. Nino intervient dans tout Toulouse, quartier par quartier." },
-      { h2: "Idées pour optimiser un petit espace", bullets: ["Remplacer la baignoire par une douche à l'italienne", "Choisir un WC suspendu pour dégager le sol", "Installer un meuble vasque peu profond", "Prévoir des rangements au-dessus du lave-linge"] },
-      { h2: "Ce que vous devez préciser pour un devis", text: "Dimensions de la pièce, emplacement des arrivées d'eau et des évacuations, équipements souhaités : plus la description est complète, plus le devis est précis et gratuit." },
-    ],
-    faq: [
-      { q: "Peut-on installer une douche à l'italienne dans une petite pièce ?", a: "Souvent oui, selon l'évacuation et le plancher. Un devis gratuit étudie la faisabilité." },
-      { q: "Faut-il un bâti-support pour un WC suspendu ?", a: "Oui, il se loge dans la cloison." },
-      { q: "Intervenez-vous en urgence aux Carmes ?", a: "Oui, 24h/24 et 7j/7 au 06 50 57 96 20." },
-    ],
-  },
   "toulouse-jean-jaures": {
     sections: [
       { h2: "Où se situe Jean-Jaurès", text: "Jean-Jaurès est un quartier de Toulouse (31000), à environ 19 km à vol d'oiseau de Muret, où Nino Plomberie est installé. Nino intervient dans tout Toulouse, quartier par quartier." },
@@ -347,18 +323,6 @@ export const zoneExtra5: Record<string, ZoneExtra> = {
       { q: "Qui paie un débouchage en location ?", a: "En général l'entretien courant revient au locataire, sauf cause liée à la vétusté." },
       { q: "Peut-on obtenir un devis avant d'intervenir ?", a: "Oui, le devis est gratuit." },
       { q: "Intervenez-vous à toute heure ?", a: "Oui, 24h/24 et 7j/7 au 06 50 57 96 20." },
-    ],
-  },
-  "toulouse-arenes": {
-    sections: [
-      { h2: "Où se situe Arènes", text: "Arènes est un quartier de Toulouse (31300), à environ 16 km à vol d'oiseau de Muret, où Nino Plomberie est installé. Nino intervient dans tout Toulouse, quartier par quartier." },
-      { h2: "Les pannes de chauffage les plus fréquentes", bullets: ["Radiateur froid en haut : de l'air à purger", "Pression de chaudière qui chute", "Robinet thermostatique bloqué", "Radiateurs éloignés qui chauffent mal"] },
-      { h2: "Premiers gestes avant d'appeler", text: "Vérifiez que la chaudière est alimentée et que la pression est correcte, puis purgez les radiateurs froids en haut. Si le problème persiste, un diagnostic évite de remettre de l'eau sans cesse." },
-    ],
-    faq: [
-      { q: "Faites-vous le dépannage de chaudière ?", a: "Oui, Nino est plombier-chauffagiste. Le devis est gratuit." },
-      { q: "Peut-on faire contrôler son chauffage avant l'hiver ?", a: "Oui, sur rendez-vous." },
-      { q: "Intervenez-vous en urgence ?", a: "Oui, 24h/24 et 7j/7 au 06 50 57 96 20." },
     ],
   },
 }

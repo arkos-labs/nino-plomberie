@@ -7,11 +7,11 @@ import { SITE_URL } from "../lib/site"
 
 // Dates de dernière modification réelles (à mettre à jour quand le contenu change), pas la date du build
 const LASTMOD = {
-  home: "2026-10-05",
-  pages: "2026-10-05",
-  services: "2026-11-01",
-  communes: "2026-10-05",
-  blog: "2026-11-01",
+  home: "2026-11-03",
+  pages: "2026-11-03",
+  services: "2026-11-03",
+  communes: "2026-11-03",
+  blog: "2026-11-03",
 }
 
 function url(loc: string, lastmod: string, priority = "0.5", changefreq = "monthly") {
@@ -34,6 +34,8 @@ export const Route = createFileRoute("/sitemap.xml")({
           url("/realisations", LASTMOD.pages, "0.8"),
           url("/tarifs", LASTMOD.pages, "0.8"),
           url("/zones", LASTMOD.pages, "0.7"),
+          url("/zones/muretain", LASTMOD.services, "0.7"),
+          url("/avis-clients", LASTMOD.services, "0.6"),
           url("/a-propos", LASTMOD.pages, "0.7"),
           url("/contact", LASTMOD.pages, "0.7"),
           url("/rendez-vous", LASTMOD.pages, "0.6"),

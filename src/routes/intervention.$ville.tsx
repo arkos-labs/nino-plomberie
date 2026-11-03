@@ -1,9 +1,9 @@
 // src/routes/intervention.$ville.tsx — pages de zone : un contenu éditorial unique par commune (data/zone-content.ts)
 import { createFileRoute, Link, notFound } from "@tanstack/react-router"
 import { getCommuneBySlug, communes } from "../data/communes"
-import { getZoneContent, type ZoneCta } from "../data/zone-content"
+import { getZoneContent, type ZoneCta, type ZoneSection, type ZonePhoto } from "../data/zone-content"
 import { realisations } from "../data/realisations"
-import { Phone, MapPin, Calendar, ArrowUpRight, Star, Mail } from "lucide-react"
+import { Phone, MapPin, Calendar, ArrowUpRight, Mail } from "lucide-react"
 import { PageHero } from "../components/PageHero"
 import { richText } from "../components/RichText"
 import { SITE_URL, BUSINESS, BUSINESS_ID, pageHead, ldScript, breadcrumbJsonLd, faqJsonLd } from "../lib/site"
@@ -85,34 +85,22 @@ export const Route = createFileRoute("/intervention/$ville")({
 const ctaStyle = { fontSize: "1.05rem", padding: "16px 32px", borderColor: "white" } as const
 
 function CtaButtons({ kind }: { kind: ZoneCta }) {
-  const tel = (
-    <a href={`tel:${BUSINESS.phoneIntl}`} className="btn-ghost" style={ctaStyle}>
-      <Phone size={20} aria-hidden="true" />
-      {BUSINESS.phone}
-    </a>
-  )
-  if (kind === "tel") return tel
   return (
     <>
-      {kind === "avis" && (
-        <a href={BUSINESS.googleMapsUrl} target="_blank" rel="noopener noreferrer" className="btn-ghost" style={ctaStyle}>
-          <Star size={20} aria-hidden="true" />
-          Lire les avis Google
-        </a>
-      )}
-      {kind === "form" && (
-        <Link to="/contact" className="btn-ghost" style={ctaStyle}>
-          <Mail size={20} aria-hidden="true" />
-          Demander un devis gratuit
-        </Link>
-      )}
+      <a href={`tel:${BUSINESS.phoneIntl}`} className="btn-ghost" style={ctaStyle}>
+        <Phone size={20} aria-hidden="true" />
+        Appeler Nino · {BUSINESS.phone}
+      </a>
+      <Link to="/contact" className="btn-ghost" style={ctaStyle}>
+        <Mail size={20} aria-hidden="true" />
+        Demander un devis gratuit
+      </Link>
       {kind === "rdv" && (
         <Link to="/rendez-vous" className="btn-ghost" style={ctaStyle}>
           <Calendar size={20} aria-hidden="true" />
-          Choisir un créneau
+          Prendre rendez-vous
         </Link>
       )}
-      {tel}
     </>
   )
 }
@@ -121,6 +109,13 @@ const textStyle = { color: "#475569", fontSize: "1.03rem", lineHeight: 1.8 } as 
 
 function VillePage() {
   const { commune, content, nearby, km } = Route.useLoaderData()
+  const hasStrictClosing = Boolean(
+    content.strictSections &&
+    content.sections.length > 0 &&
+    content.sections[content.sections.length - 1].h2.startsWith("Une urgence")
+  )
+  const regularSections = hasStrictClosing ? content.sections.slice(0, -1) : content.sections
+  const closingSection = hasStrictClosing ? content.sections[content.sections.length - 1] : undefined
 
   return (
     <div>
@@ -131,8 +126,12 @@ function VillePage() {
         actions={<>
           <a href={`tel:${BUSINESS.phoneIntl}`} className="btn-cta">
             <Phone size={18} aria-hidden="true" />
-            Appeler Nino — {BUSINESS.phone}
+            Appeler Nino · {BUSINESS.phone}
           </a>
+          <Link to="/contact" className="btn-ghost">
+            <Mail size={18} aria-hidden="true" />
+            Demander un devis gratuit
+          </Link>
           <Link to="/rendez-vous" className="btn-ghost">
             <Calendar size={18} aria-hidden="true" />
             Prendre rendez-vous
@@ -159,7 +158,7 @@ function VillePage() {
         </div>
       </section>
 
-      {(() => {
+      {!content.strictSections && (() => {
         // Photo réelle d'un chantier dont la commune a été confirmée par Nino (data/realisations.ts)
         const chantier = realisations.find((r) => r.ville === commune.slug)
         if (!chantier) return null
@@ -184,32 +183,69 @@ function VillePage() {
         )
       })()}
 
-      {content.sections.map((section, i) => {
+      {regularSections.map((section: ZoneSection, i: number) => {
         const List = section.numbered ? "ol" : "ul"
         return (
           <section key={section.h2} style={{ background: i % 2 === 0 ? "white" : "#f9fafb", padding: "56px 0" }}>
             <div className="section-container" style={{ maxWidth: "860px" }}>
               <h2 className="section-title" style={{ marginBottom: "18px" }}>{section.h2}</h2>
-              {section.text && <p style={{ ...textStyle, margin: "0 0 14px" }}>{richText(section.text)}</p>}
+              {section.text && section.text.split("\n\n").map((para: string, idx: number) => (
+                <p key={idx} style={{ ...textStyle, margin: "0 0 14px" }}>{richText(para)}</p>
+              ))}
               {section.bullets && (
                 <List style={{ ...textStyle, paddingLeft: "22px", margin: "0 0 14px" }}>
-                  {section.bullets.map((b) => <li key={b}>{richText(b)}</li>)}
+                  {section.bullets.map((b: string) => <li key={b} style={{ marginBottom: "6px" }}>{richText(b)}</li>)}
                 </List>
+              )}
+              {section.afterText && section.afterText.split("\n\n").map((para: string, idx: number) => (
+                <p key={idx} style={{ ...textStyle, margin: "0 0 14px" }}>{richText(para)}</p>
+              ))}
+              {section.photos && section.photos.length > 0 && (
+                <div style={{
+                  display: "grid",
+                  gridTemplateColumns: section.photos.length > 1 ? "repeat(auto-fit, minmax(240px, 1fr))" : "1fr",
+                  gap: "20px",
+                  marginTop: "20px",
+                }}>
+                  {section.photos.map((photo: ZonePhoto) => (
+                    <figure key={photo.src + photo.alt} style={{ margin: 0 }}>
+                      <img
+                        src={photo.src}
+                        alt={photo.alt}
+                        loading="lazy"
+                        style={{ width: "100%", maxWidth: section.photos!.length === 1 ? "680px" : "100%", height: section.photos!.length > 1 ? "220px" : "auto", objectFit: "cover", borderRadius: "12px", display: "block" }}
+                      />
+                      <figcaption style={{ ...textStyle, marginTop: "8px", fontSize: "0.92rem" }}>
+                        {richText(photo.legende)}
+                      </figcaption>
+                    </figure>
+                  ))}
+                </div>
+              )}
+              {section.faq && section.faq.length > 0 && (
+                <dl style={{ margin: 0 }}>
+                  {section.faq.map(({ q, a }: { q: string; a: string }) => (
+                    <div key={q} style={{ marginBottom: "16px" }}>
+                      <dt style={{ fontWeight: 700, color: "var(--ink-950)" }}>{q}</dt>
+                      <dd style={{ ...textStyle, margin: "4px 0 0" }}>{richText(a)}</dd>
+                    </div>
+                  ))}
+                </dl>
               )}
             </div>
           </section>
         )
       })}
 
-      {content.faq.length > 0 && (
-        <section style={{ background: content.sections.length % 2 === 0 ? "white" : "#f9fafb", padding: "56px 0" }}>
+      {!content.strictSections && content.faq.length > 0 && (
+        <section style={{ background: regularSections.length % 2 === 0 ? "white" : "#f9fafb", padding: "56px 0" }}>
           <div className="section-container" style={{ maxWidth: "860px" }}>
-            <h2 className="section-title" style={{ marginBottom: "18px" }}>Questions fréquentes à {commune.nom}</h2>
+            <h2 className="section-title" style={{ marginBottom: "18px" }}>Questions fréquentes</h2>
             <dl style={{ margin: 0 }}>
-              {content.faq.map(({ q, a }) => (
+              {content.faq.map(({ q, a }: { q: string; a: string }) => (
                 <div key={q} style={{ marginBottom: "16px" }}>
                   <dt style={{ fontWeight: 700, color: "var(--ink-950)" }}>{q}</dt>
-                  <dd style={{ ...textStyle, margin: "4px 0 0" }}>{a}</dd>
+                  <dd style={{ ...textStyle, margin: "4px 0 0" }}>{richText(a)}</dd>
                 </div>
               ))}
             </dl>
@@ -243,8 +279,11 @@ function VillePage() {
 
       <section style={{ background: "linear-gradient(135deg, #c2410c, #ea6f0b)", padding: "56px 0", textAlign: "center" }}>
         <div className="section-container">
-          <p style={{ fontFamily: "var(--font-display)", fontWeight: 800, fontSize: "1.5rem", color: "white", margin: "0 auto 24px", maxWidth: "640px" }}>
-            {richText(content.cta.label, "white")}
+          <h2 style={{ fontFamily: "var(--font-display)", fontWeight: 800, fontSize: "1.65rem", color: "white", margin: "0 auto 14px", maxWidth: "640px" }}>
+            {closingSection ? closingSection.h2 : `Une urgence à ${commune.nom} ?`}
+          </h2>
+          <p style={{ color: "rgba(255, 255, 255, 0.94)", fontSize: "1.06rem", lineHeight: 1.75, margin: "0 auto 24px", maxWidth: "660px" }}>
+            {richText(closingSection?.text ?? content.cta.label, "white")}
           </p>
           <div style={{ display: "flex", flexWrap: "wrap", gap: "14px", justifyContent: "center" }}>
             <CtaButtons kind={content.cta.kind} />

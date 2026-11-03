@@ -27,6 +27,9 @@ export const Route = createFileRoute("/blog/$slug")({
           dateModified: article.updatedAt ?? article.publishedAt,
           mainEntityOfPage: `${SITE_URL}${path}`,
           inLanguage: "fr-FR",
+          ...(article.images && article.images.length > 0
+            ? { image: article.images.map((img) => `${SITE_URL}${img.src}`) }
+            : {}),
           author: { "@id": BUSINESS_ID },
           publisher: { "@id": BUSINESS_ID },
         }),
@@ -54,7 +57,12 @@ export const Route = createFileRoute("/blog/$slug")({
 
 function BlogArticlePage() {
   const { article } = Route.useLoaderData() as { article: BlogArticle }
-  const others = blogArticles.filter((a) => a.slug !== article.slug).slice(0, 3)
+  const others =
+    article.relatedSlugs && article.relatedSlugs.length > 0
+      ? article.relatedSlugs
+          .map((slug) => getBlogArticle(slug))
+          .filter((a): a is BlogArticle => Boolean(a))
+      : blogArticles.filter((a) => a.slug !== article.slug).slice(0, 3)
 
   return (
     <div style={{ background: "var(--sand-50)", minHeight: "100vh" }}>
@@ -69,17 +77,17 @@ function BlogArticlePage() {
         kicker={`${article.category} · ${formatDate(article.publishedAt)} · ${article.readTime} min de lecture`}
         title={article.title}
         lead={article.excerpt}
-        image="/realisations/photo-09.jpg"
+        image={article.images?.[0]?.src ?? "/realisations/photo-09.jpg"}
       />
 
       <section style={{ padding: "64px 0" }}>
         <div className="section-container" style={{ maxWidth: "760px" }}>
           <article className="blog-body">
-            <Markdown content={article.content} />
+            <Markdown content={article.content} images={article.images} />
           </article>
 
           <aside className="blog-service">
-            <p>Besoin d'un plombier à Toulouse ?</p>
+            <p>Besoin d'un plombier à Toulouse ou Muret ?</p>
             <div className="blog-service-links">
               <Link to="/services/$slug" params={{ slug: article.service.slug }}>
                 Service {article.service.label} <ArrowRight size={15} aria-hidden="true" />
@@ -122,7 +130,7 @@ function BlogArticlePage() {
             Une urgence ou un devis ?
           </h2>
           <p style={{ color: "rgba(255,255,255,0.82)", fontSize: "1.1rem", marginBottom: "32px", lineHeight: 1.7 }}>
-            Nino Plomberie intervient à Toulouse, Muret et dans toute la Haute-Garonne. La ligne est ouverte 24h/24.
+            J'interviens à Toulouse, Muret et dans toute la Haute-Garonne. Ma ligne est ouverte 24h/24 et 7j/7, avec devis gratuit avant travaux.
           </p>
           <div style={{ display: "flex", gap: "12px", justifyContent: "center", flexWrap: "wrap" }}>
             <a href={`tel:${BUSINESS.phoneIntl}`} className="btn-cta">
@@ -150,12 +158,18 @@ function BlogArticlePage() {
         .blog-body li { margin-bottom: 8px; padding-left: 4px; }
         .blog-body li::marker { color: var(--brand-600); font-weight: 700; }
         .blog-body strong { color: var(--ink-950); }
+        .blog-figure { margin: 28px 0; border-radius: var(--radius-sm); overflow: hidden; background: var(--sand-100); border: 1px solid rgba(0,0,0,0.06); }
+        .blog-figure img { display: block; width: 100%; height: 320px; object-fit: cover; }
+        .blog-figure figcaption { padding: 12px 16px; font-size: 0.9rem; color: var(--ink-700); line-height: 1.5; }
         .blog-service { margin-top: 24px; padding: 24px 28px; border-radius: var(--radius-sm); background: var(--sand-100); display: flex; align-items: center; justify-content: space-between; gap: 16px; flex-wrap: wrap; }
         .blog-service p { margin: 0; font-weight: 700; color: var(--ink-950); }
         .blog-service-links { display: flex; gap: 20px; flex-wrap: wrap; }
         .blog-service a { display: inline-flex; align-items: center; gap: 6px; color: var(--brand-600); font-weight: 700; text-decoration: none; }
         .blog-service a:hover { text-decoration: underline; }
-        @media (max-width: 640px) { .blog-body { padding: 24px 20px; font-size: 1rem; } }
+        @media (max-width: 640px) {
+          .blog-body { padding: 24px 20px; font-size: 1rem; }
+          .blog-figure img { height: 220px; }
+        }
       `}</style>
     </div>
   )
@@ -165,14 +179,37 @@ function inline(text: string): ReactNode[] {
   return richText(text)
 }
 
-function Markdown({ content }: { content: string }) {
+function Markdown({
+  content,
+  images,
+}: {
+  content: string
+  images?: Array<{ src: string; alt: string; legende: string }>
+}) {
   const blocks: ReactNode[] = []
   const lines = content.split("\n")
   let i = 0
+  let h2Count = 0
   while (i < lines.length) {
     const line = lines[i].trim()
     if (!line) { i++; continue }
     if (line.startsWith("## ")) {
+      if (h2Count === 1 && images?.[0]) {
+        blocks.push(
+          <figure key="img-0" className="blog-figure">
+            <img src={images[0].src} alt={images[0].alt} loading="lazy" />
+            <figcaption>{images[0].legende}</figcaption>
+          </figure>
+        )
+      } else if (h2Count === 3 && images?.[1]) {
+        blocks.push(
+          <figure key="img-1" className="blog-figure">
+            <img src={images[1].src} alt={images[1].alt} loading="lazy" />
+            <figcaption>{images[1].legende}</figcaption>
+          </figure>
+        )
+      }
+      h2Count++
       blocks.push(<h2 key={i}>{line.slice(3)}</h2>)
       i++
     } else if (/^(- |\d+\. )/.test(line)) {

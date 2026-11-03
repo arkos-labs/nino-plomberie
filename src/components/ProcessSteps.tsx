@@ -2,14 +2,14 @@
 import { Phone, Search, FileText, Wrench } from "lucide-react"
 
 const DEFAULT_STEPS = [
-  { icon: Phone,    titre: "Vous appelez",          desc: "Au 06 50 57 96 20, 24h/24 et 7j/7. Vous décrivez le problème, une photo peut aider." },
-  { icon: Search,   titre: "Diagnostic sur place",  desc: "Nino se déplace, identifie l'origine de la panne et vous explique ce qu'il faut faire." },
-  { icon: FileText, titre: "Devis gratuit",         desc: "Le prix est annoncé et validé avec vous avant le début des travaux. Pas de surprise." },
-  { icon: Wrench,   titre: "Réparation garantie",   desc: "Intervention soignée, chantier laissé propre. Réparations garanties 2 ans pièces et main-d'œuvre." },
+  { icon: Phone,    titre: "Vous m'appelez en direct",      desc: "Au 06 50 57 96 20, 24h/24 et 7j/7. Pas de standard : vous me décrivez la panne et je vous donne mon délai d'arrivée." },
+  { icon: Search,   titre: "Je diagnostique sur place",     desc: "Je me déplace chez vous, j'identifie l'origine exacte du problème et je vous explique quoi faire sans jargon." },
+  { icon: FileText, titre: "Vous signez le devis gratuit",  desc: "Le prix est écrit et validé avec vous avant le premier coup de clé. Si rien n'est signé, rien n'est facturé." },
+  { icon: Wrench,   titre: "Je répare avec 2 ans de garantie", desc: "Je réalise la réparation et je laisse la pièce propre. Si la panne revient dans les 2 ans, je reviens sans vous refacturer." },
 ]
 
 export function ProcessSteps({
-  title = "Comment se passe une intervention ?",
+  title = "Comment se passe une intervention",
   steps = DEFAULT_STEPS,
   background = "var(--white)",
 }: {

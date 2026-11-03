@@ -11,6 +11,7 @@
 import { Route as rootRouteImport } from './routes/__root'
 import { Route as IndexRouteImport } from './routes/index'
 import { Route as AProposRouteImport } from './routes/a-propos'
+import { Route as AvisClientsRouteImport } from './routes/avis-clients'
 import { Route as ContactRouteImport } from './routes/contact'
 import { Route as MentionsLegalesRouteImport } from './routes/mentions-legales'
 import { Route as MerciRouteImport } from './routes/merci'
@@ -21,7 +22,6 @@ import { Route as RendezVousRouteImport } from './routes/rendez-vous'
 import { Route as ServicesRouteImport } from './routes/services'
 import { Route as SitemapDotxmlRouteImport } from './routes/sitemap[.]xml'
 import { Route as TarifsRouteImport } from './routes/tarifs'
-import { Route as ZonesRouteImport } from './routes/zones'
 import { Route as ApiContactRouteImport } from './routes/api/contact'
 import { Route as ApiContactUrgenceRouteImport } from './routes/api/contact-urgence'
 import { Route as ApiDiagnosticRouteImport } from './routes/api/diagnostic'
@@ -34,6 +34,8 @@ import { Route as LocalitesIndexRouteImport } from './routes/localites/index'
 import { Route as LocalitesSlugRouteImport } from './routes/localites/$slug'
 import { Route as ServicesIndexRouteImport } from './routes/services.index'
 import { Route as ServicesSlugRouteImport } from './routes/services.$slug'
+import { Route as ZonesIndexRouteImport } from './routes/zones.index'
+import { Route as ZonesMuretainRouteImport } from './routes/zones.muretain'
 import { Route as ServicesServiceLocalityRouteImport } from './routes/services/$service/$locality'
 
 const IndexRoute = IndexRouteImport.update({
@@ -44,6 +46,11 @@ const IndexRoute = IndexRouteImport.update({
 const AProposRoute = AProposRouteImport.update({
   id: '/a-propos',
   path: '/a-propos',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const AvisClientsRoute = AvisClientsRouteImport.update({
+  id: '/avis-clients',
+  path: '/avis-clients',
   getParentRoute: () => rootRouteImport,
 } as any)
 const ContactRoute = ContactRouteImport.update({
@@ -95,11 +102,6 @@ const SitemapDotxmlRoute = SitemapDotxmlRouteImport.update({
 const TarifsRoute = TarifsRouteImport.update({
   id: '/tarifs',
   path: '/tarifs',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const ZonesRoute = ZonesRouteImport.update({
-  id: '/zones',
-  path: '/zones',
   getParentRoute: () => rootRouteImport,
 } as any)
 const ApiContactRoute = ApiContactRouteImport.update({
@@ -162,6 +164,16 @@ const ServicesSlugRoute = ServicesSlugRouteImport.update({
   path: '/$slug',
   getParentRoute: () => ServicesRoute,
 } as any)
+const ZonesIndexRoute = ZonesIndexRouteImport.update({
+  id: '/zones/',
+  path: '/zones/',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const ZonesMuretainRoute = ZonesMuretainRouteImport.update({
+  id: '/zones/muretain',
+  path: '/zones/muretain',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const ServicesServiceLocalityRoute = ServicesServiceLocalityRouteImport.update({
   id: '/$service/$locality',
   path: '/$service/$locality',
@@ -171,6 +183,7 @@ const ServicesServiceLocalityRoute = ServicesServiceLocalityRouteImport.update({
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
   '/a-propos': typeof AProposRoute
+  '/avis-clients': typeof AvisClientsRoute
   '/contact': typeof ContactRoute
   '/mentions-legales': typeof MentionsLegalesRoute
   '/merci': typeof MerciRoute
@@ -181,7 +194,6 @@ export interface FileRoutesByFullPath {
   '/services': typeof ServicesRouteWithChildren
   '/sitemap.xml': typeof SitemapDotxmlRoute
   '/tarifs': typeof TarifsRoute
-  '/zones': typeof ZonesRoute
   '/api/contact': typeof ApiContactRoute
   '/api/contact-urgence': typeof ApiContactUrgenceRoute
   '/api/diagnostic': typeof ApiDiagnosticRoute
@@ -191,14 +203,17 @@ export interface FileRoutesByFullPath {
   '/live-tracking/$id': typeof LiveTrackingIdRoute
   '/localites/$slug': typeof LocalitesSlugRoute
   '/services/$slug': typeof ServicesSlugRoute
+  '/zones/muretain': typeof ZonesMuretainRoute
   '/blog/': typeof BlogIndexRoute
   '/localites/': typeof LocalitesIndexRoute
   '/services/': typeof ServicesIndexRoute
+  '/zones/': typeof ZonesIndexRoute
   '/services/$service/$locality': typeof ServicesServiceLocalityRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
   '/a-propos': typeof AProposRoute
+  '/avis-clients': typeof AvisClientsRoute
   '/contact': typeof ContactRoute
   '/mentions-legales': typeof MentionsLegalesRoute
   '/merci': typeof MerciRoute
@@ -208,7 +223,6 @@ export interface FileRoutesByTo {
   '/rendez-vous': typeof RendezVousRoute
   '/sitemap.xml': typeof SitemapDotxmlRoute
   '/tarifs': typeof TarifsRoute
-  '/zones': typeof ZonesRoute
   '/api/contact': typeof ApiContactRoute
   '/api/contact-urgence': typeof ApiContactUrgenceRoute
   '/api/diagnostic': typeof ApiDiagnosticRoute
@@ -218,15 +232,18 @@ export interface FileRoutesByTo {
   '/live-tracking/$id': typeof LiveTrackingIdRoute
   '/localites/$slug': typeof LocalitesSlugRoute
   '/services/$slug': typeof ServicesSlugRoute
+  '/zones/muretain': typeof ZonesMuretainRoute
   '/blog': typeof BlogIndexRoute
   '/localites': typeof LocalitesIndexRoute
   '/services': typeof ServicesIndexRoute
+  '/zones': typeof ZonesIndexRoute
   '/services/$service/$locality': typeof ServicesServiceLocalityRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
   '/a-propos': typeof AProposRoute
+  '/avis-clients': typeof AvisClientsRoute
   '/contact': typeof ContactRoute
   '/mentions-legales': typeof MentionsLegalesRoute
   '/merci': typeof MerciRoute
@@ -237,7 +254,6 @@ export interface FileRoutesById {
   '/services': typeof ServicesRouteWithChildren
   '/sitemap.xml': typeof SitemapDotxmlRoute
   '/tarifs': typeof TarifsRoute
-  '/zones': typeof ZonesRoute
   '/api/contact': typeof ApiContactRoute
   '/api/contact-urgence': typeof ApiContactUrgenceRoute
   '/api/diagnostic': typeof ApiDiagnosticRoute
@@ -247,9 +263,11 @@ export interface FileRoutesById {
   '/live-tracking/$id': typeof LiveTrackingIdRoute
   '/localites/$slug': typeof LocalitesSlugRoute
   '/services/$slug': typeof ServicesSlugRoute
+  '/zones/muretain': typeof ZonesMuretainRoute
   '/blog/': typeof BlogIndexRoute
   '/localites/': typeof LocalitesIndexRoute
   '/services/': typeof ServicesIndexRoute
+  '/zones/': typeof ZonesIndexRoute
   '/services/$service/$locality': typeof ServicesServiceLocalityRoute
 }
 export interface FileRouteTypes {
@@ -257,6 +275,7 @@ export interface FileRouteTypes {
   fullPaths:
     | '/'
     | '/a-propos'
+    | '/avis-clients'
     | '/contact'
     | '/mentions-legales'
     | '/merci'
@@ -267,7 +286,6 @@ export interface FileRouteTypes {
     | '/services'
     | '/sitemap.xml'
     | '/tarifs'
-    | '/zones'
     | '/api/contact'
     | '/api/contact-urgence'
     | '/api/diagnostic'
@@ -277,14 +295,17 @@ export interface FileRouteTypes {
     | '/live-tracking/$id'
     | '/localites/$slug'
     | '/services/$slug'
+    | '/zones/muretain'
     | '/blog/'
     | '/localites/'
     | '/services/'
+    | '/zones/'
     | '/services/$service/$locality'
   fileRoutesByTo: FileRoutesByTo
   to:
     | '/'
     | '/a-propos'
+    | '/avis-clients'
     | '/contact'
     | '/mentions-legales'
     | '/merci'
@@ -294,7 +315,6 @@ export interface FileRouteTypes {
     | '/rendez-vous'
     | '/sitemap.xml'
     | '/tarifs'
-    | '/zones'
     | '/api/contact'
     | '/api/contact-urgence'
     | '/api/diagnostic'
@@ -304,14 +324,17 @@ export interface FileRouteTypes {
     | '/live-tracking/$id'
     | '/localites/$slug'
     | '/services/$slug'
+    | '/zones/muretain'
     | '/blog'
     | '/localites'
     | '/services'
+    | '/zones'
     | '/services/$service/$locality'
   id:
     | '__root__'
     | '/'
     | '/a-propos'
+    | '/avis-clients'
     | '/contact'
     | '/mentions-legales'
     | '/merci'
@@ -322,7 +345,6 @@ export interface FileRouteTypes {
     | '/services'
     | '/sitemap.xml'
     | '/tarifs'
-    | '/zones'
     | '/api/contact'
     | '/api/contact-urgence'
     | '/api/diagnostic'
@@ -332,15 +354,18 @@ export interface FileRouteTypes {
     | '/live-tracking/$id'
     | '/localites/$slug'
     | '/services/$slug'
+    | '/zones/muretain'
     | '/blog/'
     | '/localites/'
     | '/services/'
+    | '/zones/'
     | '/services/$service/$locality'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
   AProposRoute: typeof AProposRoute
+  AvisClientsRoute: typeof AvisClientsRoute
   ContactRoute: typeof ContactRoute
   MentionsLegalesRoute: typeof MentionsLegalesRoute
   MerciRoute: typeof MerciRoute
@@ -351,7 +376,6 @@ export interface RootRouteChildren {
   ServicesRoute: typeof ServicesRouteWithChildren
   SitemapDotxmlRoute: typeof SitemapDotxmlRoute
   TarifsRoute: typeof TarifsRoute
-  ZonesRoute: typeof ZonesRoute
   ApiContactRoute: typeof ApiContactRoute
   ApiContactUrgenceRoute: typeof ApiContactUrgenceRoute
   ApiDiagnosticRoute: typeof ApiDiagnosticRoute
@@ -360,8 +384,10 @@ export interface RootRouteChildren {
   InterventionVilleRoute: typeof InterventionVilleRoute
   LiveTrackingIdRoute: typeof LiveTrackingIdRoute
   LocalitesSlugRoute: typeof LocalitesSlugRoute
+  ZonesMuretainRoute: typeof ZonesMuretainRoute
   BlogIndexRoute: typeof BlogIndexRoute
   LocalitesIndexRoute: typeof LocalitesIndexRoute
+  ZonesIndexRoute: typeof ZonesIndexRoute
 }
 
 declare module '@tanstack/react-router' {
@@ -378,6 +404,13 @@ declare module '@tanstack/react-router' {
       path: '/a-propos'
       fullPath: '/a-propos'
       preLoaderRoute: typeof AProposRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/avis-clients': {
+      id: '/avis-clients'
+      path: '/avis-clients'
+      fullPath: '/avis-clients'
+      preLoaderRoute: typeof AvisClientsRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/contact': {
@@ -448,13 +481,6 @@ declare module '@tanstack/react-router' {
       path: '/tarifs'
       fullPath: '/tarifs'
       preLoaderRoute: typeof TarifsRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/zones': {
-      id: '/zones'
-      path: '/zones'
-      fullPath: '/zones'
-      preLoaderRoute: typeof ZonesRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/api/contact': {
@@ -541,6 +567,20 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof ServicesSlugRouteImport
       parentRoute: typeof ServicesRoute
     }
+    '/zones/': {
+      id: '/zones/'
+      path: '/zones'
+      fullPath: '/zones/'
+      preLoaderRoute: typeof ZonesIndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/zones/muretain': {
+      id: '/zones/muretain'
+      path: '/zones/muretain'
+      fullPath: '/zones/muretain'
+      preLoaderRoute: typeof ZonesMuretainRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/services/$service/$locality': {
       id: '/services/$service/$locality'
       path: '/$service/$locality'
@@ -570,6 +610,7 @@ const ServicesRouteWithChildren = ServicesRoute._addFileChildren(
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
   AProposRoute: AProposRoute,
+  AvisClientsRoute: AvisClientsRoute,
   ContactRoute: ContactRoute,
   MentionsLegalesRoute: MentionsLegalesRoute,
   MerciRoute: MerciRoute,
@@ -580,7 +621,6 @@ const rootRouteChildren: RootRouteChildren = {
   ServicesRoute: ServicesRouteWithChildren,
   SitemapDotxmlRoute: SitemapDotxmlRoute,
   TarifsRoute: TarifsRoute,
-  ZonesRoute: ZonesRoute,
   ApiContactRoute: ApiContactRoute,
   ApiContactUrgenceRoute: ApiContactUrgenceRoute,
   ApiDiagnosticRoute: ApiDiagnosticRoute,
@@ -589,8 +629,10 @@ const rootRouteChildren: RootRouteChildren = {
   InterventionVilleRoute: InterventionVilleRoute,
   LiveTrackingIdRoute: LiveTrackingIdRoute,
   LocalitesSlugRoute: LocalitesSlugRoute,
+  ZonesMuretainRoute: ZonesMuretainRoute,
   BlogIndexRoute: BlogIndexRoute,
   LocalitesIndexRoute: LocalitesIndexRoute,
+  ZonesIndexRoute: ZonesIndexRoute,
 }
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)

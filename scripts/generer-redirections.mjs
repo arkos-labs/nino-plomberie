@@ -63,7 +63,9 @@ function destination(url) {
 
 const urls = readFileSync(join(root, "scripts/anciennes-urls.txt"), "utf8").split(/\r?\n/).map((l) => l.trim()).filter(Boolean)
 
-const redirects = []
+// Pages quartier supprimées du nouveau site (non indexées par Google, doublons de la page Toulouse) : 2026-10-22
+const QUARTIERS_SUPPRIMES = ["toulouse-arenes", "toulouse-carmes", "toulouse-saint-cyprien"]
+const redirects = QUARTIERS_SUPPRIMES.map((s) => ({ source: `/intervention/${s}`, destination: "/intervention/toulouse", statusCode: 301 }))
 for (const url of urls) {
   const cible = `${NOUVEAU}${destination(url)}`
   // Avec et sans « / » final : l'ancien WordPress utilisait le « / » final, les liens externes pas toujours
