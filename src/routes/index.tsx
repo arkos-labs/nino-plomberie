@@ -411,16 +411,16 @@ function HomePage() {
           </p>
           <ul style={{ color: "var(--ink-800)", fontSize: "1.02rem", lineHeight: 1.8, paddingLeft: "22px", margin: "0 0 24px" }}>
             <li style={{ marginBottom: "10px" }}>
-              <strong>Déplacement et diagnostic</strong> : devis gratuit sur place, montant annoncé avant toute intervention — <code>[À CONFIRMER PAR NINO : prix de déplacement]</code>.
+              <strong>Déplacement et diagnostic</strong> : devis gratuit sur place, montant annoncé avant toute intervention — 130 € TTC.
             </li>
             <li style={{ marginBottom: "10px" }}>
-              <strong>Débouchage simple (WC, évier, douche au furet)</strong> : tarif annoncé avant intervention — <code>[À CONFIRMER PAR NINO : prix d'un débouchage simple]</code>.
+              <strong>Débouchage simple (WC, évier, douche au furet)</strong> : tarif annoncé avant intervention — 140 € TTC.
             </li>
             <li style={{ marginBottom: "10px" }}>
-              <strong>Entretien annuel de chaudière gaz</strong> : visite complète avec remise de l'attestation d'entretien — <code>[À CONFIRMER PAR NINO : prix d'un entretien chaudière]</code>.
+              <strong>Entretien annuel de chaudière gaz</strong> : visite complète avec remise de l'attestation d'entretien — 130 € TTC.
             </li>
             <li style={{ marginBottom: "10px" }}>
-              <strong>Réparation de fuite simple (joint, robinet, raccord)</strong> : chiffrage sur place avant réparation — <code>[À CONFIRMER PAR NINO : prix d'une réparation de fuite simple]</code>.
+              <strong>Réparation de fuite simple (joint, robinet, raccord)</strong> : chiffrage sur place avant réparation — 130 € TTC.
             </li>
           </ul>
           <p style={{ color: "var(--gray-600)", fontSize: "1rem", lineHeight: 1.75, margin: 0 }}>

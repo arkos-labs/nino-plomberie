@@ -107,7 +107,7 @@ Nino Plomberie, basé à Muret (11 Rue François Arago), intervient à Toulouse 
 
 Le **tarif débouchage canalisation** dépend avant tout de l'endroit où se loge le bouchon et de l'outil que je dois sortir de mon camion. Un amas de savon dans un siphon de lavabo aux Carmes ne demande pas le même travail qu'un collecteur obstrué à Colomiers. Avant d'intervenir, je pose un diagnostic précis et je vous annonce un montant clair.
 
-Pour vous donner un repère honnête, voici l'ordre de grandeur pratiqué : [À CONFIRMER PAR NINO : prix d'un débouchage simple au furet et prix d'un hydrocurage haute pression]. Retrouvez aussi ma démarche sur ma page [débouchage de canalisation à Toulouse](/services/debouchage) et sur la page [tarifs](/tarifs).
+Pour vous donner un repère honnête, voici l'ordre de grandeur pratiqué : débouchage simple au furet à 140 € TTC (évier, douche, WC). Retrouvez aussi ma démarche sur ma page [débouchage de canalisation à Toulouse](/services/debouchage) et sur la page [tarifs](/tarifs).
 
 ## Ce qui fait varier le prix
 

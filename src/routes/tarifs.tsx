@@ -7,11 +7,11 @@ import { pageHead, ldScript, breadcrumbJsonLd, faqJsonLd, type Faq } from "../li
 const TARIFS_FAQ: Faq[] = [
   {
     q: "Combien coûte une intervention de plombier à Muret ou Toulouse ?",
-    a: "Le tarif plombier dépend de la panne, de l'accessibilité et des pièces nécessaires : tarif plombier horaire [À CONFIRMER PAR NINO : tarif horaire], débouchage simple de WC ou d'évier [À CONFIRMER PAR NINO : tarif débouchage simple], entretien annuel de chaudière gaz [À CONFIRMER PAR NINO : tarif entretien chaudière]. Le prix exact est toujours écrit dans un devis gratuit signé avant le début des travaux.",
+    a: "Le tarif plombier dépend de la panne et de l'intervention : déplacement et diagnostic à 130 € TTC, débouchage simple de WC ou d'évier à 140 € TTC, entretien annuel de chaudière gaz à 130 € TTC, réparation de fuite simple à 130 € TTC. Le prix exact est toujours écrit dans un devis gratuit signé avant le début des travaux.",
   },
   {
     q: "Le déplacement et le devis sont-ils gratuits ?",
-    a: "Oui. Le devis est gratuit et sans engagement : je vous annonce le prix sur place avant le premier coup de clé [À CONFIRMER PAR NINO : tarif déplacement plombier seul si aucun travail n'est réalisé].",
+    a: "Oui, le devis est gratuit et sans engagement : je vous annonce le prix sur place avant le premier coup de clé (déplacement et diagnostic : 130 € TTC).",
   },
   {
     q: "Existe-t-il un vrai plombier pas cher à Toulouse ?",
@@ -44,7 +44,8 @@ const grille = [
     categorie: "Débouchage & Urgences",
     items: [
       { service: "Devis sur place avant travaux", prix: "Gratuit", detail: "Prix écrit et signé avant le premier coup de clé" },
-      { service: "Tarif plombier WC bouché / évier (furet)", prix: "[À CONFIRMER PAR NINO : prix débouchage simple]", detail: "Débouchage mécanique sans produit chimique" },
+      { service: "Tarif déplacement & diagnostic", prix: "130 € TTC", detail: "Montant annoncé avant toute intervention" },
+      { service: "Tarif plombier WC bouché / évier (furet)", prix: "140 € TTC", detail: "Débouchage mécanique sans produit chimique" },
       { service: "Débouchage canalisation profonde / haute pression", prix: "[À CONFIRMER PAR NINO : prix débouchage haute pression]", detail: "Selon longueur, regard et accessibilité" },
       { service: "Tarif plombier horaire (main-d'œuvre)", prix: "[À CONFIRMER PAR NINO : tarif horaire]", detail: "Annoncé à l'avance dans le devis" },
     ],
@@ -52,7 +53,7 @@ const grille = [
   {
     categorie: "Recherche & Réparation de fuite",
     items: [
-      { service: "Fuite simple (robinet, joint, flexible)", prix: "[À CONFIRMER PAR NINO : prix réparation fuite simple]", detail: "Main-d'œuvre et petite fourniture" },
+      { service: "Fuite simple (robinet, joint, flexible, raccord)", prix: "130 € TTC", detail: "Main-d'œuvre et petite fourniture" },
       { service: "Recherche de fuite sans casse et canalisation encastrée", prix: "[À CONFIRMER PAR NINO : tarif recherche de fuite]", detail: "Diagnostic ciblé pour l'assurance et réparation" },
       { service: "Changement mécanisme WC / flotteur", prix: "[À CONFIRMER PAR NINO : prix mécanisme WC]", detail: "Pièce et pose comprises" },
       { service: "Remplacement robinet mitigeur", prix: "[À CONFIRMER PAR NINO : prix pose mitigeur]", detail: "Main-d'œuvre, fourniture selon modèle choisi" },
@@ -61,7 +62,7 @@ const grille = [
   {
     categorie: "Chaudière, Chauffage & Chauffe-eau",
     items: [
-      { service: "Entretien annuel chaudière gaz", prix: "[À CONFIRMER PAR NINO : prix entretien chaudière]", detail: "Nettoyage, réglages et attestation officielle" },
+      { service: "Entretien annuel chaudière gaz", prix: "130 € TTC", detail: "Nettoyage, réglages et attestation officielle" },
       { service: "Dépannage panne de chauffage / chaudière", prix: "[À CONFIRMER PAR NINO : prix dépannage chauffage]", detail: "Diagnostic et remise en route" },
       { service: "Changement groupe de sécurité chauffe-eau", prix: "[À CONFIRMER PAR NINO : prix groupe de sécurité]", detail: "Pièce et main-d'œuvre" },
       { service: "Remplacement résistance chauffe-eau électrique", prix: "[À CONFIRMER PAR NINO : prix remplacement résistance]", detail: "Pièce et main-d'œuvre" },
@@ -132,7 +133,7 @@ function TarifsPage() {
           </p>
           <ul style={{ color: "#334155", fontSize: "1rem", lineHeight: 1.8, paddingLeft: "22px", margin: 0 }}>
             <li><strong>Devis gratuit avant travaux</strong> : une fois sur place, j'identifie l'origine exacte de la panne et je rédige le devis avant de toucher à l'installation.</li>
-            <li><strong>Tarif déplacement plombier</strong> : inclus dans le devis validé — <code>[À CONFIRMER PAR NINO : montant du déplacement seul si aucun travail n'est commandé et barème de nuit / week-end]</code>.</li>
+            <li><strong>Tarif déplacement plombier et diagnostic</strong> : 130 € TTC.</li>
             <li><strong>Tarif plombier horaire</strong> : annoncé à l'avance selon la technicité de l'intervention — <code>[À CONFIRMER PAR NINO : taux horaire exact]</code>.</li>
           </ul>
         </div>
@@ -148,7 +149,7 @@ function TarifsPage() {
             Le <strong>prix d'un débouchage de canalisation</strong> dépend de l'endroit où se loge le bouchon. Un siphon d'évier ou une cuvette de WC ne demande pas le même matériel qu'une canalisation enterrée entre la maison et le regard.
           </p>
           <ul style={{ color: "#334155", fontSize: "1rem", lineHeight: 1.8, paddingLeft: "22px", marginBottom: "16px" }}>
-            <li><strong>Tarif plombier WC bouché ou évier bouché (furet mécanique ou pompe)</strong> : <code>[À CONFIRMER PAR NINO : prix d'un débouchage simple]</code>.</li>
+            <li><strong>Tarif plombier WC bouché, évier ou douche bouchée (furet mécanique ou pompe)</strong> : 140 € TTC.</li>
             <li><strong>Débouchage de canalisation principale ou haute pression</strong> : chiffré sur place après contrôle du regard et de la longueur obstruée — <code>[À CONFIRMER PAR NINO : fourchette débouchage haute pression]</code>.</li>
           </ul>
           <p style={{ color: "#475569", fontSize: "0.98rem", margin: 0 }}>
@@ -174,7 +175,7 @@ function TarifsPage() {
             L'entretien annuel de votre chaudière gaz est obligatoire et évite la majorité des pannes d'hiver. Comme plombier-chauffagiste, j'interviens à la fois sur le corps de chauffe et sur le réseau de radiateurs.
           </p>
           <ul style={{ color: "#334155", fontSize: "1rem", lineHeight: 1.8, paddingLeft: "22px", marginBottom: "16px" }}>
-            <li><strong>Entretien annuel de chaudière gaz avec attestation</strong> : <code>[À CONFIRMER PAR NINO : prix exact entretien chaudière]</code>.</li>
+            <li><strong>Entretien annuel de chaudière gaz avec attestation</strong> : 130 € TTC.</li>
             <li><strong>Dépannage panne de chauffage ou chaudière en sécurité</strong> : hors pièce de rechange — <code>[À CONFIRMER PAR NINO : prix dépannage chauffage]</code>.</li>
             <li><strong>Purge et rééquilibrage du circuit de radiateurs</strong> : <code>[À CONFIRMER PAR NINO : prix purge et rééquilibrage]</code>.</li>
           </ul>
@@ -201,7 +202,7 @@ function TarifsPage() {
             Ouvrir un mur ou un carrelage au hasard coûte toujours plus cher que la fuite elle-même. Je localise d'abord précisément l'origine de l'infiltration avant toute réparation.
           </p>
           <ul style={{ color: "#334155", fontSize: "1rem", lineHeight: 1.8, paddingLeft: "22px", marginBottom: "16px" }}>
-            <li><strong>Réparation de fuite visible (joint, flexible, siphon, robinet d'arrêt)</strong> : <code>[À CONFIRMER PAR NINO : prix réparation fuite visible]</code>.</li>
+            <li><strong>Réparation de fuite simple visible (joint, robinet, flexible, raccord)</strong> : 130 € TTC.</li>
             <li><strong>Recherche de fuite sans casse et réparation sur canalisation encastrée</strong> : selon l'accès — <code>[À CONFIRMER PAR NINO : tarif recherche de fuite plombier]</code>.</li>
           </ul>
           <p style={{ color: "#475569", fontSize: "0.98rem", margin: 0 }}>

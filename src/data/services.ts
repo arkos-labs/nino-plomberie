@@ -415,7 +415,7 @@ export const services: ServiceFiche[] = [
       },
       {
         "h2": "Combien coûte un débouchage ?",
-        "text": "Mon devis est gratuit et je vous annonce toujours le prix fixe avant de commencer. À titre indicatif : `[À CONFIRMER PAR NINO : prix d'un débouchage simple au furet et prix d'un débouchage haute pression]`. Aucun supplément n'est ajouté en fin d'intervention. Consultez ma grille complète sur la page [tarifs plombier à Muret et Toulouse](/tarifs)."
+        "text": "Mon devis est gratuit et je vous annonce toujours le prix fixe avant de commencer. À titre indicatif : débouchage simple au furet (évier, douche ou WC) à 140 € TTC. Aucun supplément n'est ajouté en fin d'intervention. Consultez ma grille complète sur la page [tarifs plombier à Muret et Toulouse](/tarifs)."
       },
       {
         "h2": "Comment se passe une intervention",
@@ -2026,7 +2026,7 @@ export const services: ServiceFiche[] = [
       },
       {
         "h2": "Combien coûte un débouchage de WC à Toulouse ?",
-        "text": "Mon devis est gratuit et je vous annonce le prix exact sur place avant de commencer. À titre indicatif : `[À CONFIRMER PAR NINO : prix d'un débouchage de WC au furet ou à la pompe]`. Retrouvez l'ensemble des informations tarifaires sur ma page [tarifs plombier à Muret et Toulouse](/tarifs). En cas d'inondation la nuit ou le dimanche, voyez aussi ma page [plombier urgence à Toulouse](/services/urgence-plombier-toulouse)."
+        "text": "Mon devis est gratuit et je vous annonce le prix exact sur place avant de commencer. À titre indicatif : débouchage simple de WC au furet ou à la pompe à 140 € TTC. Retrouvez l'ensemble des informations tarifaires sur ma page [tarifs plombier à Muret et Toulouse](/tarifs). En cas d'inondation la nuit ou le dimanche, voyez aussi ma page [plombier urgence à Toulouse](/services/urgence-plombier-toulouse)."
       }
     ],
     "photos": [
