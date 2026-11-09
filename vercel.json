@@ -10,6 +10,91 @@
   ],
   "redirects": [
     {
+      "source": "/intervention/pibrac",
+      "destination": "/zones",
+      "statusCode": 301
+    },
+    {
+      "source": "/intervention/pibrac/",
+      "destination": "/zones",
+      "statusCode": 301
+    },
+    {
+      "source": "/intervention/issus",
+      "destination": "/zones",
+      "statusCode": 301
+    },
+    {
+      "source": "/intervention/issus/",
+      "destination": "/zones",
+      "statusCode": 301
+    },
+    {
+      "source": "/intervention/deyme",
+      "destination": "/zones",
+      "statusCode": 301
+    },
+    {
+      "source": "/intervention/deyme/",
+      "destination": "/zones",
+      "statusCode": 301
+    },
+    {
+      "source": "/intervention/lacaugne",
+      "destination": "/zones",
+      "statusCode": 301
+    },
+    {
+      "source": "/intervention/lacaugne/",
+      "destination": "/zones",
+      "statusCode": 301
+    },
+    {
+      "source": "/intervention/canens",
+      "destination": "/zones",
+      "statusCode": 301
+    },
+    {
+      "source": "/intervention/canens/",
+      "destination": "/zones",
+      "statusCode": 301
+    },
+    {
+      "source": "/intervention/gaillac-toulza",
+      "destination": "/zones",
+      "statusCode": 301
+    },
+    {
+      "source": "/intervention/gaillac-toulza/",
+      "destination": "/zones",
+      "statusCode": 301
+    },
+    {
+      "source": "/intervention/montgazin",
+      "destination": "/zones",
+      "statusCode": 301
+    },
+    {
+      "source": "/intervention/montgazin/",
+      "destination": "/zones",
+      "statusCode": 301
+    },
+    {
+      "source": "/intervention/$ville",
+      "destination": "/zones",
+      "statusCode": 301
+    },
+    {
+      "source": "/services/$slug",
+      "destination": "/services",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/$slug",
+      "destination": "/blog",
+      "statusCode": 301
+    },
+    {
       "source": "/intervention/toulouse-arenes",
       "destination": "/intervention/toulouse",
       "statusCode": 301
