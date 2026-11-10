@@ -27,6 +27,50 @@ export interface BlogArticle {
 
 export const blogArticles: BlogArticle[] = [
   {
+    slug: "pression-eau-faible-toulouse",
+    title: "Pression d'eau faible à Toulouse : les causes et les vérifications à faire",
+    metaTitle: "Pression d'eau faible Toulouse : causes et solutions",
+    excerpt:
+      "Douche qui coule à peine, robinet qui crachote : comment trouver la cause d'une pression d'eau faible à Toulouse, ce que vous pouvez vérifier seul et quand appeler.",
+    publishedAt: "2026-11-10",
+    category: "Conseils",
+    readTime: 4,
+    service: { slug: "robinetterie-sanitaires", label: "Robinetterie & Sanitaires" },
+    content: `Une douche qui n'est plus qu'un filet d'eau, un lave-linge qui met une éternité à se remplir, un robinet qui crachote : une pression d'eau faible gâche vite le quotidien. À Toulouse, la cause est rarement la même d'un logement à l'autre. Dans un appartement en copropriété, elle peut venir de la colonne commune ; dans une échoppe ou une maison de ville en brique, d'un vieux réseau encrassé ; dans une maison de la métropole, d'un réducteur de pression ou d'une vanne mal ouverte. Voici comment procéder dans l'ordre, du plus simple au plus technique.
+
+## Commencer par délimiter le problème
+
+La première question à se poser : la pression est-elle faible partout, ou seulement à un endroit ?
+
+- **Un seul robinet ou une seule douche** : la cause est locale (aérateur ou pommeau entartré, flexible plié, cartouche ou mitigeur fatigué).
+- **Seulement l'eau chaude** : le problème vient plutôt du chauffe-eau, de son groupe de sécurité ou de la tuyauterie d'eau chaude.
+- **Toute la maison, chaud et froid** : cherchez du côté de l'arrivée d'eau, du compteur, du robinet d'arrêt général ou du réducteur de pression.
+- **Plusieurs voisins concernés** : si tout l'immeuble ou la rue est touché, il s'agit sans doute d'une cause extérieure à votre logement. Prévenez le syndic ou le gestionnaire de l'immeuble.
+
+## Les vérifications simples à faire soi-même
+
+1. **Nettoyer les aérateurs et pommeaux** : dévissez le brise-jet au bout du robinet et le pommeau de douche, puis laissez-les tremper dans du vinaigre blanc chaud. Le calcaire bouche les petits orifices et réduit le débit. C'est la cause la plus fréquente d'une faiblesse localisée.
+2. **Contrôler le robinet d'arrêt général** : il doit être ouvert en grand. Une vanne restée à moitié fermée après des travaux ou un dépannage réduit le débit de tout le logement.
+3. **Regarder les robinets d'arrêt sous les éviers et derrière les WC** : un petit robinet à peine entrouvert suffit à étrangler un appareil.
+4. **Vérifier les flexibles** : un tuyau de douche vrillé ou un flexible écrasé derrière un meuble limite le passage de l'eau.
+5. **Contrôler le filtre du compteur ou du lave-linge** : un filtre encrassé de particules ou de sable ralentit l'arrivée d'eau.
+6. **Tester la différence chaud/froid** : si seul le chaud est faible, vérifiez que le robinet d'arrivée d'eau froide du chauffe-eau est bien ouvert.
+
+## Quand le problème vient du réseau intérieur
+
+Si les gestes précédents ne changent rien, le réseau lui-même est en cause. Dans les logements anciens, les canalisations en acier galvanisé se couvrent de dépôts à l'intérieur et leur section utile diminue au fil des années. Le réducteur de pression, quand il y en a un, peut aussi se dérégler ou s'user. Enfin, une fuite sur le réseau fait perdre du débit aux points d'eau : si le compteur tourne alors que tous les robinets sont fermés, ou si une tache d'humidité apparaît sur un mur ou un plafond, coupez l'eau et faites diagnostiquer rapidement.
+
+## Ce qu'il vaut mieux ne pas faire
+
+Ne démontez pas un réducteur de pression ou un groupe de sécurité sans connaître leur fonctionnement : un mauvais réglage peut abîmer les appareils ou provoquer une fuite. Évitez aussi les produits chimiques violents dans les canalisations, qui peuvent les attaquer. Et n'augmentez pas la pression en forçant un réglage sans avis d'un professionnel : une pression trop haute use les joints, les flexibles et le chauffe-eau.
+
+## Quand appeler un plombier
+
+Faites appel à un professionnel si la pression reste faible sur tout le logement après vos vérifications, si vous soupçonnez une fuite, si le réducteur de pression doit être contrôlé ou remplacé, ou si vos canalisations anciennes sont encrassées. Il identifie la cause et vous dit s'il faut une simple réparation ou le remplacement d'un tronçon.
+
+Nino Plomberie, basé à Muret (11 Rue François Arago), intervient à Toulouse et dans toute la Haute-Garonne. Plus de 20 ans d'expérience, garantie 2 ans, devis gratuit pour vos travaux, et disponibilité 24h/24 et 7j/7 en cas d'urgence : appelez le 06 50 57 96 20.`,
+  },
+  {
     slug: "proteger-canalisations-gel-toulouse",
     title: "Protéger ses canalisations du gel à Toulouse : les gestes avant les premières gelées",
     metaTitle: "Canalisations gelées Toulouse : les protéger du gel",
