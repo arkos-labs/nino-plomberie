@@ -1499,6 +1499,79 @@ Vous avez un projet de **rénovation de salle de bain** ou de remplacement de ba
       },
     ],
   },
+  {
+    slug: "depannage-plomberie-chauffage-toulouse-par-ou-commencer",
+    title: "Dépannage plomberie et chauffage à Toulouse : par où commencer quand ça tombe en panne ?",
+    metaTitle: "Dépannage plomberie et chauffage Toulouse : les bons réflexes",
+    excerpt:
+      "Fuite, WC qui refoule, chaudière à l'arrêt : les premiers gestes à faire, ce que vous pouvez gérer seul et le moment où il faut appeler un plombier à Toulouse et en Haute-Garonne.",
+    publishedAt: "2026-11-10",
+    category: "Urgence",
+    readTime: 6,
+    service: { slug: "urgence-plombier-toulouse", label: "Urgence plombier 24h/24" },
+    relatedSlugs: [
+      "fuite-eau-couper-arrivee-eau",
+      "deboucher-wc-gestes-avant-plombier",
+      "chauffe-eau-qui-fuit-que-faire",
+    ],
+    content: `Quand l'eau fuit, que le WC refoule ou que la chaudière s'arrête, la première chose à faire est de limiter les dégâts, puis de décider si vous pouvez régler le problème vous-même ou s'il faut appeler un professionnel. Dans la plupart des cas, quelques gestes simples suffisent à stabiliser la situation en attendant l'intervention.
+
+## Les trois familles de pannes les plus fréquentes
+
+Les appels de dépannage que je reçois à Toulouse, Muret et dans les communes voisines tournent presque toujours autour de trois situations :
+
+- **la fuite d'eau**, visible ou non, qui peut venir d'un raccord, d'un flexible ou d'une canalisation ;
+- **la canalisation bouchée**, avec un évier, une douche ou des toilettes qui se vident mal, voire qui refoulent ;
+- **l'eau chaude ou le chauffage en panne**, avec un chauffe-eau qui ne chauffe plus ou une chaudière qui se met en sécurité.
+
+Chacune appelle des premiers réflexes différents.
+
+## En cas de fuite : couper l'arrivée d'eau d'abord
+
+Si vous voyez de l'eau couler ou une tache qui grandit au plafond ou au mur, fermez le robinet d'arrêt général de votre logement. Si vous ne le trouvez pas, repérez le compteur d'eau et son robinet d'arrêt. Ensuite, coupez le courant si l'eau touche une prise ou un appareil électrique, et posez des seaux ou des serviettes pour limiter les dégâts. Ne cherchez pas à démonter une canalisation sous pression.
+
+Une fois la fuite maîtrisée, prenez quelques photos et notez l'heure : elles serviront à votre assurance et au plombier qui devra localiser la fuite.
+
+## WC qui refoule ou évier bouché
+
+Avant de déboucher, vérifiez si le blocage concerne une seule évacuation ou toute la maison. Si l'eau remonte dans plusieurs appareils en même temps, le problème se situe probablement sur le réseau principal et il vaut mieux appeler sans attendre. Si un seul évier ou une seule douche est concerné, une ventouse ou un furet simple peut suffire.
+
+Évitez de verser de grandes quantités de produit déboucheur chimique : il peut abîmer les joints et rendre le travail du plombier plus compliqué. Si le bouchon revient sans cesse, c'est souvent le signe d'un problème de pente ou de dépôts anciens, qui ne se règle pas avec un produit.
+
+## Eau chaude ou chauffage qui ne fonctionne plus
+
+Pour un chauffe-eau qui ne chauffe plus, commencez par vérifier son alimentation électrique au tableau et le disjoncteur associé. Pour une chaudière, regardez le manomètre : une pression trop basse est fréquente et se corrige souvent en rajoutant de l'eau selon la notice de l'appareil. Si la chaudière reste en défaut après un redémarrage, ne multipliez pas les tentatives.
+
+Si vous sentez une odeur de gaz, quittez le logement immédiatement, ne touchez à aucun interrupteur et appelez les secours (18 ou 112) depuis l'extérieur. Ne tentez jamais de réparer une installation gaz vous-même.
+
+## Ce que vous pouvez faire seul, ce qui demande un artisan
+
+Certains gestes sont raisonnables à faire soi-même : fermer un robinet, purger un radiateur, nettoyer une grille ou un siphon accessible, vérifier la pression d'une chaudière. D'autres demandent un professionnel : chercher une fuite encastrée ou sous dalle, remplacer un chauffe-eau, intervenir sur une chaudière gaz, reprendre une évacuation dans un mur ou un plancher.
+
+L'idée n'est pas de vous décourager de bricoler, mais de savoir où s'arrête le geste simple. Un doute sur une fuite ou une installation gaz suffit à appeler.
+
+## Quand appeler un plombier
+
+Appelez sans attendre si la fuite continue malgré l'arrêt de l'arrivée d'eau, si l'eau atteint un tableau électrique, si plusieurs appareils refoulent en même temps, si la chaudière reste en défaut ou si vous ne trouvez pas l'origine du problème. Pour ces situations, je me déplace à Toulouse, Muret et en Haute-Garonne, en 24h/24 et 7j/7 pour les urgences.
+
+Pour un problème moins urgent, vous pouvez aussi [demander un devis gratuit](/contact) : je me déplace pour établir un diagnostic clair avant toute intervention. Les pages détaillées de mes [interventions de débouchage](/services/debouchage), de [recherche de fuite](/services/fuite-d-eau) et de [dépannage chauffage et chaudière](/services/chauffage-chaudiere) vous donnent le détail de chaque prestation.
+
+Artisan plombier installé à Muret (11 Rue François Arago), je compte plus de 20 ans de métier et je suis couvert par une garantie de 2 ans sur mes interventions. Pour une panne en cours, appelez le 06 50 57 96 20.`,
+    faq: [
+      {
+        q: "Que faire en premier en cas de fuite d'eau ?",
+        a: "Fermez le robinet d'arrêt général de votre logement, coupez le courant si l'eau touche une prise, puis limitez les dégâts avec des seaux ou des serviettes. Prenez des photos avant d'intervenir pour faciliter votre déclaration à l'assurance.",
+      },
+      {
+        q: "Puis-je déboucher mes toilettes moi-même ?",
+        a: "Oui, pour un bouchon simple sur une seule évacuation, une ventouse ou un furet peut suffire. Si plusieurs appareils refoulent en même temps, ou si le bouchon revient souvent, il vaut mieux faire appel à un plombier.",
+      },
+      {
+        q: "Intervenez-vous en urgence le week-end ?",
+        a: "Oui, je propose une disponibilité 24h/24 et 7j/7 pour les urgences à Toulouse, Muret et dans la Haute-Garonne. Appelez le 06 50 57 96 20.",
+      },
+    ],
+  },
 ]
 
 const LEGACY_SLUGS: Record<string, string> = {
