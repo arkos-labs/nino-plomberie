@@ -1572,6 +1572,171 @@ Artisan plombier installé à Muret (11 Rue François Arago), je compte plus de 
       },
     ],
   },
+  {
+    slug: "prix-depannage-plombier-nuit-toulouse",
+    title: "Combien coûte un dépannage plombier la nuit à Toulouse ?",
+    metaTitle: "Prix dépannage plombier de nuit Toulouse : ce que couvre le devis",
+    excerpt:
+      "Pourquoi le tarif d'un dépannage de nuit varie, ce que comprend le devis et comment savoir le prix avant l'intervention à Toulouse, Muret et en Haute-Garonne.",
+    publishedAt: "2026-11-10",
+    category: "Urgence",
+    readTime: 5,
+    service: { slug: "urgence-plombier-toulouse", label: "Urgence plombier 24h/24" },
+    relatedSlugs: [
+      "plombier-urgence-toulouse-quand-appeler",
+      "fuite-eau-couper-arrivee-eau",
+      "deboucher-wc-gestes-avant-plombier",
+    ],
+    content: `La question du prix arrive presque toujours en premier, et c'est normal. Une fuite à 23 h dans un appartement ou un WC qui refoule un dimanche matin ne laisse pas le temps de comparer trois artisans. Le tarif d'une intervention de nuit dépend de la panne, de l'heure, du type de logement et des pièces à remplacer. Je ne peux donc pas vous donner un chiffre au téléphone sans avoir vu le problème.
+
+## Comment se passe l'appel
+
+Vous m'appelez au 06 50 57 96 20, je suis disponible 24h/24 et 7j/7. Je vous pose quelques questions sur la panne et je vous donne les gestes qui limitent les dégâts en attendant : couper l'arrivée d'eau générale, couper le disjoncteur si l'eau approche d'une prise, ne plus tirer la chasse sur un WC bouché.
+
+Sur place, j'identifie la cause et j'établis un devis. Vous le lisez avant que je commence les travaux.
+
+## Ce que comprend le prix
+
+Le montant de votre devis se compose de plusieurs éléments. Les connaître aide à comprendre pourquoi deux pannes semblables peuvent coûter différemment.
+
+- **Le déplacement.** La nuit, il est majoré par rapport à une intervention en journée, comme chez la plupart des artisans qui se déplacent à une heure inhabituelle.
+- **La main-d'œuvre.** Elle dépend du temps passé et de la complexité. Un débouchage d'évier n'a rien à voir avec la recherche d'une fuite encastrée.
+- **Les pièces et fournitures.** Un joint, un flexible, un groupe de sécurité ou une résistance n'ont pas le même prix. Je vous indique la référence et le montant.
+- **Le logement et l'accès.** Une maison avec un accès facile au réseau ne demande pas le même travail qu'un appartement sans ascenseur ou qu'une canalisation encastrée dans un mur.
+
+Pour les ordres de grandeur selon les prestations, consultez la page [tarifs](/tarifs).
+
+## Un devis avant les travaux
+
+L'objection la plus fréquente de nuit, c'est la crainte d'une mauvaise surprise sur la facture. Ma règle est simple : je vous présente le devis avant de commencer. Si le montant ne vous convient pas, vous n'êtes pas obligé de le signer.
+
+Je ne peux pas vous donner un prix ferme au téléphone avant d'avoir vu la panne. Une fuite sous évier peut venir d'un raccord desserré ou d'une canalisation percée derrière un mur, et le travail n'est pas le même. Je préfère vous expliquer ce qui fera varier le montant et le confirmer sur place.
+
+## Un artisan local, joignable la nuit
+
+J'interviens à Toulouse et Muret, et dans toute la Haute-Garonne, 24h/24 et 7j/7. Je suis installé au 11 rue François Arago à Muret, avec plus de 20 ans de métier. Mes interventions sont garanties 2 ans. Vous pouvez consulter les avis clients sur mon profil Google.
+
+Pour un dépannage en cours, appelez le 06 50 57 96 20. Pour un problème moins urgent, vous pouvez aussi [demander un devis](/contact) ou consulter les pages [intervention à Toulouse](/intervention/toulouse) et [intervention à Muret](/intervention/muret).
+
+## FAQ
+
+Le prix d'un dépannage plombier la nuit est-il plus élevé qu'en journée ?
+
+Oui, une majoration de nuit s'applique, comme chez la plupart des artisans qui se déplacent à une heure inhabituelle. Elle apparaît sur le devis que je vous présente avant les travaux.
+
+Puis-je obtenir un prix ferme par téléphone ?
+
+Non. Sans voir la panne, je ne peux pas distinguer un raccord desserré d'une canalisation percée derrière un mur. Au téléphone, je vous explique ce qui fera varier le montant ; sur place, le devis fixe le prix.
+
+Que se passe-t-il si la panne revient après l'intervention ?
+
+Mes interventions sont garanties 2 ans. Appelez-moi au 06 50 57 96 20 et j'examinerai la situation.
+
+Intervenez-vous la nuit en dehors de Toulouse ?
+
+Oui, j'interviens 24h/24 et 7j/7 dans toute la Haute-Garonne, dont Toulouse, Muret et les communes voisines. La majoration de nuit reste la seule différence avec la journée.`,
+    faq: [
+      {
+        q: "Le prix d'un dépannage plombier la nuit est-il plus élevé qu'en journée ?",
+        a: "Oui, une majoration de nuit s'applique, comme chez la plupart des artisans qui se déplacent à une heure inhabituelle. Elle apparaît sur le devis que je vous présente avant les travaux.",
+      },
+      {
+        q: "Puis-je obtenir un prix ferme par téléphone ?",
+        a: "Non. Sans voir la panne, je ne peux pas distinguer un raccord desserré d'une canalisation percée derrière un mur. Au téléphone, je vous explique ce qui fera varier le montant ; sur place, le devis fixe le prix.",
+      },
+      {
+        q: "Que se passe-t-il si la panne revient après l'intervention ?",
+        a: "Mes interventions sont garanties 2 ans. Appelez-moi au 06 50 57 96 20 et j'examinerai la situation.",
+      },
+      {
+        q: "Intervenez-vous la nuit en dehors de Toulouse ?",
+        a: "Oui, j'interviens 24h/24 et 7j/7 dans toute la Haute-Garonne, dont Toulouse, Muret et les communes voisines. La majoration de nuit reste la seule différence avec la journée.",
+      },
+    ],
+  },
+  {
+    slug: "plombier-urgence-muret-delai-intervention",
+    title: "Plombier en urgence à Muret : ce qui fait varier le délai d'intervention",
+    metaTitle: "Plombier urgence Muret : délai d'intervention et premiers gestes",
+    excerpt:
+      "Ce qui influence le délai d'un plombier en urgence à Muret, les premiers gestes à faire en attendant et comment se déroule une prise en charge, de l'appel à la remise en eau.",
+    publishedAt: "2026-11-10",
+    category: "Urgence",
+    readTime: 5,
+    service: { slug: "urgence-plombier-toulouse", label: "Urgence plombier 24h/24" },
+    relatedSlugs: [
+      "plombier-urgence-toulouse-quand-appeler",
+      "fuite-eau-couper-arrivee-eau",
+      "deboucher-wc-gestes-avant-plombier",
+    ],
+    content: `Quand une canalisation lâche à 23 h ou qu'un WC refoule un dimanche matin, la première question est souvent : combien de temps avant que quelqu'un arrive ? Il n'existe pas de délai unique. Il dépend de la panne, de l'heure de votre appel et de votre adresse. Voici ce qui compte, et ce que vous pouvez faire en attendant.
+
+## Ce qui fait varier le délai
+
+- **La nature de la panne.** Une fuite active demande une coupure d'eau immédiate et une intervention rapide. Un chauffe-eau en panne peut attendre sans risque d'aggravation.
+- **Le moment de l'appel.** La nuit, les week-ends et les jours fériés, je suis joignable au même numéro, 24h/24 et 7j/7. Le créneau dépend ensuite des urgences déjà en cours.
+- **La distance.** Je pars de Muret, au 11 rue François Arago. Pour un logement à Muret ou dans les communes voisines, le trajet est en général court ; pour une adresse plus éloignée, il est plus long.
+
+Au téléphone, je vous indique le créneau que je peux tenir après avoir évalué la gravité. Plus vous décrivez précisément la panne, plus je peux venir avec le bon matériel.
+
+## Les gestes à faire en attendant
+
+- **Fuite active :** fermez le robinet d'arrêt général, coupez le disjoncteur si l'eau approche d'une prise, épongez et protégez vos meubles.
+- **WC ou canalisation qui refoule :** ne tirez plus la chasse et ne versez aucun produit chimique. Il peut stagner devant le bouchon et abîmer les joints.
+- **Dans tous les cas :** prenez des photos avant d'intervenir, pour votre assurance.
+
+Repérer votre robinet d'arrêt général maintenant, à froid, vous fera gagner du temps le jour où une fuite démarre.
+
+## Comment se déroule une intervention urgente
+
+1. **L'appel.** Vous me décrivez la panne et je vous guide sur les premiers gestes.
+2. **Le créneau.** Je vous indique quand je peux passer.
+3. **Le diagnostic sur place.** J'identifie la cause avant de toucher à quoi que ce soit.
+4. **Le devis.** Je vous présente un devis avant de commencer les travaux.
+5. **La réparation et la remise en eau.** Je répare, je vérifie que tout fonctionne et je vous explique ce qui a été fait.
+
+Mes interventions sont garanties 2 ans. Pour les situations moins urgentes, consultez aussi la page [intervention à Muret](/intervention/muret).
+
+## Une urgence à Muret ?
+
+Appelez le 06 50 57 96 20. Vous parlez directement à l'artisan, sans plateforme intermédiaire. Pour un problème moins urgent, vous pouvez [demander un devis](/contact).
+
+## FAQ
+
+Quel est le délai d'un plombier en urgence à Muret ?
+
+Il dépend de la panne, de l'heure de votre appel et de votre adresse. Au téléphone, je vous indique le créneau que je peux tenir après avoir évalué la situation.
+
+Un plombier peut-il intervenir la nuit à Muret ?
+
+Oui. Je suis joignable 24h/24 et 7j/7, y compris la nuit, les week-ends et les jours fériés, au 06 50 57 96 20.
+
+Que faire en attendant l'arrivée du plombier ?
+
+Coupez l'arrivée d'eau générale si la fuite est active, coupez le disjoncteur si l'eau approche d'une prise, ne tirez plus la chasse sur un WC bouché et ne versez aucun produit chimique.
+
+Que se passe-t-il si la panne revient après l'intervention ?
+
+Mes interventions sont garanties 2 ans. Appelez-moi au 06 50 57 96 20 et j'examinerai la situation.`,
+    faq: [
+      {
+        q: "Quel est le délai d'un plombier en urgence à Muret ?",
+        a: "Il dépend de la panne, de l'heure de votre appel et de votre adresse. Au téléphone, je vous indique le créneau que je peux tenir après avoir évalué la situation.",
+      },
+      {
+        q: "Un plombier peut-il intervenir la nuit à Muret ?",
+        a: "Oui. Je suis joignable 24h/24 et 7j/7, y compris la nuit, les week-ends et les jours fériés, au 06 50 57 96 20.",
+      },
+      {
+        q: "Que faire en attendant l'arrivée du plombier ?",
+        a: "Coupez l'arrivée d'eau générale si la fuite est active, coupez le disjoncteur si l'eau approche d'une prise, ne tirez plus la chasse sur un WC bouché et ne versez aucun produit chimique.",
+      },
+      {
+        q: "Que se passe-t-il si la panne revient après l'intervention ?",
+        a: "Mes interventions sont garanties 2 ans. Appelez-moi au 06 50 57 96 20 et j'examinerai la situation.",
+      },
+    ],
+  },
 ]
 
 const LEGACY_SLUGS: Record<string, string> = {
