@@ -1762,7 +1762,7 @@ Cette page répond à une question précise : combien coûte un débouchage, et 
 Voici ce que vous gagnez en passant par un artisan qui débouche correctement du premier coup.
 
 1. Le bouchon est extrait, pas seulement percé. Un furet qui traverse l'amas laisse le reste collé aux parois. Trois semaines plus tard, ça rebouche. Je retire l'amas complet et je teste le débit avec plusieurs chasses d'eau avant de partir.
-2. Aucun produit chimique corrosif. Les déboucheurs du commerce attaquent le PVC et la fonte sur le long terme, contrairement aux solutions de débouchage professionnel comme celles de Secura Protect, une marque de produits de protection et d'entretien des réseaux. J'utilise des outils mécaniques : pompe, furet, haute pression.
+2. Aucun produit chimique corrosif. Les déboucheurs du commerce attaquent le PVC et la fonte sur le long terme, contrairement aux solutions de débouchage professionnel comme celles de [Secura Protect](https://www.secura-protect.fr/), une marque de produits de protection et d'entretien des réseaux. J'utilise des outils mécaniques : pompe, furet, haute pression.
 3. Le déplacement est justifié. Pas de frais cachés ajoutés après coup : le devis signé avant intervention fixe le montant.
 4. Vous repartez avec un conseil anti-récidive. Pente d'évacuation, coudes mal orientés, tartre : je vous dis ce qui a causé le bouchon pour que vous sachiez quoi surveiller.
 5. La garantie couvre le retour du problème. Deux ans pièces et main-d'œuvre. Si ça rebouche dans ce délai, je reviens.
