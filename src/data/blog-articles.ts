@@ -1863,6 +1863,96 @@ Un seul geste : décrochez votre téléphone et décrivez la panne. Vous saurez 
       },
     ],
   },
+  {
+    slug: "temps-remplacement-chauffe-eau-muret",
+    title: "Combien de temps pour changer un chauffe-eau à Muret : étapes et délais",
+    metaTitle: "Changer un chauffe-eau à Muret : délais et étapes",
+    excerpt:
+      "Combien de temps dure le remplacement d'un chauffe-eau à Muret, étape par étape, et ce qui allonge le délai entre l'appel et l'eau chaude.",
+    publishedAt: "2026-11-17",
+    category: "Conseils",
+    readTime: 6,
+    service: { slug: "chauffe-eau", label: "Chauffe-eau & Cumulus" },
+    content: `Quand le ballon d'eau chaude rend l'âme, la question qui vient avant le prix est souvent celle du temps : combien de jours sans douche, faut-il poser un jour de congé, faut-il vider le placard avant l'arrivée du plombier. À Muret et dans les communes autour de Toulouse, la réponse dépend moins du modèle de chauffe-eau que de la préparation de l'intervention. Voici comment se déroule réellement un remplacement, ce qui allonge le délai, et ce que vous pouvez faire pour le raccourcir.
+
+## Combien de temps pour changer un chauffe-eau à Muret : la réponse directe
+
+Pour un cumulus électrique classique, comptez une demi-journée d'intervention. Cette durée couvre la coupure de l'arrivée d'eau et du circuit électrique, la vidange du ballon, la dépose de l'ancien appareil, la pose du neuf, le raccordement eau et électricité, puis la mise en service avec montée en température. Sur un modèle vertical de taille courante, installé dans un placard ou un garage accessible, l'artisan tient ce délai sans difficulté.
+
+Le remplacement d'un chauffe-eau gaz, plus rare à Muret mais présent dans certains pavillons anciens, demande un peu plus de temps : il faut contrôler l'évacuation des fumées et refaire les essais de combustion avant de rendre l'appareil au client. Comptez alors une journée, parfois moins si l'installation existante est aux normes.
+
+Le vrai délai à retenir est celui entre l'appel et l'eau chaude. Il se décompose en trois temps : le diagnostic par téléphone ou sur place, l'obtention du ballon au bon volume et à la bonne technologie, puis la pose elle-même. C'est le deuxième temps qui fait la différence, et il ne dépend pas seulement du plombier.
+
+## Comment se déroule un remplacement, étape par étape
+
+Un changement de chauffe-eau réussi se joue avant le premier coup de clé. Voici l'ordre réel des opérations, tel qu'il se pratique sur le terrain à Muret et à Toulouse.
+
+1. **Le diagnostic à distance.** Au téléphone, Nino vérifie avec vous si le problème vient du tableau électrique avant de se déplacer. Un disjoncteur qui saute, un contacteur heures creuses bloqué ou une résistance entartrée n'impliquent pas forcément un remplacement. Cette étape évite de déposer un ballon qui pouvait être réparé.
+2. **Le devis gratuit sur place.** Une fois la panne confirmée, le devis écrit est remis et validé avant travaux. C'est le moment où vous décidez entre réparation et remplacement, en connaissance de cause.
+3. **La préparation.** Coupure de l'alimentation électrique dédiée au ballon, fermeture de l'arrivée d'eau froide, vidange complète de la cuve par le groupe de sécurité ou un robinet de purge. Cette phase prend du temps sur un ballon entartré, car le calcaire ralentit l'écoulement.
+4. **La dépose.** Sortie de l'ancien appareil, souvent l'étape la plus physique : un cumulus plein pèse lourd, et le passage dans un escalier étroit ou une trappe de combles peut exiger de démonter la porte du placard.
+5. **La pose et les raccordements.** Mise en place du ballon neuf sur son support, raccordement au réseau d'eau froide et au groupe de sécurité, branchement électrique, contrôle de l'anode et du thermostat.
+6. **La mise en service.** Remplissage, purge de l'air dans les circuits, remise sous tension et vérification de la montée en température. L'artisan repart quand l'eau chaude arrive au robinet.
+
+Chaque étape peut s'allonger pour une raison précise : un accès difficile, un ballon installé dans un endroit exigu, une tuyauterie ancienne à reprendre, ou un modèle commandé qui n'est pas en stock chez le fournisseur. Pour le détail des prestations et des tarifs, la page dédiée au [chauffe-eau et cumulus à Muret et Toulouse](https://ninoplomberie.fr/services/chauffe-eau) décrit ce qui est inclus dans l'intervention.
+
+## Tableau comparatif des situations de remplacement
+
+Toutes les installations ne se valent pas en termes de temps. Ce tableau résume les cas de figure courants et ce qui pèse sur la durée, sans chiffres inventés : les durées indiquées sont des ordres de grandeur qualitatifs, pas des engagements.
+
+- **Cumulus vertical en placard, accès facile** : une demi-journée. Rien de particulier si le modèle est disponible. Point de vigilance : vérifier la largeur du passage avant la livraison.
+- **Ballon installé dans les combles** : une demi-journée à une journée. Ce qui allonge : manutention, trappe étroite, plancher à consolider. Point de vigilance : poids de l'appareil et reprise du support.
+- **Chauffe-eau gaz avec évacuation des fumées** : une journée. Ce qui allonge : contrôle du conduit, essais de combustion. Point de vigilance : conformité de l'évacuation à recontrôler.
+- **Remplacement d'un ballon entartré** : variable, souvent plus long. Ce qui allonge : vidange lente, calcaire dans les raccords. Point de vigilance : prévoir un détartrage des arrivées d'eau.
+- **Passage d'un ballon horizontal à un vertical** : une demi-journée à une journée. Ce qui allonge : reprise de la tuyauterie et du support. Point de vigilance : vérifier la hauteur disponible sous plafond.
+- **Installation ancienne en tuyaux à reprendre** : variable. Ce qui allonge : raccords grippés, filetages abîmés. Point de vigilance : prévoir des pièces de rechange sur place.
+
+Ce tableau ne remplace pas un diagnostic : deux maisons de Muret avec le même modèle de ballon peuvent donner des durées différentes selon l'état des réseaux et la configuration des lieux.
+
+## Les erreurs qui font traîner le remplacement
+
+La première erreur consiste à commander le ballon avant d'avoir vérifié le volume nécessaire et la place disponible. Un cumulus trop large ne passe pas dans le placard, et l'intervention est repoussée le temps de l'échange. Prenez les mesures de l'emplacement, pas seulement celles de l'ancien appareil : la hauteur sous plafond, la largeur de la porte et le sens d'ouverture comptent autant que le diamètre.
+
+La deuxième erreur est de négliger l'accès. Un ballon dans les combles exige un chemin de manutention dégagé. Si le plombier doit démonter une cloison ou retirer des cartons empilés, le temps de pose s'allonge d'autant. Déblayer l'accès avant l'arrivée de l'artisan est le geste le plus utile que vous puissiez faire.
+
+La troisième erreur concerne l'électricité. Un chauffe-eau neuf demande un circuit dédié et une protection adaptée. Si le tableau électrique est ancien ou mal repéré, l'artisan perd du temps à identifier le bon disjoncteur, voire à constater qu'il faut reprendre l'alimentation. Ce point se règle au diagnostic, pas au moment de la pose.
+
+Enfin, beaucoup de propriétaires attendent que le ballon fuie pour appeler. Une fuite sur la cuve, un groupe de sécurité qui goutte en continu ou une résistance qui disjoncte sont des signaux à traiter avant la panne totale. Un remplacement anticipé se planifie, donc se fait plus vite qu'une urgence. À l'inverse, quand l'eau chaude manque en pleine nuit, la page [urgence plombier à Toulouse](https://ninoplomberie.fr/services/urgence-plombier-toulouse) explique comment se déroule une intervention hors horaires.
+
+## Ce que personne ne dit sur le délai réel d'un changement de ballon
+
+Le facteur qui décide vraiment du délai n'est pas la durée de la pose : c'est la disponibilité du modèle exact dont votre logement a besoin. Un plombier peut poser un ballon en quelques heures, mais s'il doit commander un modèle spécifique (volume particulier, ballon horizontal pour un comble bas, version gaz d'une marque précise), l'intervention attend la livraison. C'est la raison pour laquelle un artisan local qui connaît les stocks de ses fournisseurs toulousains, comme le réseau de plombiers chauffagistes [OsiQual](https://osiqual.fr/), peut souvent raccourcir le délai, simplement parce qu'il sait où trouver l'appareil sans attendre.
+
+Deuxième point que peu de devis mentionnent : le remplacement d'un chauffe-eau est aussi le bon moment pour traiter la cause de la panne. À Muret et dans l'agglomération toulousaine, l'eau est calcaire, et un ballon neuf installé sans contrôle de l'anode sacrificielle ni réflexion sur l'entretien repart dans le même cycle. Poser un appareil neuf sur une installation entartrée, c'est payer deux fois. Un artisan sérieux vous le dira avant de commencer, pas après.
+
+Troisième nuance : la garantie de deux ans pièces et main-d'œuvre change la façon de voir le délai. Si une panne revient dans ce cadre, l'artisan revient sans refacturer. Ce n'est pas un argument commercial, c'est un engagement qui oblige à poser correctement dès le premier passage, ce qui prend parfois un peu plus de temps qu'un montage expéditif.`,
+    faq: [
+      {
+        q: "Combien de temps faut-il pour changer un chauffe-eau à Muret ?",
+        a: "Pour un cumulus électrique standard, comptez une demi-journée de travail sur place, dépose de l'ancien ballon et mise en service comprises. Un chauffe-eau gaz ou une installation dans les combles peut demander une journée. Le délai entre l'appel et l'eau chaude dépend ensuite de la disponibilité du modèle adapté à votre logement.",
+      },
+      {
+        q: "Peut-on changer un chauffe-eau en une seule journée ?",
+        a: "Oui, dans la majorité des cas. Si le ballon de remplacement est disponible et que l'accès est dégagé, le remplacement se fait dans la journée. Les situations qui débordent sur un deuxième jour concernent surtout les installations anciennes à reprendre ou les modèles spécifiques à commander.",
+      },
+      {
+        q: "Faut-il vider le chauffe-eau avant le remplacement ?",
+        a: "La vidange fait partie de l'intervention : l'artisan coupe l'arrivée d'eau et l'alimentation électrique, puis vide la cuve avant la dépose. Vous n'avez pas à le faire vous-même. En revanche, dégager l'accès au ballon (placard, trappe de combles) fait gagner du temps.",
+      },
+      {
+        q: "Peut-on avoir de l'eau chaude le jour même après la pose ?",
+        a: "Oui. Une fois le ballon rempli, purgé et remis sous tension, la montée en température prend le temps nécessaire selon le volume et la puissance de l'appareil. L'artisan vérifie que l'eau chaude arrive au robinet avant de repartir.",
+      },
+      {
+        q: "Le remplacement est-il garanti ?",
+        a: "L'intervention est garantie deux ans pièces et main-d'œuvre. Si la panne revient dans ce délai, Nino revient sans refacturer. Le devis gratuit est remis et validé avant le début des travaux.",
+      },
+      {
+        q: "Que faire en attendant le remplacement si je n'ai plus d'eau chaude ?",
+        a: "Vérifiez d'abord le disjoncteur dédié au ballon au tableau électrique, puis le contacteur heures creuses en position marche forcée. Si le courant ne revient pas, la panne vient de l'appareil. Un appel permet de confirmer le diagnostic avant de programmer l'intervention.",
+      },
+    ],
+  },
 ]
 
 const LEGACY_SLUGS: Record<string, string> = {
