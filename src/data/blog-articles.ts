@@ -27,6 +27,48 @@ export interface BlogArticle {
 
 export const blogArticles: BlogArticle[] = [
   {
+    slug: "chaudiere-en-securite-que-faire-toulouse",
+    title: "Chaudière qui se met en sécurité à Toulouse : que faire avant d'appeler",
+    metaTitle: "Chaudière en sécurité Toulouse : que faire, qui appeler",
+    excerpt:
+      "Voyant rouge, code défaut, plus d'eau chaude ni de chauffage : voici les vérifications sûres à faire quand votre chaudière se met en sécurité, et quand appeler à Toulouse.",
+    publishedAt: "2026-11-17",
+    category: "Urgence",
+    readTime: 4,
+    service: { slug: "chauffage-chaudiere", label: "Chauffage & Chaudière" },
+    content: `Un matin de novembre, la chaudière affiche un code défaut, un voyant rouge clignote et plus rien ne chauffe. Votre chaudière s'est mise en sécurité : elle s'est volontairement arrêtée parce qu'elle a détecté une anomalie. C'est un comportement normal et protecteur, mais il faut comprendre pourquoi elle s'est coupée avant de la relancer. À Toulouse, la situation se présente souvent aux premiers vrais froids, quand le chauffage redémarre après des mois d'arrêt, que ce soit dans un appartement en copropriété ou dans une maison de la métropole.
+
+## Ce que veut dire une mise en sécurité
+
+Une chaudière moderne surveille en permanence plusieurs paramètres : pression d'eau du circuit, température, allumage de la flamme, évacuation des fumées. Si l'un d'eux sort de la plage prévue, elle coupe le brûleur et affiche un code ou un voyant. Le message exact (numéro de défaut, couleur du voyant) est précieux : notez-le ou prenez-le en photo, car il oriente directement le diagnostic. Le mode d'emploi du fabricant en donne la signification.
+
+## Les vérifications sûres à faire soi-même
+
+1. **Lire le code affiché** et le noter avant toute manipulation.
+2. **Contrôler la pression** : sur le manomètre, l'aiguille doit se trouver dans la zone indiquée par le fabricant. Une pression trop basse est l'une des causes les plus courantes d'arrêt, souvent liée à une petite fuite ou à une purge récente des radiateurs.
+3. **Vérifier l'arrivée de gaz ou de fioul** : robinet de gaz ouvert, compteur en service, cuve non vide.
+4. **Contrôler l'alimentation électrique** : disjoncteur, prise, fusible. Une coupure de courant peut provoquer un arrêt.
+5. **Regarder les évacuations** : le tuyau d'évacuation des condensats ne doit pas être gelé ni obstrué, et la sortie de ventouse ne doit pas être bouchée par des feuilles, un nid ou un objet.
+6. **Tenter un seul réarmement** : si le fabricant le prévoit, appuyez sur la touche de réarmement une fois, en suivant la notice. Si la chaudière se remet en sécurité, ne recommencez pas en boucle.
+
+Si vous remettez de l'eau dans le circuit, faites-le lentement avec le robinet de remplissage, en suivant la notice, et refermez-le correctement ensuite.
+
+## Les situations où il ne faut rien tenter
+
+- **Odeur de gaz** : n'actionnez aucun interrupteur, n'utilisez pas de flamme, ouvrez les fenêtres, quittez le logement et appelez le numéro d'urgence gaz depuis l'extérieur.
+- **Fuite d'eau visible** sous la chaudière ou sur les raccords : coupez l'arrivée d'eau si besoin et gardez le circuit éteint.
+- **Bruit anormal, odeur de brûlé, traces de suie** autour de l'appareil : éteignez-le et ne le relancez pas.
+- **Réarmements répétés** : une chaudière qui se coupe de nouveau après chaque relance signale un vrai défaut (sonde, électrode, pompe, circuit). Insister peut aggraver la panne.
+
+Ne démontez jamais le capot pour intervenir sur le circuit gaz ou les organes de sécurité : ce travail revient à un professionnel.
+
+## Quand appeler un professionnel
+
+Appelez dès que la mise en sécurité revient, que la pression chute régulièrement, que vous ne comprenez pas le code ou que l'un des signes d'alerte ci-dessus apparaît. En attendant, couvrez-vous, fermez les portes des pièces inutilisées et utilisez un chauffage d'appoint avec prudence, sans jamais en laisser fonctionner un sans surveillance. Un entretien annuel de la chaudière limite beaucoup de ces arrêts, car encrassement et usure y sont repérés avant la panne.
+
+Nino Plomberie, basé à Muret (11 Rue François Arago), intervient à Toulouse et dans toute la Haute-Garonne pour le dépannage de chaudière, 24h/24 et 7j/7 en cas d'urgence. Plus de 20 ans d'expérience, garantie 2 ans, devis gratuit pour vos travaux : appelez le 06 50 57 96 20.`,
+  },
+  {
     slug: "pression-eau-faible-toulouse",
     title: "Pression d'eau faible à Toulouse : les causes et les vérifications à faire",
     metaTitle: "Pression d'eau faible Toulouse : causes et solutions",
