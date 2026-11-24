@@ -27,6 +27,57 @@ export interface BlogArticle {
 
 export const blogArticles: BlogArticle[] = [
   {
+    slug: "robinet-mitigeur-qui-goutte-remplacer-toulouse",
+    title: "Robinet ou mitigeur qui goutte à Toulouse : réparer ou remplacer ?",
+    metaTitle: "Robinet qui goutte Toulouse : réparer ou remplacer",
+    excerpt:
+      "Un robinet ou un mitigeur qui goutte gaspille de l'eau et abîme l'évier. Voici comment trouver la cause, ce que vous pouvez réparer seul et quand remplacer à Toulouse.",
+    publishedAt: "2026-11-24",
+    category: "Conseils",
+    readTime: 4,
+    service: { slug: "robinetterie-sanitaires", label: "Robinetterie & Sanitaires" },
+    content: `Un goutte-à-goutte régulier au bec du robinet de la cuisine ou du mitigeur de la salle de bain finit par agacer, puis par coûter : l'eau perdue se paie, le calcaire s'installe et la vasque ou l'évier se tache. Dans les appartements en copropriété comme dans les échoppes en brique du centre de Toulouse, beaucoup de robinetteries ont plusieurs années de service. La bonne nouvelle : dans bien des cas, le problème se règle simplement, à condition d'identifier d'où vient la fuite.
+
+## Repérer l'origine de la fuite
+
+Avant de toucher à quoi que ce soit, observez où l'eau apparaît :
+
+- **Au bec, robinet fermé** : le joint, la cartouche ou le mécanisme interne ne ferme plus correctement. C'est le cas le plus fréquent.
+- **À la base du robinet ou autour de la manette** : un joint torique usé laisse suinter l'eau le long du corps du robinet.
+- **Sous l'évier ou la vasque** : regardez les flexibles d'alimentation et les raccords. Une fuite à cet endroit peut abîmer le meuble ou, en copropriété, le plafond du voisin du dessous.
+- **Sur un seul des deux côtés (chaud ou froid)** : sur un robinet à deux têtes, la tête concernée est celle qui goutte du bon côté.
+
+## Les réparations simples à tenter
+
+Commencez toujours par **fermer l'arrivée d'eau** du robinet concerné avec son robinet d'arrêt, sous l'évier ou la vasque, ou à défaut avec le robinet général. Ouvrez ensuite le robinet pour le vider et bouchez la bonde pour ne pas perdre une petite pièce.
+
+1. **Nettoyer l'aérateur** : dévissez l'embout du bec et rincez-le au vinaigre blanc. Un aérateur entartré perturbe le débit, mais il ne provoque pas toujours la fuite.
+2. **Remplacer le joint ou la tête d'un robinet à deux têtes** : le robinet se démonte à la clé. On remplace le joint usé ou la tête complète, en reprenant la référence d'origine.
+3. **Changer la cartouche d'un mitigeur** : retirez le capuchon et le levier, dévissez la cartouche, puis remplacez-la par un modèle strictement identique. Prenez l'ancienne avec vous en magasin pour comparer.
+4. **Remplacer un joint torique** à la base du bec orientable.
+5. **Remonter dans l'ordre inverse**, rouvrir l'eau lentement et contrôler qu'aucune goutte ne réapparaît pendant quelques minutes.
+
+Photographiez chaque étape du démontage pour retrouver l'ordre des pièces. Ne forcez jamais sur un écrou grippé : le corps du robinet peut se fissurer.
+
+## Réparer ou remplacer ?
+
+Une réparation a du sens quand la robinetterie est de bonne qualité et que seule une pièce d'usure est en cause. Le remplacement complet devient préférable dans plusieurs cas :
+
+- le corps du robinet est entartré, piqué ou corrodé ;
+- la cartouche n'existe plus ou la référence est introuvable ;
+- la fuite revient peu après une première réparation ;
+- le mitigeur est très ancien, bruyant ou difficile à manœuvrer ;
+- vous rénovez la cuisine ou la salle de bain et souhaitez un modèle plus récent.
+
+Le calcaire est souvent un facteur d'usure sur les cartouches : un détartrage régulier de l'aérateur et un coup de vinaigre blanc sur les parties chromées prolongent la vie d'un mitigeur. Sur un modèle thermostatique, veillez aussi à ce que les clapets anti-retour soient en bon état, ce qui est du ressort d'un professionnel.
+
+## Quand appeler un plombier
+
+Faites appel à un professionnel si le robinet d'arrêt est lui-même bloqué ou fuit, si l'eau ne se coupe plus du tout, si les raccords sous le meuble suintent, si la robinetterie est encastrée (douche, baignoire) ou si vous ne trouvez pas la bonne cartouche. Une fuite qui se prolonge sous un meuble peut gonfler le bois et moisir sans que l'on s'en aperçoive : mieux vaut agir vite. Pour un remplacement, un plombier vérifie aussi les flexibles, les joints et le robinet d'arrêt, afin d'éviter une nouvelle fuite quelques semaines plus tard.
+
+Nino Plomberie, basé à Muret (11 Rue François Arago), intervient à Toulouse et dans toute la Haute-Garonne pour le dépannage et le remplacement de robinetterie, avec plus de 20 ans d'expérience et une garantie de 2 ans. Devis gratuit pour vos travaux, et disponibilité 24h/24 et 7j/7 si la fuite devient une urgence : 06 50 57 96 20.`,
+  },
+  {
     slug: "chaudiere-en-securite-que-faire-toulouse",
     title: "Chaudière qui se met en sécurité à Toulouse : que faire avant d'appeler",
     metaTitle: "Chaudière en sécurité Toulouse : que faire, qui appeler",
